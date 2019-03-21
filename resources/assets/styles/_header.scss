@@ -1,0 +1,42 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+
+    &.sticky {
+        background-color: $blue;
+    }
+}
+
+.navbar-expand .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    padding: 10px 15px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    @include responsive-tablet() {
+        padding: 15px 25px;
+    }
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: $plain-color;
+}
+
+header {
+    .navbar-light .navbar-nav > .nav-link {
+        color: $blue-darken;
+    }
+}
+
+.logo {
+    > img {
+        width: 50px;
+    }
+}

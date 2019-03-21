@@ -1,0 +1,42 @@
+<div class="main-header">
+    <div class="hero-img hero-img--work"></div>
+</div>
+
+<div class="section text-center container">
+    <div class="section__container">
+        <h1 class="section__container__title text-center">
+            <span class="section__container__title__span">Work</span>
+        </h1>
+
+        <p>
+            <!-- This page is currently under construction but meanwhile
+            you can see some of my recent work on -->
+            Here's a selection of some of my recent work. For more you can visit me on
+            <a href="https://dribbble.com/HHristova" target="_blank">dribbble</a>
+            or <a href="https://www.behance.net/hhristova" target="_blank">behance</a>.
+        </p>
+
+        <div class="projects-wrapper flex-row d-flex justify-content-between flex-wrap">
+            <div ng-repeat="project in projects" class="projects-wrapper__box mt-5">
+                <a ng-href="#/project/{{project.id}}">
+                    <div class="img-wrapper">
+                        <img ng-src="{{ project.image }}" class="img-fluid" alt="{{ project.alt }}">
+                    </div>
+                    <h4 class="projects-wrapper__title" ng-bind="project.title"></h4>
+                    <p ng-bind="project.description"></p>
+                </a>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <h1 class="section__container__title text-center">
+            <span class="section__container__title__span">Get in touch</span>
+        </h1>
+        <div class="section__container__content">
+            <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i> Message Me
+            </a>
+        </div>
+    </div>
+</div>

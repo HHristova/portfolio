@@ -1,0 +1,36 @@
+footer {
+    padding: 80px 15px;
+    margin-top: 30px;
+    background-color: $blue;
+    color: $plain-color;
+    font-size: 0.8rem;
+
+    .copyright__box {
+        margin-top: 15px;
+
+        a {
+            color: $plain-color;
+            border-bottom: 1px solid $plain-color;
+
+            &:hover {
+                text-decoration: none;
+                color: darken($plain-color, 5%);
+            }
+        }
+    }
+
+    .social-icons {
+        text-align: center;
+
+        [class*='social-icons__'] {
+            color: $plain-color;
+            font-size: 1.5rem;
+            margin: 0 20px;
+            transition: color 0.1s ease-in-out;
+
+            &:hover {
+                color: darken($blue, 20%);
+            }
+        }
+    }
+}
