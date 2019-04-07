@@ -1,1 +1,5 @@
 node_modules
+public/assets/fonts
+public/assets/js
+public/assets/*.css
+public/mix-manifest.json
