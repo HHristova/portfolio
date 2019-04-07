@@ -1,0 +1,25 @@
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1">
+        <script src="public/assets/js/manifest.js"></script>
+        <script type="text/javascript" src="public/assets/js/app.js"></script>
+        <script type="text/javascript" src="public/assets/js/bundle.js"></script>
+        <link rel="stylesheet" href="public/assets/app.css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="public/assets/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="public/assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="public/assets/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="public/assets/images/favicons/site.webmanifest">
+        <link rel="mask-icon" href="public/assets/images/favicons/safari-pinned-tab.svg" color="#75c3e8">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body ng-controller="mainController">
+        <div ng-include src="'templates/partials/header.html'"></div>
+
+        <!-- Template routes -->
+        <div ng-view autoscroll="true"></div>
+
+        <div ng-include src="'templates/partials/footer.html'"></div>
+    </body>
+</html>
