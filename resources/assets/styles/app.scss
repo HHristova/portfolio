@@ -17,7 +17,7 @@ $fa-font-path:  'fonts' !default;
 
 html, body {
     font-size: 21px;
-    font-family: $theme-font-family;
+    font-family: $theme-font-family, sans-serif;
     font-weight: $theme-font-weights;
 }
 

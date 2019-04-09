@@ -21,8 +21,8 @@
     }
 }
 
-@mixin responsive-desktop {
-    @media (min-width: 1280px) {
+@mixin large-desktop {
+    @media (min-width: 1500px) {
         @content;
     }
 }
