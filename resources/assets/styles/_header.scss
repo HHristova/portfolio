@@ -20,7 +20,7 @@ header {
     line-height: 28px;
     text-transform: uppercase;
 
-    @include responsive-tablet() {
+    @include large-desktop() {
         padding: 15px 25px;
     }
 }
@@ -37,6 +37,10 @@ header {
 
 .logo {
     > img {
-        width: 50px;
+        width: 40px;
+
+        @include large-desktop() {
+            width: 50px;
+        }
     }
 }
