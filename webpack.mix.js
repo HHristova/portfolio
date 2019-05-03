@@ -1,5 +1,20 @@
 const mix = require('laravel-mix');
 
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const imagemin = require('imagemin');
+
+const imageminPlugins = [
+    require('imagemin-mozjpeg')({ }),
+    require('imagemin-pngquant')({ }),
+    require('imagemin-svgo')({
+        plugins: [
+            { removeViewBox: false },
+        ],
+    }),
+];
+
+const publicPath = 'public';
+
 mix
     .sass('./resources/assets/styles/app.scss', 'public/assets/app.css', {
         implementation: require('node-sass')
@@ -27,6 +42,24 @@ mix
         postCss: require('./postcss.config.js').plugins,
         processCssUrls: false
     });
+
+    mix.webpackConfig({
+        plugins: [
+            // We cannot use the mix.copy() function as it does not allow for transformations/asset optimizations.
+            new CopyWebpackPlugin([{
+                context: path.resolve(__dirname, 'resources/assets/images/'),
+                from: '**/*.{png,jpg,svg}',
+                to: path.resolve(__dirname, publicPath, 'assets/images/'),
+                force: true,
+                transform: (content) => {
+                    return imagemin.buffer(content, {
+                        plugins: imageminPlugins,
+                    });
+                },
+            }])
+        ],
+    });
+
 
 if (mix.inProduction()) {
     mix.version();
