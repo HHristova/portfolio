@@ -11,7 +11,7 @@ import ScrollReveal from 'scrollreveal'
 
 // Shuffle.js
 import Shuffle from 'shufflejs';
- 
+
 $(document).ready(function() {
     window.sr = ScrollReveal();
     sr.reveal(".projects-wrapper__box", {
@@ -121,5 +121,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // TODO: needs a fix!
     setTimeout(function() {
         window.demo = new Demo(document.getElementById('grid'));
-    }, 1000);
+    }, 2000);
 });
