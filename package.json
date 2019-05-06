@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "npm": "^6.9.0",
     "shufflejs": "^5.2.1"
   }
 }
