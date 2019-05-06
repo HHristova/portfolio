@@ -42,6 +42,4 @@ app.controller('mainController', ['$scope', '$http', '$routeParams',
 
     $scope.getProjects();
 
-    console.log($routeParams);
-
 }]);

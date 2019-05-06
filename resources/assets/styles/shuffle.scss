@@ -48,6 +48,16 @@ $item-height: 220px;
     justify-content: space-between;
     width: 100%;
     padding: 0.5em 1em;
+    background: rgba(#4a4a4a, 0.75);
+}
+
+.picture-item__inner {
+    a:hover, a:focus, a:focus:active {
+        .picture-item__title {
+            color: $plain-color;
+            text-decoration: underline;
+        }
+    }
 }
 
 .picture-item__description {
@@ -73,9 +83,9 @@ $item-height: 220px;
             position: absolute;
             bottom: 0;
             left: 0;
-            width: 100%; 
+            width: 100%;
             backdrop-filter: blur(7px);
-            color: white;
+            color: $plain-color;
             overflow: hidden;
         }
 
@@ -84,7 +94,7 @@ $item-height: 220px;
         }
 
         a {
-            color: white;
+            color: $plain-color;
             text-shadow: 0 0 1px black;
         }
     }
