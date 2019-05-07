@@ -36,6 +36,9 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "lg-thumbnail.js": "^1.1.0",
+    "lg-zoom.js": "^1.0.1",
+    "lightgallery.js": "^1.1.3",
     "npm": "^6.9.0",
     "shufflejs": "^5.2.1"
   }

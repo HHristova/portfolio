@@ -12,6 +12,11 @@ import ScrollReveal from 'scrollreveal'
 // Shuffle.js
 import Shuffle from 'shufflejs';
 
+// lightgallery.js
+import 'lightgallery.js';
+import 'lg-thumbnail.js';
+import 'lg-zoom.js';
+
 $(document).ready(function() {
 
     window.sr = ScrollReveal();
@@ -122,5 +127,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // TODO: needs a fix!
     setTimeout(function() {
         window.demo = new Demo(document.getElementById('grid'));
+
+        lightGallery(document.getElementById('grid'), {
+            download: false,
+            counter: false,
+            selector: '.picture-item__inner a',
+            mode: 'lg-fade',
+        });
     }, 2000);
 });

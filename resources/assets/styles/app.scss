@@ -3,6 +3,7 @@
 @import 'mixins.scss';
 
 $fa-font-path:  'fonts' !default;
+$lg-path-fonts: 'fonts' !default;
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-regular';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-solid';
@@ -15,6 +16,7 @@ $fa-font-path:  'fonts' !default;
 @import 'work.scss';
 @import 'shuffle.scss';
 @import "~bootstrap/scss/bootstrap";
+@import "~lightgallery.js/src/sass/lightgallery.scss";
 
 html, body {
     font-size: 21px;
