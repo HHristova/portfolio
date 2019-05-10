@@ -4,19 +4,20 @@
 
 $fa-font-path:  'fonts' !default;
 $lg-path-fonts: 'fonts' !default;
+$lg-path-images: 'images' !default;
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-regular';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-solid';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-brands';
 
+@import "~bootstrap/scss/bootstrap";
 @import '~sass-google-fonts/src/GoogleFonts.scss';
+@import "~lightgallery.js/src/sass/lightgallery.scss";
 @include google-font($theme-font-family, $theme-font-weights, $theme-font-languages);
 @import 'header.scss';
 @import 'footer.scss';
 @import 'work.scss';
 @import 'shuffle.scss';
-@import "~bootstrap/scss/bootstrap";
-@import "~lightgallery.js/src/sass/lightgallery.scss";
 
 html, body {
     font-size: 21px;
@@ -36,9 +37,6 @@ html, body {
     width: 100%;
     height: 100%;
     background-size: cover !important;
-
-    @include responsive-tablet-and-desktop() {
-    }
 
     &:before {
         content: '';
@@ -62,8 +60,12 @@ html, body {
 // }}
 
 .section {
-    padding: 30px;
+    padding: 30px 0.5rem;
     font-size: 0.9rem;
+
+    @include responsive-tablet() {
+        padding: 30px;
+    }
 
     .section__container__title {
         margin-bottom: 20px;
