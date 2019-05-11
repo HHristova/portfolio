@@ -8,6 +8,7 @@
     },
     {
         "id": "2",
+        "thumb": "public/assets/images/myWork/web-design/eq-design-thumb.jpg",
         "image": "public/assets/images/myWork/web-design/eqology-website-concept-v1.jpg",
         "class": "col-12@xs col-4@sm col-6@md",
         "alt": "Website concept for scandinavian company",
@@ -22,6 +23,7 @@
     },
     {
         "id": "4",
+        "thumb": "public/assets/images/myWork/web-design/gt-design-thumb.jpg",
         "image": "public/assets/images/myWork/web-design/gotenant-landing-page-design.jpg",
         "class": "col-12@xs col-4@sm col-6@md",
         "alt": "Landing page design of property management platform in UK",
@@ -29,6 +31,7 @@
     },
     {
         "id": "5",
+        "thumb": "public/assets/images/myWork/web-design/gt-features-design-thumb.jpg",
         "image": "public/assets/images/myWork/web-design/gotenant-features-page-design.jpg",
         "class": "col-12@xs col-8@sm col-6@md",
         "alt": "Features page design",
@@ -36,8 +39,9 @@
     },
     {
         "id": "6",
+        "thumb": "public/assets/images/myWork/web-design/eq-design-thumb2.jpg",
         "image": "public/assets/images/myWork/web-design/eqology-website-concept-v2.jpg",
-        "class": "col-12@xs col-4@sm col-3@md",
+        "class": "col-12@xs col-4@sm col-6@md",
         "alt": "Website concept for scandinavian company",
         "filterId": "webdesign"
     },
@@ -78,6 +82,7 @@
     },
     {
         "id": "12",
+        "thumb": "public/assets/images/myWork/web-design/psp-design-thumb.jpg",
         "image": "public/assets/images/myWork/web-design/psp-webtech-site-design.jpg",
         "class": "col-12@xs col-4@sm col-6@md",
         "alt": "Website design of PSP Webtech company",
@@ -100,7 +105,7 @@
     {
         "id": "15",
         "image": "public/assets/images/myWork/illustrations/lettering-14.jpg",
-        "class": "col-12@xs col-4@sm",
+        "class": "col-12@xs col-4@sm col-3@md",
         "alt": "Hand-lettered H",
         "filterId": "illustration"
     },
@@ -120,10 +125,10 @@
     },
     {
         "id": "18",
-        "image": "public/assets/images/myWork/web-design/GoTenant-project.jpg",
-        "class": "col-12@xs col-4@sm col-6@md",
-        "alt": "Website dashboard design",
-        "filterId": "webdesign"
+        "image": "public/assets/images/myWork/illustrations/galaxy.jpg",
+        "class": "col-12@xs col-4@sm col-3@md",
+        "alt": "Simplified galaxy illustration",
+        "filterId": "illustration"
     },
     {
         "id": "19",
@@ -141,6 +146,7 @@
     },
     {
         "id": "21",
+        "thumb": "public/assets/images/myWork/web-design/pws-design-thumb.jpg",
         "image": "public/assets/images/myWork/web-design/personal-website-design-frontend.jpg",
         "class": "col-12@xs col-4@sm col-6@md",
         "alt": "Personal website front end design",
@@ -148,45 +154,48 @@
     },
     {
         "id": "22",
+        "thumb": "public/assets/images/myWork/web-design/rs-design-thumb.jpg",
         "image": "public/assets/images/myWork/web-design/rentsuccess-website-concept.jpg",
-        "class": "col-12@xs col-4@sm col-3@md",
+        "class": "col-12@xs col-4@sm col-6@md",
         "alt": "Property management platform landing page design concept",
         "filterId": "webdesign"
     },
     {
         "id": "23",
-        "image": "public/assets/images/myWork/web-design/subscription-mockup-v2.jpg",
-        "class": "col-12@xs col-4@sm col-3@md",
-        "alt": "Subscription page design",
+        "thumb": "public/assets/images/myWork/web-design/dashboard-thumb.jpg",
+        "image": "public/assets/images/myWork/web-design/GoTenant-project.jpg",
+        "class": "col-12@xs col-4@sm col-6@md",
+        "alt": "Website dashboard design",
         "filterId": "webdesign"
     },
     {
         "id": "24",
-        "image": "public/assets/images/myWork/illustrations/galaxy.jpg",
+        "image": "public/assets/images/myWork/illustrations/lettering-6.jpg",
         "class": "col-12@xs col-4@sm col-3@md",
-        "alt": "Simplified galaxy illustration",
+        "alt": "Hand-lettering design",
         "filterId": "illustration"
     },
     {
         "id": "25",
-        "image": "public/assets/images/myWork/illustrations/rock-poster-design.jpg",
-        "class": "col-12@xs col-4@sm col-6@md",
-        "alt": "Christmas rock poster design concept",
-        "filterId": "illustration"
-    },
-    {
-        "id": "26",
         "image": "public/assets/images/myWork/illustrations/lettering-9.jpg",
         "class": "col-12@xs col-4@sm col-3@md",
         "alt": "Valentine card design concept",
         "filterId": "illustration"
     },
     {
-        "id": "27",
-        "image": "public/assets/images/myWork/illustrations/lettering-6.jpg",
-        "class": "col-12@xs col-4@sm col-3@md",
-        "alt": "Hand-lettering design",
+        "id": "26",
+        "image": "public/assets/images/myWork/illustrations/rock-poster-design.jpg",
+        "class": "col-12@xs col-4@sm col-6@md",
+        "alt": "Christmas rock poster design concept",
         "filterId": "illustration"
+    },
+    {
+        "id": "27",
+        "thumb": "public/assets/images/myWork/web-design/subscription-design-thumb.jpg",
+        "image": "public/assets/images/myWork/web-design/subscription-mockup-v2.jpg",
+        "class": "col-12@xs col-4@sm col-6@md",
+        "alt": "Subscription page design",
+        "filterId": "webdesign"
     },
     {
         "id": "28",
@@ -200,6 +209,13 @@
         "image": "public/assets/images/myWork/illustrations/lettering-12.jpg",
         "class": "col-12@xs col-4@sm col-6@md",
         "alt": "Hand-lettered chocolate design",
+        "filterId": "illustration"
+    },
+    {
+        "id": "30",
+        "image": "public/assets/images/myWork/illustrations/summer-star.png",
+        "class": "col-12@xs col-4@sm col-6@md",
+        "alt": "Summer illustration",
         "filterId": "illustration"
     }
 ]

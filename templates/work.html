@@ -43,7 +43,8 @@
                     <div class="picture-item__inner">
                         <a href data-src="{{project.image}}"
                             target="_blank" rel="noopener" data-sub-html="{{project.alt}}">
-                            <img src="{{project.image}}" alt="{{project.alt}}" />
+                            <img src="{{project.thumb ? project.thumb : project.image}}"
+                                alt="{{project.alt}}" />
                         </a>
                     </div>
                 </figure>
