@@ -134,7 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
             selector: '.picture-item__inner a',
             mode: 'lg-fade',
             controls: false,
-            zoom: false,
             animateThumb: false,
             showThumbByDefault: false
         });
