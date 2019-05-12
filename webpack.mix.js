@@ -37,7 +37,6 @@ mix
     .setPublicPath('public')
     .setResourceRoot('../')
     .copy('node_modules/@fortawesome/fontawesome-free-webfonts/webfonts', 'public/assets/fonts')
-    .copy('node_modules/lightgallery.js/src/fonts', 'public/assets/fonts')
 
     .options({
         postCss: require('./postcss.config.js').plugins,
