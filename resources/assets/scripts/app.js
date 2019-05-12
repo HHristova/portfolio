@@ -1,7 +1,9 @@
 var angular = require('angular');
 var ngRoute = require('angular-route');
+require('angular-animate')
+require('ng-image-gallery');
 
-var app = angular.module('app', ['ngRoute']);
+var app = angular.module('app', ['ngRoute', 'thatisuday.ng-image-gallery']);
 
 app.config(['$routeProvider', '$locationProvider',
     function ($routeProvider, $locationProvider) {

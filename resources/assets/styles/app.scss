@@ -3,16 +3,14 @@
 @import 'mixins.scss';
 
 $fa-font-path:  'fonts' !default;
-$lg-path-fonts: 'fonts' !default;
-$lg-path-images: 'images' !default;
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-regular';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-solid';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-brands';
 
 @import "~bootstrap/scss/bootstrap";
+@import "~ng-image-gallery/dist/ng-image-gallery.css";
 @import '~sass-google-fonts/src/GoogleFonts.scss';
-@import "~lightgallery.js/src/sass/lightgallery.scss";
 @include google-font($theme-font-family, $theme-font-weights, $theme-font-languages);
 @import 'header.scss';
 @import 'footer.scss';

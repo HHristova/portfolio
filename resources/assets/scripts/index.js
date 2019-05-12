@@ -12,11 +12,6 @@ import ScrollReveal from 'scrollreveal'
 // Shuffle.js
 import Shuffle from 'shufflejs';
 
-// lightgallery.js
-import 'lightgallery.js';
-import 'lg-thumbnail.js';
-import 'lg-zoom.js';
-
 $(document).ready(function() {
 
     window.sr = ScrollReveal();
@@ -122,32 +117,3 @@ class Demo {
     }
   }
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Show an element
-    var show = function (elem) {
-    	elem.style.display = 'block';
-    };
-
-    // Hide an element
-    var hide = function (elem) {
-    	elem.style.display = 'none';
-    };
-
-    // TODO: needs a fix!
-    setTimeout(function() {
-        hide(document.getElementById('loading'));
-        show(document.getElementById('grid'));
-        window.demo = new Demo(document.getElementById('grid'));
-
-        lightGallery(document.getElementById('grid'), {
-            download: false,
-            counter: false,
-            selector: '.picture-item__inner a',
-            mode: 'lg-fade',
-            controls: false,
-            animateThumb: false,
-            showThumbByDefault: false
-        });
-    }, 2000);
-});
