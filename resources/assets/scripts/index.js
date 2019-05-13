@@ -124,8 +124,20 @@ class Demo {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Show an element
+    var show = function (elem) {
+    	elem.style.display = 'block';
+    };
+
+    // Hide an element
+    var hide = function (elem) {
+    	elem.style.display = 'none';
+    };
+
     // TODO: needs a fix!
     setTimeout(function() {
+        hide(document.getElementById('loading'));
+        show(document.getElementById('grid'));
         window.demo = new Demo(document.getElementById('grid'));
 
         lightGallery(document.getElementById('grid'), {
