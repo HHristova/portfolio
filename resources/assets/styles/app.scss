@@ -54,6 +54,11 @@ html, body {
 
     &.hero-img--work {
         background: url('images/hero-work.svg') no-repeat center center;
+        height: 60%;
+
+        @include media-breakpoint-up(xl) {
+            height: 100%;
+        }
     }
 }
 
