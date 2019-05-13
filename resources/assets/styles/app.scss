@@ -9,7 +9,7 @@ $fa-font-path:  'fonts' !default;
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-brands';
 
 @import "~bootstrap/scss/bootstrap";
-@import "~ng-image-gallery/dist/ng-image-gallery.css";
+@import "~ng-image-gallery-flexible/dist/ng-image-gallery.css";
 @import '~sass-google-fonts/src/GoogleFonts.scss';
 @include google-font($theme-font-family, $theme-font-weights, $theme-font-languages);
 @import 'header.scss';
@@ -52,6 +52,11 @@ html, body {
 
     &.hero-img--work {
         background: url('images/hero-work.svg') no-repeat center center;
+        height: 60%;
+
+        @include media-breakpoint-up(xl) {
+            height: 100%;
+        }
     }
 }
 

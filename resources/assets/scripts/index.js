@@ -12,22 +12,6 @@ import ScrollReveal from 'scrollreveal'
 // Shuffle.js
 import Shuffle from 'shufflejs';
 
-$(document).ready(function() {
-
-    window.sr = ScrollReveal();
-    sr.reveal(".projects-wrapper__box", {
-        duration: 1000,
-        viewFactor: 0,
-        mobile: true,
-        scale: 1,
-        origin: "bottom",
-        distance: "200px",
-        delay: 200,
-        interval: 600,
-        reset: false
-    });
-});
-
 window.addEventListener('scroll', function() {
     checkHeader();
 });
@@ -117,3 +101,16 @@ class Demo {
     }
   }
 }
+
+// Image replacement handler
+$(document).on("click", ".js-button", function() {
+    var imageAlt = $(this).parents(".picture-item__inner").find("img").attr("alt");
+    var imageSrc = $(this).parents(".picture-item__inner").find("img").attr("src");
+    $(".js-download").attr("href", imageSrc);
+    $(".js-modal-image").attr("src", imageSrc);
+    $(".js-modal-image").attr("alt", imageAlt);
+
+    $(document).on("click", ".js-heart", function() {
+        $(this).toggleClass("active");
+    });
+});

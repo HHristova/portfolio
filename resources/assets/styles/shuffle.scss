@@ -29,51 +29,6 @@ $item-height: 220px;
     }
 }
 
-.picture-item__inner {
-    position: relative;
-    overflow: hidden;
-    background: #ecf0f1;
-
-    a {
-        width: 100%;
-        display: block;
-
-        &:after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            top: 0;
-            left: 0;
-            height: 100%;
-            transition: background 0.15s linear;
-        }
-
-        &:hover {
-            &:after {
-                background: rgba(255, 255, 255, 0.4);
-            }
-        }
-    }
-}
-
-.picture-item__details {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0.5em 1em;
-    background: rgba(#4a4a4a, 0.75);
-}
-
-.picture-item__inner {
-    a:hover, a:focus, a:focus:active {
-        .picture-item__title {
-            color: $plain-color;
-            text-decoration: underline;
-        }
-    }
-}
-
 .lg-outer .lg-thumb-item {
     height: 80px !important;
 }
