@@ -1,7 +1,7 @@
 var angular = require('angular');
 var ngRoute = require('angular-route');
 require('angular-animate')
-require('ng-image-gallery');
+require('ng-image-gallery-flexible');
 
 var app = angular.module('app', ['ngRoute', 'thatisuday.ng-image-gallery']);
 

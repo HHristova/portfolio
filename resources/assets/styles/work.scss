@@ -3,58 +3,74 @@
     font-size: 1.7rem;
 }
 
-.projects-wrapper__box {
-    flex: 0 1 100%;
+.masonry {
+    column-count: 2;
+    column-gap: 1em;
 
-    @include responsive-tablet() {
-        flex: 0 1 48%;
+    figure {
+        display: inline-block;
+        margin: 0 0 1em;
+        vertical-align: top;
     }
+}
 
-    .img-wrapper {
-        overflow: hidden;
+.modal-dialog {
+    max-width: 100%;
+}
 
-        img {
-            backface-visibility: hidden;
-            transition: transform 350ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-        }
+.modal-content {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.js-modal-image {
+    width: 100%;
+
+    @include media-breakpoint-up(xl) {
+        width: auto;
     }
+}
 
-    &:hover {
-        img {
-            transform: scale(1.1);
+.modal-header {
+    border-bottom: none;
+}
+
+.close {
+    text-shadow: none;
+}
+
+.picture-item__inner {
+    position: relative;
+    overflow: hidden;
+    background: #ecf0f1;
+
+    .js-button {
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 100%;
+            transition: background 0.15s linear;
         }
 
-        .projects-wrapper__title {
+        &:hover {
             &:after {
-                animation-name: line-in;
-                animation-duration: 350ms;
-                animation-fill-mode: forwards;
+                background: rgba(255, 255, 255, 0.4);
             }
         }
     }
 }
 
-.projects-wrapper__title {
-    position: relative;
-    display: inline-block;
-    margin-top: 10px;
-    overflow: hidden;
-    color: $blue-darken;
-
-    &:after {
-        content: '';
-        display: block;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 2px;
-        width: 100%;
-        background-color: $blue-darken;
-        animation-name: line-out;
-        animation-duration: 350ms;
-        animation-fill-mode: forwards;
-        backface-visibility: hidden;
-    }
+.picture-item__details {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5em 1em;
+    background: rgba(#4a4a4a, 0.75);
 }
 
 .my-shuffle-container {
