@@ -17,7 +17,7 @@
         </p>
 
         <div class="container my-5">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12@sm filters-group-wrap">
                     <div class="filters-group">
                         <p class="filter-label">Filter:</p>
@@ -31,12 +31,23 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+            <div id="myBtnContainer">
+              <button class="btn active" ng-click="filterSelection('all')">
+                  Show all
+              </button>
+              <button class="btn" ng-click="filterSelection('webdesign')">
+                  Web design
+              </button>
+              <button class="btn" ng-click="filterSelection('illustration')">
+                  Illustration and hand-lettering
+              </button>
             </div>
         </div>
 
         <div class="masonry">
-            <figure ng-repeat="project in projects"
-                class="picture-item picture-item--overlay"
+            <figure ng-repeat="project in projects" id="picture-item"
+                class="picture-item picture-item--overlay show"
                 data-groups='["{{project.filterId}}"]'>
                 <div class="picture-item__inner">
                     <div class="js-button"

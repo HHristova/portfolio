@@ -9,7 +9,6 @@ $fa-font-path:  'fonts' !default;
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-brands';
 
 @import "~bootstrap/scss/bootstrap";
-@import "~ng-image-gallery-flexible/dist/ng-image-gallery.css";
 @import '~sass-google-fonts/src/GoogleFonts.scss';
 @include google-font($theme-font-family, $theme-font-weights, $theme-font-languages);
 @import 'header.scss';
