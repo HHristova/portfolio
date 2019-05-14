@@ -8,9 +8,13 @@
     column-gap: 1em;
 
     figure {
-        display: inline-block;
+        display: none;
         margin: 0 0 1em;
         vertical-align: top;
+
+        &.show {
+            display: inline-block;
+        }
     }
 }
 

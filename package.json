@@ -36,9 +36,6 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
-    "angular-animate": "^1.7.8",
-    "ng-image-gallery-flexible": "todornikolov/ng-image-gallery-flexible",
-    "npm": "^6.9.0",
-    "shufflejs": "^5.2.1"
+    "npm": "^6.9.0"
   }
 }
