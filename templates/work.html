@@ -17,44 +17,53 @@
         </p>
 
         <div class="container my-5">
-            <div class="row">
-                <div class="col-12@sm filters-group-wrap">
-                    <div class="filters-group">
-                        <p class="filter-label">Filter:</p>
-                        <div class="btn-group filter-options">
-                            <button class="btn" data-group="webdesign">
-                                Web Design
-                            </button>
-                            <button class="btn" data-group="illustration">
-                                Illustration and lettering
-                            </button>
-                        </div>
-                    </div>
+            <div class="filters-group">
+                <p class="filter-label mb-1">Filter:</p>
+                <div class="btn-group" id="filter-options">
+                    <button class="btn active" ng-click="filterSelection('all')">
+                        All
+                    </button>
+                    <button class="btn" ng-click="filterSelection('webdesign')">
+                        Web design
+                    </button>
+                    <button class="btn" ng-click="filterSelection('illustration')">
+                        Illustration and lettering
+                    </button>
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <div id="loading">
-                <img src="public/assets/images/loading.svg" alt="Loading icon">
-            </div>
-            <div id="grid" class="row my-shuffle-container">
-
-                <figure ng-repeat="project in projects"
-                    class="{{project.class}} picture-item picture-item--overlay"
-                    data-groups='["{{project.filterId}}"]'>
-                    <div class="picture-item__inner">
-                        <a href data-src="{{project.image}}"
-                            target="_blank" rel="noopener" data-sub-html="{{project.alt}}">
-                            <img src="{{project.thumb ? project.thumb : project.image}}"
-                                alt="{{project.alt}}" />
-                        </a>
+        <div class="masonry">
+            <figure ng-repeat="project in projects" id="picture-item"
+                class="picture-item picture-item--overlay show"
+                data-groups='["{{project.filterId}}"]'>
+                <div class="picture-item__inner">
+                    <div class="js-button"
+                        data-toggle="modal" data-target="#modalPicture" type="button"
+                        value="Expand photo" role="button">
+                        <img src="{{project.thumb}}"
+                            alt="{{project.alt}}" />
                     </div>
-                </figure>
+                </div>
+            </figure>
+        </div>
 
-                <div class="col-1@sm col-1@xs my-sizer-element"></div>
-
+        <div id="modalPicture" class="modal fade pr-0" tabindex="-1"
+            role="dialog" aria-labelledby="modalPictureLabel" aria-hidden="true">
+          <div class="modal-dialog m-0" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <img class="close__icon"
+                    src="public/assets/images/close-icon.svg" alt="Close icon">
+                  <span class="sr-only">Close</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img class="js-modal-image" src="" alt="" />
+              </div>
             </div>
+          </div>
         </div>
 
         <div class="separator"></div>
