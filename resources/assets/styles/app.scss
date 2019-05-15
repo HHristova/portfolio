@@ -14,7 +14,6 @@ $fa-font-path:  'fonts' !default;
 @import 'header.scss';
 @import 'footer.scss';
 @import 'work.scss';
-@import 'shuffle.scss';
 
 html, body {
     font-size: 21px;
@@ -111,6 +110,16 @@ html, body {
     @include responsive-tablet() {
         margin-left: 25px;
         text-align: left;
+    }
+}
+
+.btn {
+    &.active {
+        background: mix($white, $blue, 30%);
+    }
+
+    &:focus {
+        box-shadow: none;
     }
 }
 
