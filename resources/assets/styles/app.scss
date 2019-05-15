@@ -3,8 +3,6 @@
 @import 'mixins.scss';
 
 $fa-font-path:  'fonts' !default;
-$lg-path-fonts: 'fonts' !default;
-$lg-path-images: 'images' !default;
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-regular';
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fa-solid';
@@ -12,12 +10,10 @@ $lg-path-images: 'images' !default;
 
 @import "~bootstrap/scss/bootstrap";
 @import '~sass-google-fonts/src/GoogleFonts.scss';
-@import "~lightgallery.js/src/sass/lightgallery.scss";
 @include google-font($theme-font-family, $theme-font-weights, $theme-font-languages);
 @import 'header.scss';
 @import 'footer.scss';
 @import 'work.scss';
-@import 'shuffle.scss';
 
 html, body {
     font-size: 21px;
@@ -114,6 +110,20 @@ html, body {
     @include responsive-tablet() {
         margin-left: 25px;
         text-align: left;
+    }
+}
+
+.btn-group .btn {
+    border: 1px solid #ddd;
+}
+
+.btn {
+    &.active {
+        background: mix($white, $blue, 30%);
+    }
+
+    &:focus {
+        box-shadow: none;
     }
 }
 
