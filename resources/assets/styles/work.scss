@@ -46,6 +46,12 @@
 
 .close {
     text-shadow: none;
+    opacity: 0.9;
+    outline: none;
+
+    .close__icon {
+        width: 30px;
+    }
 }
 
 .picture-item {
@@ -56,6 +62,7 @@
         width: 100%;
     }
 }
+
 @media screen and (max-width: 767px) {
     .picture-item {
         height: auto;
