@@ -113,6 +113,10 @@ html, body {
     }
 }
 
+.btn-group .btn {
+    border: 1px solid #ddd;
+}
+
 .btn {
     &.active {
         background: mix($white, $blue, 30%);

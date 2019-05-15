@@ -17,31 +17,19 @@
         </p>
 
         <div class="container my-5">
-            <!-- <div class="row">
-                <div class="col-12@sm filters-group-wrap">
-                    <div class="filters-group">
-                        <p class="filter-label">Filter:</p>
-                        <div class="btn-group filter-options">
-                            <button class="btn" data-group="webdesign">
-                                Web Design
-                            </button>
-                            <button class="btn" data-group="illustration">
-                                Illustration and lettering
-                            </button>
-                        </div>
-                    </div>
+            <div class="filters-group">
+                <p class="filter-label mb-1">Filter:</p>
+                <div class="btn-group" id="filter-options">
+                    <button class="btn active" ng-click="filterSelection('all')">
+                        All
+                    </button>
+                    <button class="btn" ng-click="filterSelection('webdesign')">
+                        Web design
+                    </button>
+                    <button class="btn" ng-click="filterSelection('illustration')">
+                        Illustration and lettering
+                    </button>
                 </div>
-            </div> -->
-            <div id="filter-options">
-              <button class="btn active" ng-click="filterSelection('all')">
-                  Show all
-              </button>
-              <button class="btn" ng-click="filterSelection('webdesign')">
-                  Web design
-              </button>
-              <button class="btn" ng-click="filterSelection('illustration')">
-                  Illustration and hand-lettering
-              </button>
             </div>
         </div>
 
