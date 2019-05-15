@@ -30,7 +30,7 @@ function checkHeader() {
 // Image gallery handler
 $(document).on('click', '.js-button', function() {
     var imageAlt = $(this).parents('.picture-item__inner').find('img').attr('alt');
-    var imageSrc = $(this).parents('.picture-item__inner').find('img').attr('src');
+    var imageSrc = $(this).parents('.picture-item__inner').find('img').attr('data-img');
     $('.js-modal-image').attr('src', imageSrc);
     $('.js-modal-image').attr('alt', imageAlt);
 });

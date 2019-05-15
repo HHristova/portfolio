@@ -27,6 +27,8 @@
 }
 
 .modal-content {
+    width: 80%;
+    margin: auto;
     border-radius: 0;
     background-color: transparent;
     border: none;
@@ -37,6 +39,7 @@
 
     @include media-breakpoint-up(xl) {
         width: auto;
+        max-width: 100%;
     }
 }
 
@@ -50,7 +53,7 @@
     outline: none;
 
     .close__icon {
-        width: 30px;
+        width: 25px;
     }
 }
 
