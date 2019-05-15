@@ -4,8 +4,12 @@
 }
 
 .masonry {
-    column-count: 2;
+    column-count: 1;
     column-gap: 1em;
+
+    @include media-breakpoint-up(sm) {
+        column-count: 2;
+    }
 
     figure {
         display: none;
@@ -44,10 +48,38 @@
     text-shadow: none;
 }
 
+.picture-item {
+    margin-top: 24px;
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .picture-item {
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+@supports (object-fit: cover) {
+    .picture-item img {
+        max-width: none;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
 .picture-item__inner {
     position: relative;
     overflow: hidden;
     background: #ecf0f1;
+
+    img {
+        height: auto;
+    }
 
     .js-button {
         &:after {

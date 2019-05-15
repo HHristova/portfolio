@@ -19,105 +19,116 @@ app.config(['$routeProvider', '$locationProvider',
                 templateUrl: './templates/project.html'
             })
             .otherwise({ redirectTo: '/'});
-}]).run(["$rootScope", "$route", function ($rootScope, $route) {
+}]).run(['$rootScope', '$route', function ($rootScope, $route) {
     $rootScope.$route = $route;
 }]);
 
-app.controller('mainController', ['$scope', '$http', '$routeParams',
-    function($scope, $http, $routeParams) {
+// Get projects from JSON file
+app.service('getProjectsService', ['$http',
+    function($http) {
+        return {
+            getProjects: function() {
+               return $http.get('resources/assets/scripts/projects.js')
+               .then(function(response) {
+                   return response.data;
+               });
+            }
+        };
+    }
+]);
 
-    $scope.$on("$includeContentLoaded", function() {
-        // Get current year and add it in the footer
-        $scope.currentYear = new Date().getFullYear();
-        angular.element(document.querySelector('.year')).html($scope.currentYear);
-    });
+app.controller('mainController', ['$scope', '$routeParams', 'getProjectsService',
+    function($scope, $routeParams, getProjectsService) {
 
     // Gallery filtering
-    $scope.filterSelection = function (c) {
-      var x, i;
-      x = document.getElementsByClassName('picture-item');
-      if (c == "all") c = "";
-      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-      for (i = 0; i < x.length; i++) {
-        RemoveClass(x[i], "show");
-        if (x[i].getAttribute('data-groups').indexOf(c) > -1) addClass(x[i], "show");
-      }
+    $scope.filterSelection = (c) => {
+        var x, i;
+        x = document.getElementsByClassName('picture-item');
+        if (c == 'all') c = '';
+
+        // Add the 'show' class to the filtered elements, and remove the 'show'
+        // class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+            hideFilteredElements(x[i], 'show');
+
+            if (x[i].getAttribute('data-groups').indexOf(c) > -1) {
+                showFilteredElements(x[i], 'show');
+            }
+        }
     }
 
     // Show filtered elements
-    function addClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) {
-          element.className += " " + arr2[i];
+    function showFilteredElements(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(' ');
+        arr2 = name.split(' ');
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+                element.className += ' ' + arr2[i];
+            }
         }
-      }
     }
 
     // Hide elements that are not selected
-    function RemoveClass(element, name) {
+    function hideFilteredElements(element, name) {
       var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
+      arr1 = element.className.split(' ');
+      arr2 = name.split(' ');
       for (i = 0; i < arr2.length; i++) {
         while (arr1.indexOf(arr2[i]) > -1) {
           arr1.splice(arr1.indexOf(arr2[i]), 1);
         }
       }
-      element.className = arr1.join(" ");
+      element.className = arr1.join(' ');
     }
 
-    // Add active class to the current button (highlight it)
-    // var btnContainer = document.getElementById("myBtnContainer");
-    // var btns = btnContainer.getElementsByClassName("btn");
-    // for (var i = 0; i < btns.length; i++) {
-    //   btns[i].addEventListener("click", function(){
-    //     var current = document.getElementsByClassName("active");
-    //     current[0].className = current[0].className.replace(" active", "");
-    //     this.className += " active";
-    //   });
-    // }
+    $scope.setFilterButtonsClass = () => {
+        const options = angular.element('#filter-options')[0];
 
-    // const onClick = this._handleFilterClick.bind(this);
-    // _handleFilterClick(evt) {
-    //     const btn = evt.currentTarget;
-    //     const isActive = btn.classList.contains('active');
-    //     const btnGroup = btn.getAttribute('data-group');
-    //
-    //     this._removeActiveClassFromChildren(btn.parentNode);
-    //
-    //     let filterGroup;
-    //     if (isActive) {
-    //         btn.classList.remove('active');
-    //         filterGroup = Shuffle.ALL_ITEMS;
-    //     } else {
-    //         btn.classList.add('active');
-    //         filterGroup = btnGroup;
-    // }
-    //
-    //     this.shuffle.filter(filterGroup);
-    // }
-    //
-    // _removeActiveClassFromChildren(parent) {
-    //     const { children } = parent;
-    //     for (let i = children.length - 1; i >= 0; i--) {
-    //         children[i].classList.remove('active');
-    //     }
-    // }
+        if (!options) {
+            return;
+        }
 
-    $scope.getProjects = function() {
-        $http.get('resources/assets/scripts/projects.js').then(function(response) {
-            $scope.projects = response.data;
+        const filterButtons = Array.from(options.children);
+        const onClick = $scope.handleFilterClick.bind(this);
 
-            $scope.filterSelection('all'); // Execute the function and show all columns
-
-        }).catch(function() {
-          console.log('No data found..');
+        filterButtons.forEach((button) => {
+            button.addEventListener('click', onClick, false);
         });
     };
 
-    $scope.getProjects();
+    $scope.handleFilterClick = (evt) => {
+        const btn = evt.currentTarget;
+        const isActive = btn.classList.contains('active');
+
+        $scope.removeActiveClassFromChildren(btn.parentNode);
+
+        let filterGroup;
+        if (isActive) {
+            btn.classList.remove('active');
+        } else {
+            btn.classList.add('active');
+        }
+    };
+
+    $scope.removeActiveClassFromChildren = (parent) => {
+        const { children } = parent;
+        for (let i = children.length - 1; i >= 0; i--) {
+            children[i].classList.remove('active');
+        }
+    }
+
+    $scope.$on('$viewContentLoaded', function() {
+        // Get my projects
+        getProjectsService.getProjects().then(function(data) {
+            $scope.projects = data;
+        }).then(function() {
+            $scope.setFilterButtonsClass();
+        });
+
+        // Get current year and add it in the footer
+        $scope.currentYear = new Date().getFullYear();
+        angular.element(document.querySelector('.year')).html($scope.currentYear);
+    });
 
 }]);
