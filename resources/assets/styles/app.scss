@@ -45,11 +45,11 @@ html, body {
     }
 
     &.hero-img--about {
-        background: url('images/hero.svg') no-repeat center center;
+        background: url('images/hero-summer.svg') no-repeat center center;
     }
 
     &.hero-img--work {
-        background: url('images/hero-work.svg') no-repeat center center;
+        background: url('images/hero-summer-work.svg') no-repeat center center;
         height: 60%;
 
         @include media-breakpoint-up(xl) {
@@ -114,12 +114,12 @@ html, body {
 }
 
 .btn-group .btn {
-    border: 1px solid #ddd;
+    border: 1px solid $border-color;
 }
 
 .btn {
     &.active {
-        background: mix($white, $blue, 30%);
+        background: mix($white, $blue-summer, 30%);
     }
 
     &:focus {
