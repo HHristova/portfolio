@@ -18,17 +18,17 @@
     "angular-route": "^1.7.8",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.3.1",
-    "copy-webpack-plugin": "^5.0.3",
+    "copy-webpack-plugin": "^5.0.4",
     "cross-env": "^5.2.0",
     "imagemin": "^6.1.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^7.0.0",
     "imagemin-svgo": "^7.0.0",
     "jquery": "^3.4.1",
-    "laravel-mix": "^4.0.15",
+    "laravel-mix": "^4.1.2",
     "node-sass": "^4.12.0",
-    "popper.js": "^1.14.7",
-    "resolve-url-loader": "^3.0.1",
+    "popper.js": "^1.15.0",
+    "resolve-url-loader": "^3.1.0",
     "sass-google-fonts": "^1.0.1",
     "sass-loader": "7.*",
     "scrollreveal": "^4.0.5",
@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
-    "npm": "^6.9.0"
+    "npm": "^6.10.2"
   }
 }
