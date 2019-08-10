@@ -49,12 +49,8 @@ html, body {
     }
 
     &.hero-img--work {
-        background: url('images/hero-summer-work.svg') no-repeat center center;
-        height: 60%;
-
-        @include media-breakpoint-up(xl) {
-            height: 100%;
-        }
+        background: url('images/hero-summer-work-v2.svg') no-repeat center center;
+        height: 50%;
     }
 }
 
