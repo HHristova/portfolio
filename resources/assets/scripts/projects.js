@@ -1,30 +1,51 @@
 [
     {
-        "id": "1",
+        "id": "0",
+        "thumb": "public/assets/images/myWork/illustrations/snowboarder.jpg",
+        "url": "public/assets/images/myWork/illustrations/snowboarder.jpg",
+        "alt": "Snowboarder illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "40",
         "thumb": "public/assets/images/myWork/web-design/eq-design-thumb2.jpg",
         "url": "public/assets/images/myWork/web-design/eqology-website-concept-v2.jpg",
         "alt": "Website concept for scandinavian company",
         "filterId": "webdesign"
     },
     {
-        "id": "2",
+        "id": "41",
         "thumb": "public/assets/images/myWork/web-design/eq-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/eqology-website-concept-v1.jpg",
         "alt": "Website concept for scandinavian company",
         "filterId": "webdesign"
     },
     {
-        "id": "3",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-3.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-3.jpg",
-        "alt": "Hand-lettering idea",
+        "id": "32",
+        "thumb": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
+        "url": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
+        "alt": "Watermelon illustration",
         "filterId": "illustration"
     },
     {
         "id": "4",
-        "thumb": "public/assets/images/myWork/web-design/gt-design-thumb.jpg",
-        "url": "public/assets/images/myWork/web-design/gotenant-landing-page-design.jpg",
-        "alt": "Landing page design of property management platform in UK",
+        "thumb": "public/assets/images/myWork/web-design/gt-redesign-thumb.jpg",
+        "url": "public/assets/images/myWork/web-design/gt-redesign.jpg",
+        "alt": "Landing page design of UK property management platform",
+        "filterId": "webdesign"
+    },
+    {
+        "id": "33",
+        "thumb": "public/assets/images/myWork/web-design/dashboard-design.jpg",
+        "url": "public/assets/images/myWork/web-design/dashboard-design.jpg",
+        "alt": "Dashboard design concept",
+        "filterId": "webdesign"
+    },
+    {
+        "id": "34",
+        "thumb": "public/assets/images/myWork/web-design/sign-up-design.jpg",
+        "url": "public/assets/images/myWork/web-design/sign-up-design.jpg",
+        "alt": "Sign up page design",
         "filterId": "webdesign"
     },
     {
@@ -40,6 +61,13 @@
         "url": "public/assets/images/myWork/web-design/tenant-app-login.jpg",
         "alt": "Tenant app login page design",
         "filterId": "webdesign"
+    },
+    {
+        "id": "3",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-3.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-3.jpg",
+        "alt": "Hand-lettering idea",
+        "filterId": "illustration"
     },
     {
         "id": "7",
