@@ -129,6 +129,6 @@ app.controller('mainController', ['$scope', '$routeParams', 'getProjectsService'
         // Get current year and add it in the footer
         $scope.currentYear = new Date().getFullYear();
         angular.element(document.querySelector('.year')).html($scope.currentYear);
-    });
 
+    });
 }]);

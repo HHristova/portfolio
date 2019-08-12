@@ -14,8 +14,6 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "angular": "^1.7.8",
-    "angular-route": "^1.7.8",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.3.1",
     "copy-webpack-plugin": "^5.0.4",
@@ -36,6 +34,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
-    "npm": "^6.10.3"
+    "npm": "^6.10.3",
+    "typed.js": "^2.0.10"
   }
 }

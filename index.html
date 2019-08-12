@@ -3,8 +3,8 @@
         <meta charset="utf-8">
         <meta name=viewport content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1">
         <script src="public/assets/js/manifest.js"></script>
-        <script type="text/javascript" src="public/assets/js/app.js"></script>
         <script type="text/javascript" src="public/assets/js/bundle.js"></script>
+        <script type="text/javascript" src="public/assets/js/app.js"></script>
         <link rel="stylesheet" href="public/assets/app.css" />
         <link rel="apple-touch-icon" sizes="180x180" href="public/assets/images/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="public/assets/images/favicons/favicon-32x32.png">
@@ -25,12 +25,13 @@
         gtag('config', 'UA-41376701-1');
     </script>
 
-    <body ng-controller="mainController">
-        <div ng-include src="'templates/partials/header.html'"></div>
+    <body>
+        <div id="header_container"></div>
 
-        <!-- Template routes -->
-        <div ng-view autoscroll="true"></div>
+        <div id="page_container">
+            <article>Loading....</article>
+        </div>
 
-        <div ng-include src="'templates/partials/footer.html'"></div>
+        <div id="footer_container"></div>
     </body>
 </html>
