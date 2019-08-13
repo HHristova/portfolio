@@ -14,6 +14,7 @@ $(document).on('click', '.js-button', function() {
 import Home         from '../views/pages/Home.js'
 import Work        from '../views/pages/Work.js'
 import Project     from '../views/pages/Project.js'
+import UIDetails     from '../views/pages/UIDetails.js'
 import Error404     from '../views/pages/Error404.js'
 //
 import Header       from '../views/components/Header.js'
@@ -25,7 +26,8 @@ import Utils        from './services/Utils.js'
 const routes = {
     '/' : Home,
     '/work' : Work,
-    '/project/:id' : Project
+    '/project/:id' : Project,
+    '/details/:id' : UIDetails
 };
 
 
@@ -63,6 +65,11 @@ const router = async () => {
 
     // Go on top of the page
     window.scrollTo(0,0);
+
+    // get current URL path and assign 'active' class
+    var pathname = window.location.hash;
+    var selected = $('.navbar-nav').find("[href='" + pathname + "']");
+    selected.addClass('active');
 
 }
 
