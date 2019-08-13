@@ -8,8 +8,8 @@ let Work = {
             <div class="hero-img hero-img--work"></div>
         </div>
 
-        <div class="section text-center container">
-            <div class="section__container">
+        <div class="section">
+            <div class="section__container text-center">
                 <p>
                     Here's a selection of some of my recent work. <br>
                     For more you can visit me on
@@ -18,15 +18,17 @@ let Work = {
                     <a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a>.
                 </p>
 
-                <h1 class="section__container__title text-center">
-                    <span class="section__container__title__span">Case Studies:</span>
+                <h1 class="section__container__title text-center d-inline-block px-3">
+                    <span class="section__container__title__span">
+                        Case Studies
+                    </span>
                 </h1>
 
-                <div class="container mb-5">
+                <div class="mb-5">
                     <div class="row">
                         <div class="col-sm-4 offset-sm-4">
-                            <a href="#/project/1" class="caseStudy-thumb">
-                                <p class="caseStudy-content d-inline">
+                            <a href="#/project/1" class="box-thumb d-inline-block">
+                                <p class="box-content d-inline">
                                     <span>
                                         GoTenant Design Case Study
                                     </span><br>
@@ -39,11 +41,13 @@ let Work = {
                     </div>
                 </div>
 
-                <h1 class="section__container__title text-center">
-                    <span class="section__container__title__span">UI Design and Illustrations:</span>
+                <h1 class="section__container__title d-inline-block px-3">
+                    <span class="section__container__title__span">
+                        UI Design and Illustrations
+                    </span>
                 </h1>
 
-                <div class="container mb-5">
+                <div class="mb-5">
                     <div class="filters-group">
                         <div id="filter-options">
                             <button class="btn btn--filter active" data-attr="all">
@@ -66,12 +70,18 @@ let Work = {
         for(var i = 0; i < projectsData.length; i++) {
             projects += `
                 <figure id="picture-item"
-                    class="picture-item picture-item--overlay show"
+                    class="picture-item show"
                     data-groups='["${projectsData[i].filterId}"]'>
                     <div class="picture-item__inner">
-                        <div class="js-button"
+                        <div class="js-button box-thumb"
                             data-toggle="modal" data-target="#modalPicture" type="button"
                             value="Expand photo" role="button">
+                            <p class="box-content d-inline">
+                                <span>
+                                    ${projectsData[i].alt}
+                                </span><br>
+                                <small>${projectsData[i].filterId}</small>
+                            </p>
                             <img src="${projectsData[i].thumb}" data-img="${projectsData[i].url}"
                                 alt="${projectsData[i].alt}" />
                         </div>
@@ -103,7 +113,7 @@ let Work = {
 
             <div class="separator"></div>
 
-            <h1 class="section__container__title text-center">
+            <h1 class="section__container__title d-inline-block px-3">
                 <span class="section__container__title__span">Get in touch</span>
             </h1>
             <div class="section__container__content">

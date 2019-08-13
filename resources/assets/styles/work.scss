@@ -90,24 +90,6 @@
     img {
         height: auto;
     }
-
-    .js-button {
-        &:after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            top: 0;
-            left: 0;
-            height: 100%;
-            transition: background 0.15s linear;
-        }
-
-        &:hover {
-            &:after {
-                background: rgba(255, 255, 255, 0.4);
-            }
-        }
-    }
 }
 
 .picture-item__details {
@@ -119,9 +101,9 @@
     background: rgba(#4a4a4a, 0.75);
 }
 
-.caseStudy-thumb {
+.box-thumb {
     position: relative;
-    display: inline-block;
+    overflow: hidden;
 
     &:before {
         content: '';
@@ -133,7 +115,6 @@
         background-color: transparent;
         opacity: 0;
         transition: all 0.2s ease-in-out;
-        overflow: hidden;
     }
 
     &:hover {
@@ -142,18 +123,19 @@
             opacity: 0.15;
         }
 
-        .caseStudy-content {
+        .box-content {
             bottom: 0;
         }
     }
 
-    .caseStudy-content {
+    .box-content {
         position: absolute;
         bottom: -300px;
         left: 0;
         right: 0;
         color: $plain-color;
         transition: bottom 0.4s ease-in-out;
+        text-transform: capitalize;
 
         span {
             font-weight: 600;

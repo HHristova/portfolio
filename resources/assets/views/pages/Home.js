@@ -14,7 +14,7 @@ let Home = {
 
             <div class="section text-center container">
                 <div class="section__container">
-                    <h1 class="section__container__title text-center">
+                    <h1 class="section__container__title d-inline-block text-center px-3">
                         <span class="section__container__title__span">About Me</span>
                     </h1>
 
@@ -49,7 +49,7 @@ let Home = {
 
                     <div class="separator"></div>
 
-                    <h1 class="section__container__title text-center">
+                    <h1 class="section__container__title d-inline-block px-3">
                         <span class="section__container__title__span">Get in touch</span>
                     </h1>
                     <div class="section__container__content">
