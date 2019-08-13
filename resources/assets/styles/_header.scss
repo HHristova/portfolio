@@ -4,10 +4,7 @@ header {
     width: 100%;
     z-index: 2;
     transition: all 0.3s ease-in-out;
-
-    &.sticky {
-        background-color: $blue-summer;
-    }
+    background-color: $blue-summer;
 }
 
 .navbar-expand .navbar-collapse {
