@@ -1,8 +1,5 @@
-
-
 .content--custom {
 	width: 100%;
-	height: 100vh;
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-rows: 100%;
@@ -15,102 +12,42 @@
 
 .item {
 	position: relative;
+    padding-top: 100px;
 }
 
-.js .item {
-	grid-area: 1 / 1 / 2 / 2;
-	opacity: 0;
-	pointer-events: none;
-}
+.js-button {
+	height: 200px;
+	width: 100%;
+	flex: none;
+    margin: auto;
+    cursor: pointer;
 
-.js .item--current {
-	opacity: 1;
-	pointer-events: auto;
+    &:hover {
+
+    }
+
+    @include media-breakpoint-up(md) {
+        height: 500px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 50%;
+    }
 }
 
 .item__img {
-	height: 300px;
-	width: 100%;
-	flex: none;
 	background-size: cover;
-	background-position: 50% 25%;
+	background-position: top left;
+    width: 100%;
+    height: 100%;
 }
 
 .item__content {
-	padding: 2rem;
-	height: calc(100vh - 300px);
-	overflow: auto;
-}
-
-.item__content-title {
-	font-size: 2.5rem;
-	margin: 0;
-	line-height: 1.2;
-	pointer-events: none;
-}
-
-.menu__item span,
-.item__content-title span {
-	display: inline-block;
-	white-space: pre;
-	pointer-events: none;
-	will-change: transform;
-}
-
-.item__content-subtitle {
-	font-weight: normal;
-	margin: 0;
-	font-size: 1.5rem;
+	padding: 0.5rem;
+    margin: 1rem auto 0;
+    max-width: 730px;
 }
 
 .item__content-text {
-	margin: 5vh 0 4rem 0;
-	position: relative;
-	line-height: 1.5;
-}
-
-.item__content-text::after {
-	content: '';
-	width: 2rem;
-	height: 2px;
-	position: absolute;
-	background: currentColor;
-	top: calc(100% + 3rem);
-}
-
-.item__content-back {
-	cursor: pointer;
-}
-
-@media screen and (min-width: 53em) {
-	.menu__item {
-		font-size: 13vh;
-	}
-	.item {
-		height: 100%;
-		width: 100%;
-		display: flex;
-	}
-	.item__img {
-		height: 100%;
-		width: 45%;
-		background-position: 50% 50%;
-	}
-	.item__content {
-		padding: 8vw 8vw 0 8vw;
-		height: calc(100% - 12rem);
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		overflow: visible;
-	}
-	.item__content-title {
-		font-size: 5vw;
-	}
-	.item__content-subtitle {
-		font-size: 2vw;
-	}
-	.item__content-text {
-		margin-bottom: 0;
-	}
+    margin: 3vh auto 2rem;
 }

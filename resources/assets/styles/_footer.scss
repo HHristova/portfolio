@@ -5,6 +5,10 @@ footer {
     color: $plain-color;
     font-size: 0.8rem;
 
+    a:hover {
+        text-decoration: none;
+    }
+
     .copyright__box {
         margin-top: 15px;
 
@@ -13,8 +17,7 @@ footer {
             border-bottom: 1px solid $plain-color;
 
             &:hover {
-                text-decoration: none;
-                color: darken($plain-color, 5%);
+                color: darken($blue-summer, 30%);
             }
         }
     }
@@ -29,7 +32,7 @@ footer {
             transition: color 0.1s ease-in-out;
 
             &:hover {
-                color: darken($blue-summer, 20%);
+                color: darken($blue-summer, 30%);
             }
         }
     }

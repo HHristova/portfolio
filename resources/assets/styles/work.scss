@@ -57,6 +57,10 @@
     }
 }
 
+.js-button--illustrations {
+    cursor: pointer;
+}
+
 .picture-item {
     margin-top: 24px;
 
@@ -120,7 +124,7 @@
     &:hover {
         &:before {
             background-color: #000;
-            opacity: 0.15;
+            opacity: 0.35;
         }
 
         .box-content {

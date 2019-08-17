@@ -1,31 +1,25 @@
-"use strict";
+'use strict';
 
 window.$ = window.jQuery = require('jquery');
 require('bootstrap');
 
-// Image gallery handler
-$(document).on('click', '.js-button', function() {
-    var imageAlt = $(this).parents('.picture-item__inner').find('img').attr('alt');
-    var imageSrc = $(this).parents('.picture-item__inner').find('img').attr('data-img');
-    $('.js-modal-image').attr('src', imageSrc);
-    $('.js-modal-image').attr('alt', imageAlt);
-});
-
-import Home         from '../views/pages/Home.js'
-import Work        from '../views/pages/Work.js'
-import Project     from '../views/pages/Project.js'
-import UIDetails     from '../views/pages/UIDetails.js'
-import Error404     from '../views/pages/Error404.js'
+import About from '../views/pages/About.js'
+import Work from '../views/pages/Work.js'
+import Illustrations from '../views/pages/Illustrations.js'
+import Project from '../views/pages/Project.js'
+import UIDetails from '../views/pages/UIDetails.js'
+import Error404 from '../views/pages/Error404.js'
 //
-import Header       from '../views/components/Header.js'
-import Footer    from '../views/components/Footer.js'
+import Header from '../views/components/Header.js'
+import Footer from '../views/components/Footer.js'
 //
-import Utils        from './services/Utils.js'
+import Utils from './services/Utils.js'
 
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
-    '/' : Home,
+    '/' : About,
     '/work' : Work,
+    '/illustrations' : Illustrations,
     '/project/:id' : Project,
     '/details/:id' : UIDetails
 };

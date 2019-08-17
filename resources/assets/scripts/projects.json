@@ -1,240 +1,106 @@
 [
     {
-        "id": "0",
-        "thumb": "public/assets/images/myWork/illustrations/snowboarder.jpg",
-        "url": "public/assets/images/myWork/illustrations/snowboarder.jpg",
-        "alt": "Snowboarder illustration",
-        "filterId": "illustration"
-    },
-    {
-        "id": "40",
-        "thumb": "public/assets/images/myWork/web-design/eq-design-thumb2.jpg",
-        "url": "public/assets/images/myWork/web-design/eqology-website-concept-v2.jpg",
-        "alt": "Website concept for scandinavian company",
-        "filterId": "webdesign"
-    },
-    {
-        "id": "41",
-        "thumb": "public/assets/images/myWork/web-design/eq-design-thumb.jpg",
-        "url": "public/assets/images/myWork/web-design/eqology-website-concept-v1.jpg",
-        "alt": "Website concept for scandinavian company",
-        "filterId": "webdesign"
-    },
-    {
-        "id": "32",
-        "thumb": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
-        "url": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
-        "alt": "Watermelon illustration",
-        "filterId": "illustration"
-    },
-    {
         "id": "4",
         "thumb": "public/assets/images/myWork/web-design/gt-redesign-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/gt-redesign.jpg",
-        "alt": "Landing page design of UK property management platform",
-        "filterId": "webdesign"
-    },
-    {
-        "id": "33",
-        "thumb": "public/assets/images/myWork/web-design/dashboard-design-thumb.jpg",
-        "url": "public/assets/images/myWork/web-design/dashboard-design.jpg",
-        "alt": "Dashboard design concept",
+        "title": "Landing page design of a property management platform",
+        "content": "<p>The latest project we are currently working on needs a landing page redesign. As part of the exploration and research processes, we went through a couple of ideas and we are going with this arty style for the header.</p>",
         "filterId": "webdesign"
     },
     {
         "id": "34",
         "thumb": "public/assets/images/myWork/web-design/sign-up-design.jpg",
         "url": "public/assets/images/myWork/web-design/sign-up-design.jpg",
-        "alt": "Sign up page design",
+        "title": "Sign up page design",
+        "content": "<p>The idea behind the design was to create something catchy and simple at the same time that will encourage the users to sign up for the platform.</p>",
+        "filterId": "webdesign"
+    },
+    {
+        "id": "40",
+        "thumb": "public/assets/images/myWork/web-design/eq-design-thumb2.jpg",
+        "url": "public/assets/images/myWork/web-design/eqology-website-concept-v2.jpg",
+        "title": "Website concept for scandinavian company",
+        "content": "<p>We are working with a scandinavian company which main business is selling natural cosmetic products to help them update their website. As part of the exploration process, we went through a couple of styles and this is one of them.</p>",
+        "filterId": "webdesign"
+    },
+    {
+        "id": "41",
+        "thumb": "public/assets/images/myWork/web-design/eq-design-thumb.jpg",
+        "url": "public/assets/images/myWork/web-design/eqology-website-concept-v1.jpg",
+        "title": "Website concept for scandinavian company",
+        "content": "<p>We are working with a scandinavian company which main business is selling natural cosmetic products to help them update their website. As part of the exploration process, we went through a couple of styles and this is one of them.</p>",
+        "filterId": "webdesign"
+    },
+    {
+        "id": "33",
+        "thumb": "public/assets/images/myWork/web-design/dashboard-design-thumb.jpg",
+        "url": "public/assets/images/myWork/web-design/dashboard-design.jpg",
+        "title": "Dashboard design concept",
+        "content": "<p>The main aim of this dashboard design is to give the user an overview of his/hers profile activities through all the apps in the platform so the system can be more user friendly.</p>",
         "filterId": "webdesign"
     },
     {
         "id": "5",
         "thumb": "public/assets/images/myWork/web-design/gt-features-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/gotenant-features-page-design.jpg",
-        "alt": "Features page design",
+        "title": "Features page design",
+        "content": "<p>The aim for this design idea was to visualise all different features of the platform so the users may be able to decide if this is the right tool for them before signing up. The visual part should be emphasised before the content itself.</p>",
+        "filterId": "webdesign"
+    },
+    {
+        "id": "12",
+        "thumb": "public/assets/images/myWork/web-design/psp-design-thumb.jpg",
+        "url": "public/assets/images/myWork/web-design/psp-webtech-site-design.jpg",
+        "title": "Website design of PSP Webtech company",
+        "content": "<p>This is the corporate design website I've created for my own company. The main idea was to present the team in Bulgaria, the main stack that we use on a daily basis and to list the vacant job positions in simple and minimalistic way.</p>",
         "filterId": "webdesign"
     },
     {
         "id": "6",
         "thumb": "public/assets/images/myWork/web-design/tenant-app-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/tenant-app-login.jpg",
-        "alt": "Tenant app login page design",
+        "title": "Tenant app login page design",
+        "content": "<p>The image on the left handside is giving the idea of cozyness and home that is quite important for the users of the platform since they are moving to a new home when they see the sign up screen for the first time. This is a standard login process for the tenants to start using Go Tenant services.</p>",
         "filterId": "webdesign"
-    },
-    {
-        "id": "3",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-3.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-3.jpg",
-        "alt": "Hand-lettering idea",
-        "filterId": "illustration"
-    },
-    {
-        "id": "7",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-2.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-2.jpg",
-        "alt": "Hand-lettering idea",
-        "filterId": "illustration"
-    },
-    {
-        "id": "8",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-4.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-4.jpg",
-        "alt": "Hand-lettering design",
-        "filterId": "illustration"
-    },
-    {
-        "id": "9",
-        "thumb": "public/assets/images/myWork/illustrations/illustration-balloons.jpg",
-        "url": "public/assets/images/myWork/illustrations/illustration-balloons.jpg",
-        "alt": "Flying balloons illustration based on a real image",
-        "filterId": "illustration"
-    },
-    {
-        "id": "10",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-17.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-17.jpg",
-        "alt": "Spring inspired hand-lettered J",
-        "filterId": "illustration"
-    },
-    {
-        "id": "11",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-15.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-15.jpg",
-        "alt": "Hello April hand-lettering",
-        "filterId": "illustration"
-    },
-    {
-        "id": "12",
-        "thumb": "public/assets/images/myWork/web-design/psp-design-thumb.jpg",
-        "url": "public/assets/images/myWork/web-design/psp-webtech-site-design.jpg",
-        "alt": "Website design of PSP Webtech company",
-        "filterId": "webdesign"
-    },
-    {
-        "id": "13",
-        "thumb": "public/assets/images/myWork/illustrations/christmas-party-PSP.jpg",
-        "url": "public/assets/images/myWork/illustrations/christmas-party-PSP.jpg",
-        "alt": "Christmas party poster design",
-        "filterId": "illustration"
-    },
-    {
-        "id": "14",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-7.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-7.jpg",
-        "alt": "Hand-lettering idea",
-        "filterId": "illustration"
-    },
-    {
-        "id": "15",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-14.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-14.jpg",
-        "alt": "Hand-lettered H",
-        "filterId": "illustration"
-    },
-    {
-        "id": "16",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-1.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-1.jpg",
-        "alt": "Hand-lettering design",
-        "filterId": "illustration"
-    },
-    {
-        "id": "17",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-16.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-16.jpg",
-        "alt": "Birthday card design",
-        "filterId": "illustration"
-    },
-    {
-        "id": "18",
-        "thumb": "public/assets/images/myWork/illustrations/galaxy.jpg",
-        "url": "public/assets/images/myWork/illustrations/galaxy.jpg",
-        "alt": "Simplified galaxy illustration",
-        "filterId": "illustration"
-    },
-    {
-        "id": "19",
-        "thumb": "public/assets/images/myWork/illustrations/spring-illustration.jpg",
-        "url": "public/assets/images/myWork/illustrations/spring-illustration.jpg",
-        "alt": "Spring illustration",
-        "filterId": "illustration"
     },
     {
         "id": "20",
         "thumb": "public/assets/images/myWork/web-design/WhatsOn-app-design.png",
         "url": "public/assets/images/myWork/web-design/WhatsOn-app-design.png",
-        "alt": "Web application design",
+        "title": "Web application design",
+        "content": "<p>Calendar app design for a client that needed an easy and intuitive design solution for listing all events during a month, a week or a day per areas in UK.</p>",
         "filterId": "webdesign"
     },
     {
         "id": "21",
         "thumb": "public/assets/images/myWork/web-design/pws-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/personal-website-design-frontend.jpg",
-        "alt": "Personal website front end design",
+        "title": "Personal website front end design",
+        "content": "<p>This was quite complex project. The main aim behind it was the users to be able to customise their own websites in one place, to add different sections and to change the content in them. And since the website supposed to work as a marketing tool for the users it had to be sleak and intuitive.</p>",
         "filterId": "webdesign"
     },
     {
         "id": "22",
         "thumb": "public/assets/images/myWork/web-design/rs-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/rentsuccess-website-concept.jpg",
-        "alt": "Property management platform landing page design concept",
+        "title": "Property management platform landing page design concept",
+        "content": "<p>An old unused concept for a landing page of a large property management platform in UK. The reason behind not using it was that when the time for the implementation comes, the platform was so different and has so many different features that required a new design and content for a better presentation.</p>",
         "filterId": "webdesign"
     },
     {
         "id": "23",
         "thumb": "public/assets/images/myWork/web-design/dashboard-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/GoTenant-project.jpg",
-        "alt": "Website dashboard design",
+        "title": "Website dashboard design",
+        "content": "<p>A dashboard design concept for a large property management platform in UK. The design should present an overview of the whole platform with the recent events that the user can easily interact with.</p>",
         "filterId": "webdesign"
-    },
-    {
-        "id": "24",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-6.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-6.jpg",
-        "alt": "Hand-lettering design",
-        "filterId": "illustration"
-    },
-    {
-        "id": "25",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-9.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-9.jpg",
-        "alt": "Valentine card design concept",
-        "filterId": "illustration"
-    },
-    {
-        "id": "26",
-        "thumb": "public/assets/images/myWork/illustrations/rock-poster-design.jpg",
-        "url": "public/assets/images/myWork/illustrations/rock-poster-design.jpg",
-        "alt": "Christmas rock poster design concept",
-        "filterId": "illustration"
     },
     {
         "id": "27",
         "thumb": "public/assets/images/myWork/web-design/subscription-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/subscription-mockup-v2.jpg",
-        "alt": "Subscription page design",
+        "title": "Subscription page design",
+        "content": "<p>Design concept for a big american cosmetic company. The aim of the design was to make the subscription page more appealing for the users with an emphasize on the features and the additional benefits of subscribing for the platform.</p>",
         "filterId": "webdesign"
-    },
-    {
-        "id": "28",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-13.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-13.jpg",
-        "alt": "Hand-lettered word 'Evening'",
-        "filterId": "illustration"
-    },
-    {
-        "id": "29",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-12.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-12.jpg",
-        "alt": "Hand-lettered chocolate design",
-        "filterId": "illustration"
-    },
-    {
-        "id": "30",
-        "thumb": "public/assets/images/myWork/illustrations/summer-star.png",
-        "url": "public/assets/images/myWork/illustrations/summer-star.png",
-        "alt": "Summer illustration",
-        "filterId": "illustration"
     }
 ]

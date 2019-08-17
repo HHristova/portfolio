@@ -1,0 +1,149 @@
+[
+    {
+        "id": "0",
+        "thumb": "public/assets/images/myWork/illustrations/snowboarder.jpg",
+        "url": "public/assets/images/myWork/illustrations/snowboarder.jpg",
+        "title": "Snowboarder illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "32",
+        "thumb": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
+        "url": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
+        "title": "Watermelon illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "3",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-3.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-3.jpg",
+        "title": "Hand-lettering idea",
+        "filterId": "illustration"
+    },
+    {
+        "id": "7",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-2.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-2.jpg",
+        "title": "Hand-lettering idea",
+        "filterId": "illustration"
+    },
+    {
+        "id": "8",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-4.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-4.jpg",
+        "title": "Hand-lettering design",
+        "filterId": "illustration"
+    },
+    {
+        "id": "9",
+        "thumb": "public/assets/images/myWork/illustrations/illustration-balloons.jpg",
+        "url": "public/assets/images/myWork/illustrations/illustration-balloons.jpg",
+        "title": "Flying balloons illustration based on a real image",
+        "filterId": "illustration"
+    },
+    {
+        "id": "10",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-17.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-17.jpg",
+        "title": "Spring inspired hand-lettered J",
+        "filterId": "illustration"
+    },
+    {
+        "id": "11",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-15.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-15.jpg",
+        "title": "Hello April hand-lettering",
+        "filterId": "illustration"
+    },
+    {
+        "id": "13",
+        "thumb": "public/assets/images/myWork/illustrations/christmas-party-PSP.jpg",
+        "url": "public/assets/images/myWork/illustrations/christmas-party-PSP.jpg",
+        "title": "Christmas party poster design",
+        "filterId": "illustration"
+    },
+    {
+        "id": "14",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-7.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-7.jpg",
+        "title": "Hand-lettering idea",
+        "filterId": "illustration"
+    },
+    {
+        "id": "15",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-14.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-14.jpg",
+        "title": "Hand-lettered H",
+        "filterId": "illustration"
+    },
+    {
+        "id": "16",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-1.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-1.jpg",
+        "title": "Hand-lettering design",
+        "filterId": "illustration"
+    },
+    {
+        "id": "17",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-16.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-16.jpg",
+        "title": "Birthday card design",
+        "filterId": "illustration"
+    },
+    {
+        "id": "18",
+        "thumb": "public/assets/images/myWork/illustrations/galaxy.jpg",
+        "url": "public/assets/images/myWork/illustrations/galaxy.jpg",
+        "title": "Simplified galaxy illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "19",
+        "thumb": "public/assets/images/myWork/illustrations/spring-illustration.jpg",
+        "url": "public/assets/images/myWork/illustrations/spring-illustration.jpg",
+        "title": "Spring illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "24",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-6.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-6.jpg",
+        "title": "Hand-lettering design",
+        "filterId": "illustration"
+    },
+    {
+        "id": "25",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-9.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-9.jpg",
+        "title": "Valentine card design concept",
+        "filterId": "illustration"
+    },
+    {
+        "id": "26",
+        "thumb": "public/assets/images/myWork/illustrations/rock-poster-design.jpg",
+        "url": "public/assets/images/myWork/illustrations/rock-poster-design.jpg",
+        "title": "Christmas rock poster design concept",
+        "filterId": "illustration"
+    },
+    {
+        "id": "28",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-13.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-13.jpg",
+        "title": "Hand-lettered word 'Evening'",
+        "filterId": "illustration"
+    },
+    {
+        "id": "29",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-12.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-12.jpg",
+        "title": "Hand-lettered chocolate design",
+        "filterId": "illustration"
+    },
+    {
+        "id": "30",
+        "thumb": "public/assets/images/myWork/illustrations/summer-star.png",
+        "url": "public/assets/images/myWork/illustrations/summer-star.png",
+        "title": "Summer illustration",
+        "filterId": "illustration"
+    }
+]

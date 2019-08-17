@@ -1,7 +1,7 @@
 import Typed from 'typed.js';
 import ScrollReveal from 'scrollreveal'
 
-let Home = {
+let About = {
     render : async () => {
         let view =  /*html*/`
             <div class="main-header">
@@ -24,7 +24,7 @@ let Home = {
                                 alt="Hristina Hristova image"/>
                         </div>
                         <div class="about-me__content">
-                            Hey there,
+                            👋 Hey there,
                             <br/>
                             My name is Hristina Hristova. I am a web designer that creates
                             wireframes for web apps and translate them to actual user-friendly
@@ -43,7 +43,9 @@ let Home = {
                             riding a bicycle, snowboarding with a noisy speaker, among the shelves
                             of the bookstores or laughing out loud in the parks.
                             <br><br>
-                            You can check <a href="#/work"><strong>My work</strong></a> or just say 'Hi' with the link below.
+                            You can check <a href="#/work"><strong>✒️ my UI designs</strong></a> and
+                            <a href="#/illustrations"><strong>🎨 my illustrations </strong></a>
+                            or just say 'Hi' with the link below.
                         </div>
                     </div>
 
@@ -86,4 +88,4 @@ let Home = {
 
 }
 
-export default Home;
+export default About;
