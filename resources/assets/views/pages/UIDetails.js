@@ -16,7 +16,9 @@ let UIDetails = {
                         <div class="item__img" style="background-image: url(${project.thumb})"
                             data-img="${project.url}" alt="${project.title}"></div>
                     </div>
-                    <a href="">View project in full size</a>
+                    <a href="" class="d-block text-center mt-2 open-gallery">
+                        <small>View project in full size</small>
+                    </a>
                     <div class="item__content p-lg-4">
                         <h2 class="section__container__title section__container__title--sm m-neg
                             d-inline-block px-3">
@@ -59,6 +61,11 @@ let UIDetails = {
             var imageSrc = $(this).find('.item__img').attr('data-img');
             $('.js-modal-image').attr('src', imageSrc);
             $('.js-modal-image').attr('alt', imageAlt);
+        });
+
+        $(document).on('click', '.open-gallery', function(e) {
+            e.preventDefault();
+            $('.js-button').click();
         });
     }
 }

@@ -16,14 +16,22 @@
 }
 
 .js-button {
-	height: 500px;
-	width: 50%;
+	height: 200px;
+	width: 100%;
 	flex: none;
     margin: auto;
     cursor: pointer;
 
     &:hover {
 
+    }
+
+    @include media-breakpoint-up(md) {
+        height: 500px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 50%;
     }
 }
 
@@ -41,5 +49,5 @@
 }
 
 .item__content-text {
-    margin: 5vh auto 2rem;
+    margin: 3vh auto 2rem;
 }
