@@ -50,7 +50,12 @@ html, body {
     }
 
     &.hero-img--work {
-        background: url('images/hero-summer-work-v2.svg') no-repeat center center;
+        background: url('images/hero-summer-work.svg') no-repeat center center;
+        height: 50%;
+    }
+
+    &.hero-img--illustrations {
+        background: url('images/hero-summer-illustrations.svg') no-repeat center center;
         height: 50%;
     }
 }
@@ -88,37 +93,42 @@ html, body {
             color: $blue-darken;
         }
     }
+}
 
-    .section__container__title {
-        margin-bottom: 20px;
-        color: $blue-darken;
-        font-size: 2.5rem;
-        font-weight: 500;
-        position: relative;
+.m-neg {
+    margin-left: -1rem;
+}
 
+.section__container__title {
+    margin-bottom: 20px;
+    color: $blue-darken;
+    font-size: 2.5rem;
+    font-weight: 500;
+    position: relative;
+
+    &.section__container__title--sm {
+        font-size: 2rem;
+    }
+
+    &:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        position: absolute;
+        bottom: 0.2rem;
+        left: 0;
+        z-index: -1;
+        background-image: linear-gradient(120deg, #84fab0 0%, $blue-summer 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.2em;
+        background-position: 0 88%;
+        transition: background-size 0.25s ease-in;
+    }
+
+    &:hover {
         &:after {
-            content: '';
-            width: 100%;
-            height: 100%;
-            opacity: 0.5;
-            position: absolute;
-            bottom: 0.2rem;
-            left: 0;
-            z-index: -1;
-
-
-            background-image: linear-gradient(120deg, #84fab0 0%, $blue-summer 100%);
-            background-repeat: no-repeat;
-            background-size: 100% 0.2em;
-            background-position: 0 88%;
-            transition: background-size 0.25s ease-in;
-        }
-
-
-        &:hover {
-            &:after {
-                background-size: 100% 88%;
-            }
+            background-size: 100% 88%;
         }
     }
 }
@@ -131,7 +141,7 @@ html, body {
     flex-wrap: wrap;
     width: 100%;
 
-    @include responsive-tablet() {
+    @include media-breakpoint-up(md) {
         flex-wrap: nowrap;
     }
 }
@@ -139,7 +149,7 @@ html, body {
 .about-me__image, .about-me__content {
     flex: 0 1 100%;
 
-    @include responsive-tablet() {
+    @include media-breakpoint-up(md) {
         flex: 1 1 auto;
     }
 }
@@ -155,7 +165,7 @@ html, body {
 .about-me__content {
     margin-top: 20px;
 
-    @include responsive-tablet() {
+    @include media-breakpoint-up(md) {
         margin-left: 25px;
         text-align: left;
     }

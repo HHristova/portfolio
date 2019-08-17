@@ -11,24 +11,56 @@ let UIDetails = {
             /*html*/`
             <div class="content--custom">
                 <article class="item item--current">
-                    <div class="item__img" style="background-image: url(${project.url})"></div>
-                    <div class="item__content">
-                        <a class="item__content-back">back</a>
-                        <h2 class="item__content-title">IO Donna</h2>
-                        <h3 class="item__content-subtitle">Fashion artisans at work</h3>
+                    <div class="js-button" data-toggle="modal" data-target="#modalPicture"
+                        value="Expand photo" role="button">
+                        <div class="item__img" style="background-image: url(${project.thumb})"
+                            data-img="${project.url}" alt="${project.title}"></div>
+                    </div>
+                    <a href="">View project in full size</a>
+                    <div class="item__content p-lg-4">
+                        <h2 class="section__container__title section__container__title--sm m-neg
+                            d-inline-block px-3">
+                            <span class="section__container__title__span">
+                                ${project.title}
+                            </span>
+                        </h2>
                         <div class="item__content-text">
-                            <p>Now, when anything attracted his attention he always asked what it meant; and his mother, or more frequently Uncle Maxim, would explain to him the nature of the objects or of the creatures that caused these various sounds.</p>
-                            <p>His mother’s explanations, more lively and graphic, impressed the boy with greater force; but sometimes this impression would be too painful. </p>
-                            <p>Upon the features of the young woman, herself suffering, could be read the expression of her inmost feelings, and in her eyes a silent protest or a look of pain, as she strove to convey to the child an idea of form and color.</p>
+                            ${project.content}
                         </div>
                     </div>
                 </article>
+            </div>
+
+            <div id="modalPicture" class="modal fade pr-0" tabindex="-1"
+                role="dialog" aria-labelledby="modalPictureLabel" aria-hidden="true">
+              <div class="modal-dialog m-0" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <img class="close__icon"
+                        src="public/assets/images/close-icon.svg" alt="Close icon">
+                      <span class="sr-only">Close</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="js-modal-image" src="" alt="" />
+                  </div>
+                </div>
+              </div>
             </div>`
             ).join('\n ')
         }
         `
     },
-    after_render: async () => {}
+    after_render: async () => {
+        // Projects gallery handler
+        $(document).on('click', '.js-button', function() {
+            var imageAlt = $(this).find('.item__img').attr('alt');
+            var imageSrc = $(this).find('.item__img').attr('data-img');
+            $('.js-modal-image').attr('src', imageSrc);
+            $('.js-modal-image').attr('alt', imageAlt);
+        });
+    }
 }
 
 export default UIDetails;
