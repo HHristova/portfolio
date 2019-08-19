@@ -26,7 +26,7 @@ let Work = {
 
                 <div class="mb-5">
                     <div class="row">
-                        <div class="col-sm-4 offset-sm-4">
+                        <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4">
                             <a href="#/project/1" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>

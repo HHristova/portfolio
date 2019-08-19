@@ -145,7 +145,7 @@ html, body {
     flex-wrap: wrap;
     width: 100%;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         flex-wrap: nowrap;
     }
 }
@@ -160,18 +160,21 @@ html, body {
 
 .about-me__image {
     img {
-        max-width: 250px;
+        max-width: 100%;
         margin: auto;
         border-radius: 50%;
+
+        @include media-breakpoint-up(md) {
+            max-width: 250px;
+        }
     }
 }
 
 .about-me__content {
     margin-top: 20px;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         margin-left: 25px;
-        text-align: left;
     }
 }
 
