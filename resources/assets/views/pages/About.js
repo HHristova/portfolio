@@ -23,7 +23,7 @@ let About = {
                             <img src="public/assets/images/hhristova-img.jpg" class="img-responsive"
                                 alt="Hristina Hristova image"/>
                         </div>
-                        <div class="about-me__content">
+                        <div class="about-me__content text-left">
                             👋 Hey there,
                             <br/>
                             My name is Hristina Hristova. I am a web designer that creates

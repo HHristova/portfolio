@@ -11,21 +11,23 @@ let UIDetails = {
             /*html*/`
             <div class="content--custom">
                 <article class="item item--current">
-                    <div class="js-button" data-toggle="modal" data-target="#modalPicture"
-                        value="Expand photo" role="button">
-                        <div class="item__img" style="background-image: url(${project.thumb})"
-                            data-img="${project.url}" alt="${project.title}"></div>
-                    </div>
-                    <a href="" class="d-block text-center mt-2 open-gallery">
-                        <small>View project in full size</small>
-                    </a>
-                    <div class="item__content p-lg-4">
+                    <div class="item__content item__content--title py-lg-4 px-lg-3">
                         <h2 class="section__container__title section__container__title--sm m-neg
                             d-inline-block px-3">
                             <span class="section__container__title__span">
                                 ${project.title}
                             </span>
                         </h2>
+                    </div>
+                    <div class="js-button" data-toggle="modal" data-target="#modalPicture"
+                        value="Expand photo" role="button">
+                        <div class="item__img" style="background-image: url(${project.thumb})"
+                            data-img="${project.url}" alt="${project.title}"></div>
+                        <a href="" class="d-block text-center mt-2 open-gallery">
+                            <small>View project in full size</small>
+                        </a>
+                    </div>
+                    <div class="item__content py-lg-4">
                         <div class="item__content-text">
                             ${project.content}
                         </div>

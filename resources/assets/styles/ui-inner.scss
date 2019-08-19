@@ -12,19 +12,20 @@
 
 .item {
 	position: relative;
-    padding-top: 100px;
+    padding-top: 80px;
+
+    @include media-breakpoint-up(md) {
+        padding-top: 100px;
+    }
 }
 
 .js-button {
+    position: relative;
 	height: 200px;
 	width: 100%;
 	flex: none;
     margin: auto;
     cursor: pointer;
-
-    &:hover {
-
-    }
 
     @include media-breakpoint-up(md) {
         height: 500px;
@@ -43,9 +44,36 @@
 }
 
 .item__content {
-	padding: 0.5rem;
-    margin: 1rem auto 0;
-    max-width: 730px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    max-width: 100%;
+
+    @include media-breakpoint-up(xl) {
+        max-width: 50%;
+    }
+
+    &.item__content--title {
+        @include media-breakpoint-down(xl) {
+            text-align: center;
+        }
+    }
+}
+
+.open-gallery {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background: rgba(119, 119, 119, 0.75);
+    color: $white;
+
+    &:hover {
+        color: $white;
+    }
 }
 
 .item__content-text {
