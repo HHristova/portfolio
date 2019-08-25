@@ -7,6 +7,27 @@
         "filterId": "illustration"
     },
     {
+        "id": "1",
+        "thumb": "public/assets/images/myWork/illustrations/Cloe-Jaffa-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/Cloe-Jaffa.jpg",
+        "title": "A girl with a dog illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "2",
+        "thumb": "public/assets/images/myWork/illustrations/corgi-pillow2-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/corgi-pillow2.jpg",
+        "title": "A corgi dog hand-drawn pattern",
+        "filterId": "illustration"
+    },
+    {
+        "id": "3",
+        "thumb": "public/assets/images/myWork/illustrations/corgi-fabric-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/corgi-fabric.jpg",
+        "title": "A corgi dog hand-drawn pattern",
+        "filterId": "illustration"
+    },
+    {
         "id": "32",
         "thumb": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
         "url": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
@@ -63,6 +84,13 @@
         "filterId": "illustration"
     },
     {
+        "id": "12",
+        "thumb": "public/assets/images/myWork/illustrations/woman-dog-melanholic-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/woman-dog-melanholic.jpg",
+        "title": "Christmas party poster design",
+        "filterId": "illustration"
+    },
+    {
         "id": "14",
         "thumb": "public/assets/images/myWork/illustrations/lettering-7.jpg",
         "url": "public/assets/images/myWork/illustrations/lettering-7.jpg",
@@ -102,6 +130,20 @@
         "thumb": "public/assets/images/myWork/illustrations/spring-illustration.jpg",
         "url": "public/assets/images/myWork/illustrations/spring-illustration.jpg",
         "title": "Spring illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "20",
+        "thumb": "public/assets/images/myWork/illustrations/gob-bag-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/gob-bag.jpg",
+        "title": "Bag design for a non-profit organisation 'Get On Board'",
+        "filterId": "illustration"
+    },
+    {
+        "id": "21",
+        "thumb": "public/assets/images/myWork/illustrations/child-book-page1-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/child-book-page1.jpg",
+        "title": "The first pages of my illustrated child book called 'The clever ones'",
         "filterId": "illustration"
     },
     {

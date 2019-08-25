@@ -95,6 +95,11 @@ html, body {
     }
 }
 
+.max-chars {
+    max-width: 75ch;
+    margin: auto;
+}
+
 .m-neg {
     margin-left: -1rem;
 }

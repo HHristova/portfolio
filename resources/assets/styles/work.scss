@@ -27,20 +27,33 @@
 }
 
 .modal-content {
-    width: 80%;
     margin: auto;
     border-radius: 0;
     background-color: transparent;
     border: none;
+
+    @include media-breakpoint-up(md) {
+        width: 80%;
+    }
 }
 
-.js-modal-image {
+.js-modal-image, .js-modal-content {
     width: 100%;
 
     @include media-breakpoint-up(xl) {
-        width: auto;
-        max-width: 100%;
+        max-width: 900px;
     }
+}
+
+.js-modal-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(119, 119, 119, 0.75);
+    color: white;
+    padding: 10px 0;
+    margin: auto;
 }
 
 .modal-header {
