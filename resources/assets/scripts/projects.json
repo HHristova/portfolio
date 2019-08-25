@@ -1,10 +1,26 @@
 [
     {
+        "id": "1",
+        "thumb": "public/assets/images/myWork/web-design/gt-documents-thumb.jpg",
+        "url": "public/assets/images/myWork/web-design/gt-documents.jpg",
+        "title": "Documents page presentation on a tablet",
+        "content": "<p>Property management platform design for tablet devices.</p>",
+        "filterId": "webdesign"
+    },
+    {
+        "id": "12",
+        "thumb": "public/assets/images/myWork/web-design/property-actions-thumb.jpg",
+        "url": "public/assets/images/myWork/web-design/property-actions.jpg",
+        "title": "Property management - mobile design",
+        "content": "<p>Here is a sample of my mobile designs for a big property management platform in UK.</p>",
+        "filterId": "webdesign"
+    },
+    {
         "id": "4",
         "thumb": "public/assets/images/myWork/web-design/gt-redesign-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/gt-redesign.jpg",
         "title": "Landing page design of a property management platform",
-        "content": "<p>The latest project we are currently working on needs a landing page redesign. As part of the exploration and research processes, we went through a couple of ideas and we are going with this arty style for the header.</p>",
+        "content": "<p>The latest project we are currently working on needs a landing page redesign. As part of the exploration and research processes, we went through a couple of ideas and we are going with this arty style for the header with the green color, which is the primary color of the whole platform. By clicking on the image above you can see the whole website design.</p>",
         "filterId": "webdesign"
     },
     {
@@ -48,7 +64,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "12",
+        "id": "13",
         "thumb": "public/assets/images/myWork/web-design/psp-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/psp-webtech-site-design.jpg",
         "title": "Website design of PSP Webtech company",

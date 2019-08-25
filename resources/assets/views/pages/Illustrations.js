@@ -9,6 +9,14 @@ let Illustrations = {
         </div>
         <div class="section">
             <div class="section__container text-center">
+                <p class="max-chars mb-4">
+                    There is nothing I love more than designing illustrations all
+                    day and I would love to design your next one. <br>
+                    Here is the selection of my recent drawings. <br>
+                    For more you can visit me on
+                    <a href="https://dribbble.com/HHristova" target="_blank">dribbble</a> or
+                    <a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a>.
+                </p>
                 <div class="masonry">
         `
         let projects = '';
@@ -50,7 +58,10 @@ let Illustrations = {
                         </button>
                       </div>
                       <div class="modal-body">
-                        <img class="js-modal-image" src="" alt="" />
+                        <div class="position-relative">
+                            <img class="js-modal-image" src="" alt="" />
+                            <div class="js-modal-content"></div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -86,6 +97,7 @@ let Illustrations = {
             var imageSrc = $(this).parents('.picture-item__inner').find('img').attr('data-img');
             $('.js-modal-image').attr('src', imageSrc);
             $('.js-modal-image').attr('alt', imageAlt);
+            $('.js-modal-content').text(imageAlt);
         });
     }
 }
