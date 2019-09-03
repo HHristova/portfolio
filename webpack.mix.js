@@ -39,7 +39,6 @@ mix
     .copy('node_modules/@fortawesome/fontawesome-free-webfonts/webfonts', 'public/assets/fonts')
 
     .options({
-        postCss: require('./postcss.config.js').plugins,
         processCssUrls: false
     });
 
