@@ -21,13 +21,6 @@
         "filterId": "illustration"
     },
     {
-        "id": "3",
-        "thumb": "public/assets/images/myWork/illustrations/corgi-fabric-thumb.jpg",
-        "url": "public/assets/images/myWork/illustrations/corgi-fabric.jpg",
-        "title": "A corgi dog hand-drawn pattern",
-        "filterId": "illustration"
-    },
-    {
         "id": "32",
         "thumb": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
         "url": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
@@ -39,6 +32,27 @@
         "thumb": "public/assets/images/myWork/illustrations/lettering-3.jpg",
         "url": "public/assets/images/myWork/illustrations/lettering-3.jpg",
         "title": "Hand-lettering idea",
+        "filterId": "illustration"
+    },
+    {
+        "id": "4",
+        "thumb": "public/assets/images/myWork/illustrations/turtle-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/turtle.jpg",
+        "title": "The happy turtle",
+        "filterId": "illustration"
+    },
+    {
+        "id": "5",
+        "thumb": "public/assets/images/myWork/illustrations/water-artwork-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/water-artwork.jpg",
+        "title": "The outside animals need water",
+        "filterId": "illustration"
+    },
+    {
+        "id": "6",
+        "thumb": "public/assets/images/myWork/illustrations/corgi-fabric-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/corgi-fabric.jpg",
+        "title": "A corgi dog hand-drawn pattern",
         "filterId": "illustration"
     },
     {
@@ -78,7 +92,7 @@
     },
     {
         "id": "13",
-        "thumb": "public/assets/images/myWork/illustrations/christmas-party-PSP.jpg",
+        "thumb": "public/assets/images/myWork/illustrations/christmas-party-PSP-thumb.jpg",
         "url": "public/assets/images/myWork/illustrations/christmas-party-PSP.jpg",
         "title": "Christmas party poster design",
         "filterId": "illustration"
@@ -113,8 +127,8 @@
     },
     {
         "id": "17",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-16.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-16.jpg",
+        "thumb": "public/assets/images/myWork/illustrations/happy-birthday-lettering-card-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/happy-birthday-lettering-card.jpg",
         "title": "Birthday card design",
         "filterId": "illustration"
     },
@@ -162,9 +176,16 @@
     },
     {
         "id": "26",
-        "thumb": "public/assets/images/myWork/illustrations/rock-poster-design.jpg",
+        "thumb": "public/assets/images/myWork/illustrations/rock-poster-design-thumb.jpg",
         "url": "public/assets/images/myWork/illustrations/rock-poster-design.jpg",
         "title": "Christmas rock poster design concept",
+        "filterId": "illustration"
+    },
+    {
+        "id": "27",
+        "thumb": "public/assets/images/myWork/illustrations/birthday-card-design.jpg",
+        "url": "public/assets/images/myWork/illustrations/birthday-card-design.jpg",
+        "title": "Birthday card design",
         "filterId": "illustration"
     },
     {
