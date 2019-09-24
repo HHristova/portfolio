@@ -21,10 +21,31 @@
         "filterId": "illustration"
     },
     {
-        "id": "32",
+        "id": "31",
         "thumb": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
         "url": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
         "title": "Watermelon illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "32",
+        "thumb": "public/assets/images/myWork/illustrations/september-lettering-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/september-lettering.jpg",
+        "title": "September hand-lettering piece",
+        "filterId": "illustration"
+    },
+    {
+        "id": "33",
+        "thumb": "public/assets/images/myWork/illustrations/g-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/g.jpg",
+        "title": "Hand-lettered G",
+        "filterId": "illustration"
+    },
+    {
+        "id": "34",
+        "thumb": "public/assets/images/myWork/illustrations/vain-v-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/vain-v.jpg",
+        "title": "Vain V illustration",
         "filterId": "illustration"
     },
     {
@@ -46,13 +67,6 @@
         "thumb": "public/assets/images/myWork/illustrations/water-animals-thumb.jpg",
         "url": "public/assets/images/myWork/illustrations/water-animals.jpg",
         "title": "The outside animals need water",
-        "filterId": "illustration"
-    },
-    {
-        "id": "6",
-        "thumb": "public/assets/images/myWork/illustrations/corgi-fabric-thumb.jpg",
-        "url": "public/assets/images/myWork/illustrations/corgi-fabric.jpg",
-        "title": "A corgi dog hand-drawn pattern",
         "filterId": "illustration"
     },
     {
@@ -98,6 +112,13 @@
         "filterId": "illustration"
     },
     {
+        "id": "14",
+        "thumb": "public/assets/images/myWork/illustrations/bear-illustration-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/bear-illustration.jpg",
+        "title": "Whimsical Bear illustration",
+        "filterId": "illustration"
+    },
+    {
         "id": "12",
         "thumb": "public/assets/images/myWork/illustrations/woman-dog-melanholic-thumb.jpg",
         "url": "public/assets/images/myWork/illustrations/woman-dog-melanholic.jpg",
@@ -106,23 +127,16 @@
     },
     {
         "id": "14",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-7.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-7.jpg",
-        "title": "Hand-lettering idea",
-        "filterId": "illustration"
-    },
-    {
-        "id": "15",
         "thumb": "public/assets/images/myWork/illustrations/lettering-14.jpg",
         "url": "public/assets/images/myWork/illustrations/lettering-14.jpg",
         "title": "Hand-lettered H",
         "filterId": "illustration"
     },
     {
-        "id": "16",
-        "thumb": "public/assets/images/myWork/illustrations/lettering-1.jpg",
-        "url": "public/assets/images/myWork/illustrations/lettering-1.jpg",
-        "title": "Hand-lettering design",
+        "id": "15",
+        "thumb": "public/assets/images/myWork/illustrations/lettering-7.jpg",
+        "url": "public/assets/images/myWork/illustrations/lettering-7.jpg",
+        "title": "Hand-lettering idea",
         "filterId": "illustration"
     },
     {
@@ -130,13 +144,6 @@
         "thumb": "public/assets/images/myWork/illustrations/happy-birthday-lettering-card-thumb.jpg",
         "url": "public/assets/images/myWork/illustrations/happy-birthday-lettering-card.jpg",
         "title": "Birthday card design",
-        "filterId": "illustration"
-    },
-    {
-        "id": "18",
-        "thumb": "public/assets/images/myWork/illustrations/galaxy.jpg",
-        "url": "public/assets/images/myWork/illustrations/galaxy.jpg",
-        "title": "Simplified galaxy illustration",
         "filterId": "illustration"
     },
     {
