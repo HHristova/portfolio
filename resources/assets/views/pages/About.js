@@ -43,8 +43,8 @@ let About = {
                             riding a bicycle, snowboarding with a noisy speaker, among the shelves
                             of the bookstores or laughing out loud in the parks.
                             <br><br>
-                            You can check <a href="#/work"><strong>✒️ my UI designs</strong></a> and
-                            <a href="#/illustrations"><strong>🎨 my illustrations </strong></a>
+                            You can check <a href="#/work"><strong>my UI designs ✒️</strong></a> and
+                            <a href="#/illustrations"><strong>my illustrations 🎨</strong></a>
                             or just say 'Hi' with the link below.
                         </div>
                     </div>

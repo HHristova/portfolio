@@ -11,7 +11,7 @@ let Illustrations = {
             <div class="section__container text-center">
                 <p class="max-chars mb-4">
                     There is nothing I love more than designing illustrations all
-                    day and I would love to design your next one. <br>
+                    day and I would love to design your next one. 🙂<br>
                     Here is the selection of my recent drawings. <br>
                     For more you can visit me on
                     <a href="https://dribbble.com/HHristova" target="_blank">dribbble</a> or

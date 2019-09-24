@@ -1,6 +1,14 @@
 [
     {
         "id": "1",
+        "thumb": "public/assets/images/myWork/web-design/quotopia-app-thumb.jpg",
+        "url": "public/assets/images/myWork/web-design/quotopia-app.jpg",
+        "title": "Quotopia app design screens",
+        "content": "<p>Design screens for a side project called Quotopia. The main aim of the app is to deliver inspiring quotes to the users from famous writers, artist, musicians, etc.</p>",
+        "filterId": "webdesign"
+    },
+    {
+        "id": "2",
         "thumb": "public/assets/images/myWork/web-design/gt-documents-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/gt-documents.jpg",
         "title": "Documents page presentation on a tablet",
