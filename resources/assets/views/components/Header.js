@@ -19,7 +19,7 @@ let Header = {
                   <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" href="#/">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#/">About me<span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#/work">Work</a>

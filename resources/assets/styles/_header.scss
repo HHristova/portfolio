@@ -4,7 +4,6 @@ header {
     width: 100%;
     z-index: 2;
     transition: all 0.3s ease-in-out;
-    background-color: $blue-summer;
 }
 
 .navbar-expand-md .navbar-collapse {
@@ -21,21 +20,6 @@ header {
 
     @include large-desktop() {
         padding: 15px 25px;
-    }
-}
-
-header {
-    .navbar-dark .navbar-nav .nav-link {
-        color: $blue-darken;
-    }
-
-    .navbar-dark .navbar-nav .nav-link.active,
-    .navbar-dark .navbar-nav .nav-link:hover {
-        color: mix($black, $blue-darken, 35%);
-    }
-
-    .navbar-dark .navbar-toggler {
-        color: rgba($white, 1);
     }
 }
 

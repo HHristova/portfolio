@@ -14,8 +14,8 @@ let Illustrations = {
                     day and I would love to design your next one. 🙂<br>
                     Here is the selection of my recent drawings. <br>
                     For more you can visit me on
-                    <a href="https://dribbble.com/HHristova" target="_blank">dribbble</a> or
-                    <a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a>.
+                    <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong> or
+                    <strong><a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a></strong>.
                 </p>
                 <div class="masonry">
         `

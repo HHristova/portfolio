@@ -13,9 +13,9 @@ let Work = {
                 <p>
                     Here's a selection of some of my recent work. <br>
                     For more you can visit me on
-                    <a href="https://dribbble.com/HHristova" target="_blank">dribbble</a>,
-                    <a href="https://www.behance.net/hhristova" target="_blank">behance</a> or
-                    <a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a>.
+                    <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong>,
+                    <strong><a href="https://www.behance.net/hhristova" target="_blank">behance</a></strong> or
+                    <strong><a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a></strong>.
                 </p>
 
                 <h1 class="section__container__title text-center d-inline-block px-3">
