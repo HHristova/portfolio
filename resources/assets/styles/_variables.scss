@@ -14,15 +14,15 @@ $theme-font-weights: '300,400,500,600,700,800' !default;
 $theme-font-languages: null !default;
 
 // Default logo of the project
-$season: 'winter' !default;
+$seasonTitle: 'winter' !default;
 
 // Change logo image depending on the season of the project
-@function setLogo($season) {
-    @if ($season == 'winter') {
+@function setLogo($seasonTitle) {
+    @if ($seasonTitle == 'winter') {
         @return 'images/logo-hhristova.png';
-    } @if ($season == 'summer') {
+    } @if ($seasonTitle == 'summer') {
         @return 'images/logo-hhristova.png';
-    } @if ($season == 'autumn') {
+    } @if ($seasonTitle == 'autumn') {
         @return 'images/logo-hhristova--autumn.png';
     }
 }

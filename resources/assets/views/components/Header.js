@@ -6,9 +6,7 @@ let Header = {
             <header>
                 <nav class="navbar navbar-expand-md navbar-dark container p-0">
                   <a class="navbar-brand ml-2 ml-sm-0" href="#/">
-                      <h1 class="logo mb-0">
-                          <img src="public/assets/images/logo-hhristova.png" />
-                      </h1>
+                      <h1 class="logo mb-0"></h1>
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse"
                       data-target="#main-nav" aria-controls="main-nav" aria-expanded="false"

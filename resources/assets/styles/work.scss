@@ -42,10 +42,6 @@
 
 .js-modal-image, .js-modal-content {
     width: 100%;
-
-    @include media-breakpoint-up(xl) {
-        max-width: 900px;
-    }
 }
 
 .js-modal-content {
