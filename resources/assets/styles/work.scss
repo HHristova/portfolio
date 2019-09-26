@@ -1,5 +1,4 @@
 .project-title {
-    color: $blue-darken;
     font-size: 1.7rem;
 }
 
@@ -140,7 +139,7 @@
 
     &:hover {
         &:before {
-            background-color: #000;
+            background-color: $black;
             opacity: 0.35;
         }
 

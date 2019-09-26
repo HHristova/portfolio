@@ -1,7 +1,10 @@
 // Main color palette
-$blue: #75c3e8;
-$blue-darken: #3d7c96;
-$blue-summer: #75D7F2;
+$winter: #75c3e8;
+$winter-darken: mix(#000, $winter, 50%);
+$summer: #75D7F2;
+$summer-darken: mix(#000, $summer, 50%);
+$autumn: #F2C7AA;
+$autumn-darken: #A16253;
 $plain-color: #fff;
 $border-color: #ddd;
 
@@ -9,3 +12,17 @@ $border-color: #ddd;
 $theme-font-family: 'Nunito' !default;
 $theme-font-weights: '300,400,500,600,700,800' !default;
 $theme-font-languages: null !default;
+
+// Default logo of the project
+$season: 'winter' !default;
+
+// Change logo image depending on the season of the project
+@function setLogo($season) {
+    @if ($season == 'winter') {
+        @return 'images/logo-hhristova.png';
+    } @if ($season == 'summer') {
+        @return 'images/logo-hhristova.png';
+    } @if ($season == 'autumn') {
+        @return 'images/logo-hhristova--autumn.png';
+    }
+}

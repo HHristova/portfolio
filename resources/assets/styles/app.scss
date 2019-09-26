@@ -22,6 +22,100 @@ html, body {
     font-weight: $theme-font-weights;
 }
 
+// {{ Season specified styles
+
+@mixin set-hero-images($season) {
+    .hero-img.hero-img--about {
+        background: url('images/hero-#{$season}.svg') no-repeat center center;
+    }
+
+    .hero-img.hero-img--work {
+        background: url('images/hero-#{$season}-work.svg') no-repeat center center;
+    }
+
+    .hero-img.hero-img--illustrations {
+        background: url('images/hero-#{$season}-illustrations.svg') no-repeat center center;
+    }
+}
+
+@mixin set-season-colors($season, $secondary) {
+    header {
+        background-color: $season;
+
+        .navbar-dark .navbar-toggler {
+            color: rgba($secondary, 1);
+        }
+    }
+
+    a:not(.btn) {
+        color: mix($black, $season, 20%);
+    }
+
+    .section__container__title {
+        &:after {
+            background-image: linear-gradient(120deg, #84fab0 0%, $season 100%);
+        }
+    }
+
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: mix($black, $secondary, 35%);
+    }
+
+    .copyright__box a {
+        border-bottom: 1px solid $secondary;
+
+        &:hover {
+            color: darken($secondary, 30%);
+        }
+    }
+
+    .social-icons {
+        [class*='social-icons__'] {
+            color: $secondary;
+
+            &:hover {
+                color: darken($secondary, 30%);
+            }
+        }
+    }
+
+    .btn {
+        &.active {
+            background: mix($white, $season, 30%);
+        }
+    }
+
+    header .navbar-dark .navbar-nav .nav-link, .hero-img__subtitle,
+    footer, .copyright__box a, .section.section--blue h1, .section__container__title,
+    .project-title {
+        color: $secondary;
+    }
+
+    footer {
+        background-color: $season;
+    }
+}
+
+body {
+    &.--summer {
+        @include set-hero-images('summer');
+        @include set-season-colors($summer, $summer-darken);
+    }
+
+    &.--autumn {
+        @include set-hero-images('autumn');
+        @include set-season-colors($autumn, $autumn-darken);
+    }
+
+    &.--winter {
+        @include set-hero-images('winter');
+        @include set-season-colors($winter, $winter-darken);
+    }
+}
+
+// }}
+
 // {{ Main header - hero image
 
 .main-header {
@@ -42,20 +136,14 @@ html, body {
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.05);
-    }
-
-    &.hero-img--about {
-        background: url('images/hero-summer.svg') no-repeat center center;
+        background-color: rgba($black, 0.05);
     }
 
     &.hero-img--work {
-        background: url('images/hero-summer-work.svg') no-repeat center center;
         height: 50%;
     }
 
     &.hero-img--illustrations {
-        background: url('images/hero-summer-illustrations.svg') no-repeat center center;
         height: 50%;
     }
 }
@@ -63,7 +151,6 @@ html, body {
 .hero-img__subtitle {
     padding-top: 26vh;
     font-size: 2rem;
-    color: #1F4C5F;
 
     @media screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
         font-size: 1.3rem;
@@ -87,12 +174,6 @@ html, body {
     @include media-breakpoint-up(md) {
         padding: 30px;
     }
-
-    &.section--blue {
-        h1 {
-            color: $blue-darken;
-        }
-    }
 }
 
 .max-chars {
@@ -106,7 +187,6 @@ html, body {
 
 .section__container__title {
     margin-bottom: 20px;
-    color: $blue-darken;
     font-size: 2.5rem;
     font-weight: 500;
     position: relative;
@@ -128,7 +208,6 @@ html, body {
         bottom: 0.2rem;
         left: 0;
         z-index: -1;
-        background-image: linear-gradient(120deg, #84fab0 0%, $blue-summer 100%);
         background-repeat: no-repeat;
         background-size: 100% 0.2em;
         background-position: 0 95%;
@@ -188,10 +267,6 @@ html, body {
 }
 
 .btn {
-    &.active {
-        background: mix($white, $blue-summer, 30%);
-    }
-
     &:focus {
         box-shadow: none;
     }
