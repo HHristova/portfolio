@@ -38,7 +38,7 @@ html, body {
     }
 }
 
-@mixin set-season-colors($season, $secondary) {
+@mixin set-season-colors($season, $secondary, $secondary-rgb) {
     header {
         background-color: $season;
 
@@ -86,9 +86,19 @@ html, body {
         }
     }
 
+    .hero-dropdown .btn {
+        color: $secondary;
+    }
+
+    .navbar-dark .navbar-toggler {
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(#{$secondary-rgb}, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+    }
+
     header .navbar-dark .navbar-nav .nav-link, .hero-img__subtitle,
     footer, .copyright__box a, .section.section--blue h1, .section__container__title,
-    .project-title {
+    .project-title, .hero-dropdown .dropdown-item {
         color: $secondary;
     }
 
@@ -101,7 +111,7 @@ body {
     &.--summer {
         $seasonTitle: 'summer';
         @include set-hero-images('summer');
-        @include set-season-colors($summer, $summer-darken);
+        @include set-season-colors($summer, $summer-darken, '94, 172, 194');
 
         .logo { background-image: url(setLogo($seasonTitle)); }
     }
@@ -109,7 +119,7 @@ body {
     &.--autumn {
         $seasonTitle: 'autumn';
         @include set-hero-images('autumn');
-        @include set-season-colors($autumn, $autumn-darken);
+        @include set-season-colors($autumn, $autumn-darken, '161, 98, 63');
 
         .logo { background-image: url(setLogo($seasonTitle)); }
     }
@@ -117,7 +127,7 @@ body {
     &.--winter {
         $seasonTitle: 'winter';
         @include set-hero-images('winter');
-        @include set-season-colors($winter, $winter-darken);
+        @include set-season-colors($winter, $winter-darken, '94, 156, 186');
 
         .logo { background-image: url(setLogo($seasonTitle)); }
     }
@@ -162,8 +172,13 @@ body {
 }
 
 .hero-img__subtitle {
-    padding-top: 26vh;
-    font-size: 2rem;
+    padding-top: 22vh;
+    font-size: 1.3rem;
+
+    @include media-breakpoint-up(sm) {
+        padding-top: 26vh;
+        font-size: 2rem;
+    }
 
     @media screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
         font-size: 1.3rem;
@@ -175,6 +190,54 @@ body {
 
     @include large-desktop {
         font-size: 2rem;
+    }
+}
+
+.hero-dropdown {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+
+    &.btn-group .btn {
+        border: none;
+        font-size: 0.8rem;
+        background-color: rgba($plain-color, 0.5);
+
+        @include media-breakpoint-up(lg) {
+            font-size: 0.6rem;
+        }
+    }
+
+    .dropdown-menu {
+        font-size: 0.8rem;
+        padding: 0.25rem 0;
+        border: none;
+        background-color: rgba($plain-color, 0.95);
+
+        @include media-breakpoint-up(sm) {
+            min-width: 8rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+            font-size: 0.6rem;
+        }
+    }
+
+    .dropdown-item {
+        padding: 0.2rem 0.5rem;
+
+        &:hover {
+            background-color: rgba($plain-color, 0.5);
+        }
+
+        &:active {
+            background-color: mix($black, $white, 15%);
+        }
+
+        span {
+            opacity: 0.9;
+            float: right;
+        }
     }
 }
 

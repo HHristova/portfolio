@@ -65,6 +65,84 @@ const router = async () => {
     var selected = $('.navbar-nav').find("[href='" + pathname + "']");
     selected.addClass('active');
 
+    // Detect seasons
+    function getSeason() {
+        var currentMonth = new Date().getMonth() + 1;
+        if (currentMonth === 12 || currentMonth === 1 || currentMonth === 2)
+            return 'winter';
+        else if (currentMonth >= 3 && currentMonth <= 5)
+            return 'spring';
+        else if (currentMonth >= 6 && currentMonth <= 8)
+            return 'summer';
+        else if (currentMonth >= 9 && currentMonth <= 11)
+            return 'autumn';
+        return '';
+    }
+
+    // Change website theme depending on the season
+    function setBackground() {
+        var mainTheme = '';
+        switch (getSeason()) {
+            case 'winter':
+                mainTheme = 'winter';
+            break;
+
+            case 'spring':
+                mainTheme = 'spring';
+            break;
+
+            case 'summer':
+                mainTheme = 'summer';
+            break;
+
+            case 'autumn':
+                mainTheme = 'autumn';
+            break;
+
+            default:
+            break;
+        }
+
+        document.body.classList.add('--' + mainTheme);
+    }
+
+    setBackground();
+
+    // {{ Set website season from the dropdown
+    function getDropdownSeason(season) {
+        document.body.className = '';
+        document.body.classList.add('--' + this.getAttribute('data-season'));
+        setCookie('season', this.getAttribute('data-season'));
+    }
+
+    // EventListener for season dropdown click event
+    var dropdownElements = document.getElementsByClassName('dropdown-item');
+    for (var i = 0; i < dropdownElements.length; i++) {
+        dropdownElements[i].addEventListener('touchstart, click', getDropdownSeason);
+    }
+    // }}
+
+    // {{ Set and get cookie for website seasons
+    function getCookie(name) {
+        var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+        return v ? v[2] : null;
+    }
+
+    function setCookie(name, value, days) {
+        var d = new Date;
+        d.setTime(d.getTime() + 24*60*60*1000*days);
+        document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+    }
+
+    // Detect if there is already a cookie set to the browser on page load
+    function checkIfCookie(cookieName) {
+        var detectCookie = getCookie(cookieName);
+        document.body.className = '';
+        document.body.classList.add('--' + detectCookie);
+    };
+
+    checkIfCookie('season');
+    // }}
 }
 
 // Listen on hash change:

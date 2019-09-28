@@ -9,6 +9,24 @@ let About = {
                     <p class="hero-img__subtitle text-center">
                         <span id="dynamic-content"></span>
                     </p>
+                    <div class="btn-group dropup hero-dropdown">
+                        <button class="btn btn-sm dropdown-toggle"
+                            type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Change website season
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#" data-season="summer">
+                                Summer <span>🌴</span>
+                            </a>
+                            <a class="dropdown-item" href="#" data-season="autumn">
+                                Autumn <span>🍁</span>
+                            </a>
+                            <a class="dropdown-item" href="#" data-season="winter">
+                                Winter <span>❄️</span>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
