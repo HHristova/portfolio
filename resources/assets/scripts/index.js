@@ -118,7 +118,7 @@ const router = async () => {
     // EventListener for season dropdown click event
     var dropdownElements = document.getElementsByClassName('dropdown-item');
     for (var i = 0; i < dropdownElements.length; i++) {
-        dropdownElements[i].addEventListener('touchstart, click', getDropdownSeason);
+        dropdownElements[i].addEventListener('click', getDropdownSeason);
     }
     // }}
 
@@ -137,8 +137,10 @@ const router = async () => {
     // Detect if there is already a cookie set to the browser on page load
     function checkIfCookie(cookieName) {
         var detectCookie = getCookie(cookieName);
-        document.body.className = '';
-        document.body.classList.add('--' + detectCookie);
+        if (detectCookie) {
+            document.body.className = '';
+            document.body.classList.add('--' + detectCookie);
+        }
     };
 
     checkIfCookie('season');
