@@ -107,6 +107,42 @@ const router = async () => {
     }
 
     setBackground();
+
+    // {{ Set website season from the dropdown
+    function getDropdownSeason(season) {
+        document.body.className = '';
+        document.body.classList.add('--' + this.getAttribute('data-season'));
+        setCookie('season', this.getAttribute('data-season'));
+    }
+
+    // EventListener for season dropdown click event
+    var dropdownElements = document.getElementsByClassName('dropdown-item');
+    for (var i = 0; i < dropdownElements.length; i++) {
+        dropdownElements[i].addEventListener('touchstart, click', getDropdownSeason);
+    }
+    // }}
+
+    // {{ Set and get cookie for website seasons
+    function getCookie(name) {
+        var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+        return v ? v[2] : null;
+    }
+
+    function setCookie(name, value, days) {
+        var d = new Date;
+        d.setTime(d.getTime() + 24*60*60*1000*days);
+        document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+    }
+
+    // Detect if there is already a cookie set to the browser on page load
+    function checkIfCookie(cookieName) {
+        var detectCookie = getCookie(cookieName);
+        document.body.className = '';
+        document.body.classList.add('--' + detectCookie);
+    };
+
+    checkIfCookie('season');
+    // }}
 }
 
 // Listen on hash change:
