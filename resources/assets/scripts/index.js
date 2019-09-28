@@ -65,6 +65,48 @@ const router = async () => {
     var selected = $('.navbar-nav').find("[href='" + pathname + "']");
     selected.addClass('active');
 
+    // Detect seasons
+    function getSeason() {
+        var currentMonth = new Date().getMonth() + 1;
+        if (currentMonth === 12 || currentMonth === 1 || currentMonth === 2)
+            return 'winter';
+        else if (currentMonth >= 3 && currentMonth <= 5)
+            return 'spring';
+        else if (currentMonth >= 6 && currentMonth <= 8)
+            return 'summer';
+        else if (currentMonth >= 9 && currentMonth <= 11)
+            return 'autumn';
+        return '';
+    }
+
+    // Change website theme depending on the season
+    function setBackground() {
+        var mainTheme = '';
+        switch (getSeason()) {
+            case 'winter':
+                mainTheme = 'winter';
+            break;
+
+            case 'spring':
+                mainTheme = 'spring';
+            break;
+
+            case 'summer':
+                mainTheme = 'summer';
+            break;
+
+            case 'autumn':
+                mainTheme = 'autumn';
+            break;
+
+            default:
+            break;
+        }
+
+        document.body.classList.add('--' + mainTheme);
+    }
+
+    setBackground();
 }
 
 // Listen on hash change:

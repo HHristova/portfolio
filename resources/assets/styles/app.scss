@@ -162,8 +162,13 @@ body {
 }
 
 .hero-img__subtitle {
-    padding-top: 26vh;
-    font-size: 2rem;
+    padding-top: 22vh;
+    font-size: 1.3rem;
+
+    @include media-breakpoint-up(sm) {
+        padding-top: 26vh;
+        font-size: 2rem;
+    }
 
     @media screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
         font-size: 1.3rem;
