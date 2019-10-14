@@ -22,6 +22,14 @@ html, body {
     font-weight: $theme-font-weights;
 }
 
+.no-found-wrapper {
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+        width: 70%;
+    }
+}
+
 // {{ Season specified styles
 
 @mixin set-hero-images($season) {
@@ -49,6 +57,10 @@ html, body {
 
     a:not(.btn) {
         color: mix($black, $season, 20%);
+    }
+
+    .flex-skills .about-me__content {
+        color: $secondary;
     }
 
     .section__container__title {
@@ -300,10 +312,7 @@ body {
 // {{ About me
 
 .about-me {
-    display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    width: 100%;
 
     @include media-breakpoint-up(lg) {
         flex-wrap: nowrap;
@@ -318,6 +327,12 @@ body {
     }
 }
 
+.about-me__content {
+    &.about-me__content--weight {
+        font-weight: 700;
+    }
+}
+
 .about-me__image {
     img {
         max-width: 100%;
@@ -327,6 +342,28 @@ body {
         @include media-breakpoint-up(md) {
             max-width: 250px;
         }
+    }
+
+    &.about-me__image--width {
+        img {
+            max-width: 200px;
+
+            @include media-breakpoint-up(sm) {
+                max-width: 100%;
+            }
+
+            @include media-breakpoint-up(xl) {
+                max-width: 250px;
+            }
+        }
+    }
+}
+
+.flex-skills {
+    flex: 1 0 51%;
+
+    @include media-breakpoint-up(md) {
+        flex-basis: calc(33% - 2rem);
     }
 }
 
