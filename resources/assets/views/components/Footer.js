@@ -23,6 +23,11 @@ let Footer = {
                     <a href="http://www.hhristova.com">Hristina Hristova</a>.
                     All rights reserved.
                 </div>
+                <small class="d-block pt-2">
+                    <i>
+                        Made with ♥️ late in the evenings
+                    </i>
+                </small>
             </div>
         </footer>
         `

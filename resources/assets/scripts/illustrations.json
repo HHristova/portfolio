@@ -21,6 +21,13 @@
         "filterId": "illustration"
     },
     {
+        "id": "35",
+        "thumb": "public/assets/images/myWork/illustrations/school-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/school.jpg",
+        "title": "First day of school illustration",
+        "filterId": "illustration"
+    },
+    {
         "id": "31",
         "thumb": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",
         "url": "public/assets/images/myWork/illustrations/MrWaterMelon.jpg",

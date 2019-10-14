@@ -36,16 +36,16 @@ let About = {
                         <span class="section__container__title__span">About Me</span>
                     </h1>
 
-                    <div class="about-me">
+                    <div class="about-me d-flex w-100">
                         <div class="about-me__image">
-                            <img src="public/assets/images/hhristova-img.jpg" class="img-responsive"
+                            <img src="public/assets/images/hhristova-img.jpg" class="img-fluid"
                                 alt="Hristina Hristova image"/>
                         </div>
                         <div class="about-me__content text-left">
                             👋 Hey there,
                             <br/>
-                            My name is Hristina Hristova. I am a web designer that creates
-                            wireframes for web apps and translate them to actual user-friendly
+                            My name is Hristina Hristova. I am a web designer and front-end dev
+                            that creates wireframes for web apps and translate them to actual user-friendly
                             interfaces that people can understand and interact with.
                             <br>
                             For 5 years, I have worked on design websites and experiences that
@@ -55,7 +55,7 @@ let About = {
                             illustrations and different graphic elements that can help the overall
                             design concept. This is how I found my other passion - drawing.
                             Because of it I am studying my second master degree of illustration in
-                            New Bulgarian University and I am eager to learn more in this field.
+                            New Bulgarian University and I always strive for learning new things.
                             <br><br>
                             When away from the keyboard, I can be found at concerts,
                             riding a bicycle, snowboarding with a noisy speaker, among the shelves
@@ -64,6 +64,52 @@ let About = {
                             You can check <a href="#/work"><strong>my UI designs ✒️</strong></a> and
                             <a href="#/illustrations"><strong>my illustrations 🎨</strong></a>
                             or just say 'Hi' with the link below.
+                        </div>
+                    </div>
+
+                    <h1 class="section__container__title d-inline-block text-center mt-5 px-3">
+                        <span class="section__container__title__span">Things I do Well</span>
+                    </h1>
+
+                    <div class="d-flex flex-wrap mt-3">
+                        <div class="flex-skills mx-md-3">
+                            <div class="about-me__image about-me__image--width">
+                                <img src="public/assets/images/web-design-front-end.jpg"
+                                    class="img-fluid"
+                                    alt="Web design and front-end development icon"/>
+                            </div>
+                            <div class="about-me__content about-me__content--weight mx-auto mt-3">
+                                Web Design & Front-End
+                            </div>
+                            <p>
+                                Most of the stuff I do are visual designs, but my front-end skills are also
+                                sharp and up to date.
+                            </p>
+                        </div>
+                        <div class="flex-skills mx-md-3 mt-5 mt-md-0">
+                            <div class="about-me__image about-me__image--width">
+                                <img src="public/assets/images/graphic-design.jpg" class="img-fluid"
+                                    alt="Graphic design icon"/>
+                            </div>
+                            <div class="about-me__content about-me__content--weight mx-auto mt-3">
+                                Graphic Design
+                            </div>
+                            <p>
+                                I have some print design goodies under my belt.
+                            </p>
+                        </div>
+                        <div class="flex-skills mx-md-3 mt-5 mt-md-0">
+                            <div class="about-me__image about-me__image--width">
+                                <img src="public/assets/images/illustrations.jpg" class="img-fluid"
+                                    alt="Illustrations icon"/>
+                            </div>
+                            <div class="about-me__content about-me__content--weight mx-auto mt-3">
+                                Illustrations
+                            </div>
+                            <p>
+                                I also love working on whimsical illustrations
+                                and cute characters.
+                            </p>
                         </div>
                     </div>
 
@@ -102,6 +148,16 @@ let About = {
             easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
             viewFactor: 0.4
         });
+
+        var animatedElements = [
+           'flex-skills'
+        ];
+
+        for (var i = 0; i < animatedElements.length; i++) {
+            if (document.querySelector('.'+animatedElements[i])) {
+                ScrollReveal().reveal('.'+animatedElements[i], { duration: 1700 }, 200);
+            }
+        }
     }
 
 }
