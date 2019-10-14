@@ -69,6 +69,10 @@ html, body {
         }
     }
 
+    .scroll-down {
+        background-color: $season;
+    }
+
     .navbar-dark .navbar-nav .nav-link.active,
     .navbar-dark .navbar-nav .nav-link:hover {
         color: mix($black, $secondary, 35%);
