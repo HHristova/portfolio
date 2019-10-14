@@ -26,7 +26,9 @@ let About = {
                             </a>
                         </div>
                     </div>
-
+                </div>
+                <div class="scroll-down d-none d-sm-block">
+                    <div class="arrow"></div>
                 </div>
             </div>
 
