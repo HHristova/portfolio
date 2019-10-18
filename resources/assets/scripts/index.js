@@ -6,6 +6,7 @@ require('bootstrap');
 import About from '../views/pages/About.js'
 import Work from '../views/pages/Work.js'
 import Illustrations from '../views/pages/Illustrations.js'
+import IllustrationProject from '../views/pages/IllustrationProject.js'
 import Project from '../views/pages/Project.js'
 import UIDetails from '../views/pages/UIDetails.js'
 import Error404 from '../views/pages/Error404.js'
@@ -18,10 +19,11 @@ import Utils from './services/Utils.js'
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/' : About,
-    '/work' : Work,
+    '/ui-designs' : Work,
     '/illustrations' : Illustrations,
     '/project/:id' : Project,
-    '/details/:id' : UIDetails
+    '/details/:id' : UIDetails,
+    '/illustrationproject/:id' : IllustrationProject
 };
 
 
