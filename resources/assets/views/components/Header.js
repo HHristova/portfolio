@@ -20,7 +20,7 @@ let Header = {
                         <a class="nav-link" href="#/">About me<span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#/work">Work</a>
+                        <a class="nav-link" href="#/ui-designs">UI Designs</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#/illustrations">Illustrations</a>

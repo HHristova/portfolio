@@ -30,10 +30,6 @@
     @include media-breakpoint-up(md) {
         height: 500px;
     }
-
-    @include media-breakpoint-up(lg) {
-        width: 50%;
-    }
 }
 
 .item__img {
@@ -44,18 +40,15 @@
 }
 
 .item__content {
-    padding: 0 2rem;
     margin: 0 auto;
     max-width: 100%;
 
-    @include media-breakpoint-up(xl) {
-        max-width: 50%;
+    @include media-breakpoint-up(lg) {
+        max-width: 75%;
     }
 
-    &.item__content--title {
-        @include media-breakpoint-down(xl) {
-            text-align: center;
-        }
+    @include large-desktop {
+        max-width: 50%;
     }
 }
 

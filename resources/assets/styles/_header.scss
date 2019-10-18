@@ -13,10 +13,7 @@ header {
 .nav-item {
     padding: 10px 15px;
     line-height: 28px;
-
-    @include media-breakpoint-up(md) {
-        font-weight: 700;
-    }
+    font-weight: 700;
 
     @include large-desktop() {
         padding: 15px 25px;

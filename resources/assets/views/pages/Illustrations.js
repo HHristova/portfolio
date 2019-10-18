@@ -1,4 +1,5 @@
 import illustrationsData from '../../scripts/illustrations.json';
+import illustrationsProjectsData from '../../scripts/illustrationProjects.json';
 import ScrollReveal from 'scrollreveal'
 
 let Illustrations = {
@@ -16,8 +17,46 @@ let Illustrations = {
                     <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong> or
                     <strong><a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a></strong>.
                 </p>
-                <div class="masonry">
-        `
+                <h1 class="section__container__title text-center d-inline-block px-3">
+                    <span class="section__container__title__span">
+                        Case studies
+                    </span>
+                </h1>
+
+                <div class="mb-3 d-flex w-100 flex-wrap justify-content-between">`
+
+        let illustrationProjects = '';
+
+        for(var i = 0; i < illustrationsProjectsData.length; i++) {
+            illustrationProjects += `
+            <div class="illustrationProject-item mb-3">
+                 <a href="#/illustrationproject/${illustrationsProjectsData[i].id}"
+                      class="box-thumb d-inline-block"
+                      style="background-image: url('${illustrationsProjectsData[i].thumb}');">
+                      <p class="box-content d-inline">
+                          <span>
+                              ${illustrationsProjectsData[i].titleThumb}
+                          </span><br>
+                          <small>Illustrations</small>
+                      </p>
+                  </a>
+              </div>
+            `;
+        }
+
+        let endProjectsHTML =  /*html*/`
+            </div>
+            <div class="section">
+                <div class="section__container text-center">
+                    <h1 class="section__container__title text-center d-inline-block px-3">
+                        <span class="section__container__title__span">
+                            Recent drawings
+                        </span>
+                    </h1>
+                </div>
+            </div>
+            <div class="masonry">`
+
         let projects = '';
 
         for(var i = 0; i < illustrationsData.length; i++) {
@@ -79,11 +118,11 @@ let Illustrations = {
             </div>
         </div>
         `
-        return startPage + projects + endPage
+        return startPage + illustrationProjects + endProjectsHTML + projects + endPage
     },
     after_render: async () => {
         // ScrollReveal animations
-        ScrollReveal().reveal('.section__container p, .section__container__title, .caseStudy-thumb', {
+        ScrollReveal().reveal('.section__container p, .section__container__title, .caseStudy-thumb, .illustrationProject-item', {
             duration: 1500,
             scale: '.95',
             easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
