@@ -9,6 +9,7 @@ import Illustrations from '../views/pages/Illustrations.js'
 import IllustrationProject from '../views/pages/IllustrationProject.js'
 import Project from '../views/pages/Project.js'
 import UIDetails from '../views/pages/UIDetails.js'
+import Blog from '../views/pages/Blog.js'
 import Error404 from '../views/pages/Error404.js'
 //
 import Header from '../views/components/Header.js'
@@ -21,6 +22,7 @@ const routes = {
     '/' : About,
     '/ui-designs' : Work,
     '/illustrations' : Illustrations,
+    '/blog' : Blog,
     '/project/:id' : Project,
     '/details/:id' : UIDetails,
     '/illustrationproject/:id' : IllustrationProject
