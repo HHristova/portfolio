@@ -4,12 +4,13 @@ window.$ = window.jQuery = require('jquery');
 require('bootstrap');
 
 import About from '../views/pages/About.js'
-import Work from '../views/pages/Work.js'
+import UiDesigns from '../views/pages/UiDesigns.js'
 import Illustrations from '../views/pages/Illustrations.js'
-import IllustrationProject from '../views/pages/IllustrationProject.js'
-import Project from '../views/pages/Project.js'
-import UIDetails from '../views/pages/UIDetails.js'
+import IllustrationCaseStudy from '../views/pages/IllustrationCaseStudy.js'
+import UiCaseStudy from '../views/pages/UiCaseStudy.js'
+import UiProjectDetails from '../views/pages/UiProjectDetails.js'
 import Blog from '../views/pages/Blog.js'
+import BlogInner from '../views/pages/BlogInner.js'
 import Error404 from '../views/pages/Error404.js'
 //
 import Header from '../views/components/Header.js'
@@ -20,12 +21,13 @@ import Utils from './services/Utils.js'
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/' : About,
-    '/ui-designs' : Work,
+    '/ui-designs' : UiDesigns,
     '/illustrations' : Illustrations,
     '/blog' : Blog,
-    '/project/:id' : Project,
-    '/details/:id' : UIDetails,
-    '/illustrationproject/:id' : IllustrationProject
+    '/blog/:id' : BlogInner,
+    '/project/:id' : UiCaseStudy,
+    '/details/:id' : UiProjectDetails,
+    '/illustrationproject/:id' : IllustrationCaseStudy
 };
 
 

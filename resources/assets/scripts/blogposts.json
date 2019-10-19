@@ -1,0 +1,19 @@
+[
+    {
+        "id": "0",
+        "thumb": "public/assets/images/blog/1/blog1-thumb.jpg",
+        "mainImage": "public/assets/images/blog/1/blog1.jpg",
+        "mainImageCredit": "Photo by Georgie Cobbs on Unsplash",
+        "title": "How to easily extract colors from image in Photoshop",
+        "date": "19.10.2019",
+        "summary": "Тhere are plenty of websites which can offer to extract colors from images but I believe there is an easier way to do so by just opening Photoshop!",
+        "category": "illustration",
+        "content": {
+            "p0": "<p>We all have seen an image in pinterest or instagram and wanted to get the exact color palette the creator used for the artwork. Or for instance if it's a picture, you may be inspired by it's atmosphere and wanted to get the most out of it for your next project?</p>",
+            "p1": "<p>Well, there are plenty of websites which can offer to extract color palette from images but I believe that there is a easier way to do so by opening Photoshop! So here is the trick:</p>",
+            "p2": "<p>I will use an artwork from one of my favourite illustrators out there - <a class='font-weight-bold' href='https://www.lisaglanz.com/' target='_blank'>Lisa Glanz</a>. By opening this image in photoshop, you can go to <b>Filter</b> and select <b>Pixelate - Mosaic</b>.</p> <img src='public/assets/images/blog/1/screen3.jpg' class='img-fluid pb-3' /> <p>Once you select it, the window will appear with option to select a cell size of the mosaic filter.</p> <p>What it basically do is it breaks the image into squares, averaging the color within each square (cells). And the larger the cell size, the larger the mosaic’s squares. In my example below I've used a cell size of 40 because it gives me the best color combination but you can experiment with your own settings depending of the image you are extracting the color palette from.</p> <p>My advice is to use cell size about 40-50 otherwise the colors will be endless or just a few.</p> <img src='public/assets/images/blog/1/screen2.jpg' class='img-fluid pb-3' />",
+            "p3": "<p>Tip: You can also do this for a specific part of an image!</p><ol><li>Copy the section of the image you want to sample onto a new layer</li><li>Lock the layer’s transparency (the black and white square just above the layers in Layers panel)</li><li>And again apply Mosaic filter</li></ol>",
+            "p4": "<p>Once you've applied the mosaic filter it's time to hand-picked the colors we want. Use the Eyedropper tool and select your first color. Then move your mouse over the Swatches palette and you will see that the icon turns from an Eyedropper to a Paint Bucket. With the Paint Bucket, click anywhere on the empty area of the Swatches’ Palette and you will create a new color-swatch square.</p> <p>Once you have selected and dropped your colors in the Swatches Palette, save the palette. Go to the Swatches Palette Options and select 'Save Swatches'.</p><img src='public/assets/images/blog/1/screen1.jpg' class='img-fluid pb-3' /> <p>I hope this trick helps you to create a beautiful color combinations and artworks.</p>"
+        }
+    }
+]

@@ -1,11 +1,3 @@
-.IllustrationProject-wrapper {
-    margin-top: 3rem;
-
-    @include media-breakpoint-up(md) {
-        margin-top: 5rem;
-    }
-}
-
 .illustrationProject-item {
     flex: 100%;
 

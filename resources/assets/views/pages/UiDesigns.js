@@ -1,7 +1,7 @@
-import projectsData from '../../scripts/projects.json';
+import projectsData from '../../scripts/uiprojects.json';
 import ScrollReveal from 'scrollreveal'
 
-let Work = {
+let UiDesigns = {
     render : async () => {
         let startPage =  /*html*/`
         <div class="main-header">
@@ -102,4 +102,4 @@ let Work = {
     }
 }
 
-export default Work;
+export default UiDesigns;
