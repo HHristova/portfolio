@@ -113,7 +113,6 @@ let IllustrationCaseStudy = {
         // Illustrations gallery handler
         $(document).on('click', '.js-button--illustrations', function() {
             var imageSrc = $(this).attr('data-img');
-            console.log($(this));
             $('.js-modal-image').attr('src', imageSrc);
         });
     }

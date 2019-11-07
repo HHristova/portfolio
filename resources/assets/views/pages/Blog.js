@@ -18,7 +18,7 @@ let Blog = {
             <div class="mb-3 d-flex container flex-wrap justify-content-around">
         `;
 
-        for(var i = 0; i < BlogPostsData.length; i++) {
+        for(var i = BlogPostsData.length; i--;) {
             blogPosts += `
             <div class="illustrationProject-item mb-3">
                  <a href="#/blog/${BlogPostsData[i].id}"
