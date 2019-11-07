@@ -22,7 +22,7 @@ let Blog = {
             blogPosts += `
             <div class="illustrationProject-item mb-3">
                  <a href="#/blog/${BlogPostsData[i].id}"
-                     class="box-thumb d-inline-block"
+                     class="box-thumb box-thumb--blog d-inline-block"
                      style="background-image: url('${BlogPostsData[i].thumb}');">
                  </a>
                  <div class="box-content">

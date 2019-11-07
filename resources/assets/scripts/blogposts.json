@@ -1,19 +1,54 @@
 [
     {
         "id": "0",
-        "thumb": "public/assets/images/blog/1/blog1-thumb.jpg",
-        "mainImage": "public/assets/images/blog/1/blog1.jpg",
+        "thumb": "public/assets/images/blog/1/blog-thumb.jpg",
+        "mainImage": "public/assets/images/blog/1/blog.jpg",
         "mainImageCredit": "Photo by Georgie Cobbs on Unsplash",
         "title": "How to easily extract colors from image in Photoshop",
         "date": "19.10.2019",
         "summary": "Тhere are plenty of websites which can offer to extract colors from images but I believe there is an easier way to do so by just opening Photoshop!",
-        "category": "illustration",
+        "category": "tutorials",
         "content": {
             "p0": "<p>We all have seen an image in pinterest or instagram and wanted to get the exact color palette the creator used for the artwork. Or for instance if it's a picture, you may be inspired by it's atmosphere and wanted to get the most out of it for your next project?</p>",
             "p1": "<p>Well, there are plenty of websites which can offer to extract color palette from images but I believe that there is a easier way to do so by opening Photoshop! So here is the trick:</p>",
             "p2": "<p>I will use an artwork from one of my favourite illustrators out there - <a class='font-weight-bold' href='https://www.lisaglanz.com/' target='_blank'>Lisa Glanz</a>. By opening this image in photoshop, you can go to <b>Filter</b> and select <b>Pixelate - Mosaic</b>.</p> <img src='public/assets/images/blog/1/screen3.jpg' class='img-fluid pb-3' /> <p>Once you select it, the window will appear with option to select a cell size of the mosaic filter.</p> <p>What it basically do is it breaks the image into squares, averaging the color within each square (cells). And the larger the cell size, the larger the mosaic’s squares. In my example below I've used a cell size of 40 because it gives me the best color combination but you can experiment with your own settings depending of the image you are extracting the color palette from.</p> <p>My advice is to use cell size about 40-50 otherwise the colors will be endless or just a few.</p> <img src='public/assets/images/blog/1/screen2.jpg' class='img-fluid pb-3' />",
-            "p3": "<p>Tip: You can also do this for a specific part of an image!</p><ol><li>Copy the section of the image you want to sample onto a new layer</li><li>Lock the layer’s transparency (the black and white square just above the layers in Layers panel)</li><li>And again apply Mosaic filter</li></ol>",
+            "p3": "<p><b>Tip:</b> You can also do this for a specific part of an image!</p><ol><li>Copy the section of the image you want to sample onto a new layer</li><li>Lock the layer’s transparency (the black and white square just above the layers in Layers panel)</li><li>And again apply Mosaic filter</li></ol>",
             "p4": "<p>Once you've applied the mosaic filter it's time to hand-picked the colors we want. Use the Eyedropper tool and select your first color. Then move your mouse over the Swatches palette and you will see that the icon turns from an Eyedropper to a Paint Bucket. With the Paint Bucket, click anywhere on the empty area of the Swatches’ Palette and you will create a new color-swatch square.</p> <p>Once you have selected and dropped your colors in the Swatches Palette, save the palette. Go to the Swatches Palette Options and select 'Save Swatches'.</p><img src='public/assets/images/blog/1/screen1.jpg' class='img-fluid pb-3' /> <p>I hope this trick helps you to create a beautiful color combinations and artworks.</p>"
+        }
+    },
+    {
+        "id": "1",
+        "thumb": "public/assets/images/blog/2/blog-thumb.jpg",
+        "mainImage": "public/assets/images/blog/2/blog.jpg",
+        "mainImageCredit": "",
+        "title": "How to easily create blob shapes in Adobe Illustrator",
+        "date": "04.11.2019",
+        "summary": "Blob background shapes are such a trend and can be used in UI designs as well as in illustration presentations and today I am going to show you an easy way to create quite interesting and unexpected shapes with a couple of clicks.",
+        "category": "tutorials",
+        "content": {
+            "p0": "<p>Blob background shapes are such a trend and can be used in UI designs as well as in illustration presentations. There is a way to create one using the pen tool in Illustrator but today I am going to show you an easier way to create quite interesting and unexpected shapes with a couple of clicks. So let's get started!</p>",
+            "p1": "<p><b>Step 1:</b> Lets start with creating a new document by going to <b>File → New</b>.</p>",
+            "p2": "<p><b>Step 2:</b> Grab your <b>Rectangle tool (keyboard shortcut M)</b> and create a shape in your preferred size. If you want your blob to be more horizontally oriented, then create this kind of rectangle and vise versa.</p> <img src='public/assets/images/blog/2/screen1.jpg' class='img-fluid pb-3' />",
+            "p3": "<p><b>Step 3:</b> Once you create the shape, select <b>Effect → Distort & Transform → Roughen.</b></p> <img src='public/assets/images/blog/2/screen2.jpg' class='img-fluid pb-3' />",
+            "p4": "<p><b>Step 4:</b> When the window pops up, check the Preview box so you can see what's going on. By default, the Size is set to 5%, Detail is at 10 and Relative and Corner Points are selected. This creates very edgy effect. In order to create a blobby effect first reduce the Detail slider to 0. You will immediately see how the edges become smoother. Then select the Points to smooth and start playing with the Option. You can see that the bigger the option size, the more blobb-ish the shape become. Tweak the Option size until you get your desired look.</p> <img src='public/assets/images/blog/2/screen3.jpg' class='img-fluid pb-3' />",
+            "p5": "<p><b>Tip:</b> You will notice that the maximum of the slider is 100px but you can write whatever number you want in the text box and it will take effect.</p>",
+            "p6": "<p>Once the shape is ready, go to <b>Object → Expand Appearance</b> and you will get the finished shape with just four anchor points. Now you can easily move the anchor points using <b>the pen tool (keyboard shortcut P)</b> for additional adjustments.</p> <img src='public/assets/images/blog/2/screen4.jpg' class='img-fluid pb-3' /> <img src='public/assets/images/blog/2/screen5.jpg' class='img-fluid pb-3' />",
+            "p7": "<p>I hope this short tutorial was useful. Thanks for reading and happy blobbing!</p>"
+        }
+    },
+    {
+        "id": "2",
+        "thumb": "public/assets/images/blog/3/blog-thumb.jpg",
+        "mainImage": "public/assets/images/blog/3/blog.jpg",
+        "mainImageCredit": "",
+        "title": "✨Wisdom of the day - Email subjects",
+        "date": "07.11.2019",
+        "summary": "Quick and easy tip that may be useful for your email campaigns.",
+        "category": "tips",
+        "content": {
+            "p0": "<p>Whether you are running and email campaign or just sending a friendly email to your subscribers - here is one tip that may be helpful getting users attention right away.</p>",
+            "p1": "<p><b>30 to 50 characters is an optimal amount length for the subject line for an email. And most importantly - keep in mind that the first 38 characters are displayed regardless of the monitor size.</b></p>",
+            "p2": "<p>So the first 38 character, guys, this is where your magic should happen.</p>"
         }
     }
 ]
