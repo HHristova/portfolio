@@ -1,6 +1,6 @@
-import projectsData from '../../scripts/projects.json';
+import projectsData from '../../scripts/uiprojects.json';
 
-let Project = {
+let UiCaseStudy = {
     // heading : async () => {
     //     let request = Utils.parseRequestURL();
     //     return newsData[request.id].title;
@@ -27,4 +27,4 @@ let Project = {
     after_render: async () => {}
 }
 
-export default Project;
+export default UiCaseStudy;

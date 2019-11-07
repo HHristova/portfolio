@@ -1,7 +1,7 @@
-import projectsData from '../../scripts/projects.json';
+import projectsData from '../../scripts/uiprojects.json';
 import Utils from '../../scripts/services/Utils.js'
 
-let UIDetails = {
+let UiProjectDetails = {
     render : async () => {
         let request = Utils.parseRequestURL();
         return /*html*/`
@@ -70,4 +70,4 @@ let UIDetails = {
     }
 }
 
-export default UIDetails;
+export default UiProjectDetails;

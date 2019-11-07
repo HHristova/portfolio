@@ -1,0 +1,18 @@
+.blog-title {
+    font-weight: 700;
+}
+
+.blog-summary, .blog-content {
+    font-size: 18px;
+}
+
+.blog-date {
+    font-size: 14px;
+    color: #888;
+}
+
+.box-thumb {
+    &.box-thumb--blog {
+        min-height: 300px;
+    }
+}

@@ -23,7 +23,7 @@ let Illustrations = {
                     </span>
                 </h1>
 
-                <div class="mb-3 d-flex w-100 flex-wrap justify-content-between">`
+                <div class="mb-3 d-flex w-100 flex-wrap justify-content-around">`
 
         let illustrationProjects = '';
 
@@ -45,6 +45,7 @@ let Illustrations = {
         }
 
         let endProjectsHTML =  /*html*/`
+                </div>
             </div>
             <div class="section">
                 <div class="section__container text-center">

@@ -3,7 +3,7 @@ import illustrationsProjectsData from '../../scripts/illustrationProjects.json';
 import ScrollReveal from 'scrollreveal'
 import Utils from '../../scripts/services/Utils.js'
 
-let IllustrationProject = {
+let IllustrationCaseStudy = {
     render : async () => {
         let request = Utils.parseRequestURL();
         let startPage = /*html*/`
@@ -11,7 +11,7 @@ let IllustrationProject = {
             .filter(illustrationProject => illustrationProject.id == request.id)
             .map(illustrationProject =>
             /*html*/`
-            <div class="IllustrationProject-wrapper">
+            <div class="IllustrationProject-wrapper mt-bg">
                 <div class="item__content px-2 px-md-3">
                     <h2 class="section__container__title section__container__title--sm m-neg
                         d-inline-block px-3">
@@ -119,4 +119,4 @@ let IllustrationProject = {
     }
 }
 
-export default IllustrationProject;
+export default IllustrationCaseStudy;

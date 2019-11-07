@@ -25,6 +25,9 @@ let Header = {
                       <li class="nav-item">
                         <a class="nav-link" href="#/illustrations">Illustrations</a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#/blog">Blog</a>
+                      </li>
                     </ul>
                   </div>
                 </nav>

@@ -13,7 +13,8 @@ $fa-font-path:  'fonts' !default;
 @include google-font($theme-font-family, $theme-font-weights, $theme-font-languages);
 @import 'header.scss';
 @import 'footer.scss';
-@import 'work.scss';
+@import 'ui-designs.scss';
+@import 'blog.scss';
 @import 'illustration-projects.scss';
 @import 'ui-inner.scss';
 
@@ -28,6 +29,14 @@ html, body {
 
     @include media-breakpoint-up(md) {
         width: 70%;
+    }
+}
+
+.mt-bg {
+    margin-top: 3rem;
+
+    @include media-breakpoint-up(md) {
+        margin-top: 5rem;
     }
 }
 
@@ -60,7 +69,8 @@ html, body {
         color: mix($black, $season, 20%);
     }
 
-    .flex-skills .about-me__content {
+    .flex-skills .about-me__content,
+    .blog-title {
         color: $secondary;
     }
 
