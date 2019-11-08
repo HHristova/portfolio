@@ -36,7 +36,9 @@ let BlogInner = {
         }
 
         blogContent += `
-                <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-shape="round" data-pin-tall="true"></a>
+                <div class="max-chars blog-content">
+                    <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-shape="round" data-pin-tall="true"></a>
+                </div>
             </div>
         </div>
         `
