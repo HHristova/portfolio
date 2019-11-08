@@ -21,6 +21,13 @@
         "filterId": "illustration"
     },
     {
+        "id": "36",
+        "thumb": "public/assets/images/myWork/illustrations/kitty-illustration-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/kitty-illustration.jpg",
+        "title": "Playful kitty illustration",
+        "filterId": "illustration"
+    },
+    {
         "id": "35",
         "thumb": "public/assets/images/myWork/illustrations/school-thumb.jpg",
         "url": "public/assets/images/myWork/illustrations/school.jpg",
@@ -67,6 +74,20 @@
         "thumb": "public/assets/images/myWork/illustrations/turtle-thumb.jpg",
         "url": "public/assets/images/myWork/illustrations/turtle.jpg",
         "title": "The happy turtle",
+        "filterId": "illustration"
+    },
+    {
+        "id": "41",
+        "thumb": "public/assets/images/myWork/illustrations/girl-flower-illustration-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/girl-flower-illustration.jpg",
+        "title": "Spring flower in fall illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "42",
+        "thumb": "public/assets/images/myWork/illustrations/leaves-illustration-thumb.jpg",
+        "url": "public/assets/images/myWork/illustrations/leaves-illustration.jpg",
+        "title": "Leaves with colored pencils",
         "filterId": "illustration"
     },
     {
@@ -129,7 +150,7 @@
         "id": "12",
         "thumb": "public/assets/images/myWork/illustrations/woman-dog-melanholic-thumb.jpg",
         "url": "public/assets/images/myWork/illustrations/woman-dog-melanholic.jpg",
-        "title": "Christmas party poster design",
+        "title": "Saying goodbye to the summer illustration",
         "filterId": "illustration"
     },
     {

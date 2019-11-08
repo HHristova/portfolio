@@ -69,12 +69,14 @@ let Illustrations = {
                         <div class="js-button--illustrations box-thumb"
                             data-toggle="modal" data-target="#modalPicture"
                             value="Expand photo" role="button">
-                            <p class="box-content d-inline">
+                            <p class="box-content d-inline px-3">
                                 <span>
                                     ${illustrationsData[i].title}
                                 </span>
                             </p>
                             <img src="${illustrationsData[i].thumb}" data-img="${illustrationsData[i].url}"
+                                data-pin-description="${illustrationsData[i].title}"
+                                data-pin-url="https://hhristova.com/#/illustrations"
                                 alt="${illustrationsData[i].title}" />
                         </div>
                     </div>
@@ -106,6 +108,7 @@ let Illustrations = {
                   </div>
                 </div>
 
+            <div class="section__container text-center">
                 <div class="separator"></div>
 
                 <h1 class="section__container__title d-inline-block px-3">
