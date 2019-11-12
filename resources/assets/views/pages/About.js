@@ -118,11 +118,11 @@ let About = {
                     <div class="separator"></div>
 
                     <h1 class="section__container__title d-inline-block px-3">
-                        <span class="section__container__title__span">Get in touch</span>
+                        <span class="section__container__title__span">Let's get in touch</span>
                     </h1>
                     <div class="section__container__content">
                         <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
-                            <i class="far fa-envelope" aria-hidden="true"></i> Message Me
+                            ✉️ Say hello!
                         </a>
                     </div>
                 </div>

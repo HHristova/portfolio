@@ -39,14 +39,27 @@ let Illustrations = {
                           </span><br>
                           <small>Illustrations</small>
                       </p>
-                  </a>
-              </div>
+                 </a>
+            </div>
             `;
         }
 
         let endProjectsHTML =  /*html*/`
                 </div>
             </div>
+            <div class="section">
+                <div class="section__container text-center">
+                    <h1 class="section__container__title text-center d-inline-block px-3">
+                        <span class="section__container__title__span">
+                            Pro bono projects
+                        </span>
+                    </h1>
+                    <div class="mb-3 d-flex w-100 flex-wrap justify-content-around">
+                        <span class="empty-state">Coming soon</span>
+                    </div>
+                </div>
+            </div>
+
             <div class="section">
                 <div class="section__container text-center">
                     <h1 class="section__container__title text-center d-inline-block px-3">
@@ -112,11 +125,11 @@ let Illustrations = {
                 <div class="separator"></div>
 
                 <h1 class="section__container__title d-inline-block px-3">
-                    <span class="section__container__title__span">Get in touch</span>
+                    <span class="section__container__title__span">Let's get in touch</span>
                 </h1>
                 <div class="section__container__content">
                     <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i> Message Me
+                        ✉️ Say hello!
                     </a>
                 </div>
             </div>

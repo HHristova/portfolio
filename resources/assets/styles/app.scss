@@ -40,6 +40,18 @@ html, body {
     }
 }
 
+.w-40 {
+    width: 100%;
+
+    @include media-breakpoint-up(sm) {
+        width: 40%;
+    }
+}
+
+.empty-state {
+    color: mix($black, $border-color, 35%);
+}
+
 // {{ Season specified styles
 
 @mixin set-hero-images($season) {
