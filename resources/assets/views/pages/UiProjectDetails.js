@@ -28,6 +28,7 @@ let UiProjectDetails = {
                         </div>
                         <div class="item__content-text max-chars">
                             ${project.content}
+                            ${project.content2}
                         </div>
                     </div>
                 </article>

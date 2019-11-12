@@ -2,7 +2,7 @@ let Footer = {
     render: async () => {
         let view =  /*html*/`
         <footer class="text-center">
-            <p>Find me at:</p>
+            <p>Follow me:</p>
             <div class="copyright">
                 <div class="social-icons">
                     <a href="https://dribbble.com/HHristova" target="_blank">
