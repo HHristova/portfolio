@@ -13,10 +13,35 @@
 
 .box-thumb {
     &.box-thumb--blog {
-        min-height: 300px;
+        min-height: 340px;
+        height: 100%;
     }
 }
 
 .js-button--blog {
     cursor: pointer;
+}
+
+// .blog-flex {
+//     &:after {
+//         content: '';
+//         flex: auto;
+//     }
+// }
+
+.blog-item {
+    flex: 100%;
+    background-color: #f9f1eb;
+
+    &:first-child {
+        flex: 100%;
+    }
+
+    .box-thumb, .box-content {
+        width: 50%;
+    }
+
+    @include media-breakpoint-up(xl) {
+        flex: 0 1 49%;
+    }
 }
