@@ -15,17 +15,17 @@ let Blog = {
         `
 
         let blogPosts = `
-            <div class="mb-3 d-flex container flex-wrap justify-content-around">
+            <div class="mb-3 d-flex container flex-wrap justify-content-between blog-flex">
         `;
 
         for(var i = BlogPostsData.length; i--;) {
             blogPosts += `
-            <div class="illustrationProject-item mb-3">
+            <div class="blog-item d-flex align-items-center mb-3">
                  <a href="#/blog/${BlogPostsData[i].id}"
                      class="box-thumb box-thumb--blog d-inline-block"
                      style="background-image: url('${BlogPostsData[i].thumb}');">
                  </a>
-                 <div class="box-content">
+                 <div class="box-content p-4">
                      <a href="#/blog/${BlogPostsData[i].id}">
                          <div class="blog-title pt-2">
                              ${BlogPostsData[i].title}
