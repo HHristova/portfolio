@@ -64,7 +64,7 @@ let Illustrations = {
                 <div class="section__container text-center">
                     <h1 class="section__container__title text-center d-inline-block px-3">
                         <span class="section__container__title__span">
-                            Recent drawings
+                            Illustrations
                         </span>
                     </h1>
                 </div>
