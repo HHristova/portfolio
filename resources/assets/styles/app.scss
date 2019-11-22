@@ -36,7 +36,7 @@ html, body {
     margin-top: 3rem;
 
     @include media-breakpoint-up(md) {
-        margin-top: 5rem;
+        margin-top: 6rem;
     }
 }
 
@@ -131,10 +131,6 @@ html, body {
         }
     }
 
-    .hero-dropdown .btn {
-        color: $secondary;
-    }
-
     .navbar-dark .navbar-toggler {
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(#{$secondary-rgb}, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -143,7 +139,7 @@ html, body {
 
     header .navbar-dark .navbar-nav .nav-link, .hero-img__subtitle,
     footer, .copyright__box a, .section.section--blue h1, .section__container__title,
-    .project-title, .hero-dropdown .dropdown-item {
+    .project-title, .hero-dropdown .dropdown-item, .hero-dropdown .btn, .about__content--subtitle, .project-subtitile {
         color: $secondary;
     }
 

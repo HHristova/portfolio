@@ -4,16 +4,7 @@
         "thumb": "public/assets/images/myWork/web-design/quotopia-app-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/quotopia-app.jpg",
         "title": "Quotopia app design screens",
-        "content": "<div>My role:</div><p>UI design</p><p>Design screens for a side project called Quotopia. The main aim of the app is to deliver inspiring quotes to the users from famous writers, artist, musicians, etc.</p>",
-        "content2": "",
-        "filterId": "webdesign"
-    },
-    {
-        "id": "2",
-        "thumb": "public/assets/images/myWork/web-design/gt-documents-thumb.jpg",
-        "url": "public/assets/images/myWork/web-design/gt-documents.jpg",
-        "title": "Documents page presentation on a tablet",
-        "content": "<div>My role:</div><p>UI & UX design</p><p>Property management platform design for tablet devices.</p>",
+        "content": "<div class='project-subtitile'>My role:</div><p>UI design</p><p>Design screens for a side project called Quotopia. The main aim of the app is to deliver inspiring quotes to the users from famous writers, artist, musicians, etc.</p>",
         "content2": "",
         "filterId": "webdesign"
     },
@@ -22,17 +13,8 @@
         "thumb": "public/assets/images/myWork/web-design/gt-redesign-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/gt-redesign.jpg",
         "title": "Landing page of Go Tenant! - UK property management platform that helps the landlords to stay compliant",
-        "content": "<div>My role:</div><p>User research, prototyping, UI design<br>Build the product from zero</p><p>The project creates a smoother and easier flow for landlords in United Kingdom to rent their homes to the potential tenants completely paperless and entirely online.</p>",
+        "content": "<div class='project-subtitile'>My role:</div><p>User research, prototyping, UI design<br>Build the product from zero</p><p>The project creates a smoother and easier flow for landlords in United Kingdom to rent their homes to the potential tenants completely paperless and entirely online.</p>",
         "content2": "<p>Since the rental process in UK requires good management and contains plenty of documents, the project’s aim was to make the life of the landlord easier.</p><div class='d-flex flex-wrap flex-sm-nowrap align-items-center py-3 py-xl-5'><img class='img-fluid w-40 mb-3 mb-lg-0 mr-md-3 mr-xl-5' src='public/assets/images/myWork/web-design/gt-screenshot.jpg' alt='Landing page design' /><div><p>As part of the exploration and research processes, we went with this arty style for the header with the green color, which is the primary color of the whole platform.</p><p>The art style of the platform as well as the green color are used in order to make the user feel more relaxed when visiting the website and to build trust into the system.</p><p>Since there are lots of information that the users need to read before making their decision to subscribe, I tried to use as many visuals to accompanied the content, as possible, especially on the page descibing the features of the platform.</p></div></div><img class='img-fluid pt-5' src='public/assets/images/myWork/web-design/gt-screenshot2.png' alt='Landing page design' />",
-        "filterId": "webdesign"
-    },
-    {
-        "id": "34",
-        "thumb": "public/assets/images/myWork/web-design/sign-up-design.jpg",
-        "url": "public/assets/images/myWork/web-design/sign-up-design.jpg",
-        "title": "Sign up page design",
-        "content": "<div>My role:</div><p>UI design</p><p>The idea behind the design was to create something catchy and simple at the same time that will encourage the users to sign up for the platform.</p>",
-        "content2": "",
         "filterId": "webdesign"
     },
     {
@@ -40,7 +22,7 @@
         "thumb": "public/assets/images/myWork/web-design/eq-design-thumb2.jpg",
         "url": "public/assets/images/myWork/web-design/eqology-website-concept-v2.jpg",
         "title": "Landing page design for scandinavian company",
-        "content": "<div>My role:</div><p>UI design</p><p>Landing page design for a scandinavian company which main business is selling natural cosmetics all over Europe.</p><p>The aim of the project was to simplify the design and to emphasize on the products and increase overall sales. Since the company branding was already created I used their style guide (colors, typefaces, buttons, etc.) in order to create the final artwork.</p><p>We are working with a scandinavian company which main business is selling natural cosmetic products to help them update their website. As part of the exploration process, we went through a couple of styles and this is one of them.</p>",
+        "content": "<div class='project-subtitile'>My role:</div><p>UI design</p><p>Landing page design for a scandinavian company which main business is selling natural cosmetics all over Europe.</p><p>The aim of the project was to simplify the design and to emphasize on the products and increase overall sales. Since the company branding was already created I used their style guide (colors, typefaces, buttons, etc.) in order to create the final artwork.</p><p>We are working with a scandinavian company which main business is selling natural cosmetic products to help them update their website. As part of the exploration process, we went through a couple of styles and this is one of them.</p>",
         "content2": "",
         "filterId": "webdesign"
     },
@@ -49,7 +31,7 @@
         "thumb": "public/assets/images/myWork/web-design/psp-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/psp-webtech-site-design.jpg",
         "title": "Corporate landing page design",
-        "content": "<div>My role:</div><p>UI design</p><p>This project presents the landing page for the company I am currently working on.</p><p>Since the company headquarter is in United Kingdom and the main website has a strong corporate feel and content, the main idea was to present the team in Bulgaria, the main stack that we use on a daily basis and to list the vacant job positions in simple and minimalistic way that can speak well with the potential employees and people that need to know more about the bulgarian part of the company.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/corporate-screenshots.png' alt='Corporate landing page design' />",
+        "content": "<div class='project-subtitile'>About the company:</div><p>PSP is a UK based company that offers software solutions and software for small businesses that allow them to run and market their own business.</p><div class='project-subtitile'>My role:</div><p>UI design</p><div class='project-subtitile'>Main goal:</div><p>Create brand new website that can catch potential employees and presents the company's identity in a friendly way.</p><p>Since the company headquarter is in United Kingdom and the main website has a strong corporate feel and content, the main idea was to present the second office of the company - the team in Bulgaria, the main stack that they use on a daily basis and to list the vacant job positions in simple and minimalistic way that can speak well with the potential employees and people that need to know more about the company.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/corporate-screenshots.png' alt='Corporate landing page design' />",
         "content2": "",
         "filterId": "webdesign"
     },
@@ -58,7 +40,7 @@
         "thumb": "public/assets/images/myWork/web-design/eq-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/eqology-website-concept-v1.jpg",
         "title": "Landing page design for scandinavian company",
-        "content": "<div>My role:</div><p>UI design</p><p>Landing page design for a scandinavian company which main business is selling natural cosmetics all over Europe.</p><p>The aim of the project was to simplify the design and to emphasize on the products and increase overall sales. Since the company branding was already created I used their style guide (colors, typefaces, buttons, etc.) in order to create the final artwork.</p><p>We are working with a scandinavian company which main business is selling natural cosmetic products to help them update their website. As part of the exploration process, we went through a couple of styles and this is one of them.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/eqology-screenshot.png' alt='Landing page design for scandinavian company' />",
+        "content": "<div class='project-subtitile'>My role:</div><p>UI design</p><p>Landing page design for a scandinavian company which main business is selling natural cosmetics all over Europe.</p><p>The aim of the project was to simplify the design and to emphasize on the products and increase overall sales. Since the company branding was already created I used their style guide (colors, typefaces, buttons, etc.) in order to create the final artwork.</p><p>We are working with a scandinavian company which main business is selling natural cosmetic products to help them update their website. As part of the exploration process, we went through a couple of styles and this is one of them.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/eqology-screenshot.png' alt='Landing page design for scandinavian company' />",
         "content2": "<p>The idea with the water splatters and the ice came from the main assumption for clearliness and nature. I wanted to give the users the sence of pure product, freshness and cold that can make them feel attracted by the company and it’s phylosophy.</p>",
         "filterId": "webdesign"
     },
@@ -67,8 +49,8 @@
         "thumb": "public/assets/images/myWork/web-design/dashboard-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/dashboard-design.jpg",
         "title": "Dashboard design",
-        "content": "<div>My role:</div><p>UI design</p><p>This project presents the dashboard overview of a business platform for multi-level marketing companies that offer a set of business tools to their first level users so they can run their businesses easier.</p><p>The idea of the dashboard is to give the user an overview of what’s going on in all different applications in one place.</p><p>I emphasized on Activities because these are the main incentives that could bring the users back to the dashboard everyday.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/dashboard-screenshot.png' alt='Dashboard design' />",
-        "content2": "<div class='d-flex flex-wrap flex-sm-nowrap align-items-center py-3 py-lg-5'><img class='img-fluid w-40 mb-3 mb-lg-0 mr-md-3 mr-xl-5' src='public/assets/images/myWork/web-design/dashboard-screenshot2.png' alt='Dashboard design' /><div><p>Each activity event has a very short description (most of the time this is the title), a related place or a person and an action button. I've tried to make the dashboard as simple as possible and in the same time to contain all the necessary information for the user both for mobile and desktop devices.</p><p>The colors are bright and subtle in order not to overwhelm the users and to make them paying attention to the content.</p></div></div>",
+        "content": "<div class='project-subtitile'>About the company:</div><p>PSP is software solution business, producing software that makes difference. The company has over a decade of experience in design, production and delivery of software solutions for small businesses and large corporate companies.</p><br><div class='project-subtitile'>My role:</div><p>UI design</p><p>This project presents the dashboard overview of a business platform for multi-level marketing companies that offer a set of business tools to their first level users so they can run their businesses easier.</p><div class='project-subtitile'>Main goal:</div><p>Present the data from all the apps in the platform in one place, simple and readable for the users.</p><p>The platform is available exclusivery for subscribed busines members who sales the company's products and the aim of this projest is to help their marketing by giving the necessary insights about the tools they use.</p><div class='project-subtitile'>What was my approach:</div><p>Once I understand the target audience and their motivation to use the platform and the tools it contains, I have decided to emphasize on the Activities because these are the main incentives that could bring the users back to the dashboard. Also they required an action (it may be an upcoming event or a reminder to call a customer).</p><img class='img-fluid' src='public/assets/images/myWork/web-design/dashboard-screenshot.png' alt='Dashboard design' />",
+        "content2": "<div class='d-flex flex-wrap flex-sm-nowrap align-items-center py-3 py-lg-5'><img class='img-fluid w-40 mb-3 mb-lg-0 mr-md-3 mr-xl-5' src='public/assets/images/myWork/web-design/dashboard-screenshot2.png' alt='Dashboard design' /><div><p>Each activity event has a very short description, a related place or a person and an action button. Also each activity can be clicked and opened for receiving additional information. In the right side on mobile and at the bottom of desktop devices there is a light name of the app the activity came from. I've tried to make the dashboard as simple as possible and in the same time to contain all the necessary information for the user so they won't need to visit each application and search for what's new for them in there.</p><p>The navigation on mobile is relocated on the right side so it can be reached easier if the user is on the move.</p><p>The colors are bright and subtle in order not to overwhelm the users and to make them paying attention to the content.</p></div></div>",
         "filterId": "webdesign"
     },
     {
@@ -76,7 +58,7 @@
         "thumb": "public/assets/images/myWork/web-design/tenant-app-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/tenant-app-login.jpg",
         "title": "Tenant app login page design",
-        "content": "<div>My role:</div><p>UI design</p><p>The image on the left handside is giving the idea of cozyness and home that is quite important for the users of the platform since they are moving to a new home when they see the sign up screen for the first time. This is a standard login process for the tenants to start using Go Tenant services.</p>",
+        "content": "<div class='project-subtitile'>My role:</div><p>UI design</p><p>The image on the left handside is giving the idea of cozyness and home that is quite important for the users of the platform since they are moving to a new home when they see the sign up screen for the first time. This is a standard login process for the tenants to start using Go Tenant services.</p>",
         "content2": "",
         "filterId": "webdesign"
     },
@@ -85,7 +67,7 @@
         "thumb": "public/assets/images/myWork/web-design/WhatsOn-app-design.jpg",
         "url": "public/assets/images/myWork/web-design/WhatsOn-app-design.jpg",
         "title": "Calendar app design",
-        "content": "<div>My role:</div><p>UI design</p><p>This app was created as an additional feature for a business company which operates in the UK. The client already had a big network with business people that the company wanted to keep informed about future events in their areas.</p><p>The app has quite a simple look with three viewing options (daily, weekly and monthly) and an area filter. Since it’s a calendar app and the users are used to see calendars on their smartphones, this app should look quite similar without the need ot learn something specific.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/calendar-screenshots.png' alt='Calendar app design' />",
+        "content": "<div class='project-subtitile'>My role:</div><p>UI design</p><p>This app was created as an additional feature for a business company which operates in the UK. The client already had a big network with business people that the company wanted to keep informed about future events in their areas.</p><p>The app has quite a simple look with three viewing options (daily, weekly and monthly) and an area filter. Since it’s a calendar app and the users are used to see calendars on their smartphones, this app should look quite similar without the need ot learn something specific.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/calendar-screenshots.png' alt='Calendar app design' />",
         "content2": "",
         "filterId": "webdesign"
     },
@@ -94,8 +76,8 @@
         "thumb": "public/assets/images/myWork/web-design/pws-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/personal-website-design-frontend.jpg",
         "title": "Personal website generator design",
-        "content": "<div>My role:</div><p>UI & UX design</p><p>This project was part of a big marketing platform for an american cosmetic company in the UK market.</p><p>The platform is available exclusively for subscribed business members who sales the company’s products and the aim of this project is to increase their ability to present themselves and their business to potential customers.</p><p>The app contains two views: backend view, where the users can select the sections of their website as well as the information for each section, and the frontend view which is the public website.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/pws-screenshots.png' alt='Personal website generator design' />",
-        "content2": "<p>The website editor gives the user the option to turn on/off different website sections and to choose between preselected options for future events or specific product slogans.</p><p>One of the main issues that I’ve faced was that there are lots of places where the user supposed to write it’s own content but the company wanted to have control over it since their name is behind the project so I’ve suggested to create a dropdowns with different options so the users will still have the ability to choose and give them a feel of ownership and at the same time their content will be controlled by the company.</p><p>The colors of the project follows the company’s style guide.</p>",
+        "content": "<div class='project-subtitile'>About the company:</div><p>Forever Living is a multi-billion dollar company, operating in over 160 contries, affiliated with the world's largest grower, manufacturer and distributor of Aloe Vera.</p><div class='project-subtitile'>My role:</div><p>UI & UX design</p><div class='project-subtitile'>Main goal:</div><p>Create a personalised website with ability to change and create your own content under the hood of Forever Living.</p><p>The platform is available exclusively for subscribed business members who sales the company’s products and the aim of this project is to increase their ability to present themselves and their business to potential customers.</p><p>The app contains two views: backend view, where the users can select the sections of their website as well as the information for each section, and the frontend view which is the public website.</p><img class='img-fluid' src='public/assets/images/myWork/web-design/pws-screenshots.png' alt='Personal website generator design' />",
+        "content2": "<p class='pt-3 pt-lg-5'>The website editor gives the user the option to turn on/off different website sections and to choose between preselected options for future events or specific product slogans.</p><p>One of the main issues that I’ve faced was that there are lots of places where the user supposed to write it’s own content but the company wanted to have control over it since their name is behind the project so I’ve suggested to create a dropdowns with different options so the users will still have the ability to choose and give them a feel of ownership and at the same time their content will be controlled by the company.</p><p>The colors of the project follows the company’s style guide.</p>",
         "filterId": "webdesign"
     },
     {
@@ -103,7 +85,7 @@
         "thumb": "public/assets/images/myWork/web-design/dashboard-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/GoTenant-project.jpg",
         "title": "Website dashboard design",
-        "content": "<div>My role:</div><p>UI design</p><p>A dashboard design concept for a large property management platform in UK. The design should present an overview of the whole platform with the recent events that the user can easily interact with.</p>",
+        "content": "<div class='project-subtitile'>My role:</div><p>UI design</p><p>A dashboard design concept for a large property management platform in UK. The design should present an overview of the whole platform with the recent events that the user can easily interact with.</p>",
         "content2": "",
         "filterId": "webdesign"
     },
@@ -112,7 +94,7 @@
         "thumb": "public/assets/images/myWork/web-design/subscription-design-thumb.jpg",
         "url": "public/assets/images/myWork/web-design/subscription-mockup-v2.jpg",
         "title": "Subscription page design",
-        "content": "<div>My role:</div><p>UI design</p><p>Design concept for a big american cosmetic company. The aim of the design was to make the subscription page more appealing for the users with an emphasize on the features and the additional benefits of subscribing for the platform.</p>",
+        "content": "<div class='project-subtitile'>My role:</div><p>UI design</p><p>Design concept for a big american cosmetic company. The aim of the design was to make the subscription page more appealing for the users with an emphasize on the features and the additional benefits of subscribing for the platform.</p>",
         "content2": "",
         "filterId": "webdesign"
     }

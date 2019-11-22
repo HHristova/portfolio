@@ -53,25 +53,24 @@ let About = {
                                 I'm always on the hunt for what's new and changing in the world of design and code.
                             </p>
                             <p class="about__content--subtitle">
-                                <i>I believe that products can be simple, but they don't have to be boring.</i>
+                                <i><b>I believe that products can be simple, but they don't have to be boring.</b></i>
                             </p>
                             <p>
                                 During my day-to-day job I started more and more to sketch and draw
                                 illustrations and different graphic elements that can help the overall
                                 design concept. This is how I found my other passion - drawing.
-                                Because of it I am currently studying a master degree of illustration and
-                                I always strive for learning new things.
+                                Because of it I am currently studying a master degree of illustration.
                             </p>
                             <p>
                                 When I'm not glued to a screen, I can be found at concerts,
                                 riding a bicycle, snowboarding with a noisy speaker, among the shelves
                                 of the bookstores or laughing out loud in the parks.
                             </p>
-                            <p class="about__content--subtitle"><i>
+                            <p>
                                 You can check <a href="#/work"><strong>my UI designs ✒️</strong></a> and
                                 <a href="#/illustrations"><strong>illustrations 🎨</strong></a>
                                 or just say 'Hi' with the link below.
-                            </i></p>
+                            </p>
                         </div>
                     </div>
 

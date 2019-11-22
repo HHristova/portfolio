@@ -59,9 +59,9 @@ const router = async () => {
     await page.after_render();
 
     // Change header colour on the case study page
-    if (parsedURL == '/project/:id') {
-        document.getElementsByTagName('header')[0].style.background = await page.headerBg();
-    }
+    // if (parsedURL == '/project/:id') {
+    //     document.getElementsByTagName('header')[0].style.background = await page.headerBg();
+    // }
 
     // Go on top of the page
     window.scrollTo(0,0);

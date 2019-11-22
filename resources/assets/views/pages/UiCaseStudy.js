@@ -5,9 +5,9 @@ let UiCaseStudy = {
     //     let request = Utils.parseRequestURL();
     //     return newsData[request.id].title;
     // },
-    headerBg : async () => {
-        return '#98e6d1'
-    },
+    // headerBg : async () => {
+    //     return '#98e6d1'
+    // },
     render : async () => {
         return /*html*/`
         <div class="caseStudy-wrapper mt-5">

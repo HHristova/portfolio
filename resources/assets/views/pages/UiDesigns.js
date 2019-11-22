@@ -11,7 +11,7 @@ let UiDesigns = {
         <div class="section">
             <div class="section__container text-center">
                 <p>
-                    Here's a selection of some of my recent work. <br>
+                    Here's a selection of some of my work.<br>
                     For more you can visit me on
                     <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong>,
                     <strong><a href="https://www.behance.net/hhristova" target="_blank">behance</a></strong> or
@@ -32,7 +32,7 @@ let UiDesigns = {
                                     <span>
                                         GoTenant Design Case Study
                                     </span><br>
-                                    <small>UI/UX Illustration</small>
+                                    <small>Design, Illustration</small>
                                 </p>
                                 <img src="public/assets/images/myWork/case-studies/thumbs/GT-thumb.jpg"
                                     class="img-fluid" alt="GoTenant Case Study Thumbnail">
