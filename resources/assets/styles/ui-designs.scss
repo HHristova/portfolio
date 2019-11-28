@@ -2,6 +2,24 @@
     font-size: 1.7rem;
 }
 
+.grid-wrapper {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    @include media-breakpoint-up(lg) {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+.grid-item {
+    @include media-breakpoint-only(md) {
+        width: 50%;
+    }
+}
+
 .masonry {
     column-count: 1;
     column-gap: 1em;
@@ -168,6 +186,6 @@
     }
 }
 
-.project-subtitile {
+.project-subtitle {
     font-weight: 700;
 }
