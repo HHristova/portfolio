@@ -48,7 +48,7 @@ let About = {
                                 <br>
                                 I am Hristina - web designer and front-end dev
                                 that creates wireframes for web apps and translate them to actual user-friendly
-                                interfaces that people can understand and interact with. As both a designer and developer,
+                                interfaces that people can understand and interact with. As both designer and developer,
                                 I love that I have the tools to solve problems and implement solutions.
                                 I'm always on the hunt for what's new and changing in the world of design and code.
                             </p>
@@ -59,7 +59,6 @@ let About = {
                                 During my day-to-day job I started more and more to sketch and draw
                                 illustrations and different graphic elements that can help the overall
                                 design concept. This is how I found my other passion - drawing.
-                                Because of it I am currently studying a master degree of illustration.
                             </p>
                             <p>
                                 When I'm not glued to a screen, I can be found at concerts,
@@ -89,8 +88,7 @@ let About = {
                                 Web Design & Front-End
                             </div>
                             <p>
-                                Most of the stuff I do are visual designs, but my front-end skills are also
-                                sharp and up to date.
+                                The intersection of visual designs and programming is one of my favourite places.
                             </p>
                         </div>
                         <div class="flex-skills mx-md-3 mt-5 mt-md-0">

@@ -83,19 +83,10 @@ html, body {
         }
     }
 
-    a:not(.btn) {
-        color: mix($black, $season, 20%);
-    }
-
+    a:not(.btn),
     .flex-skills .about-me__content,
     .blog-title, .blogpost-subtitle {
         color: $secondary;
-    }
-
-    .section__container__title {
-        &:after {
-            background-image: linear-gradient(120deg, #84fab0 0%, $season 100%);
-        }
     }
 
     .scroll-down {
@@ -139,7 +130,7 @@ html, body {
 
     header .navbar-dark .navbar-nav .nav-link, .hero-img__subtitle,
     footer, .copyright__box a, .section.section--blue h1, .section__container__title,
-    .project-title, .hero-dropdown .dropdown-item, .hero-dropdown .btn, .about__content--subtitle, .project-subtitile {
+    .project-title, .hero-dropdown .dropdown-item, .hero-dropdown .btn, .about__content--subtitle, .project-subtitle {
         color: $secondary;
     }
 
@@ -313,27 +304,6 @@ body {
 
         @include media-breakpoint-up(md) {
             font-size: 2rem;
-        }
-    }
-
-    &:after {
-        content: '';
-        width: 100%;
-        height: 100%;
-        opacity: 0.5;
-        position: absolute;
-        bottom: 0.2rem;
-        left: 0;
-        z-index: -1;
-        background-repeat: no-repeat;
-        background-size: 100% 0.2em;
-        background-position: 0 95%;
-        transition: background-size 0.25s ease-in;
-    }
-
-    &:hover {
-        &:after {
-            background-size: 100% 95%;
         }
     }
 }

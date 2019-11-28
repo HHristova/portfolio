@@ -8,7 +8,7 @@ let UiDesigns = {
             <div class="hero-img hero-img--work"></div>
         </div>
 
-        <div class="section">
+        <div class="section pt-4">
             <div class="section__container text-center">
                 <p>
                     Here's a selection of some of my work.<br>
@@ -25,8 +25,9 @@ let UiDesigns = {
                 </h1>
 
                 <div class="mb-5">
-                    <div class="row">
-                        <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                    <div class="grid-wrapper">
+                        <div class="grid-item"></div>
+                        <div class="grid-item">
                             <a href="#/project/1" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>

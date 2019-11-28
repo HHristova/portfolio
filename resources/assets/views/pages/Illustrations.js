@@ -8,7 +8,7 @@ let Illustrations = {
         <div class="main-header">
             <div class="hero-img hero-img--illustrations"></div>
         </div>
-        <div class="section">
+        <div class="section pt-3">
             <div class="section__container text-center">
                 <p class="max-chars mb-4">
                     I really love designing illustrations and I would be happy to design your next one. 🙂<br>
@@ -25,26 +25,27 @@ let Illustrations = {
 
                 <div class="mb-3 d-flex w-100 flex-wrap justify-content-around">`
 
-        let illustrationProjects = '';
-
-        for(var i = 0; i < illustrationsProjectsData.length; i++) {
-            illustrationProjects += `
+        let illustrationCaseStudyWrapper = `
+            ${ illustrationsProjectsData
+                .filter(illustrationProject => illustrationProject.type == 'personal-project')
+                .map(illustrationProject =>
+                /*html*/`
             <div class="illustrationProject-item mb-3">
-                 <a href="#/illustrationproject/${illustrationsProjectsData[i].id}"
+                 <a href="#/illustrationproject/${illustrationProject.id}"
                       class="box-thumb d-inline-block"
-                      style="background-image: url('${illustrationsProjectsData[i].thumb}');">
+                      style="background-image: url('${illustrationProject.thumb}');">
                       <p class="box-content d-inline">
                           <span>
-                              ${illustrationsProjectsData[i].titleThumb}
+                              ${illustrationProject.titleThumb}
                           </span><br>
                           <small>Illustrations</small>
                       </p>
                  </a>
-            </div>
-            `;
+            </div>`).join('\n ')
         }
+        `
 
-        let endProjectsHTML =  /*html*/`
+        let proBonoProjectsHTML =  /*html*/`
                 </div>
             </div>
             <div class="section">
@@ -54,22 +55,44 @@ let Illustrations = {
                             Pro bono projects
                         </span>
                     </h1>
-                    <div class="mb-3 d-flex w-100 flex-wrap justify-content-around">
-                        <span class="empty-state">Coming soon</span>
-                    </div>
-                </div>
-            </div>
+                    <div class="mb-3 d-flex w-100 flex-wrap justify-content-around">`
 
-            <div class="section">
-                <div class="section__container text-center">
-                    <h1 class="section__container__title text-center d-inline-block px-3">
-                        <span class="section__container__title__span">
-                            Illustrations
-                        </span>
-                    </h1>
+        let proBonoProjects =  `
+        ${ illustrationsProjectsData
+            .filter(proBonoProject => proBonoProject.type == 'pro-bono')
+            .map(proBonoProject =>
+            /*html*/`
+            <div class="illustrationProject-item mb-3">
+                 <a href="#/illustrationproject/${proBonoProject.id}"
+                      class="box-thumb d-inline-block"
+                      style="background-image: url('${proBonoProject.thumb}');">
+                      <p class="box-content d-inline">
+                          <span>
+                              ${proBonoProject.titleThumb}
+                          </span><br>
+                          <small>Illustrations</small>
+                      </p>
+                 </a>
+            </div>
+            `).join('\n ')
+        }
+        `
+
+        let afterProBonoProjects =  /*html*/`
                 </div>
             </div>
-            <div class="masonry">`
+        </div>
+
+        <div class="section">
+            <div class="section__container text-center">
+                <h1 class="section__container__title text-center d-inline-block px-3">
+                    <span class="section__container__title__span">
+                        Illustrations
+                    </span>
+                </h1>
+            </div>
+        </div>
+        <div class="masonry">`
 
         let projects = '';
 
@@ -135,7 +158,7 @@ let Illustrations = {
             </div>
         </div>
         `
-        return startPage + illustrationProjects + endProjectsHTML + projects + endPage
+        return startPage + illustrationCaseStudyWrapper + proBonoProjectsHTML + proBonoProjects + afterProBonoProjects + projects + endPage
     },
     after_render: async () => {
         // ScrollReveal animations

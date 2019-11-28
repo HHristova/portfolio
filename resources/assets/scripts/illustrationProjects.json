@@ -1,6 +1,7 @@
 [
     {
         "id": "0",
+        "type": "personal-project",
         "thumb": "public/assets/images/myWork/illustrations/child-book/child-book-thumb.jpg",
         "title": "Children's book project",
         "titleThumb": "Children's book project",
@@ -34,6 +35,7 @@
     },
     {
         "id": "1",
+        "type": "personal-project",
         "thumb": "public/assets/images/myWork/illustrations/book-cover/book-cover-thumb.jpg",
         "title": "Book cover design for Georgi Gospodinov's book 'The physics of sorrow'",
         "titleThumb": "Book cover design",
@@ -53,6 +55,7 @@
     },
     {
         "id": "2",
+        "type": "personal-project",
         "thumb": "public/assets/images/myWork/illustrations/kids-magazine/klio-kids-thumb.jpg",
         "title": "Kids magazine design project",
         "titleThumb": "Kids magazine design project",
@@ -64,6 +67,22 @@
             "artwork1": "public/assets/images/myWork/illustrations/kids-magazine/artwork1.jpg",
             "artwork2": "public/assets/images/myWork/illustrations/kids-magazine/artwork2.jpg",
             "artwork3": "public/assets/images/myWork/illustrations/kids-magazine/artwork3.jpg"
+        }
+    },
+    {
+        "id": "3",
+        "type": "pro-bono",
+        "thumb": "public/assets/images/myWork/illustrations/gob-thumb2.jpg",
+        "title": "Erasmus+ project materials for the non-profit organisation 'Get On Board'",
+        "titleThumb": "Erasmus+ project materials",
+        "intro": "<div class='project-subtitle'>About the organisation:</div><p>“Get on board” is a non-governmental organisation based in Sofia, Bulgaria. Our team consist of enthusiastic professionals with different backgrounds and our aim is to see a difference in the world. The organisation is using the methods of non-formal education in order to take actions against three main directions – youth unemployment, discrimination in all its forms, including hate speech and xenophobia, and volunteering as a powerful tool for improving life standard.</p><div class='project-subtitle'>About the project:</div><p>The first project that 'Get On Board' hosted was Erasmus + Training course 'R. R. R. Raising Radio Reaction' that took place between 29 August - 7 September in Lovech and Veliko Tarnovo. 25 participants from 8 countries - Bulgaria, Italy, Spain, Lithuania, Luxemburg, North Macedonia, Poland and Slovakia had learned how to establish and maintain a web based radio.</p><div class='project-subtitle'>My role:</div><p>Graphic design for poster and a cotton bag</p><p>Here is my sketch for the poster.</p>",
+        "sketches": {
+            "sketch0": "public/assets/images/myWork/illustrations/poster-sketch.jpg"
+        },
+        "additionalContent": "After some revisions the following designs were approved.",
+        "artworks": {
+            "artwork0": "public/assets/images/myWork/illustrations/gob-poster.jpg",
+            "artwork1": "public/assets/images/myWork/illustrations/gob-bag-thumb.jpg"
         }
     }
 ]
