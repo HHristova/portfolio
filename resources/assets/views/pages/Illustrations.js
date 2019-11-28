@@ -55,7 +55,7 @@ let Illustrations = {
                             Pro bono projects
                         </span>
                     </h1>
-                    <div class="mb-3 d-flex w-100 flex-wrap justify-content-around">`
+                    <div class="d-flex w-100 flex-wrap justify-content-around">`
 
         let proBonoProjects =  `
         ${ illustrationsProjectsData

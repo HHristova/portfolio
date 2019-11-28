@@ -82,7 +82,8 @@
         "additionalContent": "After some revisions the following designs were approved.",
         "artworks": {
             "artwork0": "public/assets/images/myWork/illustrations/gob-poster.jpg",
-            "artwork1": "public/assets/images/myWork/illustrations/gob-bag-thumb.jpg"
+            "artwork1": "public/assets/images/myWork/illustrations/gob-poster2.jpg",
+            "artwork2": "public/assets/images/myWork/illustrations/gob-bag-thumb.jpg"
         }
     }
 ]
