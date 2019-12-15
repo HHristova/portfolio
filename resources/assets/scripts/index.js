@@ -30,7 +30,6 @@ const routes = {
     '/illustrationproject/:id' : IllustrationCaseStudy
 };
 
-
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
 const router = async () => {
 
@@ -49,12 +48,8 @@ const router = async () => {
     // Get the parsed URl from the addressbar
     let request = Utils.parseRequestURL();
 
-    console.log('Request: ', request);
-
     // Parse the URL and if it has an id part, change it with the string ":id"
     let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/' + request.verb : '')
-
-    console.log('Parsed', parsedURL, routes[parsedURL]);
 
     // Get the page from our hash of supported routes.
     // If the parsed URL is not in our list of supported routes, select the 404 page instead

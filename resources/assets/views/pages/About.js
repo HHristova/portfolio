@@ -66,8 +66,8 @@ let About = {
                                 of the bookstores or laughing out loud in the parks.
                             </p>
                             <p>
-                                You can check <a href="#/work"><strong>my UI designs ✒️</strong></a> and
-                                <a href="#/illustrations"><strong>illustrations 🎨</strong></a>
+                                You can check <a href="/work"><strong>my UI designs ✒️</strong></a> and
+                                <a href="/illustrations"><strong>illustrations 🎨</strong></a>
                                 or just say 'Hi' with the link below.
                             </p>
                         </div>
@@ -80,7 +80,7 @@ let About = {
                     <div class="d-flex flex-wrap mt-3">
                         <div class="flex-skills mx-md-3">
                             <div class="skills-image skills-image--width">
-                                <img src="public/assets/images/web-design-front-end.jpg"
+                                <img src="/public/assets/images/web-design-front-end.jpg"
                                     class="img-fluid"
                                     alt="Web design and front-end development icon"/>
                             </div>
@@ -93,7 +93,7 @@ let About = {
                         </div>
                         <div class="flex-skills mx-md-3 mt-5 mt-md-0">
                             <div class="skills-image skills-image--width">
-                                <img src="public/assets/images/graphic-design.jpg" class="img-fluid"
+                                <img src="/public/assets/images/graphic-design.jpg" class="img-fluid"
                                     alt="Graphic design icon"/>
                             </div>
                             <div class="about-me__content about-me__content--weight mx-auto mt-3">
@@ -105,7 +105,7 @@ let About = {
                         </div>
                         <div class="flex-skills mx-md-3 mt-5 mt-md-0">
                             <div class="skills-image skills-image--width">
-                                <img src="public/assets/images/illustrations.jpg" class="img-fluid"
+                                <img src="/public/assets/images/illustrations.jpg" class="img-fluid"
                                     alt="Illustrations icon"/>
                             </div>
                             <div class="about-me__content about-me__content--weight mx-auto mt-3">

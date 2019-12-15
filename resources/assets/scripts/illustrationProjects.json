@@ -2,88 +2,88 @@
     {
         "id": "0",
         "type": "personal-project",
-        "thumb": "public/assets/images/myWork/illustrations/child-book/child-book-thumb.jpg",
+        "thumb": "/public/assets/images/myWork/illustrations/child-book/child-book-thumb.jpg",
         "title": "Children's book project",
         "titleThumb": "Children's book project",
         "intro": "<p>The very first drawing project I did in the university was to create this children's book. The story, the strange characters and the illustrations were created by me and I am very proud of the whole book. I drew the illustrations by hand, using watercolor pencils, pens and markers. ✏️</p><p>Initial sketches:</p>",
         "sketches": {
-            "sketch0": "public/assets/images/myWork/illustrations/child-book/sketch-1.jpg",
-            "sketch1": "public/assets/images/myWork/illustrations/child-book/sketch-2.jpg",
-            "sketch2": "public/assets/images/myWork/illustrations/child-book/sketch-3.jpg",
-            "sketch3": "public/assets/images/myWork/illustrations/child-book/sketch-4.jpg",
-            "sketch4": "public/assets/images/myWork/illustrations/child-book/sketch-5.jpg",
-            "sketch5": "public/assets/images/myWork/illustrations/child-book/sketch-6.jpg"
+            "sketch0": "/public/assets/images/myWork/illustrations/child-book/sketch-1.jpg",
+            "sketch1": "/public/assets/images/myWork/illustrations/child-book/sketch-2.jpg",
+            "sketch2": "/public/assets/images/myWork/illustrations/child-book/sketch-3.jpg",
+            "sketch3": "/public/assets/images/myWork/illustrations/child-book/sketch-4.jpg",
+            "sketch4": "/public/assets/images/myWork/illustrations/child-book/sketch-5.jpg",
+            "sketch5": "/public/assets/images/myWork/illustrations/child-book/sketch-6.jpg"
         },
         "additionalContent": "And the final artworks.",
         "artworks": {
-            "artwork0": "public/assets/images/myWork/illustrations/child-book/page1.jpg",
-            "artwork1": "public/assets/images/myWork/illustrations/child-book/page2.jpg",
-            "artwork2": "public/assets/images/myWork/illustrations/child-book/page3.jpg",
-            "artwork3": "public/assets/images/myWork/illustrations/child-book/page4.jpg",
-            "artwork4": "public/assets/images/myWork/illustrations/child-book/page5.jpg",
-            "artwork5": "public/assets/images/myWork/illustrations/child-book/page6.jpg",
-            "artwork6": "public/assets/images/myWork/illustrations/child-book/page7.jpg",
-            "artwork7": "public/assets/images/myWork/illustrations/child-book/page8.jpg",
-            "artwork8": "public/assets/images/myWork/illustrations/child-book/page9.jpg",
-            "artwork9": "public/assets/images/myWork/illustrations/child-book/page10.jpg",
-            "artwork10": "public/assets/images/myWork/illustrations/child-book/page11.jpg",
-            "artwork11": "public/assets/images/myWork/illustrations/child-book/page12.jpg",
-            "artwork12": "public/assets/images/myWork/illustrations/child-book/page13.jpg",
-            "artwork13": "public/assets/images/myWork/illustrations/child-book/page14.jpg",
-            "artwork14": "public/assets/images/myWork/illustrations/child-book/page15.jpg"
+            "artwork0": "/public/assets/images/myWork/illustrations/child-book/page1.jpg",
+            "artwork1": "/public/assets/images/myWork/illustrations/child-book/page2.jpg",
+            "artwork2": "/public/assets/images/myWork/illustrations/child-book/page3.jpg",
+            "artwork3": "/public/assets/images/myWork/illustrations/child-book/page4.jpg",
+            "artwork4": "/public/assets/images/myWork/illustrations/child-book/page5.jpg",
+            "artwork5": "/public/assets/images/myWork/illustrations/child-book/page6.jpg",
+            "artwork6": "/public/assets/images/myWork/illustrations/child-book/page7.jpg",
+            "artwork7": "/public/assets/images/myWork/illustrations/child-book/page8.jpg",
+            "artwork8": "/public/assets/images/myWork/illustrations/child-book/page9.jpg",
+            "artwork9": "/public/assets/images/myWork/illustrations/child-book/page10.jpg",
+            "artwork10": "/public/assets/images/myWork/illustrations/child-book/page11.jpg",
+            "artwork11": "/public/assets/images/myWork/illustrations/child-book/page12.jpg",
+            "artwork12": "/public/assets/images/myWork/illustrations/child-book/page13.jpg",
+            "artwork13": "/public/assets/images/myWork/illustrations/child-book/page14.jpg",
+            "artwork14": "/public/assets/images/myWork/illustrations/child-book/page15.jpg"
         }
     },
     {
         "id": "1",
         "type": "personal-project",
-        "thumb": "public/assets/images/myWork/illustrations/book-cover/book-cover-thumb.jpg",
+        "thumb": "/public/assets/images/myWork/illustrations/book-cover/book-cover-thumb.jpg",
         "title": "Book cover design for Georgi Gospodinov's book 'The physics of sorrow'",
         "titleThumb": "Book cover design",
         "intro": "<p>Graphic design concept of Georgi Gospodinov's book 'The physics of sorrow'. You can see the initial sketch of the book cover as well as the final piece. There are two color versions of it as well as the design of the inner pages.</p><p>The main aim of the cover design was to extract the main essence of the book into something simple and easy to be understand from the customers. Here are the two sketches that I created for the book and the second one was approved.</p><p>The first one was too detailed and answer the main question one book cover have to answer - What this book is about? That's why I tried another approach and I got rid of everything that is not directly pointing out the topic of the book and the final result is on the right side.</p>",
         "sketches": {
-            "sketch0": "public/assets/images/myWork/illustrations/book-cover/sketch-1.jpg",
-            "sketch1": "public/assets/images/myWork/illustrations/book-cover/sketch-2.jpg"
+            "sketch0": "/public/assets/images/myWork/illustrations/book-cover/sketch-1.jpg",
+            "sketch1": "/public/assets/images/myWork/illustrations/book-cover/sketch-2.jpg"
         },
         "additionalContent": "Since the sketch was approved I did some additional tweaks and continued with creating the final artwork. You can see the final result below.",
         "artworks": {
-            "artwork0": "public/assets/images/myWork/illustrations/book-cover/artwork1.jpg",
-            "artwork1": "public/assets/images/myWork/illustrations/book-cover/artwork2.jpg",
-            "artwork2": "public/assets/images/myWork/illustrations/book-cover/artwork3.jpg",
-            "artwork3": "public/assets/images/myWork/illustrations/book-cover/artwork4.jpg",
-            "artwork4": "public/assets/images/myWork/illustrations/book-cover/artwork5.jpg"
+            "artwork0": "/public/assets/images/myWork/illustrations/book-cover/artwork1.jpg",
+            "artwork1": "/public/assets/images/myWork/illustrations/book-cover/artwork2.jpg",
+            "artwork2": "/public/assets/images/myWork/illustrations/book-cover/artwork3.jpg",
+            "artwork3": "/public/assets/images/myWork/illustrations/book-cover/artwork4.jpg",
+            "artwork4": "/public/assets/images/myWork/illustrations/book-cover/artwork5.jpg"
         }
     },
     {
         "id": "2",
         "type": "personal-project",
-        "thumb": "public/assets/images/myWork/illustrations/kids-magazine/klio-kids-thumb.jpg",
+        "thumb": "/public/assets/images/myWork/illustrations/kids-magazine/klio-kids-thumb.jpg",
         "title": "Kids magazine design project",
         "titleThumb": "Kids magazine design project",
         "intro": "<p>Graphic design concept for a kids archeology magazine. There are cover design and four illustrated inner pages that I've created digitally.</p><p>The main aim of the project was to create something funny and colorful so the potential children could pay attention and read the magazine. I've experimented with lots of colors for the cover image but at the end this color combination worked best.</p>",
         "sketches": {},
         "additionalContent": "The finished designs are listed below.",
         "artworks": {
-            "artwork0": "public/assets/images/myWork/illustrations/kids-magazine/cover.jpg",
-            "artwork1": "public/assets/images/myWork/illustrations/kids-magazine/artwork1.jpg",
-            "artwork2": "public/assets/images/myWork/illustrations/kids-magazine/artwork2.jpg",
-            "artwork3": "public/assets/images/myWork/illustrations/kids-magazine/artwork3.jpg"
+            "artwork0": "/public/assets/images/myWork/illustrations/kids-magazine/cover.jpg",
+            "artwork1": "/public/assets/images/myWork/illustrations/kids-magazine/artwork1.jpg",
+            "artwork2": "/public/assets/images/myWork/illustrations/kids-magazine/artwork2.jpg",
+            "artwork3": "/public/assets/images/myWork/illustrations/kids-magazine/artwork3.jpg"
         }
     },
     {
         "id": "3",
         "type": "pro-bono",
-        "thumb": "public/assets/images/myWork/illustrations/gob-thumb2.jpg",
+        "thumb": "/public/assets/images/myWork/illustrations/gob-thumb2.jpg",
         "title": "Erasmus+ project materials for the non-profit organisation 'Get On Board'",
         "titleThumb": "Erasmus+ project materials",
         "intro": "<div class='project-subtitle'>About the organisation:</div><p>“Get on board” is a non-governmental organisation based in Sofia, Bulgaria. Our team consist of enthusiastic professionals with different backgrounds and our aim is to see a difference in the world. The organisation is using the methods of non-formal education in order to take actions against three main directions – youth unemployment, discrimination in all its forms, including hate speech and xenophobia, and volunteering as a powerful tool for improving life standard.</p><div class='project-subtitle'>About the project:</div><p>The first project that 'Get On Board' hosted was Erasmus + Training course 'R. R. R. Raising Radio Reaction' that took place between 29 August - 7 September in Lovech and Veliko Tarnovo. 25 participants from 8 countries - Bulgaria, Italy, Spain, Lithuania, Luxemburg, North Macedonia, Poland and Slovakia had learned how to establish and maintain a web based radio.</p><div class='project-subtitle'>My role:</div><p>Graphic design for poster and a cotton bag</p><p>Here is my sketch for the poster.</p>",
         "sketches": {
-            "sketch0": "public/assets/images/myWork/illustrations/poster-sketch.jpg"
+            "sketch0": "/public/assets/images/myWork/illustrations/poster-sketch.jpg"
         },
         "additionalContent": "After some revisions the following designs were approved.",
         "artworks": {
-            "artwork0": "public/assets/images/myWork/illustrations/gob-poster.jpg",
-            "artwork1": "public/assets/images/myWork/illustrations/gob-poster2.jpg",
-            "artwork2": "public/assets/images/myWork/illustrations/gob-bag-thumb.jpg"
+            "artwork0": "/public/assets/images/myWork/illustrations/gob-poster.jpg",
+            "artwork1": "/public/assets/images/myWork/illustrations/gob-poster2.jpg",
+            "artwork2": "/public/assets/images/myWork/illustrations/gob-bag-thumb.jpg"
         }
     }
 ]

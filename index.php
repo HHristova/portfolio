@@ -14,15 +14,15 @@
         <meta property="og:image" content="https://hhristova.com/public/assets/images/graphic-design.jpg">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="theme-color" content="#ffffff">
-        <link rel="apple-touch-icon" sizes="180x180" href="public/assets/images/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="public/assets/images/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="public/assets/images/favicons/favicon-16x16.png">
-        <link rel="manifest" href="public/assets/images/favicons/site.webmanifest">
-        <link rel="mask-icon" href="public/assets/images/favicons/safari-pinned-tab.svg" color="#75c3e8">
-        <link rel="stylesheet" href="public/assets/app.css" />
-        <script src="public/assets/js/manifest.js"></script>
-        <script type="text/javascript" src="public/assets/js/bundle.js"></script>
-        <script type="text/javascript" src="public/assets/js/app.js"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="/public/assets/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/public/assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/public/assets/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/public/assets/images/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/public/assets/images/favicons/safari-pinned-tab.svg" color="#75c3e8">
+        <link rel="stylesheet" href="/public/assets/app.css" />
+        <script src="/public/assets/js/manifest.js"></script>
+        <script type="text/javascript" src="/public/assets/js/bundle.js"></script>
+        <script type="text/javascript" src="/public/assets/js/app.js"></script>
     </head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41376701-1"></script>

@@ -21,12 +21,12 @@ let Blog = {
         for(var i = BlogPostsData.length; i--;) {
             blogPosts += `
             <div class="blog-item d-flex align-items-center mb-3">
-                 <a href="#/blog/${BlogPostsData[i].id}"
+                 <a href="/blog/${BlogPostsData[i].id}"
                      class="box-thumb box-thumb--blog d-inline-block"
                      style="background-image: url('${BlogPostsData[i].thumb}');">
                  </a>
                  <div class="box-content p-4">
-                     <a href="#/blog/${BlogPostsData[i].id}">
+                     <a href="/blog/${BlogPostsData[i].id}">
                          <div class="blog-title pt-2">
                              ${BlogPostsData[i].title}
                          </div>

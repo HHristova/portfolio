@@ -5,7 +5,7 @@ let Header = {
         let view =  /*html*/`
             <header>
                 <nav class="navbar navbar-expand-md navbar-dark container p-0">
-                  <a class="navbar-brand ml-2 ml-sm-0" href="#/">
+                  <a class="navbar-brand ml-2 ml-sm-0" href="/">
                       <h1 class="logo mb-0"></h1>
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -17,16 +17,16 @@ let Header = {
                   <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" href="#/">About me<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/">About me<span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#/ui-designs">UI Designs</a>
+                        <a class="nav-link" href="/ui-designs">UI Designs</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#/illustrations">Illustrations</a>
+                        <a class="nav-link" href="/illustrations">Illustrations</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#/blog">Blog</a>
+                        <a class="nav-link" href="/blog">Blog</a>
                       </li>
                     </ul>
                   </div>
