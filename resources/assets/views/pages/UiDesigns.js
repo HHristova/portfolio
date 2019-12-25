@@ -28,14 +28,14 @@ let UiDesigns = {
                     <div class="grid-wrapper">
                         <div class="grid-item"></div>
                         <div class="grid-item">
-                            <a href="#/project/1" class="box-thumb d-inline-block">
+                            <a href="/project/1" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
                                         GoTenant Design Case Study
                                     </span><br>
                                     <small>Design, Illustration</small>
                                 </p>
-                                <img src="public/assets/images/myWork/case-studies/thumbs/GT-thumb.jpg"
+                                <img src="/public/assets/images/myWork/case-studies/thumbs/GT-thumb.jpg"
                                     class="img-fluid" alt="GoTenant Case Study Thumbnail">
                             </a>
                         </div>
@@ -58,7 +58,7 @@ let UiDesigns = {
                     class="picture-item show"
                     data-groups='["${projectsData[i].filterId}"]'>
                     <div class="picture-item__inner">
-                        <a href="#/details/${projectsData[i].id}">
+                        <a href="/details/${projectsData[i].id}">
                             <div class="box-thumb">
                                 <p class="box-content d-inline">
                                     <span>

@@ -13,8 +13,12 @@
 
 .box-thumb {
     &.box-thumb--blog {
-        min-height: 340px;
+        min-height: 200px;
         height: 100%;
+
+        @include media-breakpoint-up(md) {
+            min-height: 340px;
+        }
     }
 }
 
@@ -45,7 +49,7 @@
 
     .box-thumb, .box-content {
         width: 100%;
-        
+
         @include media-breakpoint-up(xl) {
             width: 50%;
         }

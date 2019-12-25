@@ -31,7 +31,7 @@ let Illustrations = {
                 .map(illustrationProject =>
                 /*html*/`
             <div class="illustrationProject-item mb-3">
-                 <a href="#/illustrationproject/${illustrationProject.id}"
+                 <a href="/illustrationproject/${illustrationProject.id}"
                       class="box-thumb d-inline-block"
                       style="background-image: url('${illustrationProject.thumb}');">
                       <p class="box-content d-inline">
@@ -63,7 +63,7 @@ let Illustrations = {
             .map(proBonoProject =>
             /*html*/`
             <div class="illustrationProject-item mb-3">
-                 <a href="#/illustrationproject/${proBonoProject.id}"
+                 <a href="/illustrationproject/${proBonoProject.id}"
                       class="box-thumb d-inline-block"
                       style="background-image: url('${proBonoProject.thumb}');">
                       <p class="box-content d-inline">
@@ -112,7 +112,7 @@ let Illustrations = {
                             </p>
                             <img src="${illustrationsData[i].thumb}" data-img="${illustrationsData[i].url}"
                                 data-pin-description="${illustrationsData[i].title}"
-                                data-pin-url="https://hhristova.com/#/illustrations"
+                                data-pin-url="https://hhristova.com//illustrations"
                                 alt="${illustrationsData[i].title}" />
                         </div>
                     </div>
@@ -130,7 +130,7 @@ let Illustrations = {
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <img class="close__icon"
-                            src="public/assets/images/close-icon.svg" alt="Close icon">
+                            src="/public/assets/images/close-icon.svg" alt="Close icon">
                           <span class="sr-only">Close</span>
                         </button>
                       </div>

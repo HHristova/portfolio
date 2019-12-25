@@ -30,7 +30,6 @@ const routes = {
     '/illustrationproject/:id' : IllustrationCaseStudy
 };
 
-
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
 const router = async () => {
 
@@ -47,7 +46,7 @@ const router = async () => {
 
 
     // Get the parsed URl from the addressbar
-    let request = Utils.parseRequestURL()
+    let request = Utils.parseRequestURL();
 
     // Parse the URL and if it has an id part, change it with the string ":id"
     let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/' + request.verb : '')
@@ -67,8 +66,8 @@ const router = async () => {
     window.scrollTo(0,0);
 
     // get current URL path and assign 'active' class
-    var pathname = window.location.hash;
-    var selected = $('.navbar-nav').find("[href='" + pathname + "']");
+    var pathname = location.pathname.split('/')[1];
+    var selected = $('.navbar-nav').find("[data-url='" + pathname + "']");
     selected.addClass('active');
 
     // Detect seasons
