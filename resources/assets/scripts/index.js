@@ -66,8 +66,8 @@ const router = async () => {
     window.scrollTo(0,0);
 
     // get current URL path and assign 'active' class
-    var pathname = window.location.hash;
-    var selected = $('.navbar-nav').find("[href='" + pathname + "']");
+    var pathname = location.pathname.split('/')[1];
+    var selected = $('.navbar-nav').find("[data-url='" + pathname + "']");
     selected.addClass('active');
 
     // Detect seasons

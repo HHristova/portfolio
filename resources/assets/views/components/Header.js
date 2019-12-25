@@ -17,16 +17,18 @@ let Header = {
                   <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" href="/">About me<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" data-url="" href="/">
+                            About me<span class="sr-only">(current)</span>
+                        </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/ui-designs">UI Designs</a>
+                        <a class="nav-link" data-url="ui-designs" href="/ui-designs">UI Designs</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/illustrations">Illustrations</a>
+                        <a class="nav-link" data-url="illustrations" href="/illustrations">Illustrations</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/blog">Blog</a>
+                        <a class="nav-link" data-url="blog" href="/blog">Blog</a>
                       </li>
                     </ul>
                   </div>
