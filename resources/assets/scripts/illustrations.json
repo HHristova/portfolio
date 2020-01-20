@@ -132,64 +132,72 @@
         "title": "Hello April hand-lettering",
         "filterId": "illustration"
     },
+
     {
-        "id": "13",
-        "thumb": "/public/assets/images/myWork/illustrations/christmas-party-PSP-thumb.jpg",
-        "url": "/public/assets/images/myWork/illustrations/christmas-party-PSP.jpg",
-        "title": "Christmas party poster design",
+        "id": "12",
+        "thumb": "/public/assets/images/myWork/illustrations/bear-winter.jpg",
+        "url": "/public/assets/images/myWork/illustrations/bear-winter.jpg",
+        "title": "Snowy winter bear",
         "filterId": "illustration"
     },
     {
-        "id": "14",
+        "id": "13",
+        "thumb": "/public/assets/images/myWork/illustrations/snowboard-lover.jpg",
+        "url": "/public/assets/images/myWork/illustrations/snowboard-lover.jpg",
+        "title": "Snowboard lover",
+        "filterId": "illustration"
+    },
+    {
+        "id": "15",
         "thumb": "/public/assets/images/myWork/illustrations/bear-illustration-thumb.jpg",
         "url": "/public/assets/images/myWork/illustrations/bear-illustration.jpg",
         "title": "Whimsical Bear illustration",
         "filterId": "illustration"
     },
     {
-        "id": "12",
+        "id": "16",
         "thumb": "/public/assets/images/myWork/illustrations/woman-dog-melanholic-thumb.jpg",
         "url": "/public/assets/images/myWork/illustrations/woman-dog-melanholic.jpg",
         "title": "Saying goodbye to the summer illustration",
         "filterId": "illustration"
     },
     {
-        "id": "14",
+        "id": "17",
         "thumb": "/public/assets/images/myWork/illustrations/lettering-14.jpg",
         "url": "/public/assets/images/myWork/illustrations/lettering-14.jpg",
         "title": "Hand-lettered H",
         "filterId": "illustration"
     },
     {
-        "id": "15",
+        "id": "18",
         "thumb": "/public/assets/images/myWork/illustrations/lettering-7.jpg",
         "url": "/public/assets/images/myWork/illustrations/lettering-7.jpg",
         "title": "Hand-lettering idea",
         "filterId": "illustration"
     },
     {
-        "id": "17",
+        "id": "19",
         "thumb": "/public/assets/images/myWork/illustrations/happy-birthday-lettering-card.jpg",
         "url": "/public/assets/images/myWork/illustrations/happy-birthday-lettering-card.jpg",
         "title": "Birthday card design",
         "filterId": "illustration"
     },
     {
-        "id": "19",
+        "id": "20",
         "thumb": "/public/assets/images/myWork/illustrations/spring-illustration.jpg",
         "url": "/public/assets/images/myWork/illustrations/spring-illustration.jpg",
         "title": "Spring illustration",
         "filterId": "illustration"
     },
     {
-        "id": "20",
+        "id": "21",
         "thumb": "/public/assets/images/myWork/illustrations/gob-bag-thumb.jpg",
         "url": "/public/assets/images/myWork/illustrations/gob-bag.jpg",
         "title": "Bag design for a non-profit organisation 'Get On Board'",
         "filterId": "illustration"
     },
     {
-        "id": "21",
+        "id": "22",
         "thumb": "/public/assets/images/myWork/illustrations/child-book-page1-thumb.jpg",
         "url": "/public/assets/images/myWork/illustrations/child-book-page1.jpg",
         "title": "The first pages of my illustrated child book called 'The clever ones'",
