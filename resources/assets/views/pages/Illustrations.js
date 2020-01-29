@@ -25,13 +25,14 @@ let Illustrations = {
 
                 <div class="mb-3 d-flex w-100 flex-wrap justify-content-around">`
 
+        let illustrationFilteredPersonal = illustrationsProjectsData.filter(illustrationProject => illustrationProject.type == 'personal-project');
+
         let illustrationCaseStudyWrapper = `
-            ${ illustrationsProjectsData
-                .filter(illustrationProject => illustrationProject.type == 'personal-project')
+            ${ illustrationFilteredPersonal
                 .map(illustrationProject =>
                 /*html*/`
             <div class="illustrationProject-item mb-3">
-                 <a href="/illustrationproject/${illustrationProject.id}"
+                 <a href="/illustrations/${illustrationProject.id}"
                       class="box-thumb d-inline-block"
                       style="background-image: url('${illustrationProject.thumb}');">
                       <p class="box-content d-inline">
@@ -57,13 +58,14 @@ let Illustrations = {
                     </h1>
                     <div class="d-flex w-100 flex-wrap justify-content-around">`
 
+        let illustrationFilteredProBono = illustrationsProjectsData.filter(proBonoProject => proBonoProject.type == 'pro-bono');
+
         let proBonoProjects =  `
-        ${ illustrationsProjectsData
-            .filter(proBonoProject => proBonoProject.type == 'pro-bono')
+        ${ illustrationFilteredProBono
             .map(proBonoProject =>
             /*html*/`
             <div class="illustrationProject-item mb-3">
-                 <a href="/illustrationproject/${proBonoProject.id}"
+                 <a href="/illustrations/${proBonoProject.id}"
                       class="box-thumb d-inline-block"
                       style="background-image: url('${proBonoProject.thumb}');">
                       <p class="box-content d-inline">

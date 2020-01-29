@@ -6,9 +6,11 @@ import Utils from '../../scripts/services/Utils.js'
 let IllustrationCaseStudy = {
     render : async () => {
         let request = Utils.parseRequestURL();
+
+        let illustrationFiltered = illustrationsProjectsData.filter(illustrationProject => illustrationProject.id == request.id);
+
         let startPage = /*html*/`
-        ${ illustrationsProjectsData
-            .filter(illustrationProject => illustrationProject.id == request.id)
+        ${ illustrationFiltered
             .map(illustrationProject =>
             /*html*/`
             <div class="IllustrationProject-wrapper mt-bg">
@@ -28,7 +30,7 @@ let IllustrationCaseStudy = {
         }
         `
 
-        let sketchesLength = Object.keys(illustrationsProjectsData[request.id].sketches).length;
+        let sketchesLength = Object.keys(illustrationFiltered[0].sketches).length;
         let sketches = '';
         // Check if there are any sketches and then show this chunk of code
         if (sketchesLength != 0) {
@@ -41,8 +43,8 @@ let IllustrationCaseStudy = {
                          <div class="js-button--illustrations box-thumb d-inline-block"
                              data-toggle="modal" data-target="#modalPicture"
                              value="Expand photo" role="button"
-                             data-img="${illustrationsProjectsData[request.id].sketches['sketch'+i]}"
-                            style="background-image: url('${illustrationsProjectsData[request.id].sketches['sketch'+i]}');">
+                             data-img="${illustrationFiltered[0].sketches['sketch'+i]}"
+                            style="background-image: url('${illustrationFiltered[0].sketches['sketch'+i]}');">
                          </div>
                       </div>
                     `;
@@ -56,7 +58,7 @@ let IllustrationCaseStudy = {
         let additionalContent = `
             <div class="item__content px-2 px-md-3 mb-3">
                 <div class="max-chars m-0">
-                    ${illustrationsProjectsData[request.id].additionalContent}
+                    ${illustrationFiltered[0].additionalContent}
                 </div>
             </div>
         `
@@ -64,15 +66,15 @@ let IllustrationCaseStudy = {
         let finalArt = `
         <div class="item__content px-2">
             <div class="d-flex w-100 flex-wrap justify-content-around">`;
-        let artLength = Object.keys(illustrationsProjectsData[request.id].artworks).length;
+        let artLength = Object.keys(illustrationFiltered[0].artworks).length;
         for(var i = 0; i < artLength; i++) {
             finalArt += `
             <div class="illustrationProject-item mb-3">
                  <div class="js-button--illustrations box-thumb d-inline-block"
                      data-toggle="modal" data-target="#modalPicture"
                      value="Expand photo" role="button"
-                     data-img="${illustrationsProjectsData[request.id].artworks['artwork'+i]}"
-                    style="background-image: url('${illustrationsProjectsData[request.id].artworks['artwork'+i]}');">
+                     data-img="${illustrationFiltered[0].artworks['artwork'+i]}"
+                    style="background-image: url('${illustrationFiltered[0].artworks['artwork'+i]}');">
                  </div>
               </div>
             `;

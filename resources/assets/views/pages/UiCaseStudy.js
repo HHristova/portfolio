@@ -1,5 +1,3 @@
-import projectsData from '../../scripts/uiprojects.json';
-
 let UiCaseStudy = {
     // heading : async () => {
     //     let request = Utils.parseRequestURL();
