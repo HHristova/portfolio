@@ -22,12 +22,12 @@ import Utils from './services/Utils.js'
 const routes = {
     '/' : About,
     '/ui-designs' : UiDesigns,
+    '/ui-designs/:id' : UiProjectDetails,
+    '/ui-designs-case-study/:id' : UiCaseStudy,
     '/illustrations' : Illustrations,
+    '/illustrations/:id' : IllustrationCaseStudy,
     '/blog' : Blog,
-    '/blog/:id' : BlogInner,
-    '/project/:id' : UiCaseStudy,
-    '/details/:id' : UiProjectDetails,
-    '/illustrationproject/:id' : IllustrationCaseStudy
+    '/blog/:id' : BlogInner
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.

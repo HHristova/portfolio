@@ -4,9 +4,11 @@ import Utils from '../../scripts/services/Utils.js'
 let UiProjectDetails = {
     render : async () => {
         let request = Utils.parseRequestURL();
+
+        let projectFiltered = projectsData.filter(project => project.id == request.id);
+
         return /*html*/`
-        ${ projectsData
-            .filter(project => project.id == request.id)
+        ${ projectFiltered
             .map(project =>
             /*html*/`
             <div class="content--custom">

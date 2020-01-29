@@ -28,7 +28,7 @@ let UiDesigns = {
                     <div class="grid-wrapper">
                         <div class="grid-item"></div>
                         <div class="grid-item">
-                            <a href="/project/1" class="box-thumb d-inline-block">
+                            <a href="ui-designs-case-study/go-tenant-design" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
                                         GoTenant Design Case Study
@@ -58,7 +58,7 @@ let UiDesigns = {
                     class="picture-item show"
                     data-groups='["${projectsData[i].filterId}"]'>
                     <div class="picture-item__inner">
-                        <a href="/details/${projectsData[i].id}">
+                        <a href="/ui-designs/${projectsData[i].id}">
                             <div class="box-thumb">
                                 <p class="box-content d-inline">
                                     <span>

@@ -1,6 +1,6 @@
 [
     {
-        "id": "0",
+        "id": "childrens-book-project",
         "type": "personal-project",
         "thumb": "/public/assets/images/myWork/illustrations/child-book/child-book-thumb.jpg",
         "title": "Children's book project",
@@ -34,7 +34,7 @@
         }
     },
     {
-        "id": "1",
+        "id": "book-cover-project",
         "type": "personal-project",
         "thumb": "/public/assets/images/myWork/illustrations/book-cover/book-cover-thumb.jpg",
         "title": "Book cover design for Georgi Gospodinov's book 'The physics of sorrow'",
@@ -54,7 +54,7 @@
         }
     },
     {
-        "id": "2",
+        "id": "kids-magazine-project",
         "type": "personal-project",
         "thumb": "/public/assets/images/myWork/illustrations/kids-magazine/klio-kids-thumb.jpg",
         "title": "Kids magazine design project",
@@ -70,7 +70,7 @@
         }
     },
     {
-        "id": "3",
+        "id": "erasmus-plus-design",
         "type": "pro-bono",
         "thumb": "/public/assets/images/myWork/illustrations/gob-thumb2.jpg",
         "title": "Erasmus+ project materials for the non-profit organisation 'Get On Board'",

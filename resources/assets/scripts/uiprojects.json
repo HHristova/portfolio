@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "quotopia-app-design",
         "thumb": "/public/assets/images/myWork/web-design/quotopia-app-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/quotopia-app.jpg",
         "title": "Quotopia app design screens",
@@ -9,7 +9,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "4",
+        "id": "go-tenant-redesign",
         "thumb": "/public/assets/images/myWork/web-design/gt-redesign-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/gt-redesign.jpg",
         "title": "Landing page of Go Tenant! - UK property management platform that helps the landlords to stay compliant",
@@ -18,7 +18,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "40",
+        "id": "eqology-website-concept",
         "thumb": "/public/assets/images/myWork/web-design/eq-design-thumb2.jpg",
         "url": "/public/assets/images/myWork/web-design/eqology-website-concept-v2.jpg",
         "title": "Landing page design for scandinavian company",
@@ -27,7 +27,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "13",
+        "id": "psp-webtech-website-design",
         "thumb": "/public/assets/images/myWork/web-design/psp-design-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/psp-webtech-site-design.jpg",
         "title": "Corporate landing page design",
@@ -36,7 +36,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "41",
+        "id": "eqology-website-concept-v2",
         "thumb": "/public/assets/images/myWork/web-design/eq-design-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/eqology-website-concept-v1.jpg",
         "title": "Landing page design for scandinavian company",
@@ -45,7 +45,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "33",
+        "id": "dashboard-design",
         "thumb": "/public/assets/images/myWork/web-design/dashboard-design-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/dashboard-design.jpg",
         "title": "Dashboard design",
@@ -54,7 +54,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "6",
+        "id": "tenant-app-design",
         "thumb": "/public/assets/images/myWork/web-design/tenant-app-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/tenant-app-login.jpg",
         "title": "Tenant app login page design",
@@ -63,7 +63,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "20",
+        "id": "calendar-app-design",
         "thumb": "/public/assets/images/myWork/web-design/WhatsOn-app-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/WhatsOn-app-design.jpg",
         "title": "Calendar app design",
@@ -72,7 +72,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "21",
+        "id": "personal-website-builder-design",
         "thumb": "/public/assets/images/myWork/web-design/pws-design-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/personal-website-design-frontend.jpg",
         "title": "Personal website generator design",
@@ -81,7 +81,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "23",
+        "id": "go-tenant-dashboard-design",
         "thumb": "/public/assets/images/myWork/web-design/dashboard-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/GoTenant-project.jpg",
         "title": "Website dashboard design",
@@ -90,7 +90,7 @@
         "filterId": "webdesign"
     },
     {
-        "id": "27",
+        "id": "forever-subscription-design",
         "thumb": "/public/assets/images/myWork/web-design/subscription-design-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/subscription-mockup-v2.jpg",
         "title": "Subscription page design",
