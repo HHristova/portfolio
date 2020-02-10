@@ -6,12 +6,18 @@
         <meta name="fragment" content="!">
         <meta name="p:domain_verify" content="90b9eb92a7204ea90cfdfa87e1e3399f"/>
         <meta name="google-site-verification" content="Qy7-B-yhdsbMlZE5oW2g5wzkSP8jx6r21Zi23I_jZnY" />
-        <meta property="og:title" content="Hristina Hristova's Portfolio">
-        <meta property="og:site_name" content="Hristina Hristova - portfolio">
+        <meta property="og:title" content="HHristova Portfolio">
+        <meta property="og:site_name" content="HHristova Portfolio">
         <meta property="og:url" content="https://hhristova.com/">
         <meta property="og:description" content="Portfolio of Hristina Hristova - web designer, illustrator, front-end developer.">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://hhristova.com/public/assets/images/graphic-design.jpg">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:creator" content="@HHristova">
+        <meta name="twitter:url" content="https://hhristova.com">
+        <meta name="twitter:title" content="HHristova Portfolio">
+        <meta name="twitter:description" content="Portfolio of Hristina Hristova - web designer, illustrator, front-end developer.">
+        <meta name="twitter:image" content="https://hhristova.com/public/assets/images/graphic-design.jpg">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="theme-color" content="#ffffff">
         <link rel="apple-touch-icon" sizes="180x180" href="/public/assets/images/favicons/apple-touch-icon.png">
