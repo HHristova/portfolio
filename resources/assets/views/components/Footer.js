@@ -1,6 +1,20 @@
 let Footer = {
     render: async () => {
         let view =  /*html*/`
+        <div class="section text-center container pt-0">
+            <div class="section__container">
+                <div class="separator"></div>
+
+                <img src="/public/assets/images/lets-be-friends.png" class="img-fluid contact-img"
+                    alt="Let's be friends - contact me" />
+                <div class="section__container__content">
+                    <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
+                        ✉️ Say hello!
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <footer class="text-center">
             <p>Follow me:</p>
             <div class="copyright">

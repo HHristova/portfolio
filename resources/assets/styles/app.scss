@@ -116,6 +116,10 @@ html, body {
         }
     }
 
+    .btn--contact {
+        background-color: mix($white, $season, 60%);
+    }
+
     .btn {
         &.active {
             background: mix($white, $season, 30%);
@@ -424,12 +428,14 @@ body {
 }
 
 .btn--contact {
-    background-color: $plain-color;
-    border-radius: 0;
-
     .fa {
         margin-right: 5px;
     }
+}
+
+.contact-img {
+    width: 100%;
+    max-width: 500px;
 }
 
 // }}
