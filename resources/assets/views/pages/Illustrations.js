@@ -9,13 +9,13 @@ let Illustrations = {
             <div class="hero-img hero-img--illustrations"></div>
         </div>
         <div class="section pt-3">
-            <div class="section__container text-center">
-                <p class="max-chars mb-4">
-                    I really love designing illustrations and I would be happy to design your next one. 🙂<br>
+            <div class="section__container container text-center">
+                <p class="max-chars mt-3 mb-4">
+                    I really love drawing illustrations and I would be happy to design your next one. 🙂<br>
                     Here is the selection of my recent drawings. <br>
                     For more you can visit me on
                     <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong> or
-                    <strong><a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a></strong>.
+                    <strong><a href="https://www.instagram.com/hristova.drawings/" target="_blank">instagram</a></strong>.
                 </p>
                 <h1 class="section__container__title text-center d-inline-block px-3">
                     <span class="section__container__title__span">
@@ -31,15 +31,14 @@ let Illustrations = {
             ${ illustrationFilteredPersonal
                 .map(illustrationProject =>
                 /*html*/`
-            <div class="illustrationProject-item mb-3">
+            <div class="illustrationProject-item-sm mb-3">
                  <a href="/illustrations/${illustrationProject.id}"
                       class="box-thumb d-inline-block"
                       style="background-image: url('${illustrationProject.thumb}');">
                       <p class="box-content d-inline">
                           <span>
                               ${illustrationProject.titleThumb}
-                          </span><br>
-                          <small>Illustrations</small>
+                          </span>
                       </p>
                  </a>
             </div>`).join('\n ')
@@ -49,8 +48,8 @@ let Illustrations = {
         let proBonoProjectsHTML =  /*html*/`
                 </div>
             </div>
-            <div class="section">
-                <div class="section__container text-center">
+            <div class="section mt-5 mt-lg-3">
+                <div class="section__container container text-center">
                     <h1 class="section__container__title text-center d-inline-block px-3">
                         <span class="section__container__title__span">
                             Pro bono projects
@@ -64,15 +63,14 @@ let Illustrations = {
         ${ illustrationFilteredProBono
             .map(proBonoProject =>
             /*html*/`
-            <div class="illustrationProject-item mb-3">
+            <div class="illustrationProject-item-sm mb-3">
                  <a href="/illustrations/${proBonoProject.id}"
                       class="box-thumb d-inline-block"
                       style="background-image: url('${proBonoProject.thumb}');">
                       <p class="box-content d-inline">
                           <span>
                               ${proBonoProject.titleThumb}
-                          </span><br>
-                          <small>Illustrations</small>
+                          </span>
                       </p>
                  </a>
             </div>
@@ -85,7 +83,7 @@ let Illustrations = {
             </div>
         </div>
 
-        <div class="section">
+        <div class="section mt-5 mt-lg-3">
             <div class="section__container text-center">
                 <h1 class="section__container__title text-center d-inline-block px-3">
                     <span class="section__container__title__span">
@@ -94,7 +92,7 @@ let Illustrations = {
                 </h1>
             </div>
         </div>
-        <div class="masonry">`
+        <div class="masonry container">`
 
         let projects = '';
 

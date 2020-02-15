@@ -11,7 +11,7 @@ let Footer = {
                     <a href="https://www.behance.net/hhristova" target="_blank">
                         <i class="fab fa-behance social-icons__bh" aria-hidden="true"></i>
                     </a>
-                    <a href="https://www.instagram.com/hhristova_/" target="_blank">
+                    <a href="https://www.instagram.com/hristova.drawings/" target="_blank">
                         <i class="fab fa-instagram social-icons__inst" aria-hidden="true"></i>
                     </a>
                     <a href="https://github.com/HHristova" target="_blank">

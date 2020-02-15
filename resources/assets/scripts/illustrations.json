@@ -1,6 +1,13 @@
 [
     {
         "id": "0",
+        "thumb": "/public/assets/images/myWork/illustrations/sloth1-illustration.jpg",
+        "url": "/public/assets/images/myWork/illustrations/sloth1-illustration.jpg",
+        "title": "Sloth illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "01",
         "thumb": "/public/assets/images/myWork/illustrations/snowboarder-thumb.jpg",
         "url": "/public/assets/images/myWork/illustrations/snowboarder.jpg",
         "title": "Snowboarder illustration",
@@ -123,6 +130,13 @@
         "thumb": "/public/assets/images/myWork/illustrations/lettering-17.jpg",
         "url": "/public/assets/images/myWork/illustrations/lettering-17.jpg",
         "title": "Spring inspired hand-lettered J",
+        "filterId": "illustration"
+    },
+    {
+        "id": "101",
+        "thumb": "/public/assets/images/myWork/illustrations/sloth2-illustration.jpg",
+        "url": "/public/assets/images/myWork/illustrations/sloth2-illustration.jpg",
+        "title": "Sloth illustration",
         "filterId": "illustration"
     },
     {

@@ -33,9 +33,9 @@ html, body {
 }
 
 .mt-bg {
-    margin-top: 3rem;
+    margin-top: 4.5rem;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(xl) {
         margin-top: 6rem;
     }
 }

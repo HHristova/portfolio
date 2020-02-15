@@ -36,15 +36,16 @@ let IllustrationCaseStudy = {
         if (sketchesLength != 0) {
             sketches = `
             <div class="item__content px-2 py-lg-4">
-                <div class="d-flex w-100 flex-wrap justify-content-around">`;
+                <div class="d-flex w-100 flex-wrap justify-content-between">`;
                 for(var i = 0; i < sketchesLength; i++) {
                     sketches += `
                     <div class="illustrationProject-item mb-3">
                          <div class="js-button--illustrations box-thumb d-inline-block"
                              data-toggle="modal" data-target="#modalPicture"
                              value="Expand photo" role="button"
-                             data-img="${illustrationFiltered[0].sketches['sketch'+i]}"
-                            style="background-image: url('${illustrationFiltered[0].sketches['sketch'+i]}');">
+                             data-img="${illustrationFiltered[0].sketches['sketch'+i]}">
+                                <img class="img-fluid" src="${illustrationFiltered[0].sketches['sketch'+i]}"
+                                   alt="${illustrationFiltered[0].title}" />
                          </div>
                       </div>
                     `;
@@ -65,7 +66,7 @@ let IllustrationCaseStudy = {
 
         let finalArt = `
         <div class="item__content px-2">
-            <div class="d-flex w-100 flex-wrap justify-content-around">`;
+            <div class="d-flex w-100 flex-wrap justify-content-between">`;
         let artLength = Object.keys(illustrationFiltered[0].artworks).length;
         for(var i = 0; i < artLength; i++) {
             finalArt += `
@@ -73,8 +74,9 @@ let IllustrationCaseStudy = {
                  <div class="js-button--illustrations box-thumb d-inline-block"
                      data-toggle="modal" data-target="#modalPicture"
                      value="Expand photo" role="button"
-                     data-img="${illustrationFiltered[0].artworks['artwork'+i]}"
-                    style="background-image: url('${illustrationFiltered[0].artworks['artwork'+i]}');">
+                     data-img="${illustrationFiltered[0].artworks['artwork'+i]}">
+                        <img class="img-fluid" src="${illustrationFiltered[0].artworks['artwork'+i]}"
+                           alt="${illustrationFiltered[0].title}" />
                  </div>
               </div>
             `;

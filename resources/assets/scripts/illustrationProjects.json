@@ -7,30 +7,30 @@
         "titleThumb": "Children's book project",
         "intro": "<p>The very first drawing project I did in the university was to create this children's book. The story, the strange characters and the illustrations were created by me and I am very proud of the whole book. I drew the illustrations by hand, using watercolor pencils, pens and markers. ✏️</p><p>Initial sketches:</p>",
         "sketches": {
-            "sketch0": "/public/assets/images/myWork/illustrations/child-book/sketch-1.jpg",
-            "sketch1": "/public/assets/images/myWork/illustrations/child-book/sketch-2.jpg",
-            "sketch2": "/public/assets/images/myWork/illustrations/child-book/sketch-3.jpg",
-            "sketch3": "/public/assets/images/myWork/illustrations/child-book/sketch-4.jpg",
-            "sketch4": "/public/assets/images/myWork/illustrations/child-book/sketch-5.jpg",
-            "sketch5": "/public/assets/images/myWork/illustrations/child-book/sketch-6.jpg"
+            "sketch0": "/public/assets/images/myWork/illustrations/child-book/sketch-2.jpg",
+            "sketch1": "/public/assets/images/myWork/illustrations/child-book/sketch-3.jpg",
+            "sketch2": "/public/assets/images/myWork/illustrations/child-book/sketch-4.jpg",
+            "sketch3": "/public/assets/images/myWork/illustrations/child-book/sketch-5.jpg",
+            "sketch4": "/public/assets/images/myWork/illustrations/child-book/sketch-6.jpg"
         },
         "additionalContent": "And the final artworks.",
         "artworks": {
-            "artwork0": "/public/assets/images/myWork/illustrations/child-book/page1.jpg",
-            "artwork1": "/public/assets/images/myWork/illustrations/child-book/page2.jpg",
-            "artwork2": "/public/assets/images/myWork/illustrations/child-book/page3.jpg",
-            "artwork3": "/public/assets/images/myWork/illustrations/child-book/page4.jpg",
-            "artwork4": "/public/assets/images/myWork/illustrations/child-book/page5.jpg",
-            "artwork5": "/public/assets/images/myWork/illustrations/child-book/page6.jpg",
-            "artwork6": "/public/assets/images/myWork/illustrations/child-book/page7.jpg",
-            "artwork7": "/public/assets/images/myWork/illustrations/child-book/page8.jpg",
-            "artwork8": "/public/assets/images/myWork/illustrations/child-book/page9.jpg",
-            "artwork9": "/public/assets/images/myWork/illustrations/child-book/page10.jpg",
-            "artwork10": "/public/assets/images/myWork/illustrations/child-book/page11.jpg",
-            "artwork11": "/public/assets/images/myWork/illustrations/child-book/page12.jpg",
-            "artwork12": "/public/assets/images/myWork/illustrations/child-book/page13.jpg",
-            "artwork13": "/public/assets/images/myWork/illustrations/child-book/page14.jpg",
-            "artwork14": "/public/assets/images/myWork/illustrations/child-book/page15.jpg"
+            "artwork0": "/public/assets/images/myWork/illustrations/child-book/page0.jpg",
+            "artwork1": "/public/assets/images/myWork/illustrations/child-book/page1.jpg",
+            "artwork2": "/public/assets/images/myWork/illustrations/child-book/page2.jpg",
+            "artwork3": "/public/assets/images/myWork/illustrations/child-book/page3.jpg",
+            "artwork4": "/public/assets/images/myWork/illustrations/child-book/page4.jpg",
+            "artwork5": "/public/assets/images/myWork/illustrations/child-book/page5.jpg",
+            "artwork6": "/public/assets/images/myWork/illustrations/child-book/page6.jpg",
+            "artwork7": "/public/assets/images/myWork/illustrations/child-book/page7.jpg",
+            "artwork8": "/public/assets/images/myWork/illustrations/child-book/page8.jpg",
+            "artwork9": "/public/assets/images/myWork/illustrations/child-book/page9.jpg",
+            "artwork10": "/public/assets/images/myWork/illustrations/child-book/page10.jpg",
+            "artwork11": "/public/assets/images/myWork/illustrations/child-book/page11.jpg",
+            "artwork12": "/public/assets/images/myWork/illustrations/child-book/page12.jpg",
+            "artwork13": "/public/assets/images/myWork/illustrations/child-book/page13.jpg",
+            "artwork14": "/public/assets/images/myWork/illustrations/child-book/page14.jpg",
+            "artwork15": "/public/assets/images/myWork/illustrations/child-book/page15.jpg"
         }
     },
     {
@@ -47,10 +47,10 @@
         "additionalContent": "Since the sketch was approved I did some additional tweaks and continued with creating the final artwork. You can see the final result below.",
         "artworks": {
             "artwork0": "/public/assets/images/myWork/illustrations/book-cover/artwork1.jpg",
-            "artwork1": "/public/assets/images/myWork/illustrations/book-cover/artwork2.jpg",
+            "artwork1": "/public/assets/images/myWork/illustrations/book-cover/artwork5.jpg",
             "artwork2": "/public/assets/images/myWork/illustrations/book-cover/artwork3.jpg",
-            "artwork3": "/public/assets/images/myWork/illustrations/book-cover/artwork4.jpg",
-            "artwork4": "/public/assets/images/myWork/illustrations/book-cover/artwork5.jpg"
+            "artwork3": "/public/assets/images/myWork/illustrations/book-cover/artwork2.jpg",
+            "artwork4": "/public/assets/images/myWork/illustrations/book-cover/artwork4.jpg"
         }
     },
     {
