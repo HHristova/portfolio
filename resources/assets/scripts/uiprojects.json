@@ -1,5 +1,14 @@
 [
     {
+        "id": "cosmetic-website-design",
+        "thumb": "/public/assets/images/myWork/web-design/experimental-cosmetic-thumb.jpg",
+        "url": "/public/assets/images/myWork/web-design/experimental-cosmetic.png",
+        "title": "Cosmetic website design",
+        "content": "<div class='project-subtitle'>About the project:</div><p>One of my side-project designs for creating a cosmetic landing page to a LARQ brand. The green and the orange color palette was used for creating a contrast to the white brand products and it's main goal was to bring a feel of refreshment and movement to the user.</p> <div class='project-subtitle'>My role:</div><p>UI design</p>",
+        "content2": "",
+        "filterId": "webdesign"
+    },
+    {
         "id": "quotopia-app-design",
         "thumb": "/public/assets/images/myWork/web-design/quotopia-app-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/quotopia-app.jpg",
