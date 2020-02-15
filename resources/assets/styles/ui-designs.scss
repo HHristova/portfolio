@@ -8,8 +8,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @include media-breakpoint-up(md) {
         justify-items: center;
     }
 }
@@ -180,7 +183,7 @@
 }
 
 .caseStudy-wrapper {
-    @include large-desktop {
+    @media screen and (min-width: 2200px) {
         width: 60%;
         margin: auto;
     }

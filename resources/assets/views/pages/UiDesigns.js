@@ -15,7 +15,7 @@ let UiDesigns = {
                     For more you can visit me on
                     <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong>,
                     <strong><a href="https://www.behance.net/hhristova" target="_blank">behance</a></strong> or
-                    <strong><a href="https://www.instagram.com/hhristova_/" target="_blank">instagram</a></strong>.
+                    <strong><a href="https://www.instagram.com/hristova.drawings/" target="_blank">instagram</a></strong>.
                 </p>
 
                 <h1 class="section__container__title text-center d-inline-block px-3">
@@ -25,7 +25,7 @@ let UiDesigns = {
                 </h1>
 
                 <div class="mb-5">
-                    <div class="grid-wrapper">
+                    <div class="grid-wrapper container">
                         <div class="grid-item"></div>
                         <div class="grid-item">
                             <a href="ui-designs-case-study/go-tenant-design" class="box-thumb d-inline-block">
@@ -48,7 +48,7 @@ let UiDesigns = {
                     </span>
                 </h1>
 
-                <div class="masonry">
+                <div class="masonry container">
         `
         let projects = '';
 
