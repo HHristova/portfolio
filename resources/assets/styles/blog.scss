@@ -38,7 +38,7 @@
 
 .blog-item {
     flex: 100%;
-    background-color: #f9f1eb;
+    background-color: $blog-background;
     flex-direction: column;
 
     &:first-child {
@@ -56,5 +56,32 @@
         @include media-breakpoint-up(xl) {
             width: 50%;
         }
+    }
+}
+
+.pin-it {
+    position: relative;
+
+    a {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 30px;
+        width: 70px !important;
+        background: none !important;
+        background-position: center !important;
+        background-size: cover !important;
+        background-image: url('images/pin-it-btn.jpg') !important;
+        text-indent: -9999 !important;
+        z-index: 1;
+        box-shadow: none;
+    }
+}
+
+.pin-background {
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+        opacity: 0.5;
     }
 }
