@@ -36,11 +36,13 @@ let BlogInner = {
             </div>
             `;
         }
-
         blogContent += `
-                <div class="max-chars blog-content">
-                    <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-shape="round" data-pin-tall="true"></a>
-                </div>
+            <div class="pin-it">
+                <a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fhhristova.com%2Fblog%2F${BlogPostsFiltered[0].id}&media=${BlogPostsFiltered[0].pinImageEncoded}&description=${BlogPostsFiltered[0].title}"
+                    class="pin-it-button custom" count-layout="horizontal">
+                </a>
+                <img src="${BlogPostsFiltered[0].pinImage}" class="img-fluid pin-background" alt="${BlogPostsFiltered[0].title}" />
+            </div>
             </div>
         </div>
         `
