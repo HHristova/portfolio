@@ -63,15 +63,6 @@
         "filterId": "webdesign"
     },
     {
-        "id": "tenant-app-design",
-        "thumb": "/public/assets/images/myWork/web-design/tenant-app-thumb.jpg",
-        "url": "/public/assets/images/myWork/web-design/tenant-app-login.jpg",
-        "title": "Tenant app login page design",
-        "content": "<div class='project-subtitle'>About the project:</div><p>Go Tenant! is a property management software will helps a landlords in United Kingdom to stay compliant in the whole process of renting their homes to potential tenants.</p><div class='project-subtitle'>My role:</div><p>UI design</p><p>The image on the left handside is giving the idea of cozyness and home that is quite important for the users of the platform since they are moving to a new home when they see the sign up screen for the first time. This is a standard login process for the tenants to start using Go Tenant services.</p>",
-        "content2": "",
-        "filterId": "webdesign"
-    },
-    {
         "id": "calendar-app-design",
         "thumb": "/public/assets/images/myWork/web-design/WhatsOn-app-thumb.jpg",
         "url": "/public/assets/images/myWork/web-design/WhatsOn-app-design.jpg",
