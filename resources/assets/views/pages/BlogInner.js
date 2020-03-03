@@ -37,7 +37,7 @@ let BlogInner = {
             `;
         }
         blogContent += `
-            <div class="pin-it">
+            <div class="pin-it max-chars blog-content">
                 <a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fhhristova.com%2Fblog%2F${BlogPostsFiltered[0].id}&media=${BlogPostsFiltered[0].pinImageEncoded}&description=${BlogPostsFiltered[0].title}"
                     class="pin-it-button custom" count-layout="horizontal">
                 </a>
