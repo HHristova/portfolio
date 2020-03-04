@@ -15,6 +15,9 @@ let About = {
                             Change website season
                         </button>
                         <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#" data-season="spring">
+                                Spring <span>🌺</span>
+                            </a>
                             <a class="dropdown-item" href="#" data-season="summer">
                                 Summer <span>🌴</span>
                             </a>

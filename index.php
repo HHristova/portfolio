@@ -46,7 +46,7 @@
         src="//assets.pinterest.com/js/pinit.js"
     ></script>
 
-    <body class="--winter"> <!-- Hardcoded till the spring illustration is ready -->
+    <body>
         <div id="header_container"></div>
 
         <div id="page_container"></div>
