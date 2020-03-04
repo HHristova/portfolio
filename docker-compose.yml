@@ -1,39 +1,54 @@
-version: '3'
+version: '3.5'
 
 services:
     db:
         image: mysql:5.7
+        container_name: hh-db
         restart: always
         volumes:
             - 'db:/var/lib/mysql'
         environment:
             - MYSQL_ROOT_PASSWORD=password
-            - MYSQL_DATABASE=forge
-            - MYSQL_USER=forge
+            - MYSQL_DATABASE=hh_db
+            - MYSQL_USER=hh_user
             - MYSQL_PASSWORD=password
         ports:
             - 3306
+        networks:
+            - hh-network
 
     php-fpm:
-        image: php:7.3-fpm
+        image: hh-php
+        container_name: hh-php
+        build:
+            context: .
+            dockerfile: ./docker/Dockerfile-php
         restart: always
         volumes:
             - './:/var/www/html'
-        links:
-            - db
         expose:
             - 9000
+        networks:
+            - hh-network
 
     nginx:
-        image: nginx:latest
+        image: hh-nginx
+        container_name: hh-nginx
+        build:
+            context: .
+            dockerfile: ./docker/Dockerfile-nginx
         restart: always
         volumes:
             - './docker/nginx:/etc/nginx/conf.d'
             - './:/var/www/html'
-        links:
-            - php-fpm
         ports:
             - '80:80'
+        networks:
+            - hh-network
+
+networks:
+    hh-network:
+        driver: bridge
 
 volumes:
     db:
