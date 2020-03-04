@@ -1,6 +1,8 @@
 // Main color palette
 $winter: #75c3e8;
 $winter-darken: mix(#000, $winter, 50%);
+$spring: #A0EAE9;
+$spring-darken: mix(#000, $spring, 50%);
 $summer: #75D7F2;
 $summer-darken: mix(#000, $summer, 50%);
 $autumn: #F2C7AA;
@@ -21,7 +23,9 @@ $seasonTitle: 'winter' !default;
 @function setLogo($seasonTitle) {
     @if ($seasonTitle == 'winter') {
         @return 'images/logo-hhristova.png';
-    } @if ($seasonTitle == 'summer') {
+    } @if ($seasonTitle == 'spring') {
+        @return 'images/logo-hhristova-spring.png';
+    }  @if ($seasonTitle == 'summer') {
         @return 'images/logo-hhristova.png';
     } @if ($seasonTitle == 'autumn') {
         @return 'images/logo-hhristova--autumn.png';

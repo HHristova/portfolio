@@ -144,6 +144,14 @@ html, body {
 }
 
 body {
+    &.--spring {
+        $seasonTitle: 'spring';
+        @include set-hero-images('spring');
+        @include set-season-colors($spring, $spring-darken, '82, 125, 59');
+
+        .logo { background-image: url(setLogo($seasonTitle)); }
+    }
+
     &.--summer {
         $seasonTitle: 'summer';
         @include set-hero-images('summer');
