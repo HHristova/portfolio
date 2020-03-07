@@ -35,7 +35,7 @@ let UiDesigns = {
                                     </span><br>
                                     <small>Design, Illustration</small>
                                 </p>
-                                <img src="/public/assets/images/myWork/case-studies/thumbs/GT-thumb.jpg"
+                                <img src="/assets/images/myWork/case-studies/thumbs/GT-thumb.jpg"
                                     class="img-fluid" alt="GoTenant Case Study Thumbnail">
                             </a>
                         </div>
