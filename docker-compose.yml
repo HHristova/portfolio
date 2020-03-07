@@ -3,9 +3,17 @@ version: '3.5'
 services:
     nginx:
         image: nginx:latest
+        container_name: hh-front
         restart: always
         volumes:
             - './docker/nginx:/etc/nginx/conf.d'
             - './:/var/www/html'
         ports:
             - '80:80'
+        networks:
+            - hh-network
+
+networks:
+    hh-network:
+        driver: bridge
+        name: hh-network
