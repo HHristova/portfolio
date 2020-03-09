@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "axios": "^0.19.2",
     "npm": "^6.13.4",
     "typed.js": "^2.0.11"
   }

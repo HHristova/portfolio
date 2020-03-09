@@ -5,7 +5,7 @@ let Footer = {
             <div class="section__container">
                 <div class="separator"></div>
 
-                <img src="/public/assets/images/lets-be-friends.png" class="img-fluid contact-img"
+                <img src="/assets/images/lets-be-friends.png" class="img-fluid contact-img"
                     alt="Let's be friends - contact me" />
                 <div class="section__container__content">
                     <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
