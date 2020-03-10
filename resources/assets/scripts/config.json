@@ -1,6 +1,5 @@
 {
     "api": {
-        "baseUrl": "http://localhost:8181/api",
         "routes": {
             "blog-index": "/hello"
         }

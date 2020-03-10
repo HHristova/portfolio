@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Request service for fetching data from backend API.
  */
@@ -20,7 +22,7 @@ export function makeRequest(resourceUrl) {
  * Resource methods
  */
 export function getBlogIndex() {
-    const resourceUrl = config['api']['baseUrl'] + config['api']['routes']['blog-index'];
+    const resourceUrl = process.env.API_HOST + config['api']['routes']['blog-index'];
 
     return makeRequest(resourceUrl);
 }

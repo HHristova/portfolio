@@ -3,6 +3,8 @@ const mix = require('laravel-mix');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const imagemin = require('imagemin');
 
+const Dotenv = require('dotenv-webpack');
+
 const imageminPlugins = [
     require('imagemin-mozjpeg')({ }),
     require('imagemin-pngquant')({ }),
@@ -40,6 +42,12 @@ mix
 
     .options({
         processCssUrls: false
+    })
+
+    .webpackConfig({
+        plugins: [
+            new Dotenv()
+        ]
     });
 
 
