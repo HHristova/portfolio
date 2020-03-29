@@ -1,7 +1,7 @@
 {
     "api": {
         "routes": {
-            "blog-index": "/hello"
+            "blog-index": "/blogs"
         }
     }
 }
