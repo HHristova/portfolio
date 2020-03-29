@@ -96,18 +96,6 @@ let About = {
                         </div>
                         <div class="flex-skills mx-md-3 mt-5 mt-md-0">
                             <div class="skills-image skills-image--width">
-                                <img src="/assets/images/graphic-design.jpg" class="img-fluid"
-                                    alt="Graphic design icon"/>
-                            </div>
-                            <div class="about-me__content about-me__content--weight mx-auto mt-3">
-                                Graphic Design
-                            </div>
-                            <p>
-                                I have some print design goodies under my belt.
-                            </p>
-                        </div>
-                        <div class="flex-skills mx-md-3 mt-5 mt-md-0">
-                            <div class="skills-image skills-image--width">
                                 <img src="/assets/images/illustrations.jpg" class="img-fluid"
                                     alt="Illustrations icon"/>
                             </div>
@@ -117,6 +105,18 @@ let About = {
                             <p>
                                 I also love working on whimsical illustrations
                                 and cute characters.
+                            </p>
+                        </div>
+                        <div class="flex-skills mx-md-3 mt-5 mt-md-0">
+                            <div class="skills-image skills-image--width">
+                                <img src="/assets/images/graphic-design.jpg" class="img-fluid"
+                                    alt="Graphic design icon"/>
+                            </div>
+                            <div class="about-me__content about-me__content--weight mx-auto mt-3">
+                                Graphic Design
+                            </div>
+                            <p>
+                                I have some print design goodies under my belt.
                             </p>
                         </div>
                     </div>
