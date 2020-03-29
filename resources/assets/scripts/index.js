@@ -11,6 +11,7 @@ import UiCaseStudy from '../views/pages/UiCaseStudy.js'
 import UiProjectDetails from '../views/pages/UiProjectDetails.js'
 import Blog from '../views/pages/Blog.js'
 import BlogInner from '../views/pages/BlogInner.js'
+import Links from '../views/pages/Links.js'
 import Error404 from '../views/pages/Error404.js'
 //
 import Header from '../views/components/Header.js'
@@ -27,7 +28,8 @@ const routes = {
     '/illustrations' : Illustrations,
     '/illustrations/:id' : IllustrationCaseStudy,
     '/blog' : Blog,
-    '/blog/:id' : BlogInner
+    '/blog/:id' : BlogInner,
+    '/links' : Links
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
@@ -44,7 +46,6 @@ const router = async () => {
     footer.innerHTML = await Footer.render();
     await Footer.after_render();
 
-
     // Get the parsed URl from the addressbar
     let request = Utils.parseRequestURL();
 
@@ -53,7 +54,7 @@ const router = async () => {
 
     // Get the page from our hash of supported routes.
     // If the parsed URL is not in our list of supported routes, select the 404 page instead
-    let page = routes[parsedURL] ? routes[parsedURL] : Error404
+    let page = routes[parsedURL] ? routes[parsedURL] : Error404;
     content.innerHTML = await page.render();
     await page.after_render();
 

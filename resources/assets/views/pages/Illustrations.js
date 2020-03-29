@@ -130,7 +130,7 @@ let Illustrations = {
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <img class="close__icon"
-                            src="/public/assets/images/close-icon.svg" alt="Close icon">
+                            src="/assets/images/close-icon.svg" alt="Close icon">
                           <span class="sr-only">Close</span>
                         </button>
                       </div>

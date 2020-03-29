@@ -4,7 +4,7 @@ let Header = {
     render: async () => {
         let view =  /*html*/`
             <header>
-                <nav class="navbar navbar-expand-md navbar-dark container p-0">
+                <nav class="navbar navbar-expand-lg navbar-dark container p-0">
                   <a class="navbar-brand ml-2 ml-sm-0" href="/">
                       <h1 class="logo mb-0"></h1>
                   </a>
@@ -29,6 +29,9 @@ let Header = {
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" data-url="blog" href="/blog">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-url="blog" href="https://www.etsy.com/shop/CraftyBiscuits" target="_blank">Shop</a>
                       </li>
                     </ul>
                   </div>

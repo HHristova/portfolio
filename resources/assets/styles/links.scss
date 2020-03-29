@@ -1,0 +1,22 @@
+.link-wrapper {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    @include media-breakpoint-up(lg) {
+        width: 80%;
+    }
+
+    .link-wrapper__box {
+        width: 100%;
+
+        @include media-breakpoint-up(md) {
+            width: 50%;
+        }
+
+        @include media-breakpoint-up(xl) {
+            width: 40%;
+        }
+    }
+}

@@ -17,11 +17,13 @@ $fa-font-path:  'fonts' !default;
 @import 'blog.scss';
 @import 'illustration-projects.scss';
 @import 'ui-inner.scss';
+@import 'links.scss';
 
 html, body {
     font-size: 21px;
     font-family: $theme-font-family, sans-serif;
     font-weight: $theme-font-weights;
+    line-height: 30px;
 }
 
 .no-found-wrapper {
@@ -71,6 +73,10 @@ html, body {
 
     .hero-img.hero-img--illustrations {
         background: url('images/hero-#{$season}-illustrations.svg') no-repeat center center;
+    }
+
+    .hero-img.hero-img--links {
+        background: url('images/hero-#{$season}-links.svg') no-repeat center center;
     }
 }
 
@@ -206,11 +212,8 @@ body {
         height: 100%;
     }
 
-    &.hero-img--work {
-        height: 50%;
-    }
-
-    &.hero-img--illustrations {
+    &.hero-img--work, &.hero-img--illustrations,
+    &.hero-img--links {
         height: 50%;
     }
 }

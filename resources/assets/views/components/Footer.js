@@ -5,8 +5,14 @@ let Footer = {
             <div class="section__container">
                 <div class="separator"></div>
 
-                <img src="/public/assets/images/lets-be-friends.png" class="img-fluid contact-img"
-                    alt="Let's be friends - contact me" />
+                <img src="/assets/images/footer-img.png" class="img-fluid contact-img"
+                    alt="Let's work together - contact me" />
+                <div class="contact-me mb-4">
+                    I’m available for commissions and collaborations.
+                    <a href="mailto:hristina.a.hristova@gmail.com">Email me</a>
+                    and I will get back to you. I’m
+                    looking forward to chatting with you about your future project!
+                </div>
                 <div class="section__container__content">
                     <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
                         ✉️ Say hello!
@@ -30,6 +36,9 @@ let Footer = {
                     </a>
                     <a href="https://github.com/HHristova" target="_blank">
                         <i class="fab fa-github social-icons__gh" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.etsy.com/shop/CraftyBiscuits" target="_blank">
+                        <i class="fab fa-etsy social-icons__e" aria-hidden="true"></i>
                     </a>
                 </div>
                 <div class="copyright__box">
