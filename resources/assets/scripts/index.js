@@ -11,6 +11,7 @@ import UiCaseStudy from '../views/pages/UiCaseStudy.js'
 import UiProjectDetails from '../views/pages/UiProjectDetails.js'
 import Blog from '../views/pages/Blog.js'
 import BlogInner from '../views/pages/BlogInner.js'
+import Links from '../views/pages/Links.js'
 import Error404 from '../views/pages/Error404.js'
 //
 import Header from '../views/components/Header.js'
@@ -27,7 +28,8 @@ const routes = {
     '/illustrations' : Illustrations,
     '/illustrations/:id' : IllustrationCaseStudy,
     '/blog' : Blog,
-    '/blog/:id' : BlogInner
+    '/blog/:id' : BlogInner,
+    '/links' : Links
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
