@@ -394,6 +394,13 @@ body {
 
 .skills-image {
     &.skills-image--width {
+        width: 100%;
+        margin: auto;
+
+        @include media-breakpoint-only(sm) {
+            width: 60%;
+        }
+
         img {
             max-width: 200px;
 

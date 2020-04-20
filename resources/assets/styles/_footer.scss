@@ -12,9 +12,45 @@
 }
 
 footer {
-    padding: 80px 15px;
-    margin-top: 60px;
+    position: relative;
+    padding: 30px 15px;
+    margin-top: 180px;
     font-size: 0.8rem;
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -180px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 200px;
+        height: 100%;
+        background-image: url('images/footer-corgi.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    @include media-breakpoint-up(md) {
+        padding: 80px 15px;
+        margin-top: 200px;
+
+        &:before {
+            width: 250px;
+            top: -250px;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        margin-top: 60px;
+
+        &:before {
+            right: 150px;
+            left: auto;
+        }
+    }
 
     a:hover {
         text-decoration: none;
@@ -29,8 +65,12 @@ footer {
 
         [class*='social-icons__'] {
             font-size: 1.5rem;
-            margin: 0 20px;
+            margin: 0 15px;
             transition: color 0.1s ease-in-out;
+
+            @include media-breakpoint-up(md) {
+                margin: 0 20px;
+            }
         }
     }
 }
