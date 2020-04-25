@@ -14,7 +14,7 @@ let Footer = {
                     looking forward to chatting with you about your future project!
                 </div>
                 <div class="section__container__content">
-                    <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
+                    <a href="mailto:hristina.a.hristova@gmail.com" class="btn btn--contact">
                         ✉️ Say hello!
                     </a>
                 </div>
