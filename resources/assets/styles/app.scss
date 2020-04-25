@@ -388,6 +388,7 @@ body {
 
 @include media-breakpoint-down(sm) {
     .about-me__image {
+        height: 350px;
         width: 100%;
     }
 }

@@ -16,7 +16,7 @@ header {
     font-weight: 700;
 
     @include media-breakpoint-down(md) {
-        padding: 15px 0;
+        padding: 15px 10px; 
     }
 
     @include large-desktop() {
