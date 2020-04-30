@@ -27,7 +27,7 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^7.0.0",
     "imagemin-svgo": "^7.1.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "laravel-mix": "^4.1.4",
     "node-sass": "^4.13.1",
     "popper.js": "^1.16.1",
