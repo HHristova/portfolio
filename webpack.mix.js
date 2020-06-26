@@ -40,6 +40,9 @@ mix
     .setResourceRoot('../')
     .copy('node_modules/@fortawesome/fontawesome-free-webfonts/webfonts', 'public/assets/fonts')
 
+    // Copy local fonts to public folder
+    .copy('resources/assets/fonts', 'public/assets/fonts')
+
     .options({
         processCssUrls: false
     })

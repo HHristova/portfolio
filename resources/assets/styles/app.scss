@@ -1,6 +1,7 @@
 @import 'variables.scss';
 @import 'keyframes.scss';
 @import 'mixins.scss';
+@import 'fonts.scss';
 
 $fa-font-path:  'fonts' !default;
 @import '~@fortawesome/fontawesome-free-webfonts/scss/fontawesome';
@@ -310,9 +311,10 @@ body {
 
 .section__container__title {
     margin-bottom: 20px;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 500;
     position: relative;
+    font-family: 'ding_dong';
 
     &.section__container__title--sm {
         font-size: 1.3rem;
