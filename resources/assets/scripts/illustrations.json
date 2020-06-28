@@ -1,13 +1,13 @@
 [
     {
         "id": "0",
-        "thumb": "/assets/images/myWork/illustrations/sloth1-illustration.jpg",
-        "url": "/assets/images/myWork/illustrations/sloth1-illustration.jpg",
-        "title": "Sloth illustration",
+        "thumb": "/assets/images/myWork/illustrations/sloths.jpg",
+        "url": "/assets/images/myWork/illustrations/sloths.jpg",
+        "title": "Sloths illustration",
         "filterId": "illustration"
     },
     {
-        "id": "01",
+        "id": "09",
         "thumb": "/assets/images/myWork/illustrations/snowboarder-thumb.jpg",
         "url": "/assets/images/myWork/illustrations/snowboarder.jpg",
         "title": "Snowboarder illustration",
@@ -49,17 +49,10 @@
         "filterId": "illustration"
     },
     {
-        "id": "32",
-        "thumb": "/assets/images/myWork/illustrations/september-lettering-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/september-lettering.jpg",
-        "title": "September hand-lettering piece",
-        "filterId": "illustration"
-    },
-    {
         "id": "33",
-        "thumb": "/assets/images/myWork/illustrations/g-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/gg.jpg",
-        "title": "Hand-lettered G",
+        "thumb": "/assets/images/myWork/illustrations/chicken-balloons.jpg",
+        "url": "/assets/images/myWork/illustrations/chicken-balloons.jpg",
+        "title": "Flying chicken illustration",
         "filterId": "illustration"
     },
     {
@@ -85,9 +78,9 @@
     },
     {
         "id": "41",
-        "thumb": "/assets/images/myWork/illustrations/girl-flower-illustration-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/girl-flower-illustration.jpg",
-        "title": "Spring flower in fall illustration",
+        "thumb": "/assets/images/myWork/illustrations/giraffe.jpg",
+        "url": "/assets/images/myWork/illustrations/giraffe.jpg",
+        "title": "Giraffe artist illustration",
         "filterId": "illustration"
     },
     {
@@ -120,30 +113,30 @@
     },
     {
         "id": "9",
-        "thumb": "/assets/images/myWork/illustrations/illustration-balloons.jpg",
-        "url": "/assets/images/myWork/illustrations/illustration-balloons.jpg",
-        "title": "Flying balloons illustration based on a real image",
-        "filterId": "illustration"
-    },
-    {
-        "id": "10",
-        "thumb": "/assets/images/myWork/illustrations/lettering-17.jpg",
-        "url": "/assets/images/myWork/illustrations/lettering-17.jpg",
-        "title": "Spring inspired hand-lettered J",
+        "thumb": "/assets/images/myWork/illustrations/penguins.jpg",
+        "url": "/assets/images/myWork/illustrations/penguins.jpg",
+        "title": "Penguins illustration",
         "filterId": "illustration"
     },
     {
         "id": "101",
-        "thumb": "/assets/images/myWork/illustrations/sloth2-illustration.jpg",
-        "url": "/assets/images/myWork/illustrations/sloth2-illustration.jpg",
-        "title": "Sloth illustration",
+        "thumb": "/assets/images/myWork/illustrations/hedgehog-mouse.jpg",
+        "url": "/assets/images/myWork/illustrations/hedgehog-mouse.jpg",
+        "title": "Children illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "102",
+        "thumb": "/assets/images/myWork/illustrations/bear-tourist.jpg",
+        "url": "/assets/images/myWork/illustrations/bear-tourist.jpg",
+        "title": "Bear tourist illustration",
         "filterId": "illustration"
     },
     {
         "id": "11",
-        "thumb": "/assets/images/myWork/illustrations/lettering-15.jpg",
-        "url": "/assets/images/myWork/illustrations/lettering-15.jpg",
-        "title": "Hello April hand-lettering",
+        "thumb": "/assets/images/myWork/illustrations/bird-coming.jpg",
+        "url": "/assets/images/myWork/illustrations/bird-coming.jpg",
+        "title": "Spring illustration",
         "filterId": "illustration"
     },
 
@@ -183,17 +176,52 @@
         "filterId": "illustration"
     },
     {
-        "id": "18",
-        "thumb": "/assets/images/myWork/illustrations/lettering-7.jpg",
-        "url": "/assets/images/myWork/illustrations/lettering-7.jpg",
-        "title": "Hand-lettering idea",
+        "id": "103",
+        "thumb": "/assets/images/myWork/illustrations/mister-llama.jpg",
+        "url": "/assets/images/myWork/illustrations/mister-llama.jpg",
+        "title": "Mister llama illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "104",
+        "thumb": "/assets/images/myWork/illustrations/dream-big.jpg",
+        "url": "/assets/images/myWork/illustrations/dream-big.jpg",
+        "title": "Dream big illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "105",
+        "thumb": "/assets/images/myWork/illustrations/flying-dog.jpg",
+        "url": "/assets/images/myWork/illustrations/flying-dog.jpg",
+        "title": "Flying corgi illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "106",
+        "thumb": "/assets/images/myWork/illustrations/mouse-yoga.jpg",
+        "url": "/assets/images/myWork/illustrations/mouse-yoga.jpg",
+        "title": "Yoga mouse illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "107",
+        "thumb": "/assets/images/myWork/illustrations/planets.jpg",
+        "url": "/assets/images/myWork/illustrations/planets.jpg",
+        "title": "Planets illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "108",
+        "thumb": "/assets/images/myWork/illustrations/rabbit.jpg",
+        "url": "/assets/images/myWork/illustrations/rabbit.jpg",
+        "title": "Rabbit reading a book illustration",
         "filterId": "illustration"
     },
     {
         "id": "19",
-        "thumb": "/assets/images/myWork/illustrations/happy-birthday-lettering-card.jpg",
-        "url": "/assets/images/myWork/illustrations/happy-birthday-lettering-card.jpg",
-        "title": "Birthday card design",
+        "thumb": "/assets/images/myWork/illustrations/lady-llama.jpg",
+        "url": "/assets/images/myWork/illustrations/lady-llama.jpg",
+        "title": "Lady llama illustration",
         "filterId": "illustration"
     },
     {
@@ -205,30 +233,30 @@
     },
     {
         "id": "21",
-        "thumb": "/assets/images/myWork/illustrations/gob-bag-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/gob-bag.jpg",
-        "title": "Bag design for a non-profit organisation 'Get On Board'",
+        "thumb": "/assets/images/myWork/illustrations/kindle.jpg",
+        "url": "/assets/images/myWork/illustrations/kindle.jpg",
+        "title": "Woman reading illustration",
         "filterId": "illustration"
     },
     {
         "id": "22",
-        "thumb": "/assets/images/myWork/illustrations/child-book-page1-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/child-book-page1.jpg",
-        "title": "The first pages of my illustrated child book called 'The clever ones'",
+        "thumb": "/assets/images/myWork/illustrations/hedgehog-donut.jpg",
+        "url": "/assets/images/myWork/illustrations/hedgehog-donut.jpg",
+        "title": "Cute hedgehog illustration",
         "filterId": "illustration"
     },
     {
         "id": "24",
-        "thumb": "/assets/images/myWork/illustrations/lettering-6.jpg",
-        "url": "/assets/images/myWork/illustrations/lettering-6.jpg",
-        "title": "Hand-lettering design",
+        "thumb": "/assets/images/myWork/illustrations/girl-with-balloons.jpg",
+        "url": "/assets/images/myWork/illustrations/girl-with-balloons.jpg",
+        "title": "Girl with balloons illustration",
         "filterId": "illustration"
     },
     {
         "id": "25",
-        "thumb": "/assets/images/myWork/illustrations/lettering-9.jpg",
-        "url": "/assets/images/myWork/illustrations/lettering-9.jpg",
-        "title": "Valentine card design concept",
+        "thumb": "/assets/images/myWork/illustrations/chickens.jpg",
+        "url": "/assets/images/myWork/illustrations/chickens.jpg",
+        "title": "Easter chickens illustration",
         "filterId": "illustration"
     },
     {
@@ -240,8 +268,8 @@
     },
     {
         "id": "27",
-        "thumb": "/assets/images/myWork/illustrations/birthday-card-design.jpg",
-        "url": "/assets/images/myWork/illustrations/birthday-card-design.jpg",
+        "thumb": "/assets/images/myWork/illustrations/birthdaycard.jpg",
+        "url": "/assets/images/myWork/illustrations/birthdaycard.jpg",
         "title": "Birthday card design",
         "filterId": "illustration"
     },
@@ -261,9 +289,9 @@
     },
     {
         "id": "30",
-        "thumb": "/assets/images/myWork/illustrations/summer-star.png",
-        "url": "/assets/images/myWork/illustrations/summer-star.png",
-        "title": "Summer illustration",
+        "thumb": "/assets/images/myWork/illustrations/store.jpg",
+        "url": "/assets/images/myWork/illustrations/store.jpg",
+        "title": "Zero waste illustration",
         "filterId": "illustration"
     }
 ]
