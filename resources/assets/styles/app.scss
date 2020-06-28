@@ -314,7 +314,7 @@ body {
     font-size: 4rem;
     font-weight: 500;
     position: relative;
-    font-family: 'ding_dong';
+    font-family: 'rockness';
 
     &.section__container__title--sm {
         font-size: 1.3rem;
@@ -358,15 +358,15 @@ body {
     display: block;
     flex: none;
     width: 40%;
-    margin-left: -9%;
+    margin-left: -5%;
 }
 
 .about-me__image {
     display: block;
     width: 100%;
-    height: 700px;
-    background: url('images/hhristova-img.jpg') no-repeat;
-    background-size: cover;
+    height: 550px;
+    background: url('images/hhristova-img.png') no-repeat;
+    background-size: contain;
     background-position: center;
 }
 
@@ -377,8 +377,8 @@ body {
     }
 
     .about-me__image {
-        height: 300px;
-        width: 300px;
+        height: 60vw;
+        width: 60vw;
         margin: auto;
     }
 
@@ -390,7 +390,7 @@ body {
 
 @include media-breakpoint-down(sm) {
     .about-me__image {
-        height: 350px;
+        height: 100vw;
         width: 100%;
     }
 }
