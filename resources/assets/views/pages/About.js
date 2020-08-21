@@ -49,22 +49,19 @@ let About = {
                             <p>
                                 Hey there 👋,
                                 <br>
-                                I am Hristina - web designer and front-end dev
-                                that creates wireframes for web apps and translate them to actual user-friendly
-                                interfaces that people can understand and interact with. As both designer and developer,
-                                I love that I have the tools to solve problems and implement solutions.
-                                I'm always on the hunt for what's new and changing in the world of design and code.
-                            </p>
-                            <p class="about__content--subtitle">
-                                <i><b>I believe that products can be simple, but they don't have to be boring.</b></i>
+                                I am Hristina - web designer and illustrator based in Sofia. As part of my design job I
+                                create wireframes for web apps and translate them to actual user-friendly
+                                interfaces, while my illustration side is more about creating whimsical and
+                                happy drawings that make the people smile.
+                                I'm always on the hunt for what's new and changing in the world of design and art
+                                and I love experimenting with it.
                             </p>
                             <p>
-                                During my day-to-day job I started more and more to sketch and draw
-                                illustrations and different graphic elements that can help the overall
-                                design concept. This is how I found my other passion - drawing.
+                                In the last year I've started working on designing my own products and
+                                creative resources, so we'll see where this will take me in the future. 🙂
                             </p>
                             <p>
-                                When I'm not glued to a screen, I can be found at concerts,
+                                When I'm not glued to a screen or canvas, I can be found at concerts,
                                 riding a bicycle, snowboarding with a noisy speaker, among the shelves
                                 of the bookstores or laughing out loud in the parks.
                             </p>
