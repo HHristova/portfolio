@@ -18,7 +18,6 @@
         background-position: center;
         background-repeat: no-repeat;
 
-
         @include media-breakpoint-up(md) {
             min-height: 340px;
         }
@@ -40,6 +39,16 @@
     flex: 100%;
     background-color: $blog-background;
     flex-direction: column;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: darken($blog-background, 10%);
+
+        .box-thumb:before {
+            background-color: $black;
+            opacity: 0.35;
+        }
+    }
 
     &:first-child {
         flex: 100%;
