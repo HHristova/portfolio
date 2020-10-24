@@ -50,15 +50,15 @@
     },
     {
         "id": "07",
-        "thumb": "/assets/images/myWork/illustrations/plastic-free-july1.JPG",
-        "url": "/assets/images/myWork/illustrations/plastic-free-july1.JPG",
+        "thumb": "/assets/images/myWork/illustrations/plastic-free-july-1.jpg",
+        "url": "/assets/images/myWork/illustrations/plastic-free-july-1.jpg",
         "title": "Plastic free July illustration",
         "filterId": "illustration"
     },
     {
         "id": "08",
-        "thumb": "/assets/images/myWork/illustrations/plastic-free-july-2.JPG",
-        "url": "/assets/images/myWork/illustrations/plastic-free-july-2.JPG",
+        "thumb": "/assets/images/myWork/illustrations/plastic-free-july-2.jpg",
+        "url": "/assets/images/myWork/illustrations/plastic-free-july-2.jpg",
         "title": "Plastic free July illustration",
         "filterId": "illustration"
     },
@@ -87,6 +87,13 @@
         "id": "012",
         "thumb": "/assets/images/myWork/illustrations/leaves.jpg",
         "url": "/assets/images/myWork/illustrations/leaves.jpg",
+        "title": "Leaves - color pencils",
+        "filterId": "illustration"
+    },
+    {
+        "id": "013",
+        "thumb": "/assets/images/myWork/illustrations/autumn-mug.jpg",
+        "url": "/assets/images/myWork/illustrations/autumn-mug.jpg",
         "title": "Leaves - color pencils",
         "filterId": "illustration"
     },
