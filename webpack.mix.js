@@ -58,7 +58,7 @@ mix
     //         // We cannot use the mix.copy() function as it does not allow for transformations/asset optimizations.
     //         new CopyWebpackPlugin([{
     //             context: path.resolve(__dirname, 'resources/assets/images/'),
-    //             from: '**/*.{png,jpg,svg}',
+    //             from: '**/*.{png,jpg,JPG,svg}',
     //             to: path.resolve(__dirname, publicPath, 'assets/images/'),
     //             force: true,
     //             transform: (content) => {

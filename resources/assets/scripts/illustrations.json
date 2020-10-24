@@ -7,10 +7,87 @@
         "filterId": "illustration"
     },
     {
+        "id": "01",
+        "thumb": "/assets/images/myWork/illustrations/autumn-cat.jpg",
+        "url": "/assets/images/myWork/illustrations/autumn-cat.jpg",
+        "title": "Autumn kitty illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "02",
+        "thumb": "/assets/images/myWork/illustrations/camping.JPG",
+        "url": "/assets/images/myWork/illustrations/camping.JPG",
+        "title": "Camping illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "03",
+        "thumb": "/assets/images/myWork/illustrations/corgi-skate.JPG",
+        "url": "/assets/images/myWork/illustrations/corgi-skate.JPG",
+        "title": "Girl and corgi skating",
+        "filterId": "illustration"
+    },
+    {
+        "id": "04",
+        "thumb": "/assets/images/myWork/illustrations/fower-girl.JPG",
+        "url": "/assets/images/myWork/illustrations/fower-girl.JPG",
+        "title": "Girl with a flower",
+        "filterId": "illustration"
+    },
+    {
+        "id": "05",
+        "thumb": "/assets/images/myWork/illustrations/happy-whale.JPG",
+        "url": "/assets/images/myWork/illustrations/happy-whale.JPG",
+        "title": "Happy whale under the rain",
+        "filterId": "illustration"
+    },
+    {
+        "id": "06",
+        "thumb": "/assets/images/myWork/illustrations/leo.JPG",
+        "url": "/assets/images/myWork/illustrations/leo.JPG",
+        "title": "Leo on a boat",
+        "filterId": "illustration"
+    },
+    {
+        "id": "07",
+        "thumb": "/assets/images/myWork/illustrations/plastic-free-july1.JPG",
+        "url": "/assets/images/myWork/illustrations/plastic-free-july1.JPG",
+        "title": "Plastic free July illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "08",
+        "thumb": "/assets/images/myWork/illustrations/plastic-free-july-2.JPG",
+        "url": "/assets/images/myWork/illustrations/plastic-free-july-2.JPG",
+        "title": "Plastic free July illustration",
+        "filterId": "illustration"
+    },
+    {
         "id": "09",
         "thumb": "/assets/images/myWork/illustrations/snowboarder-thumb.jpg",
         "url": "/assets/images/myWork/illustrations/snowboarder.jpg",
         "title": "Snowboarder illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "010",
+        "thumb": "/assets/images/myWork/illustrations/rhino.jpg",
+        "url": "/assets/images/myWork/illustrations/rhino.jpg",
+        "title": "Rhino going on the beach",
+        "filterId": "illustration"
+    },
+    {
+        "id": "011",
+        "thumb": "/assets/images/myWork/illustrations/umbrellas.jpg",
+        "url": "/assets/images/myWork/illustrations/umbrellas.jpg",
+        "title": "Umbrellas illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "012",
+        "thumb": "/assets/images/myWork/illustrations/leaves.jpg",
+        "url": "/assets/images/myWork/illustrations/leaves.jpg",
+        "title": "Leaves - color pencils",
         "filterId": "illustration"
     },
     {
