@@ -8,8 +8,8 @@
     },
     {
         "id": "01",
-        "thumb": "/assets/images/myWork/illustrations/autumn-cat.jpg",
-        "url": "/assets/images/myWork/illustrations/autumn-cat.jpg",
+        "thumb": "/assets/images/myWork/illustrations/autumn-kitty.jpg",
+        "url": "/assets/images/myWork/illustrations/autumn-kitty.jpg",
         "title": "Autumn kitty illustration",
         "filterId": "illustration"
     },
@@ -78,8 +78,8 @@
     },
     {
         "id": "011",
-        "thumb": "/assets/images/myWork/illustrations/umbrellas.jpg",
-        "url": "/assets/images/myWork/illustrations/umbrellas.jpg",
+        "thumb": "/assets/images/myWork/illustrations/colorful-umbrellas.jpg",
+        "url": "/assets/images/myWork/illustrations/colorful-umbrellas.jpg",
         "title": "Umbrellas illustration",
         "filterId": "illustration"
     },
