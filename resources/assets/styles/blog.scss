@@ -6,6 +6,12 @@
     font-size: 18px;
 }
 
+.blog-content {
+    .section__container__title {
+        font-family: $theme-font-family, sans-serif;
+    }
+}
+
 .blog-date {
     font-size: 14px;
     color: #888;
