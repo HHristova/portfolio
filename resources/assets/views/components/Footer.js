@@ -5,7 +5,7 @@ let Footer = {
             <div class="section__container">
                 <div class="separator"></div>
 
-                <img src="/assets/images/footer-img.png" class="img-fluid contact-img"
+                <img src="/assets/images/footer-img1.png" class="img-fluid contact-img"
                     alt="Let's work together - contact me" />
                 <div class="contact-me mb-4">
                     I’m available for commissions and collaborations.

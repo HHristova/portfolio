@@ -42,6 +42,14 @@
 //     }
 // }
 
+.youtube-video {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 67.25%;
+    height: 0;
+    margin-bottom: 30px;
+}
+
 .blog-item {
     flex: 100%;
     background-color: $blog-background;
