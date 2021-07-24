@@ -27,6 +27,10 @@ html, body {
     line-height: 30px;
 }
 
+#page_container {
+    min-height: 100vh;
+}
+
 .no-found-wrapper {
     width: 100%;
 
@@ -96,6 +100,10 @@ html, body {
         color: $secondary;
     }
 
+    .colored-wrapper {
+        background-color: mix($white, $season, 80%);
+    }
+
     .scroll-down {
         background-color: $season;
     }
@@ -125,6 +133,12 @@ html, body {
 
     .btn--contact {
         background-color: mix($white, $season, 60%);
+    }
+
+    .btn--secondary {
+        background-color: transparent;
+        border: 2px solid mix($white, $secondary, 30%);
+        color: $secondary;
     }
 
     .btn {
@@ -224,7 +238,7 @@ body {
     font-size: 1.3rem;
 
     @include media-breakpoint-up(sm) {
-        padding-top: 26vh;
+        padding-top: 27vh;
         font-size: 2rem;
     }
 
@@ -311,7 +325,7 @@ body {
 
 .section__container__title {
     margin-bottom: 20px;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     position: relative;
     font-family: 'rockness';
@@ -368,6 +382,20 @@ body {
     background: url('images/hhristova-img.png') no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.colored-wrapper {
+    margin-top: 40px;
+
+    .d-flex {
+        padding-bottom: 40px;
+        max-width: 90%;
+        margin: auto;
+
+        @include media-breakpoint-up(md) {
+            padding: 0 0 40px;
+        }
+    }
 }
 
 @include media-breakpoint-down(md) {

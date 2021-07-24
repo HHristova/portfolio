@@ -11,6 +11,51 @@
     }
 }
 
+#instafeed {
+    padding: 30px 0 15px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+        flex-basis: calc(50% - 10px);
+        margin: 0 5px;
+        color: inherit;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    img, p {
+        max-width: 100%;
+    }
+
+    p {
+        margin-top: 10px;
+        @include lines-of-text;
+        font-size: 0.7rem;
+        line-height: normal;
+    }
+
+    @include media-breakpoint-up(md) {
+        a {
+            margin: 0 10px;
+            flex-basis: calc(50% - 20px);
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        a {
+            flex-basis: calc(25% - 20px);
+        }
+    }
+}
+
+.ig-btn-wrapper {
+    padding-bottom: 40px;
+}
+
 footer {
     position: relative;
     padding: 30px 15px;
