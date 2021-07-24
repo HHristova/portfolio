@@ -37,6 +37,20 @@ let Links = {
 
                     <div class="d-flex flex-wrap link-wrapper mb-5">
                         <div class="link-wrapper__box">
+                            <img src="/assets/images/links/sustainable-free-set.jpg" alt="Illustration freebie pack - sustainable animals" class="img-fluid" />
+                        </div>
+                        <div class="link-wrapper__box p-3">
+                            <p>
+                                "Sustainable animals" illustration pack freebie
+                            </p>
+                            <a href="https://weareskribbl.com/sustainable-animals/" target="_blank" type="button" class="btn btn--contact">
+                                Get it here
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-wrap link-wrapper mb-5">
+                        <div class="link-wrapper__box">
                             <img src="/assets/images/links/youtube.jpg" alt="Hrisi Doodles youtube channel" class="img-fluid" />
                         </div>
                         <div class="link-wrapper__box p-3">
