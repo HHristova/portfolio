@@ -72,50 +72,51 @@ let About = {
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="colored-wrapper text-center">
+                <h1 class="section__container__title d-inline-block text-center mt-5 px-3">
+                    <span class="section__container__title__span">Things I do Well</span>
+                </h1>
 
-                    <h1 class="section__container__title d-inline-block text-center mt-5 px-3">
-                        <span class="section__container__title__span">Things I do Well</span>
-                    </h1>
-
-                    <div class="d-flex flex-wrap mt-3">
-                        <div class="flex-skills mx-md-3">
-                            <div class="skills-image skills-image--width">
-                                <img src="/assets/images/web-design-front-end.jpg"
-                                    class="img-fluid"
-                                    alt="Web design and front-end development icon"/>
-                            </div>
-                            <div class="about-me__content about-me__content--weight mx-auto mt-3">
-                                Web Design & Front-End
-                            </div>
-                            <p>
-                                The intersection of visual designs and programming is one of my favourite places.
-                            </p>
+                <div class="d-flex flex-wrap mt-3">
+                    <div class="flex-skills mx-md-3">
+                        <div class="skills-image skills-image--width">
+                            <img src="/assets/images/web-design-front-end.jpg"
+                                class="img-fluid"
+                                alt="Web design and front-end development icon"/>
                         </div>
-                        <div class="flex-skills mx-md-3 mt-5 mt-md-0">
-                            <div class="skills-image skills-image--width">
-                                <img src="/assets/images/illustrations.jpg" class="img-fluid"
-                                    alt="Illustrations icon"/>
-                            </div>
-                            <div class="about-me__content about-me__content--weight mx-auto mt-3">
-                                Illustrations
-                            </div>
-                            <p>
-                                I also love working on whimsical illustrations
-                                and cute characters.
-                            </p>
+                        <div class="about-me__content about-me__content--weight mx-auto mt-3">
+                            Web Design & Front-End
                         </div>
-                        <div class="flex-skills mx-md-3 mt-5 mt-md-0">
-                            <div class="skills-image skills-image--width">
-                                <img src="/assets/images/graphic-design.jpg" class="img-fluid"
-                                    alt="Graphic design icon"/>
-                            </div>
-                            <div class="about-me__content about-me__content--weight mx-auto mt-3">
-                                Graphic Design
-                            </div>
-                            <p>
-                                I have some print design goodies under my belt.
-                            </p>
+                        <p>
+                            The intersection of visual designs and programming is one of my favourite places.
+                        </p>
+                    </div>
+                    <div class="flex-skills mx-md-3 mt-5 mt-md-0">
+                        <div class="skills-image skills-image--width">
+                            <img src="/assets/images/illustrations.jpg" class="img-fluid"
+                                alt="Illustrations icon"/>
                         </div>
+                        <div class="about-me__content about-me__content--weight mx-auto mt-3">
+                            Illustrations
+                        </div>
+                        <p>
+                            I also love working on whimsical illustrations
+                            and cute characters.
+                        </p>
+                    </div>
+                    <div class="flex-skills mx-md-3 mt-5 mt-md-0">
+                        <div class="skills-image skills-image--width">
+                            <img src="/assets/images/graphic-design.jpg" class="img-fluid"
+                                alt="Graphic design icon"/>
+                        </div>
+                        <div class="about-me__content about-me__content--weight mx-auto mt-3">
+                            Graphic Design
+                        </div>
+                        <p>
+                            I have some print design goodies under my belt.
+                        </p>
                     </div>
                 </div>
             </div>
