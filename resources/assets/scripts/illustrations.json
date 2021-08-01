@@ -127,9 +127,16 @@
     },
     {
         "id": "31",
-        "thumb": "/assets/images/myWork/illustrations/MrWaterMelon.jpg",
-        "url": "/assets/images/myWork/illustrations/MrWaterMelon.jpg",
-        "title": "Watermelon illustration",
+        "thumb": "/assets/images/myWork/illustrations/reading-girl.jpg",
+        "url": "/assets/images/myWork/illustrations/reading-girl.jpg",
+        "title": "Girl reading a book illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "32",
+        "thumb": "/assets/images/myWork/illustrations/sustainable-bear.jpg",
+        "url": "/assets/images/myWork/illustrations/sustainable-bear.jpg",
+        "title": "Sustainable bear illustration",
         "filterId": "illustration"
     },
     {
@@ -148,9 +155,9 @@
     },
     {
         "id": "3",
-        "thumb": "/assets/images/myWork/illustrations/lettering-3.jpg",
-        "url": "/assets/images/myWork/illustrations/lettering-3.jpg",
-        "title": "Hand-lettering idea",
+        "thumb": "/assets/images/myWork/illustrations/happy-earth-drawing.jpg",
+        "url": "/assets/images/myWork/illustrations/happy-earth-drawing.jpg",
+        "title": "International Earth Day illustration",
         "filterId": "illustration"
     },
     {
@@ -344,24 +351,10 @@
         "filterId": "illustration"
     },
     {
-        "id": "26",
-        "thumb": "/assets/images/myWork/illustrations/rock-poster-design-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/rock-poster-design.jpg",
-        "title": "Christmas rock poster design concept",
-        "filterId": "illustration"
-    },
-    {
         "id": "27",
-        "thumb": "/assets/images/myWork/illustrations/birthdaycard.jpg",
-        "url": "/assets/images/myWork/illustrations/birthdaycard.jpg",
+        "thumb": "/assets/images/myWork/illustrations/Seasonal-Greeting-Card.jpg",
+        "url": "/assets/images/myWork/illustrations/Seasonal-Greeting-Card.jpg",
         "title": "Birthday card design",
-        "filterId": "illustration"
-    },
-    {
-        "id": "28",
-        "thumb": "/assets/images/myWork/illustrations/lettering-13.jpg",
-        "url": "/assets/images/myWork/illustrations/lettering-13.jpg",
-        "title": "Hand-lettered word 'Evening'",
         "filterId": "illustration"
     },
     {
