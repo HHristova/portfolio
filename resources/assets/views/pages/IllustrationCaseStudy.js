@@ -123,3 +123,25 @@ let IllustrationCaseStudy = {
 }
 
 export default IllustrationCaseStudy;
+
+// DO NOW DELETE!
+// {
+//     "id": "book-cover-project",
+//     "type": "personal-project",
+//     "thumb": "/assets/images/myWork/illustrations/book-cover/book-cover-thumb.jpg",
+//     "title": "Book cover design for Georgi Gospodinov's book 'The physics of sorrow'",
+//     "titleThumb": "Book cover design",
+//     "intro": "<p>Below can be seen the initial sketch of the book cover I've worked on, as well as the final piece. There are two color versions of it as well as the design of the inner pages.</p><p>The main aim of the cover design was to extract the main essence of the book into something simple and understandable for the customers.</p> <p>There are the two sketches I created for the book. The first one was too detailed and didn't answer the main question one book cover have to answer - What this book is about? That's why I tried another approach and I got rid of everything that is not directly pointing out the topic of the book and the final result is on the right side.</p>",
+//     "sketches": {
+//         "sketch0": "/assets/images/myWork/illustrations/book-cover/sketch-1.jpg",
+//         "sketch1": "/assets/images/myWork/illustrations/book-cover/sketch-2.jpg"
+//     },
+//     "additionalContent": "Since the sketch was approved I did some additional tweaks and continued with creating the final artwork. The fly motive was incorporated for the inner front page of the book as well as the back side of it. The two color versions can be seen below.",
+//     "artworks": {
+//         "artwork0": "/assets/images/myWork/illustrations/book-cover/artwork1.jpg",
+//         "artwork1": "/assets/images/myWork/illustrations/book-cover/artwork5.jpg",
+//         "artwork2": "/assets/images/myWork/illustrations/book-cover/artwork3.jpg",
+//         "artwork3": "/assets/images/myWork/illustrations/book-cover/artwork2.jpg",
+//         "artwork4": "/assets/images/myWork/illustrations/book-cover/artwork4.jpg"
+//     }
+// },
