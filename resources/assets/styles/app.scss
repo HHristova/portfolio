@@ -159,6 +159,10 @@ html, body {
         color: $secondary;
     }
 
+    .illustrationProject-item {
+        border: 1px solid rgba($secondary, 0.2);
+    }
+
     footer {
         background-color: $season;
     }

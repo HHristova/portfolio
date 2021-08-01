@@ -19,9 +19,21 @@
 }
 
 .illustrationProject-item {
-    flex: 100%;
+    flex: calc(50% - 10px);
+    margin: 0 5px;
+    border: 1px solid gray;
 
     @include media-breakpoint-only(md) {
         flex: 0 1 calc(50% - 0.25rem);
+    }
+
+    img {
+        height: 100%;
+    }
+}
+
+.illustrationProject-wrapper {
+    .section__container__title {
+        font-family: $theme-font-family;
     }
 }

@@ -49,7 +49,7 @@ let About = {
                             <p>
                                 Hey there 👋,
                                 <br>
-                                I am Hristina - web designer and illustrator based in Sofia. As part of my design job I
+                                I am Hristina - web designer and illustrator based in Sofia, Bulgaria. As part of my design job I
                                 create wireframes for web apps and translate them to actual user-friendly
                                 interfaces, while my illustration side is more about creating whimsical and
                                 happy drawings that make the people smile.

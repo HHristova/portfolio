@@ -62,8 +62,12 @@
     }
 }
 
-.js-modal-image, .js-modal-content {
+.js-modal-image {
     width: 100%;
+}
+
+.js-modal-content {
+    width: 60%;
 }
 
 .js-modal-content {
@@ -190,4 +194,10 @@
 
 .project-subtitle {
     font-weight: 700;
+}
+
+.item {
+    .section__container__title {
+        font-family: $theme-font-family;
+    }
 }
