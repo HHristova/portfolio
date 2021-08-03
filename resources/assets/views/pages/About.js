@@ -126,7 +126,7 @@ let About = {
     , after_render: async () => {
         // Typed.js homepage header initialisation
         const options = {
-            strings: ['', 'web designer.', 'illustrator.', 'snowboarder.', 'snooker fan.'],
+            strings: ['', 'web designer.', 'illustrator.', 'snowboarder.', 'music lover.', 'snooker fan.'],
             typeSpeed: 30,
             backSpeed: 30,
             contentType: null,

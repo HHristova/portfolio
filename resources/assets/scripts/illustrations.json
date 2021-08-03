@@ -99,8 +99,8 @@
     },
     {
         "id": "1",
-        "thumb": "/assets/images/myWork/illustrations/Cloe-Jaffa-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/Cloe-Jaffa.jpg",
+        "thumb": "/assets/images/myWork/illustrations/print3.jpg",
+        "url": "/assets/images/myWork/illustrations/print3.jpg",
         "title": "A girl with a dog illustration",
         "filterId": "illustration"
     },
@@ -182,9 +182,9 @@
         "filterId": "illustration"
     },
     {
-        "id": "5",
-        "thumb": "/assets/images/myWork/illustrations/water-animals-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/water-animals.jpg",
+        "id": "53",
+        "thumb": "/assets/images/myWork/illustrations/print2.jpg",
+        "url": "/assets/images/myWork/illustrations/print2.jpg",
         "title": "The outside animals need water",
         "filterId": "illustration"
     },
@@ -338,8 +338,8 @@
     },
     {
         "id": "24",
-        "thumb": "/assets/images/myWork/illustrations/girl-with-balloons.jpg",
-        "url": "/assets/images/myWork/illustrations/girl-with-balloons.jpg",
+        "thumb": "/assets/images/myWork/illustrations/print1.jpg",
+        "url": "/assets/images/myWork/illustrations/print1.jpg",
         "title": "Girl with balloons illustration",
         "filterId": "illustration"
     },
