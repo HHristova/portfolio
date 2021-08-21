@@ -35,11 +35,11 @@ let IllustrationCaseStudy = {
         // Check if there are any sketches and then show this chunk of code
         if (sketchesLength != 0) {
             sketches = `
-            <div class="item__content px-2 py-lg-4">
+            <div class="item__content px-2 pb-lg-3">
                 <div class="d-flex w-100 flex-wrap justify-content-between">`;
                 for(var i = 0; i < sketchesLength; i++) {
                     sketches += `
-                    <div class="illustrationProject-item mb-3">
+                    <div class="illustrationProject-item mb-2">
                          <div class="js-button--illustrations box-thumb d-inline-block"
                              data-toggle="modal" data-target="#modalPicture"
                              value="Expand photo" role="button"

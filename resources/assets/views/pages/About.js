@@ -82,7 +82,7 @@ let About = {
                 <div class="d-flex flex-wrap mt-3">
                     <div class="flex-skills mx-md-3">
                         <div class="skills-image skills-image--width">
-                            <img src="/assets/images/web-design-front-end.jpg"
+                            <img src="/assets/images/web-design-front-end2.jpg"
                                 class="img-fluid"
                                 alt="Web design and front-end development icon"/>
                         </div>
@@ -95,7 +95,7 @@ let About = {
                     </div>
                     <div class="flex-skills mx-md-3 mt-5 mt-md-0">
                         <div class="skills-image skills-image--width">
-                            <img src="/assets/images/illustrations.jpg" class="img-fluid"
+                            <img src="/assets/images/illustrations2.jpg" class="img-fluid"
                                 alt="Illustrations icon"/>
                         </div>
                         <div class="about-me__content about-me__content--weight mx-auto mt-3">
@@ -108,7 +108,7 @@ let About = {
                     </div>
                     <div class="flex-skills mx-md-3 mt-5 mt-md-0">
                         <div class="skills-image skills-image--width">
-                            <img src="/assets/images/graphic-design.jpg" class="img-fluid"
+                            <img src="/assets/images/graphic-design2.jpg" class="img-fluid"
                                 alt="Graphic design icon"/>
                         </div>
                         <div class="about-me__content about-me__content--weight mx-auto mt-3">
