@@ -13,7 +13,7 @@ let Footer = {
                 <div id="instafeed"></div>
 
                 <div class="section__container__content ig-btn-wrapper">
-                    <a href="mailto:hristina.a.hristova@gmail.com" class="btn btn--secondary">
+                    <a href="https://www.instagram.com/hristova.drawings/" target="_blank" class="btn btn--secondary">
                         <i class="fab fa-instagram social-icons__inst" aria-hidden="true"></i> Follow me
                     </a>
                 </div>
