@@ -49,24 +49,22 @@ let About = {
                             <p>
                                 Hey there 👋,
                                 <br>
-                                I am Hristina 👧 - web designer and illustrator based in Sofia, Bulgaria. As part of my design job I
-                                create user-friendly interfaces based on client's business needs, while my illustration side is more about creating whimsical and
-                                happy drawings that make the people smile. I really love collages, typography, and basically everything that’s connected to visual communication
-                                and I'm always on the hunt for what's new and changing in the world of design.
+                                Hristina’s here 👧 - I’m a designer, an illustrator, a photographer and a lifetime student.
+                                I’m an optimist. I’m an environmentalist and I will be more things yet to come.
+                                </p>
+                                <p>
+                                My design side is all about creating user-friendly interfaces based on client's needs, while the illustration one is more about creating whimsical and
+                                happy drawings that make the people smile. I really love collages, typography, and basically everything that’s connected to visual communication.
                             </p>
                             <p>
-                                Last year I've started working on designing my own products and
-                                creative resources, so we'll see where this will take me in the future. 🙂
-                            </p>
-                            <p>
-                                When I'm not glued to a screen or canvas, I can be found at concerts 🎸,
+                                I also work on designing my own products and when I'm not glued to a canvas, I can be found at concerts 🎸,
                                 riding a bicycle 🚲, snowboarding with a noisy speaker 🏂, among the shelves
                                 of the bookstores 📚 or laughing out loud in the parks 🏞️.
                             </p>
                             <p>
                                 You can check <a href="/ui-designs"><strong>my UI designs ✒️</strong></a> and
                                 <a href="/illustrations"><strong>illustrations 🎨</strong></a>
-                                or just say 'Hi' 👋 with the link below.
+                                or just <a href="mailto:hristina.a.hristova@gmail.com"><strong>say 'Hi' 👋</strong></a>.
                             </p>
                         </div>
                     </div>
