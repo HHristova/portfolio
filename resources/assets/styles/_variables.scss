@@ -3,7 +3,7 @@ $winter: #75c3e8;
 $winter-darken: mix(#000, $winter, 50%);
 $spring: #A0EAE9;
 $spring-darken: mix(#000, $spring, 50%);
-$summer: #75D7F2;
+$summer: #B5F2F2;
 $summer-darken: mix(#000, $summer, 50%);
 $autumn: #F2C7AA;
 $autumn-darken: #A16253;
@@ -26,7 +26,7 @@ $seasonTitle: 'winter' !default;
     } @if ($seasonTitle == 'spring') {
         @return 'images/logo-hhristova-spring.png';
     }  @if ($seasonTitle == 'summer') {
-        @return 'images/logo-hhristova.png';
+        @return 'images/logo-hhristova-summer.png';
     } @if ($seasonTitle == 'autumn') {
         @return 'images/logo-hhristova--autumn.png';
     }

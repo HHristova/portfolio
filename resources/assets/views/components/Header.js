@@ -42,6 +42,15 @@ let Header = {
     },
     after_render: async () => {
         let currentNav = '.nav-item .nav-link[href^="' + window.location.hash + '"]';
+
+        $(window).scroll(function() {
+           var hT = $('header').offset().top;
+               if (hT > $('header').outerHeight()) {
+                   $('header').addClass('header--top');
+               } else {
+                   $('header').removeClass('header--top');
+               }
+        });
     }
 }
 
