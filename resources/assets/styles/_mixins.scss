@@ -4,6 +4,12 @@
     }
 }
 
+@mixin huge-desktop {
+    @media (min-width: 1920px) {
+        @content;
+    }
+}
+
 @mixin lines-of-text {
     overflow: hidden;
     text-overflow: ellipsis;

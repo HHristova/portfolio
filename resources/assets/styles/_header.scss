@@ -4,6 +4,10 @@ header {
     width: 100%;
     z-index: 2;
     transition: all 0.3s ease-in-out;
+
+    @include huge-desktop {
+        max-width: 1920px;
+    }
 }
 
 .navbar-expand-lg .navbar-collapse {
