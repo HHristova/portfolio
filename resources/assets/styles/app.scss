@@ -26,6 +26,11 @@ html, body {
     font-family: $theme-font-family, sans-serif;
     font-weight: $theme-font-weights;
     line-height: 30px;
+
+    @include huge-desktop {
+        max-width: 1920px;
+        margin: auto;
+    }
 }
 
 #page_container {
