@@ -64,7 +64,7 @@ let About = {
                                 of the bookstores 📚 or laughing out loud in the parks 🏞️.
                             </p>
                             <p>
-                                You can check <a href="/work"><strong>my UI designs ✒️</strong></a> and
+                                You can check <a href="/ui-designs"><strong>my UI designs ✒️</strong></a> and
                                 <a href="/illustrations"><strong>illustrations 🎨</strong></a>
                                 or just say 'Hi' 👋 with the link below.
                             </p>
