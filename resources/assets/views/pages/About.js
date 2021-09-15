@@ -41,11 +41,11 @@ let About = {
                         <span class="section__container__title__span">About Me</span>
                     </h1>
 
-                    <div class="about-me d-flex align-items-center w-100 mt-3">
+                    <div class="about-me d-flex align-items-center w-100 mt-md-1">
                         <div class="about-me-wrapper">
                             <div class="about-me__image"></div>
                         </div>
-                            <div class="about-me__content text-left mt-3 mt-lg-0">
+                            <div class="about-me__content text-left mt-3 mt-lg-0 px-md-3 px-lg-0">
                             <p>
                                 Hey there 👋,
                                 <br>
