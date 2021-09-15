@@ -251,7 +251,7 @@ body {
 
 .hero-img {
     width: 100%;
-    height: 66%;
+    height: 77%;
     background-size: cover !important;
 
     &:before {
@@ -390,6 +390,7 @@ body {
 .about-me {
     flex-wrap: wrap;
     position: relative;
+    margin-top: -1.5rem;
 
     @include media-breakpoint-up(lg) {
         flex-wrap: nowrap;
