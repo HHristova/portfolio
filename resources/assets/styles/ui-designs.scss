@@ -8,6 +8,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 
+    &.grad-wrapper-no-gap {
+        grid-gap: initial;
+    }
+
     @include media-breakpoint-up(xl) {
         grid-template-columns: 1fr 1fr 1fr;
     }

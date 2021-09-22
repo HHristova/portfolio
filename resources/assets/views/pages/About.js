@@ -37,7 +37,7 @@ let About = {
 
             <div class="section text-center container mt-4">
                 <div class="section__container">
-                    <h1 class="section__container__title d-inline-block text-center px-3">
+                    <h1 class="section__container__title d-inline-block text-center px-2">
                         <span class="section__container__title__span">About Me</span>
                     </h1>
 
@@ -71,7 +71,7 @@ let About = {
                 </div>
             </div>
             <div class="colored-wrapper text-center">
-                <h1 class="section__container__title d-inline-block text-center mt-5 px-3">
+                <h1 class="section__container__title d-inline-block text-center mt-5 px-2">
                     <span class="section__container__title__span">Things I do Well</span>
                 </h1>
 
@@ -118,7 +118,7 @@ let About = {
             </div>
 
             <div class="text-center">
-                <h1 class="section__container__title d-inline-block text-center mt-5 px-3">
+                <h1 class="section__container__title d-inline-block text-center mt-5 px-2">
                     <span class="section__container__title__span">... And My Happy Clients</span>
                 </h1>
 

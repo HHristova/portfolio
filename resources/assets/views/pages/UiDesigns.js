@@ -10,7 +10,7 @@ let UiDesigns = {
 
         <div class="section pt-4">
             <div class="section__container text-center">
-                <p>
+                <p class="px-2">
                     Here's a selection of some of my work.<br>
                     For more you can visit me on
                     <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong>,
@@ -18,14 +18,14 @@ let UiDesigns = {
                     <strong><a href="https://www.instagram.com/hristova.drawings/" target="_blank">instagram</a></strong>.
                 </p>
 
-                <h1 class="section__container__title text-center d-inline-block px-3">
+                <h1 class="section__container__title text-center d-inline-block px-2">
                     <span class="section__container__title__span">
                         Case Studies
                     </span>
                 </h1>
 
                 <div class="mb-5">
-                    <div class="grid-wrapper container">
+                    <div class="grid-wrapper container grad-wrapper-no-gap">
                         <div class="grid-item"></div>
                         <div class="grid-item">
                             <a href="ui-designs-case-study/go-tenant-design" class="box-thumb d-inline-block">
@@ -42,7 +42,7 @@ let UiDesigns = {
                     </div>
                 </div>
 
-                <h1 class="section__container__title d-inline-block px-3">
+                <h1 class="section__container__title d-inline-block px-2">
                     <span class="section__container__title__span">
                         UI Designs
                     </span>

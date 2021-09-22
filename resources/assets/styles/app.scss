@@ -280,8 +280,12 @@ body {
 }
 
 .hero-img__subtitle {
-    padding-top: 19vh;
+    padding-top: 20vh;
     font-size: 1.3rem;
+
+    @supports (-webkit-touch-callout: none) {
+        padding-top: 19vh;
+    }
 
     @include media-breakpoint-up(sm) {
         padding-top: 27vh;
@@ -355,6 +359,10 @@ body {
     // padding: 30px 0.5rem;
     font-size: 0.9rem;
 
+    &.section__no_pb {
+        padding-bottom: 0;
+    }
+
     @include media-breakpoint-up(lg) {
         padding: 30px;
     }
@@ -371,10 +379,14 @@ body {
 
 .section__container__title {
     margin-bottom: 20px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
     position: relative;
     font-family: 'rockness';
+
+    @include media-breakpoint-up(md) {
+        font-size: 3.5rem;
+    }
 
     &.section__container__title--sm {
         font-size: 1.3rem;
