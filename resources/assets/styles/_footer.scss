@@ -31,6 +31,14 @@
         }
     }
 
+    img {
+        max-height: 162px;
+
+        @include media-breakpoint-up(xl) {
+            max-height: 306px;
+        }
+    }
+
     img, p {
         max-width: 100%;
     }

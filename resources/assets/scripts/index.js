@@ -135,9 +135,12 @@ const router = async () => {
     }
 
     function setCookie(name, value, days) {
-        var d = new Date;
-        d.setTime(d.getTime() + 24*60*60*1000*days);
-        document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+        var now = new Date();
+        var time = now.getTime();
+        var expireTime = time + 1000*36000;
+        now.setTime(expireTime);
+        document.cookie = 'expires='+now.toUTCString()+';path=/';
+        // console.log(document.cookie);
     }
 
     // Detect if there is already a cookie set to the browser on page load

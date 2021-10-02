@@ -66,6 +66,7 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    z-index: 1;
 
     @include media-breakpoint-up(xl) {
         width: 50%;
