@@ -47,22 +47,23 @@ let About = {
                         </div>
                             <div class="about-me__content text-left mt-3 mt-lg-0 px-md-3 px-lg-0">
                             <p>
-                                Hey there 👋,
+                                Hey, hey 👋,
                                 <br>
-                                Hristina’s here 👧 - I’m a designer, an illustrator, a photographer and a lifetime student.
+                                Hristina’s here 👧 - I’m a designer, an illustrator and a lifetime student.
                                 I’m an optimist. I’m an environmentalist and I will be more things yet to come.
                                 </p>
                                 <p>
-                                My design side is all about creating user-friendly interfaces based on client's needs, while the illustration one is more about creating whimsical and
-                                happy drawings that make the people smile. I really love collages, typography, and basically everything that’s connected to visual communication.
+                                My design side is all about creating user-friendly art pieces and interfaces, while the illustration one is more about creating magical
+                                drawings that make the people smile. I really love poster designs, collages, typography, and basically everything that’s connected to visual communication.
                             </p>
                             <p>
-                                I also work on designing my own products and when I'm not glued to a canvas, I can be found at concerts 🎸,
-                                riding a bicycle 🚲, snowboarding with a noisy speaker 🏂, among the shelves
+                                I also work on designing my own products and when I'm not glued to a canvas,
+                                I can be found at concerts 🎸,
+                                snowboarding with a noisy speaker 🏂, among the shelves
                                 of the bookstores 📚 or laughing out loud in the parks 🏞️.
                             </p>
                             <p>
-                                You can check <a href="/ui-designs"><strong>my UI designs ✒️</strong></a> and
+                                You can check <a href="/ui-designs"><strong>my UI and graphic designs ✒️</strong></a> and
                                 <a href="/illustrations"><strong>illustrations 🎨</strong></a>
                                 or just <a href="mailto:hristina.a.hristova@gmail.com"><strong>say 'Hi' 👋</strong></a>.
                             </p>
@@ -76,19 +77,6 @@ let About = {
                 </h1>
 
                 <div class="d-flex flex-wrap mt-3">
-                    <div class="flex-skills mx-md-3">
-                        <div class="skills-image skills-image--width">
-                            <img src="/assets/images/web-design-front-end2.jpg"
-                                class="img-fluid"
-                                alt="Web design and front-end development icon"/>
-                        </div>
-                        <div class="about-me__content about-me__content--weight mx-auto mt-3">
-                            Web Design & Front-End
-                        </div>
-                        <p>
-                            The intersection of visual designs and programming is one of my favourite places.
-                        </p>
-                    </div>
                     <div class="flex-skills mx-md-3 mt-5 mt-md-0">
                         <div class="skills-image skills-image--width">
                             <img src="/assets/images/illustrations2.jpg" class="img-fluid"
@@ -98,8 +86,8 @@ let About = {
                             Illustrations
                         </div>
                         <p>
-                            I also love drawing whimsical illustrations
-                            and cute characters.
+                            I love drawing whimsical illustrations
+                            and magical universes.
                         </p>
                     </div>
                     <div class="flex-skills mx-md-3 mt-5 mt-md-0">
@@ -111,7 +99,20 @@ let About = {
                             Graphic Design
                         </div>
                         <p>
-                            I have some print design goodies under my belt.
+                            I have a lot of print design goodies under my belt.
+                        </p>
+                    </div>
+                    <div class="flex-skills mx-md-3">
+                        <div class="skills-image skills-image--width">
+                            <img src="/assets/images/web-design-front-end2.jpg"
+                                class="img-fluid"
+                                alt="Web design and front-end development icon"/>
+                        </div>
+                        <div class="about-me__content about-me__content--weight mx-auto mt-3">
+                            Web Design
+                        </div>
+                        <p>
+                            The intersection of visual designs and user experience is one of my favourite places.
                         </p>
                     </div>
                 </div>

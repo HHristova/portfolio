@@ -1,0 +1,30 @@
+[
+    {
+        "id": "0",
+        "thumb": "/assets/images/myWork/graphics/movie-lettering-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/movie-lettering.jpg",
+        "title": "'Some like it hot' movie lettering",
+        "filterId": "graphics"
+    },
+    {
+        "id": "2",
+        "thumb": "/assets/images/myWork/graphics/graphic1.jpg",
+        "url": "/assets/images/myWork/graphics/graphic1.jpg",
+        "title": "Poster illustration",
+        "filterId": "graphics"
+    },
+    {
+        "id": "1",
+        "thumb": "/assets/images/myWork/graphics/rock-poster-design-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/rock-poster-design.jpg",
+        "title": "Rock concert poster",
+        "filterId": "graphics"
+    },
+    {
+        "id": "3",
+        "thumb": "/assets/images/myWork/graphics/graphic-bw.jpg",
+        "url": "/assets/images/myWork/graphics/graphic-bw.jpg",
+        "title": "Poster illustration",
+        "filterId": "graphics"
+    }
+]

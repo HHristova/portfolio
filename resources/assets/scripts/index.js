@@ -140,7 +140,6 @@ const router = async () => {
         var expireTime = time + 1000*36000;
         now.setTime(expireTime);
         document.cookie = 'expires='+now.toUTCString()+';path=/';
-        // console.log(document.cookie);
     }
 
     // Detect if there is already a cookie set to the browser on page load
@@ -153,6 +152,31 @@ const router = async () => {
     };
 
     checkIfCookie('season');
+    // }}
+
+
+    // {{ Close cookie modal
+
+    var closeButton = document.getElementById('cookie-close');
+    var cookieModal = document.getElementById('cookie-consent');
+
+    function closeCookieModal(){
+        cookieModal.style.display = 'none';
+        var expires = (new Date(Date.now()+ 86400*1000)).toUTCString();
+        document.cookie = ("closeCookieModal=true; expires=" + expires + 86400) + ";path=/;";
+    };
+
+    function checkIfCookieModal(cookieName) {
+        var detectCookie = getCookie(cookieName);
+        return detectCookie;
+    };
+
+    if(checkIfCookieModal('closeCookieModal') == 'true') {
+        cookieModal.style.display = 'none';
+    }
+
+    closeButton.addEventListener('click', closeCookieModal);
+
     // }}
 }
 

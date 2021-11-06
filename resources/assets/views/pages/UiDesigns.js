@@ -1,9 +1,10 @@
 import projectsData from '../../scripts/uiprojects.json';
+import graphicsData from '../../scripts/graphicsprojects.json';
 import ScrollReveal from 'scrollreveal'
 
 let UiDesigns = {
-    render : async () => {
-        let startPage =  /*html*/`
+    render: async () => {
+        let startPage = /*html*/ `
         <div class="main-header">
             <div class="hero-img hero-img--work"></div>
         </div>
@@ -42,7 +43,46 @@ let UiDesigns = {
                     </div>
                 </div>
 
+
+
                 <h1 class="section__container__title d-inline-block px-2">
+                    <span class="section__container__title__span">
+                        Graphics
+                    </span>
+                </h1>
+
+                <div class="masonry container masonry-2">
+                `
+        let graphics = '';
+
+        for (var i = 0; i < graphicsData.length; i++) {
+            graphics += `
+                <figure id="picture-item"
+                    class="picture-item show"
+                    data-groups='["${graphicsData[i].filterId}"]'>
+                    <div class="picture-item__inner">
+                        <div class="js-button--graphics box-thumb"
+                            data-toggle="modal" data-target="#modalPicture"
+                            value="Expand photo" role="button">
+                            <p class="box-content d-inline px-3">
+                                <span>
+                                    ${graphicsData[i].title}
+                                </span>
+                            </p>
+                            <img src="${graphicsData[i].thumb}" data-img="${graphicsData[i].url}"
+                                data-pin-description="${graphicsData[i].title}"
+                                data-pin-url="https://hhristova.com/graphics"
+                                alt="${graphicsData[i].title}" />
+                        </div>
+                    </div>
+                </figure>
+                    `;
+        }
+
+        let endGraphics = /*html*/ `
+                </div>
+
+                <h1 class="section__container__title d-inline-block px-2 mt-5">
                     <span class="section__container__title__span">
                         UI Designs
                     </span>
@@ -52,7 +92,7 @@ let UiDesigns = {
         `
         let projects = '';
 
-        for(var i = 0; i < projectsData.length; i++) {
+        for (var i = 0; i < projectsData.length; i++) {
             projects += `
                 <figure id="picture-item"
                     class="picture-item show"
@@ -74,12 +114,32 @@ let UiDesigns = {
             `;
         }
 
-        let endPage =  /*html*/`
+        let endPage = /*html*/ `
             </div>
+        </div>
+        <div id="modalPicture" class="modal fade pr-0" tabindex="-1"
+            role="dialog" aria-labelledby="modalPictureLabel" aria-hidden="true">
+          <div class="modal-dialog m-0" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <img class="close__icon"
+                    src="/assets/images/close-icon.svg" alt="Close icon">
+                  <span class="sr-only">Close</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="position-relative">
+                    <img class="js-modal-image js-graphics" src="" alt="" />
+                    <div class="js-modal-content"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
         `
-        return startPage + projects + endPage
+        return startPage + graphics + endGraphics + projects + endPage
     },
     after_render: async () => {
         // ScrollReveal animations
@@ -88,6 +148,15 @@ let UiDesigns = {
             scale: '.95',
             easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
             viewFactor: 0.3
+        });
+
+        // Illustrations gallery handler
+        $(document).on('click', '.js-button--graphics', function() {
+            var imageAlt = $(this).parents('.picture-item__inner').find('img').attr('alt');
+            var imageSrc = $(this).parents('.picture-item__inner').find('img').attr('data-img');
+            $('.js-modal-image').attr('src', imageSrc);
+            $('.js-modal-image').attr('alt', imageAlt);
+            $('.js-modal-content').text(imageAlt);
         });
     }
 }

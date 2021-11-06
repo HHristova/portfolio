@@ -111,7 +111,7 @@ let Illustrations = {
                             </p>
                             <img src="${illustrationsData[i].thumb}" data-img="${illustrationsData[i].url}"
                                 data-pin-description="${illustrationsData[i].title}"
-                                data-pin-url="https://hhristova.com//illustrations"
+                                data-pin-url="https://hhristova.com/illustrations"
                                 alt="${illustrationsData[i].title}" />
                         </div>
                     </div>
