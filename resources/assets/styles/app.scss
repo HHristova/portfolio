@@ -20,6 +20,7 @@ $fa-font-path:  'fonts' !default;
 @import 'ui-inner.scss';
 @import 'links.scss';
 @import 'carousel.scss';
+@import 'cookie.scss';
 
 html, body {
     font-size: 21px;
@@ -117,6 +118,10 @@ html, body {
         }
     }
 
+    .button.-hollow {
+        background-color: $season;
+    }
+
     a:not(.btn),
     .flex-skills .about-me__content,
     .blog-title, .blogpost-subtitle {
@@ -169,7 +174,7 @@ html, body {
     }
 
     .btn--contact {
-        background-color: mix($white, $season, 60%);
+        background-color: $season;
     }
 
     .btn--secondary {
