@@ -5,7 +5,7 @@ let Footer = {
     render: async () => {
         let view =  /*html*/`
         <div class="cookie-consent bg-white shadow" id="cookie-consent"><span data-v-93de06f6="" class="cookie-consent__close text-black-light" id="cookie-close"></span>
-        <span data-v-93de06f6="" class="text-10 font-medium tracking-2p2 leading-1 uppercase text-black-light d-block mb-2">I use cookies &amp; I hope it's ok 😊</span> <p data-v-93de06f6="" class="text-body text-grey-darkest mb-2">This website uses cookies to ensure you get the selected season experience all over the website.</p> <span data-v-93de06f6="" class="button -hollow w-full block cursor-pointer">Got it!</span></div>
+        <span data-v-93de06f6="" class="text-10 font-medium tracking-2p2 leading-1 uppercase text-black-light d-block mb-2">I use cookies &amp; I hope it's ok 😊</span> <p data-v-93de06f6="" class="text-body text-grey-darkest mb-2">This website uses cookies to ensure you get the selected season experience all over the website.</p> <span data-v-93de06f6="" class="button -hollow w-full block cursor-pointer" id="cookieAgree">Got it!</span></div>
 
         <div class="section text-center container pt-0">
             <div class="section__container">
@@ -81,7 +81,7 @@ let Footer = {
 
         // Get latest IG posts
         var feed = new Instafeed({
-          accessToken: 'IGQVJYR1puNU5SX3FwWUFQYUs0ektPN2lJSUZA1Mk10MEZAYZATJfbTBQZAlhkajROeUdfRFE1M1NmVkpXWFVXa1ZAUcUJKYmk4VmwxMGpNMlptU01VS1hzUVRvazdTaklwNHd4T21wcUxn',
+          accessToken: 'IGQVJVbVgxVWpULTNMT09XNWExa3QxU2Q2UW5mZAW1sNGliRnNZATHVnZA0Y4cmZA6OEM1ZA0luREJXakVJT0tzRkc5NkFOTkdnclBwbDFZANXd0bXJ0b2NTOTg5emhIYlpLMmFfRWw0cFN3',
           limit: 4,
           template: `
               <a href="{{link}}"><img title="{{caption}}" src="{{image}}" /><p>{{caption}}</p></a>

@@ -158,6 +158,7 @@ const router = async () => {
     // {{ Close cookie modal
 
     var closeButton = document.getElementById('cookie-close');
+    var agreeButton = document.getElementById('cookieAgree');
     var cookieModal = document.getElementById('cookie-consent');
 
     function closeCookieModal(){
@@ -176,6 +177,7 @@ const router = async () => {
     }
 
     closeButton.addEventListener('click', closeCookieModal);
+    agreeButton.addEventListener('click', closeCookieModal);
 
     // }}
 }

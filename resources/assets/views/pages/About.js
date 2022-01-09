@@ -49,12 +49,13 @@ let About = {
                             <p>
                                 Hey, hey 👋,
                                 <br>
-                                Hristina’s here 👧 - I’m a designer, an illustrator and a lifetime student.
+                                I'm Hristina 👧 - a designer and an illustrator.
                                 I’m an optimist. I’m an environmentalist and I will be more things yet to come.
                                 </p>
                                 <p>
-                                My design side is all about creating user-friendly art pieces and interfaces, while the illustration one is more about creating magical
-                                drawings that make the people smile. I really love poster designs, collages, typography, and basically everything that’s connected to visual communication.
+                                My graphic and web design side is all about creating art pieces and user-friendly interfaces, while the illustration one is more about drawing magical
+                                drawings that make the people smile. I really love poster designs, collages, typography, and basically everything that’s connected to visual communication and
+                                I'm trying to spread dreams and happiness, one sketch at a time.
                             </p>
                             <p>
                                 I also work on designing my own products and when I'm not glued to a canvas,
@@ -65,7 +66,7 @@ let About = {
                             <p>
                                 You can check <a href="/ui-designs"><strong>my UI and graphic designs ✒️</strong></a> and
                                 <a href="/illustrations"><strong>illustrations 🎨</strong></a>
-                                or just <a href="mailto:hristina.a.hristova@gmail.com"><strong>say 'Hi' 👋</strong></a>.
+                                or just <a href="mailto:hristina.a.hristova@gmail.com"><strong>say 'Hey!' 👋</strong></a>.
                             </p>
                         </div>
                     </div>
@@ -172,7 +173,7 @@ let About = {
     after_render: async () => {
         // Typed.js homepage header initialisation
         const options = {
-            strings: ['', 'web designer.', 'illustrator.', 'snowboarder.', 'music lover.', 'snooker fan.'],
+            strings: ['', 'web and graphic designer.', 'illustrator.', 'music lover.', 'snowboarder.', 'snooker fan.'],
             typeSpeed: 30,
             backSpeed: 30,
             contentType: null,
