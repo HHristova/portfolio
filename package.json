@@ -19,29 +19,29 @@
   "author": "",
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
-    "bootstrap": "^4.4.1",
-    "copy-webpack-plugin": "^5.1.1",
+    "bootstrap": "^4.6.1",
+    "copy-webpack-plugin": "^5.1.2",
     "cross-env": "^5.2.1",
-    "dotenv-webpack": "^1.7.0",
+    "dotenv-webpack": "^1.8.0",
     "imagemin": "^6.1.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^7.0.0",
     "imagemin-svgo": "^7.1.0",
     "jquery": "^3.6.0",
     "laravel-mix": "^4.1.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
-    "resolve-url-loader": "^3.1.1",
+    "resolve-url-loader": "^3.1.4",
     "sass-google-fonts": "^1.0.1",
     "sass-loader": "^7.3.1",
-    "scrollreveal": "^4.0.6",
-    "vue-template-compiler": "^2.6.11"
+    "scrollreveal": "^4.0.9",
+    "vue-template-compiler": "^2.6.14"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "axios": "^0.19.2",
     "instafeed.js": "^2.0.0",
-    "npm": "^6.14.4",
-    "typed.js": "^2.0.11"
+    "npm": "^6.14.15",
+    "typed.js": "^2.0.12"
   }
 }
