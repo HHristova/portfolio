@@ -29,7 +29,7 @@ let Footer = {
                     I’m available for commissions and collaborations.
                     <a href="mailto:hristina.a.hristova@gmail.com">Email me</a>
                     and I will get back to you. I’m
-                    looking forward to chatting with you about your future project!
+                    looking forward chatting with you!
                 </div>
                 <div class="section__container__content">
                     <a href="mailto:hristina.a.hristova@gmail.com" class="btn btn--contact">
@@ -66,7 +66,7 @@ let Footer = {
                 </div>
                 <small class="d-block pt-2">
                     <i>
-                        Made with ♥️ late in the evenings
+                        Made with ♥️ and ♫ late in the evenings
                     </i>
                 </small>
             </div>
