@@ -124,7 +124,7 @@ let IllustrationCaseStudy = {
 
 export default IllustrationCaseStudy;
 
-// DO NOW DELETE!
+// DO NOT DELETE!
 // {
 //     "id": "book-cover-project",
 //     "type": "personal-project",
