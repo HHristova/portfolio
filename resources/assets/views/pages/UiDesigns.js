@@ -21,7 +21,7 @@ let UiDesigns = {
 
                 <h1 class="section__container__title text-center d-inline-block px-2">
                     <span class="section__container__title__span">
-                        Case Studies
+                        Graphic Design Case Studies
                     </span>
                 </h1>
 
@@ -29,15 +29,15 @@ let UiDesigns = {
                     <div class="grid-wrapper container grad-wrapper-no-gap">
                         <div class="grid-item"></div>
                         <div class="grid-item">
-                            <a href="ui-designs-case-study/go-tenant-design" class="box-thumb d-inline-block">
+                            <a href="graphics-case-study/mista-future-cd-design" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
-                                        GoTenant Design Case Study
+                                        CD Cover Design
                                     </span><br>
-                                    <small>Design, Illustration</small>
+                                    <small>Graphic Design</small>
                                 </p>
-                                <img src="/assets/images/myWork/case-studies/thumbs/GT-thumb.jpg"
-                                    class="img-fluid" alt="GoTenant Case Study Thumbnail">
+                                <img src="/assets/images/myWork/case-studies/thumbs/Mista-Future-thumb.jpg"
+                                    class="img-fluid" alt="CD Case Study Thumbnail">
                             </a>
                         </div>
                     </div>
@@ -82,7 +82,31 @@ let UiDesigns = {
         let endGraphics = /*html*/ `
                 </div>
 
-                <h1 class="section__container__title d-inline-block px-2 mt-5">
+                <h1 class="section__container__title text-center d-inline-block px-2">
+                    <span class="section__container__title__span">
+                        UI Case Studies
+                    </span>
+                </h1>
+
+                <div class="mb-5">
+                    <div class="grid-wrapper container grad-wrapper-no-gap">
+                        <div class="grid-item"></div>
+                        <div class="grid-item">
+                            <a href="ui-graphics-case-study/go-tenant-design" class="box-thumb d-inline-block">
+                                <p class="box-content d-inline">
+                                    <span>
+                                        GoTenant Design Case Study
+                                    </span><br>
+                                    <small>Design, Illustration</small>
+                                </p>
+                                <img src="/assets/images/myWork/case-studies/thumbs/GT-thumb.jpg"
+                                    class="img-fluid" alt="GoTenant Case Study Thumbnail">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="section__container__title d-inline-block px-2 mt-1">
                     <span class="section__container__title__span">
                         UI Designs
                     </span>

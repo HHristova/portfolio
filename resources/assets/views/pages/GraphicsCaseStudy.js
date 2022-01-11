@@ -1,16 +1,15 @@
-import illustrationsData from '../../scripts/illustrations.json';
-import illustrationsProjectsData from '../../scripts/illustrationProjects.json';
+import graphicDesignProjectsData from '../../scripts/graphicDesignProjects.json';
 import ScrollReveal from 'scrollreveal'
 import Utils from '../../scripts/services/Utils.js'
 
-let IllustrationCaseStudy = {
+let GraphicsCaseStudy = {
     render : async () => {
         let request = Utils.parseRequestURL();
 
-        let illustrationFiltered = illustrationsProjectsData.filter(illustrationProject => illustrationProject.id == request.id);
+        let graphicDesignFiltered = graphicDesignProjectsData.filter(illustrationProject => illustrationProject.id == request.id);
 
         let startPage = /*html*/`
-        ${ illustrationFiltered
+        ${ graphicDesignFiltered
             .map(illustrationProject =>
             /*html*/`
             <div class="IllustrationProject-wrapper mt-bg">
@@ -30,7 +29,7 @@ let IllustrationCaseStudy = {
         }
         `
 
-        let sketchesLength = Object.keys(illustrationFiltered[0].sketches).length;
+        let sketchesLength = Object.keys(graphicDesignFiltered[0].sketches).length;
         let sketches = '';
         // Check if there are any sketches and then show this chunk of code
         if (sketchesLength != 0) {
@@ -43,9 +42,9 @@ let IllustrationCaseStudy = {
                          <div class="js-button--illustrations box-thumb d-inline-block"
                              data-toggle="modal" data-target="#modalPicture"
                              value="Expand photo" role="button"
-                             data-img="${illustrationFiltered[0].sketches['sketch'+i]}">
-                                <img class="img-fluid" src="${illustrationFiltered[0].sketches['sketch'+i]}"
-                                   alt="${illustrationFiltered[0].title}" />
+                             data-img="${graphicDesignFiltered[0].sketches['sketch'+i]}">
+                                <img class="img-fluid" src="${graphicDesignFiltered[0].sketches['sketch'+i]}"
+                                   alt="${graphicDesignFiltered[0].title}" />
                          </div>
                       </div>
                     `;
@@ -59,7 +58,7 @@ let IllustrationCaseStudy = {
         let additionalContent = `
             <div class="item__content px-2 px-md-3 mb-3">
                 <div class="max-chars m-0">
-                    ${illustrationFiltered[0].additionalContent}
+                    ${graphicDesignFiltered[0].additionalContent}
                 </div>
             </div>
         `
@@ -67,16 +66,16 @@ let IllustrationCaseStudy = {
         let finalArt = `
         <div class="item__content px-2">
             <div class="d-flex w-100 flex-wrap justify-content-between">`;
-        let artLength = Object.keys(illustrationFiltered[0].artworks).length;
+        let artLength = Object.keys(graphicDesignFiltered[0].artworks).length;
         for(var i = 0; i < artLength; i++) {
             finalArt += `
             <div class="illustrationProject-item mb-3">
                  <div class="js-button--illustrations box-thumb d-inline-block"
                      data-toggle="modal" data-target="#modalPicture"
                      value="Expand photo" role="button"
-                     data-img="${illustrationFiltered[0].artworks['artwork'+i]}">
-                        <img class="img-fluid" src="${illustrationFiltered[0].artworks['artwork'+i]}"
-                           alt="${illustrationFiltered[0].title}" />
+                     data-img="${graphicDesignFiltered[0].artworks['artwork'+i]}">
+                        <img class="img-fluid" src="${graphicDesignFiltered[0].artworks['artwork'+i]}"
+                           alt="${graphicDesignFiltered[0].title}" />
                  </div>
               </div>
             `;
@@ -122,26 +121,4 @@ let IllustrationCaseStudy = {
     }
 }
 
-export default IllustrationCaseStudy;
-
-// DO NOT DELETE!
-// {
-//     "id": "book-cover-project",
-//     "type": "personal-project",
-//     "thumb": "/assets/images/myWork/illustrations/book-cover/book-cover-thumb.jpg",
-//     "title": "Book cover design for Georgi Gospodinov's book 'The physics of sorrow'",
-//     "titleThumb": "Book cover design",
-//     "intro": "<p>Below can be seen the initial sketch of the book cover I've worked on, as well as the final piece. There are two color versions of it as well as the design of the inner pages.</p><p>The main aim of the cover design was to extract the main essence of the book into something simple and understandable for the customers.</p> <p>There are the two sketches I created for the book. The first one was too detailed and didn't answer the main question one book cover have to answer - What this book is about? That's why I tried another approach and I got rid of everything that is not directly pointing out the topic of the book and the final result is on the right side.</p>",
-//     "sketches": {
-//         "sketch0": "/assets/images/myWork/illustrations/book-cover/sketch-1.jpg",
-//         "sketch1": "/assets/images/myWork/illustrations/book-cover/sketch-2.jpg"
-//     },
-//     "additionalContent": "Since the sketch was approved I did some additional tweaks and continued with creating the final artwork. The fly motive was incorporated for the inner front page of the book as well as the back side of it. The two color versions can be seen below.",
-//     "artworks": {
-//         "artwork0": "/assets/images/myWork/illustrations/book-cover/artwork1.jpg",
-//         "artwork1": "/assets/images/myWork/illustrations/book-cover/artwork5.jpg",
-//         "artwork2": "/assets/images/myWork/illustrations/book-cover/artwork3.jpg",
-//         "artwork3": "/assets/images/myWork/illustrations/book-cover/artwork2.jpg",
-//         "artwork4": "/assets/images/myWork/illustrations/book-cover/artwork4.jpg"
-//     }
-// },
+export default GraphicsCaseStudy;

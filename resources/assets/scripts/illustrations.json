@@ -1,9 +1,9 @@
 [
     {
         "id": "0",
-        "thumb": "/assets/images/myWork/illustrations/sloths.jpg",
-        "url": "/assets/images/myWork/illustrations/sloths.jpg",
-        "title": "Sloths illustration",
+        "thumb": "/assets/images/myWork/illustrations/world-of-magnets-and-miracles-thumb.jpg",
+        "url": "/assets/images/myWork/illustrations/world-of-magnets-and-miracles.jpg",
+        "title": "Pink Floyd inspired illustration",
         "filterId": "illustration"
     },
     {
@@ -92,9 +92,9 @@
     },
     {
         "id": "013",
-        "thumb": "/assets/images/myWork/illustrations/autumn-enamel-mug.jpg",
-        "url": "/assets/images/myWork/illustrations/autumn-enamel-mug.jpg",
-        "title": "Enamel mug drawing",
+        "thumb": "/assets/images/myWork/illustrations/time-thumb.jpg",
+        "url": "/assets/images/myWork/illustrations/time.jpg",
+        "title": "Time drawing",
         "filterId": "illustration"
     },
     {
@@ -106,9 +106,9 @@
     },
     {
         "id": "2",
-        "thumb": "/assets/images/myWork/illustrations/corgi-pillow2-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/corgi-pillow2.jpg",
-        "title": "A corgi dog hand-drawn pattern",
+        "thumb": "/assets/images/myWork/illustrations/make-your-own-rainbow-thumb.jpg",
+        "url": "/assets/images/myWork/illustrations/make-your-own-rainbow.jpg",
+        "title": "Make your own rainbow illustration",
         "filterId": "illustration"
     },
     {
@@ -119,17 +119,17 @@
         "filterId": "illustration"
     },
     {
-        "id": "35",
-        "thumb": "/assets/images/myWork/illustrations/school-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/school.jpg",
-        "title": "First day of school illustration",
-        "filterId": "illustration"
-    },
-    {
         "id": "31",
         "thumb": "/assets/images/myWork/illustrations/reading-girl.jpg",
         "url": "/assets/images/myWork/illustrations/reading-girl.jpg",
         "title": "Girl reading a book illustration",
+        "filterId": "illustration"
+    },
+    {
+        "id": "15",
+        "thumb": "/assets/images/myWork/illustrations/autumn-turntable-scene-thumb.jpg",
+        "url": "/assets/images/myWork/illustrations/autumn-turntable-scene.jpg",
+        "title": "Autumn scene",
         "filterId": "illustration"
     },
     {
@@ -140,17 +140,17 @@
         "filterId": "illustration"
     },
     {
-        "id": "33",
-        "thumb": "/assets/images/myWork/illustrations/chicken-balloons.jpg",
-        "url": "/assets/images/myWork/illustrations/chicken-balloons.jpg",
-        "title": "Flying chicken illustration",
+        "id": "35",
+        "thumb": "/assets/images/myWork/illustrations/school-thumb.jpg",
+        "url": "/assets/images/myWork/illustrations/school.jpg",
+        "title": "First day of school illustration",
         "filterId": "illustration"
     },
     {
         "id": "34",
-        "thumb": "/assets/images/myWork/illustrations/vain-v-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/vain-v.jpg",
-        "title": "Vain V illustration",
+        "thumb": "/assets/images/myWork/illustrations/mister-llama.jpg",
+        "url": "/assets/images/myWork/illustrations/mister-llama.jpg",
+        "title": "Mister llama illustration",
         "filterId": "illustration"
     },
     {
@@ -193,13 +193,6 @@
         "thumb": "/assets/images/myWork/illustrations/lettering-2.jpg",
         "url": "/assets/images/myWork/illustrations/lettering-2.jpg",
         "title": "Hand-lettering idea",
-        "filterId": "illustration"
-    },
-    {
-        "id": "8",
-        "thumb": "/assets/images/myWork/illustrations/lettering-4.jpg",
-        "url": "/assets/images/myWork/illustrations/lettering-4.jpg",
-        "title": "Hand-lettering design",
         "filterId": "illustration"
     },
     {
@@ -246,13 +239,6 @@
         "filterId": "illustration"
     },
     {
-        "id": "15",
-        "thumb": "/assets/images/myWork/illustrations/bear-illustration-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/bear-illustration.jpg",
-        "title": "Whimsical Bear illustration",
-        "filterId": "illustration"
-    },
-    {
         "id": "16",
         "thumb": "/assets/images/myWork/illustrations/woman-dog-melanholic-thumb.jpg",
         "url": "/assets/images/myWork/illustrations/woman-dog-melanholic.jpg",
@@ -260,17 +246,17 @@
         "filterId": "illustration"
     },
     {
+        "id": "103",
+        "thumb": "/assets/images/myWork/illustrations/go-with-the-flow-thumb.jpg",
+        "url": "/assets/images/myWork/illustrations/go-with-the-flow.jpg",
+        "title": "Go with the flow illustration",
+        "filterId": "illustration"
+    },
+    {
         "id": "17",
         "thumb": "/assets/images/myWork/illustrations/lettering-14.jpg",
         "url": "/assets/images/myWork/illustrations/lettering-14.jpg",
         "title": "Hand-lettered H",
-        "filterId": "illustration"
-    },
-    {
-        "id": "103",
-        "thumb": "/assets/images/myWork/illustrations/mister-llama.jpg",
-        "url": "/assets/images/myWork/illustrations/mister-llama.jpg",
-        "title": "Mister llama illustration",
         "filterId": "illustration"
     },
     {

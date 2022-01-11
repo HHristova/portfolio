@@ -8,6 +8,7 @@ import UiDesigns from '../views/pages/UiDesigns.js'
 import Illustrations from '../views/pages/Illustrations.js'
 import IllustrationCaseStudy from '../views/pages/IllustrationCaseStudy.js'
 import UiCaseStudy from '../views/pages/UiCaseStudy.js'
+import GraphicsCaseStudy from '../views/pages/GraphicsCaseStudy.js'
 import UiProjectDetails from '../views/pages/UiProjectDetails.js'
 import Blog from '../views/pages/Blog.js'
 import BlogInner from '../views/pages/BlogInner.js'
@@ -22,9 +23,10 @@ import Utils from './services/Utils.js'
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/' : About,
-    '/ui-designs' : UiDesigns,
-    '/ui-designs/:id' : UiProjectDetails,
-    '/ui-designs-case-study/:id' : UiCaseStudy,
+    '/ui-graphics' : UiDesigns,
+    '/ui-graphics/:id' : UiProjectDetails,
+    '/ui-case-study/:id' : UiCaseStudy,
+    '/graphics-case-study/:id' : GraphicsCaseStudy,
     '/illustrations' : Illustrations,
     '/illustrations/:id' : IllustrationCaseStudy,
     '/blog' : Blog,

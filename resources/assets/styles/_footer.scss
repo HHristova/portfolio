@@ -78,13 +78,13 @@ footer {
         content: '';
         display: block;
         position: absolute;
-        top: -180px;
-        right: 0;
-        left: 0;
+        top: -205px;
+        right: 10px;
+        left: auto;
         margin: auto;
         width: 200px;
         height: 100%;
-        background-image: url('images/footer-corgi.png');
+        background-image: url('images/footer-little-princess.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -95,8 +95,9 @@ footer {
         margin-top: 200px;
 
         &:before {
-            width: 250px;
-            top: -250px;
+            right: 50px;
+            width: 230px;
+            top: -270px;
         }
     }
 
@@ -105,7 +106,6 @@ footer {
 
         &:before {
             right: 150px;
-            left: auto;
         }
     }
 
