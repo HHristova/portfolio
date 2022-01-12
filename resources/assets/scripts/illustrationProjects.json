@@ -1,5 +1,27 @@
 [
     {
+        "id": "tea-package-illustrations",
+        "type": "personal-project",
+        "thumb": "/assets/images/myWork/illustrations/tea-packages/tea-packages-thumb.jpg",
+        "title": "Tea package illustrations 🌿🪐🎵",
+        "titleThumb": "Tea package illustrations",
+        "intro": "<p>The idea of the project is to promote young and talented bulgarian illustrators by showing their art to the right audience. The main aim was to create whatever type of art I decide and to use a medium of choice. I've used black and white pens and the main topics of the illustrations were universe, planets, music and herbs. These all represent love in my mind so I've stick to that concept. 😊</p>",
+        "sketches": {
+            "sketch0": "/assets/images/myWork/illustrations/tea-packages/tea-package8.jpg",
+            "sketch1": "/assets/images/myWork/illustrations/tea-packages/tea-package9.jpg",
+            "sketch2": "/assets/images/myWork/illustrations/tea-packages/tea-package6.jpg"
+        },
+        "additionalContent": "Here are the closeups of all three designs.🌿🪐🎵",
+        "artworks": {
+            "artwork0": "/assets/images/myWork/illustrations/tea-packages/tea-package1.jpg",
+            "artwork1": "/assets/images/myWork/illustrations/tea-packages/tea-package2.jpg",
+            "artwork2": "/assets/images/myWork/illustrations/tea-packages/tea-package3.jpg",
+            "artwork3": "/assets/images/myWork/illustrations/tea-packages/tea-package4.jpg",
+            "artwork4": "/assets/images/myWork/illustrations/tea-packages/tea-package5.jpg",
+            "artwork5": "/assets/images/myWork/illustrations/tea-packages/tea-package7.jpg"
+        }
+    },
+    {
         "id": "childrens-book-project",
         "type": "personal-project",
         "thumb": "/assets/images/myWork/illustrations/child-book/child-book-thumb.jpg",
@@ -51,22 +73,6 @@
             "artwork5": "/assets/images/myWork/illustrations/baby-book/artwork6.jpg",
             "artwork6": "/assets/images/myWork/illustrations/baby-book/artwork7.jpg",
             "artwork7": "/assets/images/myWork/illustrations/baby-book/artwork8.jpg"
-        }
-    },
-    {
-        "id": "kids-magazine-project",
-        "type": "personal-project",
-        "thumb": "/assets/images/myWork/illustrations/kids-magazine/klio-kids-thumb.jpg",
-        "title": "Kids magazine design project",
-        "titleThumb": "Kids magazine design project",
-        "intro": "<p>Graphic design concept for a kids archeology magazine. There are cover design and four illustrated inner pages that I've created digitally.</p><p>The main aim of the project was to create something funny and colorful so the potential children could pay attention and read the magazine. I've experimented with lots of colors for the cover image and at the end the purple and orange color combination worked best.</p>",
-        "sketches": {},
-        "additionalContent": "The finished designs are listed below.",
-        "artworks": {
-            "artwork0": "/assets/images/myWork/illustrations/kids-magazine/artwork1.jpg",
-            "artwork1": "/assets/images/myWork/illustrations/kids-magazine/artwork2.jpg",
-            "artwork2": "/assets/images/myWork/illustrations/kids-magazine/artwork3.jpg",
-            "artwork3": "/assets/images/myWork/illustrations/kids-magazine/artwork4.jpg"
         }
     },
     {

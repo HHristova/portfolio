@@ -2,7 +2,7 @@
     {
         "id": "0",
         "thumb": "/assets/images/myWork/illustrations/world-of-magnets-and-miracles-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/world-of-magnets-and-miracles.jpg",
+        "url": "/assets/images/myWork/illustrations/world-of-magnets-and-miracles.JPG",
         "title": "Pink Floyd inspired illustration",
         "filterId": "illustration"
     },
@@ -93,7 +93,7 @@
     {
         "id": "013",
         "thumb": "/assets/images/myWork/illustrations/time-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/time.jpg",
+        "url": "/assets/images/myWork/illustrations/time.JPG",
         "title": "Time drawing",
         "filterId": "illustration"
     },
@@ -107,7 +107,7 @@
     {
         "id": "2",
         "thumb": "/assets/images/myWork/illustrations/make-your-own-rainbow-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/make-your-own-rainbow.jpg",
+        "url": "/assets/images/myWork/illustrations/make-your-own-rainbow.JPG",
         "title": "Make your own rainbow illustration",
         "filterId": "illustration"
     },
@@ -128,7 +128,7 @@
     {
         "id": "15",
         "thumb": "/assets/images/myWork/illustrations/autumn-turntable-scene-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/autumn-turntable-scene.jpg",
+        "url": "/assets/images/myWork/illustrations/autumn-turntable-scene.JPG",
         "title": "Autumn scene",
         "filterId": "illustration"
     },
@@ -248,7 +248,7 @@
     {
         "id": "103",
         "thumb": "/assets/images/myWork/illustrations/go-with-the-flow-thumb.jpg",
-        "url": "/assets/images/myWork/illustrations/go-with-the-flow.jpg",
+        "url": "/assets/images/myWork/illustrations/go-with-the-flow.JPG",
         "title": "Go with the flow illustration",
         "filterId": "illustration"
     },
