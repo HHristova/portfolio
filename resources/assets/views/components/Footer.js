@@ -81,7 +81,7 @@ let Footer = {
 
         // Get latest IG posts
         var feed = new Instafeed({
-          accessToken: 'IGQVJVbVgxVWpULTNMT09XNWExa3QxU2Q2UW5mZAW1sNGliRnNZATHVnZA0Y4cmZA6OEM1ZA0luREJXakVJT0tzRkc5NkFOTkdnclBwbDFZANXd0bXJ0b2NTOTg5emhIYlpLMmFfRWw0cFN3',
+          accessToken: 'IGQVJYWm5nY0JZAYlRHV0o3dURYci1XMENaYkp2QTVQR2hmTVlkeVR3RVF4TVdlXzJRem9JOTVQQ1lHRjRYU3RuNjgxbW1YZAHh0Y1lMb0ZA0SFk5aDRXWHAwM19ueXlLOThEM1pubFNR',
           limit: 4,
           template: `
               <a href="{{link}}"><img title="{{caption}}" src="{{image}}" /><p>{{caption}}</p></a>

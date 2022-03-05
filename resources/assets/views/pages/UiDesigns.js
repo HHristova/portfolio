@@ -82,7 +82,7 @@ let UiDesigns = {
         let endGraphics = /*html*/ `
                 </div>
 
-                <h1 class="section__container__title text-center d-inline-block px-2">
+                <h1 class="section__container__title text-center d-inline-block px-2 mt-5">
                     <span class="section__container__title__span">
                         UI Case Studies
                     </span>
