@@ -50,7 +50,7 @@ let About = {
                                 Hey, hey 👋,
                                 <br>
                                 I'm Hristina 👧 - a designer and an illustrator.
-                                I’m an optimist. I’m an environmentalist and I will be more things yet to come.
+                                I’m an optimist, an environmentalist and I will be more things yet to come.
                                 </p>
                                 <p>
                                 My graphic and web design side is all about creating art pieces and user-friendly interfaces, while the illustration one is drawing magical
@@ -129,6 +129,7 @@ let About = {
                   <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -151,15 +152,29 @@ let About = {
                     <div class="carousel-box">
                       <div class="carousel-content">
                         <i class="fas fa-quote-left quote" aria-hidden="true"></i><br>
-                        Работих с <a href="https://www.instagram.com/hristova.drawings/" target="_blank">@hristova.drawings</a> по няколко проекта,
-                        предимно постери и съм възхитена! Отношението й към мен беше прекрасно, великолепно
-                        се справи с всяко мое изискване и на всичкото отгоре: страстта й не затихна нито веднъж
-                        по време на процеса! Когато казвам, че съм възхитена, не се шегувам! Сигурна съм, че и в
-                        бъдеще ще работим заедно!
+                        Youth center Vratsa wants to express its gratitude to Hristina for volunteering to create the
+                        visual identity of youth initiatives 'Create together'. She helped us to make our materials look much
+                        more youth-friendly and, in this way, to attract more young people to participate in our initiatives.
+                        Hristina is a real professional. We are excited to work with her.
                       </div>
                       <div class="testimonial-client">
-                        <a href="https://www.facebook.com/dennie.9119" target="_blank">Denislava Petrova</a>
-                        <img src="assets/images/testimonials/dennie.jpg" class="d-block" alt="...">
+                        <a href="https://www.facebook.com/youth.center.vratsa" target="_blank">Youth Center Vratsa</a>
+                        <img src="assets/images/testimonials/youth-center.png" class="d-block" alt="...">
+                      </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="carousel-box">
+                      <div class="carousel-content">
+                        <i class="fas fa-quote-left quote" aria-hidden="true"></i><br>
+                        Работихме с <a href="https://www.instagram.com/hristova.drawings/" target="_blank">@hristova.drawings</a> по няколко проекта,
+                        предимно постери и сме възхитени! Отношението й към нас беше прекрасно, великолепно
+                        се справи с всяко изискване и на всичкото отгоре: страстта й не затихна нито веднъж
+                        по време на процеса! Сигурни сме, че и в бъдеще ще работим заедно!
+                      </div>
+                      <div class="testimonial-client">
+                        <a href="https://www.facebook.com/kmediabulgaria" target="_blank">Кадърѣ Медия</a>
+                        <img src="assets/images/testimonials/kmedia.jpg" class="d-block" alt="...">
                       </div>
                       </div>
                     </div>

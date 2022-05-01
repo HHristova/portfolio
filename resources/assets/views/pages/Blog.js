@@ -3,15 +3,8 @@ import BlogPostsData from '../../scripts/blogposts.json';
 let Blog = {
     render : async () => {
         let title =  /*html*/`
-        <div class="px-4 mt-bg">
-            <div class="section__container text-center">
-                <h1 class="section__container__title text-center d-inline-block px-3">
-                    <span class="section__container__title__span">
-                        Blog
-                    </span>
-                </h1>
-            </div>
-        </div>
+        <div class="main-header">
+                <div class="hero-img hero-img--blog"></div>
         `
 
         let blogPosts = `
