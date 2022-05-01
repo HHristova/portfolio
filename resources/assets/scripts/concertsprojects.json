@@ -1,0 +1,30 @@
+[
+    {
+        "id": "0",
+        "thumb": "/assets/images/myWork/graphics/innerglow-poster-vlaikova-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-poster-vlaikova.jpg",
+        "title": "Innerglow band event design",
+        "filterId": "graphics"
+    },
+    {
+        "id": "1",
+        "thumb": "/assets/images/myWork/graphics/ostava-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/ostava.jpg",
+        "title": "Ostava event poster design",
+        "filterId": "graphics"
+    },
+    {
+        "id": "2",
+        "thumb": "/assets/images/myWork/graphics/innerglow-satellites-vt-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-satellites-vt.jpg",
+        "title": "Innerglow band promo album event design",
+        "filterId": "graphics"
+    },
+    {
+        "id": "3",
+        "thumb": "/assets/images/myWork/graphics/rock-poster-design-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/rock-poster-design.jpg",
+        "title": "Rock concert poster",
+        "filterId": "graphics"
+    }
+]
