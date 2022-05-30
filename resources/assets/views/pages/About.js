@@ -53,12 +53,12 @@ let About = {
                                 I’m an optimist, an environmentalist and I will be more things yet to come.
                                 </p>
                                 <p>
-                                My graphic and web design side is all about creating art pieces and user-friendly interfaces, while the illustration one is drawing magical
+                                My graphic and web design side is all about creating visually appealing art pieces and user-friendly interfaces, while the illustration one is creating magical
                                 drawings that make the people smile. I really love poster designs, collages, typography, and basically everything that’s connected to visual communication and
-                                I'm trying to spread dreams and happiness, one sketch at a time.
+                                I'm trying to spread dreams and happiness, one sketch at a time.💫
                             </p>
                             <p>
-                                I also work on designing my own products and when I'm not glued to a canvas,
+                                I'm also working on some music related design projects 🎶 and when I'm not glued to a canvas,
                                 I can be found at concerts 🎸,
                                 snowboarding with a noisy speaker 🏂, among the shelves
                                 of the bookstores 📚 or laughing out loud in the parks 🏞️.
