@@ -22,7 +22,7 @@ let Header = {
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" data-url="ui-designs" href="/ui-graphics">UI & Graphics</a>
+                        <a class="nav-link" data-url="ui-graphics" href="/ui-graphics">UI & Graphics</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" data-url="illustrations" href="/illustrations">Illustrations</a>
@@ -31,7 +31,7 @@ let Header = {
                         <a class="nav-link" data-url="blog" href="/blog">Blog</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" data-url="blog" href="https://www.etsy.com/shop/CraftyBiscuits" target="_blank">Shop</a>
+                        <a class="nav-link" data-url="shop" href="https://www.etsy.com/shop/CraftyBiscuits" target="_blank">Shop</a>
                       </li>
                     </ul>
                   </div>

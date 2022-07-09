@@ -141,6 +141,26 @@ html, body {
         color: mix($black, $secondary, 35%);
     }
 
+    .navbar-dark .navbar-nav .nav-link.active {
+        position: relative;
+
+        &:before {
+            @include media-breakpoint-up(lg) {
+                content: '';
+                display: block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: mix($black, $secondary, 35%);
+                position: absolute;
+                bottom: 0;
+                margin: auto;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+
     .copyright__box a {
         border-bottom: 1px solid $secondary;
 
@@ -321,7 +341,7 @@ body {
         background-color: rgba($plain-color, 0.5);
 
         @include media-breakpoint-up(lg) {
-            font-size: 0.6rem;
+            font-size: 0.7rem;
         }
     }
 
@@ -332,11 +352,11 @@ body {
         background-color: rgba($plain-color, 0.95);
 
         @include media-breakpoint-up(sm) {
-            min-width: 8rem;
+            min-width: 9rem;
         }
 
         @include media-breakpoint-up(lg) {
-            font-size: 0.6rem;
+            font-size: 0.7rem;
         }
     }
 
