@@ -33,9 +33,21 @@
 
     img {
         max-height: 162px;
+        width: 100%;
+        object-fit: cover;
 
-        @include media-breakpoint-up(xl) {
+        @include media-breakpoint-up(sm) {
+            height: 270px;
+            max-height: none;
+        }
+
+        @include media-breakpoint-up(lg) {
+            height: 220px;
+        }
+
+        @include large-desktop() {
             max-height: 306px;
+            height: auto;
         }
     }
 
@@ -46,7 +58,7 @@
     p {
         margin-top: 10px;
         @include lines-of-text;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         line-height: normal;
     }
 
