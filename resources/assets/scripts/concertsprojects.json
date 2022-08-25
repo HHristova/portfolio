@@ -22,6 +22,20 @@
     },
     {
         "id": "3",
+        "thumb": "/assets/images/myWork/graphics/innerglow-poster-maimunarnika-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-poster-maimunarnika.jpg",
+        "title": "Innerglow band summer concert design",
+        "filterId": "graphics"
+    },
+    {
+        "id": "4",
+        "thumb": "/assets/images/myWork/graphics/doma-headliners-fb-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/doma-headliners-fb.jpg",
+        "title": "Dolna Malina Open Fest Headliners - FB cover design",
+        "filterId": "graphics"
+    },
+    {
+        "id": "5",
         "thumb": "/assets/images/myWork/graphics/rock-poster-design-thumb.jpg",
         "url": "/assets/images/myWork/graphics/rock-poster-design.jpg",
         "title": "Rock concert poster design",

@@ -173,7 +173,7 @@ let About = {
                         по време на процеса! Сигурни сме, че и в бъдеще ще работим заедно!
                       </div>
                       <div class="testimonial-client">
-                        <a href="https://www.facebook.com/kmediabulgaria" target="_blank">Кадърѣ Медия</a>
+                        <a href="https://www.facebook.com/kmediabulgaria" target="_blank">Продуцентска къща Кадърѣ Медия</a>
                         <img src="assets/images/testimonials/kmedia.jpg" class="d-block" alt="...">
                       </div>
                       </div>
@@ -188,7 +188,7 @@ let About = {
     after_render: async () => {
         // Typed.js homepage header initialisation
         const options = {
-            strings: ['', 'web and graphic designer.', 'illustrator.', 'music lover.', 'snowboarder.', 'snooker fan.'],
+            strings: ['', 'graphic and web designer.', 'illustrator.', 'music lover.', 'snowboarder.', 'snooker fan.'],
             typeSpeed: 30,
             backSpeed: 30,
             contentType: null,

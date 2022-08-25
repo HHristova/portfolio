@@ -13,7 +13,7 @@ let Links = {
                         </div>
                         <div class="link-wrapper__box py-3 px-1 px-lg-3">
                             <p>
-                                Do you have an upcoming web design or illustration project?
+                                Do you have an upcoming design project?
                             </p>
                             <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
                                 Send me an email
