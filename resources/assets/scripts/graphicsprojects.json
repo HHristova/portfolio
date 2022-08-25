@@ -8,16 +8,23 @@
     },
     {
         "id": "1",
+        "thumb": "/assets/images/myWork/graphics/graphic-bw.jpg",
+        "url": "/assets/images/myWork/graphics/graphic-bw.jpg",
+        "title": "Poster illustration",
+        "filterId": "graphics"
+    },
+    {
+        "id": "2",
         "thumb": "/assets/images/myWork/graphics/graphic1.jpg",
         "url": "/assets/images/myWork/graphics/graphic1.jpg",
         "title": "Poster illustration",
         "filterId": "graphics"
     },
     {
-        "id": "2",
-        "thumb": "/assets/images/myWork/graphics/graphic-bw.jpg",
-        "url": "/assets/images/myWork/graphics/graphic-bw.jpg",
-        "title": "Poster illustration",
+        "id": "3",
+        "thumb": "/assets/images/myWork/graphics/bicycle-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/bicycle.jpg",
+        "title": "Bicycle poster illustration",
         "filterId": "graphics"
     }
 ]
