@@ -15,16 +15,16 @@ let About = {
                             Change website season
                         </button>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="#" data-season="spring">
+                            <a class="dropdown-item" href="javascript:getDropdownSeason()" data-season="spring">
                                 Spring <span>🌺</span>
                             </a>
-                            <a class="dropdown-item" href="#" data-season="summer">
+                            <a class="dropdown-item" href="javascript:getDropdownSeason()" data-season="summer">
                                 Summer <span>🌴</span>
                             </a>
-                            <a class="dropdown-item" href="#" data-season="autumn">
+                            <a class="dropdown-item" href="javascript:getDropdownSeason()" data-season="autumn">
                                 Autumn <span>🍁</span>
                             </a>
-                            <a class="dropdown-item" href="#" data-season="winter">
+                            <a class="dropdown-item" href="javascript:getDropdownSeason()" data-season="winter">
                                 Winter <span>❄️</span>
                             </a>
                         </div>
@@ -186,9 +186,15 @@ let About = {
         return view
     },
     after_render: async () => {
+        function getDropdownSeason(season) {
+            document.body.className = '';
+            document.body.classList.add('--' + this.getAttribute('data-season'));
+            setCookie('season', this.getAttribute('data-season'));
+        }
+
         // Typed.js homepage header initialisation
         const options = {
-            strings: ['', 'graphic and web designer.', 'illustrator.', 'music lover.', 'snowboarder.', 'snooker fan.'],
+            strings: ['', 'Graphic and web designer.', 'Illustrator.', 'Music lover.', 'Snowboarder.', 'Snooker fan.'],
             typeSpeed: 30,
             backSpeed: 30,
             contentType: null,
