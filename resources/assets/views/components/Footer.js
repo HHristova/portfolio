@@ -28,8 +28,7 @@ let Footer = {
                 <div class="contact-me mb-4">
                     I’m available for commissions and collaborations.
                     <a href="mailto:hristina.a.hristova@gmail.com">Email me</a>
-                    and I will get back to you. I’m
-                    looking forward chatting with you!
+                    and I will get back to you. 😊
                 </div>
                 <div class="section__container__content">
                     <a href="mailto:hristina.a.hristova@gmail.com" class="btn btn--contact">

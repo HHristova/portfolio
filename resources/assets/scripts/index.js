@@ -23,8 +23,8 @@ import Utils from './services/Utils.js'
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/' : About,
-    '/ui-graphics' : UiDesigns,
-    '/ui-graphics/:id' : UiProjectDetails,
+    '/graphics-ui' : UiDesigns,
+    '/graphics-ui/:id' : UiProjectDetails,
     '/ui-graphics-case-study/:id' : UiCaseStudy,
     '/graphics-case-study/:id' : GraphicsCaseStudy,
     '/illustrations' : Illustrations,
@@ -120,7 +120,7 @@ const router = async () => {
     function getDropdownSeason(season) {
         document.body.className = '';
         document.body.classList.add('--' + this.getAttribute('data-season'));
-        setCookie('season', this.getAttribute('data-season'));
+        setCookie('season', this.getAttribute('data-season'), 15);
     }
 
     // EventListener for season dropdown click event
@@ -132,16 +132,28 @@ const router = async () => {
 
     // {{ Set and get cookie for website seasons
     function getCookie(name) {
-        var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-        return v ? v[2] : null;
+        var nameEQ = name + '=';
+        var ca = document.cookie.split(';');
+
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+
+        return null;
     }
 
     function setCookie(name, value, days) {
-        var now = new Date();
-        var time = now.getTime();
-        var expireTime = time + 1000*36000;
-        now.setTime(expireTime);
-        document.cookie = 'expires='+now.toUTCString()+';path=/';
+        var expires = '';
+
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = '; expires=' + date.toUTCString();
+        }
+
+        document.cookie = name + '=' + (value || '')  + expires + '; path=/';
     }
 
     // Detect if there is already a cookie set to the browser on page load
