@@ -12,6 +12,13 @@
         grid-gap: initial;
     }
 
+    &.grid-wrapper-2 {
+        @include media-breakpoint-up(xl) {
+            grid-template-columns: 27rem 27rem;
+            justify-content: center;
+        }
+    }
+
     @include media-breakpoint-up(xl) {
         grid-template-columns: 1fr 1fr 1fr;
     }

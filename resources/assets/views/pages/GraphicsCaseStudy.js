@@ -38,7 +38,7 @@ let GraphicsCaseStudy = {
                 <div class="d-flex w-100 flex-wrap justify-content-between">`;
                 for(var i = 0; i < sketchesLength; i++) {
                     sketches += `
-                    <div class="illustrationProject-item mb-2">
+                    <div class="illustrationProject-item${graphicDesignFiltered[0].width} mb-2">
                          <div class="js-button--illustrations box-thumb d-inline-block"
                              data-toggle="modal" data-target="#modalPicture"
                              value="Expand photo" role="button"

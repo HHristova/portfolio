@@ -158,7 +158,7 @@ let Illustrations = {
                 </div>
         </div>
         `
-        return startPage + illustrationCaseStudyWrapper + proBonoProjectsHTML + proBonoProjects + afterProBonoProjects + projects + endPage
+        return startPage + illustrationCaseStudyWrapper + afterProBonoProjects + projects + endPage
     },
     after_render: async () => {
         // ScrollReveal animations
