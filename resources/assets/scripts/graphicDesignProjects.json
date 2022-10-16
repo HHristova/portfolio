@@ -15,6 +15,28 @@
             "artwork0": "/assets/images/myWork/case-studies/files/Mista-Future-Cover.jpg",
             "artwork1": "/assets/images/myWork/case-studies/files/Mista-Future-Inner-Pages.jpg",
             "artwork2": "/assets/images/myWork/case-studies/files/Mista-Future-Inner-Pages-2.jpg"
-        }
+        },
+        "reference": "<p class='mt-3 mt-md-5'>And if you want to listen to the album, here it is. Enjoy!</p><iframe width='100%' height='' src='https://www.youtube.com/embed/rw3e_Pk-KdE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
+    {
+        "id": "doma-fest-branding",
+        "type": "commercial-project",
+        "thumb": "/assets/images/myWork/case-studies/thumbs/doma-fest-branding-thumb.jpg",
+        "title": "Brand Design of the art festival <br>'Dolna Malina Open Fest' 🌳🎼🎸",
+        "titleThumb": "Dolna Malina Open Fest Branding",
+        "intro": "<p>Dolna Malina is a small village located at 28km away from Sofia's city center. The festival started in 2016 and it's main aim is to promote and help young and ambitious people in the fields of <strong>art, sport and education</strong> with plenty of activies and competitions. The festival works in collaboration with <strong>BUFO film studios</strong> and every year the main income from the festival goes for <strong>charity to Rehabilitation center for blind people 'Gorna Malina'</strong>.</p><p>For it's fifth edition, I became part of the main organisation team and I had to came up with an overall brand concept since there was no such thing in previous editions.</p> <p>🎨 I've started with the idea of using the green color as a main one because it represents the grass, the meadows and the open fields where the main festival activies take place. From there on, the yellow color comes as a complementary one and it creates the initial color palette for the festival. During the process there were a few more colors that were added as secondaries to the overall design concept.</p><p>🖊️ In terms of font families I've decided to go with two options - one for the main titles and one for the smaller texts all over the print materials and the website of the festival. For the main title of the festival I draw the name by hand since I wanted to give it more custom and memorable look.</p><p>🖼️ In order to make the overall branding more recognisable and interesting for the visitors, I've created a set of different illustrations, related to the main activities on the festival. The illustrations follow the idea of quirky and fun branding that can stay out from the rest of the festivals in the area and stick to the main color palette. The reddish shadow at the bottom adds additional accent to the elements without being too intrusive.</p>",
+        "width": "",
+        "sketches": {
+            "sketch0": "/assets/images/myWork/case-studies/files/DOMA-color-palette.jpg",
+            "sketch1": "/assets/images/myWork/case-studies/files/DOMA-font-families.jpg",
+            "sketch2": "/assets/images/myWork/case-studies/files/DOMA-illustrations.jpg"
+        },
+            "additionalContent": "Here is the selection of some of the designs I did for the festival so far. Since I'm going to be part of the team for it's 2023 edition, the branding is going to expand even more so I will keep the page updated. 😊</p><div class='js-button--illustrations box-thumb d-inline-block mb-3' data-toggle='modal' data-target='#modalPicture' value='Expand photo' role='button' data-img='/assets/images/myWork/case-studies/files/doma-poster-generic.jpg'><img class='img-fluid' src='/assets/images/myWork/case-studies/files/doma-poster-generic.jpg' alt='Dolna Malina Open Fest poster design'></div> <br><div class='js-button--illustrations box-thumb d-inline-block' data-toggle='modal' data-target='#modalPicture' value='Expand photo' role='button' data-img='/assets/images/myWork/case-studies/files/doma-headliners.jpg'><img class='img-fluid' src='/assets/images/myWork/case-studies/files/doma-headliners.jpg' alt='Dolna Malina Open Fest headliners poster design'></div>",
+        "artworks": {
+            "artwork0": "/assets/images/myWork/case-studies/files/doma-kinematograf.jpg",
+            "artwork1": "/assets/images/myWork/case-studies/files/doma-posters-sport.jpg",
+            "artwork2": "/assets/images/myWork/case-studies/files/doma-zones.jpg"
+        },
+        "reference": ""
     }
 ]

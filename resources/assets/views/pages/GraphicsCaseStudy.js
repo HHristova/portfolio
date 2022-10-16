@@ -14,8 +14,8 @@ let GraphicsCaseStudy = {
             /*html*/`
             <div class="IllustrationProject-wrapper mt-bg">
                 <div class="item__content px-2 px-md-3">
-                    <h2 class="section__container__title section__container__title--sm m-neg
-                        d-inline-block px-3">
+                    <h2 class="section__container__title section__container__title--sm
+                        d-block px-3">
                         <span class="section__container__title__span">
                             ${illustrationProject.title}
                         </span>
@@ -81,6 +81,9 @@ let GraphicsCaseStudy = {
             `;
         }
         finalArt += `
+                <div class="d-flex mb-3" style="flex: 0 1 100%; flex-wrap: wrap; margin-left: 5px; margin-right: 5px;">
+                    ${graphicDesignFiltered[0].reference}
+                </div>
             </div>
         </div>
         `;

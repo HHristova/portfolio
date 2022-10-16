@@ -50,6 +50,14 @@
     @include large-desktop {
         max-width: 50%;
     }
+
+	iframe {
+		height: 50vw;
+
+		@include large-desktop {
+			height: 25vw;
+	    }
+	}
 }
 
 .open-gallery {

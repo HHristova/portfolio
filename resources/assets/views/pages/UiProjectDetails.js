@@ -15,7 +15,7 @@ let UiProjectDetails = {
                 <article class="item item--current">
                     <div class="item__content px-2 px-md-3">
                         <h2 class="section__container__title section__container__title--sm m-neg
-                            d-inline-block px-3">
+                            d-block px-3">
                             <span class="section__container__title__span">
                                 ${project.title}
                             </span>

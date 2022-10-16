@@ -22,7 +22,7 @@ let Header = {
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" data-url="graphics-ui" href="/graphics-ui">Graphics & UI</a>
+                        <a class="nav-link" data-url="graphics-ui" href="/graphics-ui">Graphic Design & UI</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" data-url="illustrations" href="/illustrations">Illustrations</a>
