@@ -14,8 +14,8 @@ let BlogInner = {
                 <div class="IllustrationProject-wrapper mt-bg">
                     <div class="item__content px-2 px-md-3">
                         <div class="max-chars blog-content">
-                            <h2 class="section__container__title section__container__title--sm m-neg
-                                d-inline-block px-3">
+                            <h2 class="section__container__title section__container__title--sm
+                                d-block px-3">
                                 <span class="section__container__title__span">
                                     ${blogPost.title}
                                 </span>

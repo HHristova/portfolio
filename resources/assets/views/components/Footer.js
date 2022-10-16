@@ -42,14 +42,14 @@ let Footer = {
             <p>Follow me:</p>
             <div class="copyright">
                 <div class="social-icons">
-                    <a href="https://dribbble.com/HHristova" target="_blank">
-                        <i class="fab fa-dribbble social-icons__db" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.behance.net/hhristova" target="_blank">
-                        <i class="fab fa-behance social-icons__bh" aria-hidden="true"></i>
-                    </a>
                     <a href="https://www.instagram.com/hristova.drawings/" target="_blank">
                         <i class="fab fa-instagram social-icons__inst" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hristina-hristova-design/" target="_blank">
+                        <i class="fab fa-linkedin social-icons__bh" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://dribbble.com/HHristova" target="_blank">
+                        <i class="fab fa-dribbble social-icons__db" aria-hidden="true"></i>
                     </a>
                     <a href="https://github.com/HHristova" target="_blank">
                         <i class="fab fa-github social-icons__gh" aria-hidden="true"></i>

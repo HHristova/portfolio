@@ -54,17 +54,17 @@ let About = {
                                 </p>
                                 <p>
                                 My graphic and web design side is all about creating visually appealing art pieces and user-friendly interfaces, while the illustration one is creating magical
-                                drawings that make the people smile. I really love poster designs, collages, typography, and basically everything that’s connected to visual communication and
+                                drawings that make people smile. I really love poster designs, collages, typography, and basically everything that’s connected to visual communication and
                                 I'm trying to spread dreams and happiness, one sketch at a time.💫
                             </p>
                             <p>
-                                I'm also working on some music related design projects 🎶 and when I'm not glued to a canvas,
+                                I'm also working on lots of music related design projects 🎶 and successfully combine two of my biggest passions - music and art. When I'm not glued to a canvas,
                                 I can be found at concerts 🎸,
                                 snowboarding with a noisy speaker 🏂, among the shelves
                                 of the bookstores 📚 or laughing out loud in the parks 🏞️.
                             </p>
                             <p>
-                                You can check <a href="/ui-graphics"><strong>my UI and graphic designs ✒️</strong></a> and
+                                You can check <a href="/ui-graphics"><strong>my graphic design projects ✒️</strong></a> and
                                 <a href="/illustrations"><strong>illustrations 🎨</strong></a>
                                 or just <a href="mailto:hristina.a.hristova@gmail.com"><strong>say 'Hey!' 👋</strong></a>.
                             </p>
@@ -87,7 +87,7 @@ let About = {
                             Illustrations
                         </div>
                         <p>
-                            I love drawing whimsical illustrations
+                            I love drawing dreamy illustrations
                             and magical universes.
                         </p>
                     </div>
@@ -100,7 +100,7 @@ let About = {
                             Graphic Design
                         </div>
                         <p>
-                            I have a lot of print design goodies under my belt.
+                            I have plenty of music related graphic designs under my belt.
                         </p>
                     </div>
                     <div class="flex-skills mx-md-3">

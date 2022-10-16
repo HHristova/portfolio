@@ -15,38 +15,46 @@ let UiDesigns = {
                 <p class="px-2">
                     Here's a selection of some of my stuff. 👀<br>
                     For more you can visit me on
-                    <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong>,
-                    <strong><a href="https://www.behance.net/hhristova" target="_blank">behance</a></strong> or
-                    <strong><a href="https://www.instagram.com/hristova.drawings/" target="_blank">instagram</a></strong>.
+                    <strong><a href="https://www.instagram.com/hristova.drawings/" target="_blank">instagram</a></strong> or
+                    <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong>.
                 </p>
 
-                <h1 class="section__container__title text-center d-inline-block px-2">
+                <h1 class="section__container__title text-center d-inline-block px-2 pt-2">
                     <span class="section__container__title__span">
-                        Graphic Design Case Studies
+                        Graphic design case studies
                     </span>
                 </h1>
 
-                <div class="mb-5">
-                    <div class="grid-wrapper container grad-wrapper-no-gap">
-                        <div class="grid-item"></div>
+                <div class="mb-4">
+                    <div class="grid-wrapper container grid-wrapper-2">
                         <div class="grid-item">
                             <a href="graphics-case-study/mista-future-cd-design" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
-                                        CD Cover Design
+                                        'Mista Future' CD Cover
                                     </span><br>
                                     <small>Graphic Design</small>
                                 </p>
                                 <img src="/assets/images/myWork/case-studies/thumbs/Mista-Future-thumb.jpg"
-                                    class="img-fluid" alt="CD Case Study Thumbnail">
+                                    class="img-fluid" alt="'Mista Future' CD Cover Design Case Study Thumbnail">
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="graphics-case-study/doma-fest-branding" class="box-thumb d-inline-block">
+                                <p class="box-content d-inline">
+                                    <span>
+                                        Dolna Malina Open Fest Branding
+                                    </span><br>
+                                    <small>Graphic Design</small>
+                                </p>
+                                <img src="/assets/images/myWork/case-studies/thumbs/doma-fest-branding-thumb.jpg"
+                                    class="img-fluid" alt="Dolna Malina Open Fest Branding Case Study Thumbnail">
                             </a>
                         </div>
                     </div>
                 </div>
 
-
-
-                <h1 class="section__container__title d-inline-block px-2">
+                <h1 class="section__container__title d-inline-block px-2 mt-lg-5">
                     <span class="section__container__title__span">
                         Concert designs
                     </span>
@@ -68,7 +76,8 @@ let UiDesigns = {
                             <p class="box-content d-inline px-3">
                                 <span>
                                     ${concertsData[i].title}
-                                </span>
+                                </span><br>
+                                <small>Graphic Design</small>
                             </p>
                             <img src="${concertsData[i].thumb}" data-img="${concertsData[i].url}"
                                 data-pin-description="${concertsData[i].title}"
@@ -107,7 +116,8 @@ let UiDesigns = {
                             <p class="box-content d-inline px-3">
                                 <span>
                                     ${graphicsData[i].title}
-                                </span>
+                                </span><br>
+                                <small>Graphic Design</small>
                             </p>
                             <img src="${graphicsData[i].thumb}" data-img="${graphicsData[i].url}"
                                 data-pin-description="${graphicsData[i].title}"
@@ -125,7 +135,7 @@ let UiDesigns = {
 
                 <h1 class="section__container__title text-center d-inline-block px-2 mt-5">
                     <span class="section__container__title__span">
-                        UI Case Studies
+                        UI case studies
                     </span>
                 </h1>
 
@@ -138,7 +148,7 @@ let UiDesigns = {
                                     <span>
                                         GoTenant Design Case Study
                                     </span><br>
-                                    <small>Design, Illustration</small>
+                                    <small>UI Design, Illustration</small>
                                 </p>
                                 <img src="/assets/images/myWork/case-studies/thumbs/GT-thumb.jpg"
                                     class="img-fluid" alt="GoTenant Case Study Thumbnail">
@@ -149,7 +159,7 @@ let UiDesigns = {
 
                 <h1 class="section__container__title d-inline-block px-2 mt-1">
                     <span class="section__container__title__span">
-                        UI Designs
+                        UI designs
                     </span>
                 </h1>
 

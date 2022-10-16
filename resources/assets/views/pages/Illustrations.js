@@ -12,7 +12,7 @@ let Illustrations = {
         <div class="section pt-3">
             <div class="section__container container text-center">
                 <p class="max-chars mt-3 mb-4 px-2">
-                    I really love drawing and here is the selection of my recent drawings. <br>
+                    I really love drawing and here is the selection of my recent illustrations.🎨<br>
                     For more you can visit me on
                     <strong><a href="https://www.instagram.com/hristova.drawings/" target="_blank">instagram</a></strong>
                     or <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong>.
@@ -32,7 +32,7 @@ let Illustrations = {
 
                 <h1 class="section__container__title text-center d-inline-block">
                     <span class="section__container__title__span">
-                        Case studies
+                        Illustration case studies
                     </span>
                 </h1>
 
@@ -158,7 +158,7 @@ let Illustrations = {
                 </div>
         </div>
         `
-        return startPage + illustrationCaseStudyWrapper + proBonoProjectsHTML + proBonoProjects + afterProBonoProjects + projects + endPage
+        return startPage + illustrationCaseStudyWrapper + afterProBonoProjects + projects + endPage
     },
     after_render: async () => {
         // ScrollReveal animations

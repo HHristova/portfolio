@@ -22,7 +22,7 @@
     }
 
     a {
-        flex-basis: calc(50% - 10px);
+        flex-basis: calc(50% - 11px);
         margin: 0 5px;
         color: inherit;
 
@@ -41,13 +41,8 @@
             max-height: none;
         }
 
-        @include media-breakpoint-up(lg) {
-            height: 220px;
-        }
-
         @include large-desktop() {
-            max-height: 306px;
-            height: auto;
+            height: 380px;
         }
     }
 

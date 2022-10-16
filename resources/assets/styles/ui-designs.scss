@@ -12,8 +12,25 @@
         grid-gap: initial;
     }
 
+    &.grid-wrapper-2 {
+        @include media-breakpoint-up(sm) {
+            justify-content: flex-start;
+            grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
+        }
+
+        @include media-breakpoint-up(xl) {
+            grid-template-columns: 27rem 27rem;
+            // grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+        }
+
+        .grid-item {
+            width: 100%;
+        }
+    }
+
     @include media-breakpoint-up(xl) {
-        grid-template-columns: 1fr 1fr 1fr;
+        // grid-template-columns: 1fr 1fr 1fr;
     }
 
     @include media-breakpoint-up(md) {
@@ -23,6 +40,10 @@
 
 .grid-item {
     @include media-breakpoint-only(md) {
+        width: 50%;
+    }
+
+    @include media-breakpoint-only(lg) {
         width: 50%;
     }
 }
