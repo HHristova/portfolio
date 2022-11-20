@@ -28,6 +28,18 @@ let UiDesigns = {
                 <div class="mb-4">
                     <div class="grid-wrapper container grid-wrapper-2">
                         <div class="grid-item">
+                            <a href="graphics-case-study/jin-monic-logo-design" class="box-thumb d-inline-block">
+                                <p class="box-content d-inline">
+                                    <span>
+                                        Jin Monic Band Logo
+                                    </span><br>
+                                    <small>Logo Design</small>
+                                </p>
+                                <img src="/assets/images/myWork/case-studies/thumbs/Jin-Monic-logo-thumb.jpg"
+                                    class="img-fluid" alt="Jin Monic Logo Design Case Study Thumbnail">
+                            </a>
+                        </div>
+                        <div class="grid-item">
                             <a href="graphics-case-study/mista-future-cd-design" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
