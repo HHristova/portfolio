@@ -68,6 +68,7 @@ let About = {
                                 <a href="/illustrations"><strong>illustrations 🎨</strong></a>
                                 or just <a href="mailto:hristina.a.hristova@gmail.com"><strong>say 'Hey!' 👋</strong></a>.
                             </p>
+                            <p><i>So make yourself at home, there are some cinnamon cookies in the fridge. 🍪</i></p>
                         </div>
                     </div>
                 </div>
@@ -143,7 +144,9 @@ let About = {
                         quality of her work. We expect to do more projects with her in the future.
                       </div>
                       <div class="testimonial-client">
-                        <a href="https://www.facebook.com/search/top?q=get%20on%20board" target="_blank">Non-goverment organisation "Get On Board"</a>
+                        <a href="https://www.facebook.com/search/top?q=get%20on%20board" target="_blank">
+                            <strong>Non-goverment organisation "Get On Board"</strong>
+                        </a>
                         <img src="assets/images/testimonials/get-on-board.jpg" class="d-block" alt="...">
                       </div>
                       </div>
@@ -158,7 +161,9 @@ let About = {
                         Hristina is a real professional. We are excited to work with her.
                       </div>
                       <div class="testimonial-client">
-                        <a href="https://www.facebook.com/youth.center.vratsa" target="_blank">Youth Center Vratsa</a>
+                        <a href="https://www.facebook.com/youth.center.vratsa" target="_blank">
+                            <strong>Youth Center Vratsa</strong>
+                        </a>
                         <img src="assets/images/testimonials/youth-center.png" class="d-block" alt="...">
                       </div>
                       </div>
@@ -173,7 +178,9 @@ let About = {
                         по време на процеса! Сигурни сме, че и в бъдеще ще работим заедно!
                       </div>
                       <div class="testimonial-client">
-                        <a href="https://www.facebook.com/kmediabulgaria" target="_blank">Продуцентска къща Кадърѣ Медия</a>
+                        <a href="https://www.facebook.com/kmediabulgaria" target="_blank">
+                            <strong>Продуцентска къща Кадърѣ Медия</strong>
+                        </a>
                         <img src="assets/images/testimonials/kmedia.jpg" class="d-block" alt="...">
                       </div>
                       </div>
@@ -205,7 +212,7 @@ let About = {
         const typed = new Typed(document.getElementById("dynamic-content"), options);
 
         // ScrollReveal animations
-        ScrollReveal().reveal('.section__container__title, .about-me, .section__container__content', {
+        ScrollReveal().reveal('.section__container__title, .about-me, .section__container__content, .carousel, .btn.btn--contact, .separator, .contact-img, .contact-me', {
             duration: 1500,
             scale: '.95',
             easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',

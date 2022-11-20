@@ -1,9 +1,9 @@
 [
     {
         "id": "0",
-        "thumb": "/assets/images/myWork/graphics/innerglow-poster-vlaikova-thumb.jpg",
-        "url": "/assets/images/myWork/graphics/innerglow-poster-vlaikova.jpg",
-        "title": "Innerglow band acoustic concert design",
+        "thumb": "/assets/images/myWork/graphics/innerglow-poster-sofia-live-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-poster-sofia-live-a3.jpg",
+        "title": "Innerglow band - Live at Sofia Live Club poster design",
         "filterId": "graphics"
     },
     {
@@ -16,14 +16,14 @@
     {
         "id": "2",
         "thumb": "/assets/images/myWork/graphics/innerglow-satellites-vt-thumb.jpg",
-        "url": "/assets/images/myWork/graphics/innerglow-satellites-vt.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-poster-a3-melon.jpg",
         "title": "Innerglow band promo album design",
         "filterId": "graphics"
     },
     {
         "id": "3",
         "thumb": "/assets/images/myWork/graphics/innerglow-poster-maimunarnika-thumb.jpg",
-        "url": "/assets/images/myWork/graphics/innerglow-poster-maimunarnika.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-poster-maimunarnika-a3.jpg",
         "title": "Innerglow band summer concert design",
         "filterId": "graphics"
     },
@@ -36,6 +36,13 @@
     },
     {
         "id": "5",
+        "thumb": "/assets/images/myWork/graphics/innerglow-poster-vlaikova-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-poster-vlaikova.jpg",
+        "title": "Innerglow band acoustic concert design",
+        "filterId": "graphics"
+    },
+    {
+        "id": "6",
         "thumb": "/assets/images/myWork/graphics/rock-poster-design-thumb.jpg",
         "url": "/assets/images/myWork/graphics/rock-poster-design.jpg",
         "title": "Rock concert poster design",

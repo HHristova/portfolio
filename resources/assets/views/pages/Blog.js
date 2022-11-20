@@ -1,4 +1,5 @@
 import BlogPostsData from '../../scripts/blogposts.json';
+import ScrollReveal from 'scrollreveal'
 
 let Blog = {
     render : async () => {
@@ -38,7 +39,27 @@ let Blog = {
 
         return title + blogPosts
     },
-    after_render: async () => {}
+    after_render: async () => {
+        // ScrollReveal animations
+        ScrollReveal().reveal('.section__container__title, .btn.btn--contact, .separator, .contact-img, .contact-me', {
+            duration: 1500,
+            scale: '.95',
+            easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
+            viewFactor: 0.4
+        });
+
+        var animatedElements = [
+            'blog-item'
+        ];
+
+        for (var i = 0; i < animatedElements.length; i++) {
+            if (document.querySelector('.' + animatedElements[i])) {
+                ScrollReveal().reveal('.' + animatedElements[i], {
+                    duration: 1700
+                }, 200);
+            }
+        }
+    }
 }
 
 export default Blog;

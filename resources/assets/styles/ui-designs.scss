@@ -19,8 +19,8 @@
         }
 
         @include media-breakpoint-up(xl) {
-            grid-template-columns: 27rem 27rem;
-            // grid-template-columns: 1fr 1fr 1fr;
+            // grid-template-columns: 27rem 27rem;
+            grid-template-columns: 1fr 1fr 1fr;
             justify-content: center;
         }
 
@@ -63,14 +63,9 @@
     }
 
     figure {
-        display: none;
         margin: 0 0 1em;
         vertical-align: top;
         width: 100%;
-
-        &.show {
-            display: inline-block;
-        }
     }
 }
 
