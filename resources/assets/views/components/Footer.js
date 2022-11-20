@@ -16,7 +16,7 @@ let Footer = {
                 <div id="instafeed"></div>
 
                 <div class="section__container__content ig-btn-wrapper">
-                    <a href="https://www.instagram.com/hristova.drawings/" target="_blank" class="btn btn--secondary">
+                    <a href="https://www.instagram.com/hristova.drawings/" target="_blank" class="btn btn--contact">
                         <i class="fab fa-instagram social-icons__inst" aria-hidden="true"></i> Follow me
                     </a>
                 </div>
@@ -27,7 +27,7 @@ let Footer = {
                     alt="Let's work together - contact me" />
                 <div class="contact-me mb-4">
                     I’m available for commissions and collaborations.
-                    <a href="mailto:hristina.a.hristova@gmail.com">Email me</a>
+                    <a href="mailto:hristina.a.hristova@gmail.com"><strong>Email me</strong></a>
                     and I will get back to you. 😊
                 </div>
                 <div class="section__container__content">

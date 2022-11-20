@@ -241,7 +241,7 @@ let UiDesigns = {
     },
     after_render: async () => {
         // ScrollReveal animations
-        ScrollReveal().reveal('.section__container p, .section__container__title, .caseStudy-thumb', {
+        ScrollReveal().reveal('.section__container p, .section__container__title, .caseStudy-thumb, .grid-wrapper, .masonry, .btn.btn--contact, .separator, .contact-img, .contact-me', {
             duration: 1500,
             scale: '.95',
             easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',

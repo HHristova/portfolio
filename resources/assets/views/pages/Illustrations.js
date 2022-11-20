@@ -23,7 +23,7 @@ let Illustrations = {
                 <div id="instafeed"></div>
 
                 <div class="section__container__content ig-btn-wrapper">
-                    <a href="https://www.instagram.com/hristova.drawings/" target="_blank" class="btn btn--secondary">
+                    <a href="https://www.instagram.com/hristova.drawings/" target="_blank" class="btn btn--contact">
                         <i class="fab fa-instagram social-icons__inst" aria-hidden="true"></i> Follow me
                     </a>
                 </div>
@@ -162,12 +162,24 @@ let Illustrations = {
     },
     after_render: async () => {
         // ScrollReveal animations
-        ScrollReveal().reveal('.section__container p, .section__container__title, .caseStudy-thumb, .illustrationProject-item', {
+        ScrollReveal().reveal('#instafeed, .section__container p, .section__container__title, .caseStudy-thumb, .illustrationProject-item, .justify-content-around, .btn.btn--contact, .separator, .contact-img, .contact-me', {
             duration: 1500,
             scale: '.95',
             easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
             viewFactor: 0.3
         });
+
+        var animatedElements = [
+            'picture-item'
+        ];
+
+        for (var i = 0; i < animatedElements.length; i++) {
+            if (document.querySelector('.' + animatedElements[i])) {
+                ScrollReveal().reveal('.' + animatedElements[i], {
+                    duration: 1700
+                }, 200);
+            }
+        }
 
         // Get latest IG posts
         var feed = new Instafeed({
