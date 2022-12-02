@@ -59,5 +59,22 @@
             "artwork2": "/assets/images/myWork/case-studies/files/doma-zones.jpg"
         },
         "reference": ""
+    },
+    {
+        "id": "innerglow-znak",
+        "type": "commercial-project",
+        "thumb": "/assets/images/myWork/graphics/Innerglow_Znak_Artwork-thumb.jpg",
+        "title": "Innerglow - Znak Single Artwork",
+        "titleThumb": "Innerglow - Znak Single Artwork Branding",
+        "intro": "",
+        "width": "",
+        "sketches": {
+            "sketch0": "/assets/images/myWork/graphics/innerglow_znak_apple_music.jpg"
+        },
+            "additionalContent": "",
+        "artworks": {
+            "artwork0": "/assets/images/myWork/graphics/innerglow_znak_spotify.jpg"
+        },
+        "reference": ""
     }
 ]

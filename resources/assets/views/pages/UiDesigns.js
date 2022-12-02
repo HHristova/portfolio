@@ -21,7 +21,7 @@ let UiDesigns = {
 
                 <h1 class="section__container__title text-center d-inline-block px-2 pt-2">
                     <span class="section__container__title__span">
-                        Graphic design case studies
+                        Graphic designs
                     </span>
                 </h1>
 
@@ -63,12 +63,25 @@ let UiDesigns = {
                                     class="img-fluid" alt="Dolna Malina Open Fest Branding Case Study Thumbnail">
                             </a>
                         </div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item">
+                            <a href="graphics-case-study/innerglow-znak" class="box-thumb d-inline-block">
+                                <p class="box-content d-inline">
+                                    <span>
+                                        Innerglow - Знак single art
+                                    </span><br>
+                                    <small>Graphic Design</small>
+                                </p>
+                                <img src="/assets/images/myWork/graphics/Innerglow_Znak_Artwork-thumb.jpg"
+                                    class="img-fluid" alt="Innerglow - Znak Single Art Thumb">
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <h1 class="section__container__title d-inline-block px-2 mt-lg-5">
                     <span class="section__container__title__span">
-                        Concert designs
+                        Music posters
                     </span>
                 </h1>
 
