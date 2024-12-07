@@ -45,32 +45,25 @@ let About = {
                         <div class="about-me-wrapper">
                             <div class="about-me__image"></div>
                         </div>
-                            <div class="about-me__content text-left mt-3 mt-lg-0 px-md-3 px-lg-0">
+                        <div class="about-me__content text-left mt-3 mt-lg-0 px-md-3 px-lg-0">
                             <p>
-                                Hey, hey 👋,
-                                <br>
-                                I'm Hristina 👧 - a designer and an illustrator.
-                                I’m an optimist, an environmentalist and I will be more things yet to come.
-                                </p>
-                                <p>
-                                My graphic and web design side is all about creating visually appealing art pieces and user-friendly interfaces, while the illustration one is creating magical
-                                drawings that make people smile. I really love poster designs, collages, typography, and basically everything that’s connected to visual communication and
-                                I'm trying to spread dreams and happiness, one sketch at a time.💫
-                            </p>
+                            Hey, hey, welcome to my cozy creative corner! 🛋️<br>I'm Hristina 👧 - designer, illustrator and Procreate educator in <b><a href="https://creative.softuni.bg/">SoftUni Creative</a></b>.<br> I’m also en eternal optimist. ➕</p>
                             <p>
-                                I'm also working on lots of music related design projects 🎶 and successfully combine two of my biggest passions - music and art. When I'm not glued to a canvas,
-                                I can be found at concerts 🎸,
-                                snowboarding with a noisy speaker 🏂, among the shelves
-                                of the bookstores 📚 or laughing out loud in the parks 🏞️.
-                            </p>
+                            My graphic and web design side is all about creating visually appealing art pieces and user-friendly interfaces, while the illustration one is creating magical drawings ✨ that make people smile. Teaching people how to draw digitally in Procreate is also another field I'm very passionate about and for a second year I had my "Procreate for beginners" course happening in February with 25+ students. 🧑‍🎓 I love everything that’s connected to visual communication and I'm trying to spread dreams one sketch at a time.💫</p>
                             <p>
-                                You can check <a href="/ui-graphics"><strong>my graphic design projects ✒️</strong></a> and
-                                <a href="/illustrations"><strong>illustrations 🎨</strong></a>
-                                or just <a href="mailto:hristina.a.hristova@gmail.com"><strong>say 'Hey!' 👋</strong></a>.
-                            </p>
-                            <p><i>So make yourself at home, there are some cinnamon cookies in the fridge. 🍪</i></p>
+                            I'm also working on music related design projects 🎵 and successfully combine two of my biggest passions - music and design. When I'm not glued to a canvas, I love traveling ✈️, spending time with friends 😎 or considering my next projects.
+                                I also can be frequently found at concerts 🎸, snowboarding during the winter 🏂, among the shelves of the bookstores 📚 or laughing out loud in the parks 🏞️.</p>
+                            <p>You can check <a href="/ui-graphics"><strong>my graphic design projects ✒️</strong></a> and <a href="/illustrations"><strong>illustrations 🎨</strong></a> or just <a href="hristina.a.hristova@gmail.com"><strong>say 'Hey!' 👋</strong></a>.</p>
+                            <p><i>So make yourself at home, there are some cinnamon cookies in the fridge and <b>'Reise, reise'</b> is playing on the speaker. 🍪🎵</i></p>
                         </div>
                     </div>
+                </div>
+
+                <div class="video-wrapper">
+                    <video controls playsinline loop muted autoplay>
+                      <source src="/assets/images/about.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
             <div class="colored-wrapper text-center">

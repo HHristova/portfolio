@@ -26,7 +26,7 @@ const routes = {
     '/graphics-ui' : UiDesigns,
     '/graphics-ui/:id' : UiProjectDetails,
     '/ui-graphics-case-study/:id' : UiCaseStudy,
-    '/graphics-case-study/:id' : GraphicsCaseStudy,
+    '/graphics-ui/:id' : GraphicsCaseStudy,
     '/illustrations' : Illustrations,
     '/illustrations/:id' : IllustrationCaseStudy,
     '/blog' : Blog,

@@ -104,7 +104,11 @@
 }
 
 .js-modal-content {
-    width: 60%;
+    @include media-breakpoint-up(lg) {
+        width: 50%;
+    }
+
+    width: 100%;
 }
 
 .js-modal-content {

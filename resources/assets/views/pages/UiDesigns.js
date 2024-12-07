@@ -13,10 +13,10 @@ let UiDesigns = {
         <div class="section pt-4">
             <div class="section__container text-center">
                 <p class="px-2">
-                    Here's a selection of some of my stuff. 👀<br>
+                    Music is a huge part of my life as you can see in the projects below. 🎵👀<br>
                     For more you can visit me on
-                    <strong><a href="https://www.instagram.com/hristova.drawings/" target="_blank">instagram</a></strong> or
-                    <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong>.
+                    <strong><a href="https://www.instagram.com/hristova.drawings/" target="_blank">instagram</a></strong>,
+                    <strong><a href="https://dribbble.com/HHristova" target="_blank">dribbble</a></strong> or find me at a concert and ask me yourself. 🫠
                 </p>
 
                 <h1 class="section__container__title text-center d-inline-block px-2 pt-2">
@@ -28,7 +28,7 @@ let UiDesigns = {
                 <div class="mb-4">
                     <div class="grid-wrapper container grid-wrapper-2">
                         <div class="grid-item">
-                            <a href="graphics-case-study/jin-monic-logo-design" class="box-thumb d-inline-block">
+                            <a href="graphics-ui/jin-monic-logo-design" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
                                         Jin Monic Band Logo
@@ -40,7 +40,7 @@ let UiDesigns = {
                             </a>
                         </div>
                         <div class="grid-item">
-                            <a href="graphics-case-study/mista-future-cd-design" class="box-thumb d-inline-block">
+                            <a href="graphics-ui/mista-future-cd-design" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
                                         'Mista Future' CD Cover
@@ -52,7 +52,7 @@ let UiDesigns = {
                             </a>
                         </div>
                         <div class="grid-item">
-                            <a href="graphics-case-study/doma-fest-branding" class="box-thumb d-inline-block">
+                            <a href="graphics-ui/doma-fest-branding" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
                                         Dolna Malina Open Fest Branding
@@ -65,7 +65,7 @@ let UiDesigns = {
                         </div>
                         <div class="grid-item"></div>
                         <div class="grid-item">
-                            <a href="graphics-case-study/innerglow-znak" class="box-thumb d-inline-block">
+                            <a href="graphics-ui/innerglow-znak" class="box-thumb d-inline-block">
                                 <p class="box-content d-inline">
                                     <span>
                                         Innerglow - Знак single art
@@ -81,7 +81,7 @@ let UiDesigns = {
 
                 <h1 class="section__container__title d-inline-block px-2 mt-lg-5">
                     <span class="section__container__title__span">
-                        Music posters
+                        Posters
                     </span>
                 </h1>
 

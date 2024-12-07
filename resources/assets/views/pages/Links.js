@@ -9,14 +9,15 @@ let Links = {
                 <div class="section__container">
                     <div class="d-flex flex-wrap link-wrapper mb-5">
                         <div class="link-wrapper__box">
-                            <img src="/assets/images/links/work-with-me.jpg" class="img-fluid" />
+                            <img src="/assets/images/links/softuni-creative-course2.JPG" alt="SoftUni Creative course - Procreate for beginners" class="img-fluid" />
                         </div>
                         <div class="link-wrapper__box py-3 px-1 px-lg-3">
                             <p>
-                                Do you have an upcoming design project?
+                                Enroll for my <strong>Procreate</strong> online course in colaboration with <strong>SoftUni Creative</strong>.
                             </p>
-                            <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
-                                Send me an email
+                            <a href="https://creative.softuni.bg/trainings/1608/procreate-february-2024"
+                                target="_blank" type="button" class="btn btn--contact">
+                                Enroll here
                             </a>
                         </div>
                     </div>
@@ -27,11 +28,25 @@ let Links = {
                         </div>
                         <div class="link-wrapper__box py-3 px-1 px-lg-3">
                             <p>
-                                Watch my latest <strong>"Digital illustration with Procreate"</strong> online seminar in colaboration with <strong>SoftUni Creative Bulgaria</strong>.
+                                Watch my latest <strong>"Digital illustration with Procreate"</strong> online seminar in colaboration with <strong>SoftUni Creative</strong>.
                             </p>
                             <a href="https://creative.softuni.bg/seminars/1437/digital-illustration-with-procreate"
                                 target="_blank" type="button" class="btn btn--contact">
                                 Watch here
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-wrap link-wrapper mb-5">
+                        <div class="link-wrapper__box">
+                            <img src="/assets/images/links/work-with-me.jpg" class="img-fluid" />
+                        </div>
+                        <div class="link-wrapper__box py-3 px-1 px-lg-3">
+                            <p>
+                                Do you have an upcoming design project?
+                            </p>
+                            <a href="mailto:hristina.a.hristova@gmail.com" type="button" class="btn btn--contact">
+                                Send me an email
                             </a>
                         </div>
                     </div>

@@ -36,16 +36,30 @@
     },
     {
         "id": "5",
-        "thumb": "/assets/images/myWork/graphics/innerglow-poster-vlaikova-thumb.jpg",
-        "url": "/assets/images/myWork/graphics/innerglow-poster-vlaikova.jpg",
-        "title": "Innerglow band acoustic concert design",
+        "thumb": "/assets/images/myWork/graphics/innerglow-2024-tour-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-2024-tour-a3.jpg",
+        "title": "Innerglow band tour concerts design",
         "filterId": "graphics"
     },
     {
         "id": "6",
+        "thumb": "/assets/images/myWork/graphics/kom-emida-poster-design-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/kom-emida-poster-design.jpg",
+        "title": "Kom - EmiDA movie poster design",
+        "filterId": "graphics"
+    },
+    {
+        "id": "7",
         "thumb": "/assets/images/myWork/graphics/rock-poster-design-thumb.jpg",
         "url": "/assets/images/myWork/graphics/rock-poster-design.jpg",
         "title": "Rock concert poster design",
+        "filterId": "graphics"
+    },
+    {
+        "id": "8",
+        "thumb": "/assets/images/myWork/graphics/innerglow-poster-vlaikova-thumb.jpg",
+        "url": "/assets/images/myWork/graphics/innerglow-poster-vlaikova.jpg",
+        "title": "Innerglow band acoustic concert design",
         "filterId": "graphics"
     }
 ]
