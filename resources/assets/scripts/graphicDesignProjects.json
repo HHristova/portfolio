@@ -66,15 +66,16 @@
         "thumb": "/assets/images/myWork/graphics/Innerglow_Znak_Artwork-thumb.jpg",
         "title": "Innerglow - Znak Single Artwork",
         "titleThumb": "Innerglow - Znak Single Artwork Branding",
-        "intro": "",
+        "intro": "<br>🚧 <i>Still working on a detailed description about the project. At least you can see the end result in action.</i> 🚧<br><br><br>",
         "width": "",
         "sketches": {
-            "sketch0": "/assets/images/myWork/graphics/innerglow_znak_apple_music.jpg"
+            "sketch0": "/assets/images/myWork/graphics/innerglow_znak_apple_music.jpg",
+            "sketch1": "/assets/images/myWork/graphics/innerglow_znak_spotify.png"
         },
             "additionalContent": "",
         "artworks": {
             "artwork0": "/assets/images/myWork/graphics/innerglow_znak_spotify.jpg"
         },
-        "reference": ""
+        "reference": "<p class='mt-1 mt-md-3'>Aaand if you want to actually listen to the song and to set your imagination free - here it is. Enjoy! 💜</p><iframe width='100%' height='' src='https://www.youtube.com/embed/Shdvc2rwLTY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     }
 ]

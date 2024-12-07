@@ -20,15 +20,15 @@ header {
     font-weight: 700;
 
     @include media-breakpoint-down(md) {
-        padding: 15px 0;
+        padding: 0;
     }
 
     @include media-breakpoint-down(sm) {
-        padding: 15px 10px;
+        padding: 0 10px;
     }
 
     @include large-desktop() {
-        padding: 15px;
+        padding: 0 15px;
     }
 }
 
@@ -39,8 +39,8 @@ header {
     background-repeat: no-repeat;
 
     @include large-desktop() {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
     }
 }
 

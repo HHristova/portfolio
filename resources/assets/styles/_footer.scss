@@ -22,7 +22,8 @@
     }
 
     a {
-        flex-basis: calc(50% - 11px);
+        flex: 0 1 calc(50% - 11px);
+        max-width: calc(50% - 11px);
         margin: 0 5px;
         color: inherit;
 
@@ -60,13 +61,15 @@
     @include media-breakpoint-up(md) {
         a {
             margin: 0 10px;
-            flex-basis: calc(50% - 20px);
+            flex: 0 1 calc(50% - 20px);
+            max-width: calc(50% - 20px);
         }
     }
 
     @include media-breakpoint-up(lg) {
         a {
-            flex-basis: calc(25% - 20px);
+            flex: 0 1 calc(25% - 20px);
+            max-width: calc(25% - 20px);
         }
     }
 }

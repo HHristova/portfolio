@@ -183,7 +183,7 @@ let Illustrations = {
 
         // Get latest IG posts
         var feed = new Instafeed({
-          accessToken: 'IGQVJXY1piLTd5OG1GVWRGU1FXU2Q1Y3JkaGU2d3hJVGJrbXRydlZAMbkZAqQUZALZAUJCQWhuQ3V6TkMyQUJUalRrMEtYOWltalM2V3RHSWZAFYVZAnVGZAlTUdpc2hzZAWpFZAi1YalRpci1B',
+          accessToken: 'EAADiFOAT9MMBOzZCS3b1RXoHe5j7ZCdBNP1XVCso8BZAEXc5cZB7OFWGZCVfZB5aGlHc08hj9T3f548IVyTVDuGX8akDnjKXbbox89RTDImijJBGd48tRZCsPKQ3uesWZBeCLxJ8yOHcbwjOEBvCaqM27C0yTIOJ7n3pgD2S8ZCblCCb9Wv90j7bGvAZDZD',
           limit: 4,
           template: `
               <a href="{{link}}"><img title="{{caption}}" src="{{image}}" /><p>{{caption}}</p></a>

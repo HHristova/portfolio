@@ -23,10 +23,10 @@ $fa-font-path:  'fonts' !default;
 @import 'cookie.scss';
 
 html, body {
-    font-size: 21px;
+    font-size: 20px;
     font-family: $theme-font-family, sans-serif;
     font-weight: $theme-font-weights;
-    line-height: 30px;
+    line-height: 28px;
 
     @include huge-desktop {
         max-width: 1920px;
@@ -154,9 +154,9 @@ html, body {
                 background-color: mix($black, $secondary, 35%);
                 position: absolute;
                 bottom: 0;
+                top: 0;
                 margin: auto;
-                left: 0;
-                right: 0;
+                left: -5px;
             }
         }
     }
@@ -472,6 +472,21 @@ body {
     background: url('images/hhristova-img.png') no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.video-wrapper {
+    video {
+        width: 100%;
+
+        @include media-breakpoint-up(md) {
+            margin-top: 1rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+            margin-top: 2rem;
+            width: 85%;
+        }
+    }
 }
 
 .colored-wrapper {
